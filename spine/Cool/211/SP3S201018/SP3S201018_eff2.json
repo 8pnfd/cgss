@@ -1,0 +1,196 @@
+{
+  "skeleton": {
+    "hash": "KvjWOwcsa1jnerVP2O7shwm9OdM",
+    "spine": "3.8",
+    "width": 1306.0234375,
+    "height": 600.9505615234375,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg_f_04",
+      "bone": "all",
+      "attachment": "bg_f_04",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_f_01",
+      "bone": "all",
+      "attachment": "bg_f_01",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_f_02",
+      "bone": "all",
+      "attachment": "bg_f_02",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_f_03",
+      "bone": "all",
+      "attachment": "bg_f_03",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_add01",
+      "bone": "all",
+      "attachment": "bg_add01",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg_f_04": {
+          "bg_f_04": {
+            "type": "region",
+            "name": "bg_f_04",
+            "path": "bg_f_04",
+            "rotation": 0,
+            "x": 301.2659912109375,
+            "y": 65.02200317382812,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 248,
+            "height": 163,
+            "color": "ffffffff"
+          }
+        },
+        "bg_f_01": {
+          "bg_f_01": {
+            "type": "region",
+            "name": "bg_f_01",
+            "path": "bg_f_01",
+            "rotation": 0,
+            "x": 517.7244873046875,
+            "y": 315.7955017089844,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 272,
+            "height": 536,
+            "color": "ffffffff"
+          }
+        },
+        "bg_f_02": {
+          "bg_f_02": {
+            "type": "region",
+            "name": "bg_f_02",
+            "path": "bg_f_02",
+            "rotation": 0,
+            "x": -621.2988891601562,
+            "y": 168.78549194335938,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 62,
+            "height": 223,
+            "color": "ffffffff"
+          }
+        },
+        "bg_f_03": {
+          "bg_f_03": {
+            "type": "region",
+            "name": "bg_f_03",
+            "path": "bg_f_03",
+            "rotation": 0,
+            "x": -255.34547424316406,
+            "y": 150.7790069580078,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 791,
+            "height": 334,
+            "color": "ffffffff"
+          }
+        },
+        "bg_add01": {
+          "bg_add01": {
+            "type": "region",
+            "name": "bg_add01",
+            "path": "bg_add01",
+            "rotation": 0,
+            "x": -409.1380615234375,
+            "y": 150.15496826171875,
+            "scaleX": 1.4299999475479126,
+            "scaleY": 1.4299999475479126,
+            "width": 340,
+            "height": 234,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "bg_add01": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

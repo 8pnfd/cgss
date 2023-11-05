@@ -1,0 +1,1782 @@
+{
+  "skeleton": {
+    "hash": "+/8YbJuZlnL2f8reI74MfVEt6z4",
+    "spine": "3.8",
+    "width": 1377.0001220703125,
+    "height": 922,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": 9.310528348294156e-9,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_1",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "y": -3,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_2",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "y": -3,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_3",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "y": -3,
+      "transform": "normal"
+    },
+    {
+      "name": "gate_Splash_01_add",
+      "parent": "bg_1",
+      "x": 408.7564392089844,
+      "y": 160.5246124267578,
+      "transform": "normal"
+    },
+    {
+      "name": "gate_Splash_02_add",
+      "parent": "bg_1",
+      "x": 407.0694580078125,
+      "y": 161.2476043701172,
+      "transform": "normal"
+    },
+    {
+      "name": "water_surface_ripples_01_add",
+      "parent": "bg_2",
+      "x": 297.55865478515625,
+      "y": 94.41410827636719,
+      "transform": "normal"
+    },
+    {
+      "name": "water_surface_ripples_01_add2",
+      "parent": "bg_2",
+      "x": 297.55865478515625,
+      "y": 94.41410827636719,
+      "transform": "normal"
+    },
+    {
+      "name": "water_surface_ripples_02_add",
+      "parent": "bg_2",
+      "x": 128.84474182128906,
+      "y": 75.66815185546875,
+      "transform": "normal"
+    },
+    {
+      "name": "water_surface_ripples_02_add2",
+      "parent": "bg_2",
+      "x": 128.84474182128906,
+      "y": 75.66815185546875,
+      "transform": "normal"
+    },
+    {
+      "name": "water_surface_ripples_03_add",
+      "parent": "bg_2",
+      "x": -108.15824890136719,
+      "y": 36.837120056152344,
+      "transform": "normal"
+    },
+    {
+      "name": "water_surface_ripples_03_add2",
+      "parent": "bg_2",
+      "x": -108.15824890136719,
+      "y": 36.837120056152344,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg",
+      "bone": "bg_3",
+      "attachment": "bg",
+      "blend": "normal"
+    },
+    {
+      "name": "water_boder_add",
+      "bone": "bg_2",
+      "attachment": "water_boder_add",
+      "blend": "additive"
+    },
+    {
+      "name": "water_surface_01_add",
+      "bone": "bg_2",
+      "attachment": "water_surface_01_add",
+      "blend": "additive"
+    },
+    {
+      "name": "water_surface_02_add",
+      "bone": "bg_2",
+      "attachment": "water_surface_02_add",
+      "blend": "additive"
+    },
+    {
+      "name": "water_surface_03_add",
+      "bone": "bg_2",
+      "attachment": "water_surface_03_add",
+      "blend": "additive"
+    },
+    {
+      "name": "water_surface_04_add",
+      "bone": "bg_2",
+      "attachment": "water_surface_04_add",
+      "blend": "additive"
+    },
+    {
+      "name": "water_surface_05_add",
+      "bone": "bg_2",
+      "attachment": "water_surface_05_add",
+      "blend": "additive"
+    },
+    {
+      "name": "water_surface_06_add",
+      "bone": "bg_2",
+      "attachment": "water_surface_06_add",
+      "blend": "additive"
+    },
+    {
+      "name": "water_surface_07_add",
+      "bone": "bg_2",
+      "attachment": "water_surface_07_add",
+      "blend": "additive"
+    },
+    {
+      "name": "water_surface_08_add",
+      "bone": "bg_2",
+      "attachment": "water_surface_08_add",
+      "blend": "additive"
+    },
+    {
+      "name": "water_surface_ripples_01_add",
+      "bone": "water_surface_ripples_01_add",
+      "attachment": "water_surface_ripples_01_add",
+      "blend": "additive"
+    },
+    {
+      "name": "water_surface_ripples_01_add2",
+      "bone": "water_surface_ripples_01_add2",
+      "attachment": "water_surface_ripples_01_add",
+      "blend": "additive"
+    },
+    {
+      "name": "water_surface_ripples_02_add",
+      "bone": "water_surface_ripples_02_add",
+      "attachment": "water_surface_ripples_02_add",
+      "blend": "additive"
+    },
+    {
+      "name": "water_surface_ripples_02_add2",
+      "bone": "water_surface_ripples_02_add2",
+      "attachment": "water_surface_ripples_02_add",
+      "blend": "additive"
+    },
+    {
+      "name": "water_surface_ripples_03_add",
+      "bone": "water_surface_ripples_03_add",
+      "attachment": "water_surface_ripples_03_add",
+      "blend": "additive"
+    },
+    {
+      "name": "water_surface_ripples_03_add2",
+      "bone": "water_surface_ripples_03_add2",
+      "attachment": "water_surface_ripples_03_add",
+      "blend": "additive"
+    },
+    {
+      "name": "gate_Splash_01_add",
+      "bone": "gate_Splash_01_add",
+      "attachment": "gate_Splash_01_add",
+      "blend": "additive"
+    },
+    {
+      "name": "gate_Splash_02_add",
+      "bone": "gate_Splash_02_add",
+      "attachment": "gate_Splash_02_add",
+      "blend": "additive"
+    },
+    {
+      "name": "gate_Splash_04_add",
+      "bone": "bg_1",
+      "attachment": "gate_Splash_04_add",
+      "blend": "additive"
+    },
+    {
+      "name": "gate_water",
+      "bone": "bg_1",
+      "attachment": "gate_water",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg": {
+          "bg": {
+            "type": "region",
+            "name": "bg",
+            "path": "bg",
+            "rotation": 0,
+            "x": 4.65705680847168,
+            "y": 428.6499938964844,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1377,
+            "height": 922,
+            "color": "ffffffff"
+          }
+        },
+        "water_boder_add": {
+          "water_boder_add": {
+            "type": "region",
+            "name": "water_boder_add",
+            "path": "water_boder_add",
+            "rotation": 0,
+            "x": 124.62700653076172,
+            "y": 85.2000732421875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1123,
+            "height": 195,
+            "color": "ffffffff"
+          }
+        },
+        "water_surface_01_add": {
+          "water_surface_01_add": {
+            "type": "region",
+            "name": "water_surface_01_add",
+            "path": "water_surface_01_add",
+            "rotation": 0,
+            "x": 393.6269836425781,
+            "y": 121.7000732421875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 149,
+            "height": 28,
+            "color": "ffffffff"
+          }
+        },
+        "water_surface_02_add": {
+          "water_surface_02_add": {
+            "type": "region",
+            "name": "water_surface_02_add",
+            "path": "water_surface_02_add",
+            "rotation": 0,
+            "x": 438.6269836425781,
+            "y": 38.200069427490234,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 393,
+            "height": 51,
+            "color": "ffffffff"
+          }
+        },
+        "water_surface_03_add": {
+          "water_surface_03_add": {
+            "type": "region",
+            "name": "water_surface_03_add",
+            "path": "water_surface_03_add",
+            "rotation": 0,
+            "x": 566.6268920898438,
+            "y": 112.7000732421875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 213,
+            "height": 24,
+            "color": "ffffffff"
+          }
+        },
+        "water_surface_04_add": {
+          "water_surface_04_add": {
+            "type": "region",
+            "name": "water_surface_04_add",
+            "path": "water_surface_04_add",
+            "rotation": 0,
+            "x": 305.1269836425781,
+            "y": 56.700069427490234,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 162,
+            "height": 32,
+            "color": "ffffffff"
+          }
+        },
+        "water_surface_05_add": {
+          "water_surface_05_add": {
+            "type": "region",
+            "name": "water_surface_05_add",
+            "path": "water_surface_05_add",
+            "rotation": 0,
+            "x": 541.626953125,
+            "y": 101.2000732421875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 149,
+            "height": 5,
+            "color": "ffffffff"
+          }
+        },
+        "water_surface_06_add": {
+          "water_surface_06_add": {
+            "type": "region",
+            "name": "water_surface_06_add",
+            "path": "water_surface_06_add",
+            "rotation": 0,
+            "x": 572.6268920898438,
+            "y": 65.2000732421875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 183,
+            "height": 9,
+            "color": "ffffffff"
+          }
+        },
+        "water_surface_07_add": {
+          "water_surface_07_add": {
+            "type": "region",
+            "name": "water_surface_07_add",
+            "path": "water_surface_07_add",
+            "rotation": 0,
+            "x": 576.1268920898438,
+            "y": 131.2000732421875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 218,
+            "height": 9,
+            "color": "ffffffff"
+          }
+        },
+        "water_surface_08_add": {
+          "water_surface_08_add": {
+            "type": "region",
+            "name": "water_surface_08_add",
+            "path": "water_surface_08_add",
+            "rotation": 0,
+            "x": 191.1269989013672,
+            "y": 57.700069427490234,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 898,
+            "height": 156,
+            "color": "ffffffff"
+          }
+        },
+        "water_surface_ripples_01_add": {
+          "water_surface_ripples_01_add": {
+            "type": "region",
+            "name": "water_surface_ripples_01_add",
+            "path": "water_surface_ripples_01_add",
+            "rotation": 0,
+            "x": 30.568328857421875,
+            "y": -11.714035034179688,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 222,
+            "height": 42,
+            "color": "ffffffff"
+          }
+        },
+        "water_surface_ripples_01_add2": {
+          "water_surface_ripples_01_add": {
+            "type": "region",
+            "name": "water_surface_ripples_01_add",
+            "path": "water_surface_ripples_01_add",
+            "rotation": 0,
+            "x": 30.568328857421875,
+            "y": -11.714035034179688,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 222,
+            "height": 42,
+            "color": "ffffffff"
+          }
+        },
+        "water_surface_ripples_02_add": {
+          "water_surface_ripples_02_add": {
+            "type": "region",
+            "name": "water_surface_ripples_02_add",
+            "path": "water_surface_ripples_02_add",
+            "rotation": 0,
+            "x": -3.2177276611328125,
+            "y": -24.968082427978516,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 307,
+            "height": 76,
+            "color": "ffffffff"
+          }
+        },
+        "water_surface_ripples_02_add2": {
+          "water_surface_ripples_02_add": {
+            "type": "region",
+            "name": "water_surface_ripples_02_add",
+            "path": "water_surface_ripples_02_add",
+            "rotation": 0,
+            "x": -3.2177276611328125,
+            "y": -24.968082427978516,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 307,
+            "height": 76,
+            "color": "ffffffff"
+          }
+        },
+        "water_surface_ripples_03_add": {
+          "water_surface_ripples_03_add": {
+            "type": "region",
+            "name": "water_surface_ripples_03_add",
+            "path": "water_surface_ripples_03_add",
+            "rotation": 0,
+            "x": 8.785255432128906,
+            "y": -20.63705062866211,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 317,
+            "height": 77,
+            "color": "ffffffff"
+          }
+        },
+        "water_surface_ripples_03_add2": {
+          "water_surface_ripples_03_add": {
+            "type": "region",
+            "name": "water_surface_ripples_03_add",
+            "path": "water_surface_ripples_03_add",
+            "rotation": 0,
+            "x": 8.785255432128906,
+            "y": -20.63705062866211,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 317,
+            "height": 77,
+            "color": "ffffffff"
+          }
+        },
+        "gate_Splash_01_add": {
+          "gate_Splash_01_add": {
+            "type": "region",
+            "name": "gate_Splash_01_add",
+            "path": "gate_Splash_01_add",
+            "rotation": 0,
+            "x": 24.870574951171875,
+            "y": 8.175460815429688,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 119,
+            "height": 34,
+            "color": "ffffffff"
+          }
+        },
+        "gate_Splash_02_add": {
+          "gate_Splash_02_add": {
+            "type": "region",
+            "name": "gate_Splash_02_add",
+            "path": "gate_Splash_02_add",
+            "rotation": 0,
+            "x": -0.44244384765625,
+            "y": 8.952468872070312,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 73,
+            "height": 31,
+            "color": "ffffffff"
+          }
+        },
+        "gate_Splash_04_add": {
+          "gate_Splash_04_add": {
+            "type": "region",
+            "name": "gate_Splash_04_add",
+            "path": "gate_Splash_04_add",
+            "rotation": 0,
+            "x": 430.12701416015625,
+            "y": 182.2000732421875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 126,
+            "height": 61,
+            "color": "ffffffff"
+          }
+        },
+        "gate_water": {
+          "gate_water": {
+            "type": "region",
+            "name": "gate_water",
+            "path": "gate_water",
+            "rotation": 0,
+            "x": 465.12701416015625,
+            "y": 172.2000732421875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 216,
+            "height": 77,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "gate_Splash_01_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "gate_Splash_02_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "gate_water": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "water_boder_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1,
+              "color": "ffffff99",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.0333333015441895,
+              "color": "ffffff99",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5,
+              "color": "ffffff99",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.0333333015441895,
+              "color": "ffffff99",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "water_surface_01_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff26",
+              "curve": 0.32585522532463074,
+              "c2": 0.30588236451148987,
+              "c3": 0.7574723362922668,
+              "c4": 1
+            },
+            {
+              "time": 1.5333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.5333333015441895,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.5333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.566666603088379,
+              "color": "ffffff00",
+              "curve": 0.2805900275707245,
+              "c2": 0,
+              "c3": 0.6230049729347229,
+              "c4": 0.3907284736633301
+            },
+            {
+              "time": 8,
+              "color": "ffffff26"
+            }
+          ]
+        },
+        "water_surface_02_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff44",
+              "curve": 0.3227909505367279,
+              "c2": 0.30099010467529297,
+              "c3": 0.6645581126213074,
+              "c4": 0.6601980328559875
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffff93",
+              "curve": 0.3795369863510132,
+              "c2": 0.5279999375343323,
+              "c3": 0.7457825541496277,
+              "c4": 1
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.366666793823242,
+              "color": "ffffff00",
+              "curve": 0.2660501301288605,
+              "c2": 0,
+              "c3": 0.617777407169342,
+              "c4": 0.42446041107177734
+            },
+            {
+              "time": 8,
+              "color": "ffffff44"
+            }
+          ]
+        },
+        "water_surface_03_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff93",
+              "curve": 0.3795369863510132,
+              "c2": 0.5279999375343323,
+              "c3": 0.7457825541496277,
+              "c4": 1
+            },
+            {
+              "time": 0.8666666746139526,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.866666555404663,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.866666793823242,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.900000095367432,
+              "color": "ffffff00",
+              "curve": 0.24677442014217377,
+              "c2": 0,
+              "c3": 0.6315752267837524,
+              "c4": 0.531531572341919
+            },
+            {
+              "time": 8,
+              "color": "ffffff93"
+            }
+          ]
+        },
+        "water_surface_04_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "water_surface_05_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffe9",
+              "curve": 0.3689575791358948,
+              "c2": 0.6289306879043579,
+              "c3": 0.7068385481834412,
+              "c4": 1
+            },
+            {
+              "time": 0.30000001192092896,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.299999952316284,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.300000190734863,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffff00",
+              "curve": 0.243545800447464,
+              "c2": 0,
+              "c3": 0.6934863924980164,
+              "c4": 0.7662338018417358
+            },
+            {
+              "time": 8,
+              "color": "ffffffe9"
+            }
+          ]
+        },
+        "water_surface_06_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffca",
+              "curve": 0.38055306673049927,
+              "c2": 0.5931035280227661,
+              "c3": 0.7272584438323975,
+              "c4": 1
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.5333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.566666603088379,
+              "color": "ffffff00",
+              "curve": 0.24247699975967407,
+              "c2": 0,
+              "c3": 0.6616745591163635,
+              "c4": 0.6483516693115234
+            },
+            {
+              "time": 8,
+              "color": "ffffffca"
+            }
+          ]
+        },
+        "water_surface_07_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff82",
+              "curve": 0.37577369809150696,
+              "c2": 0.5042016506195068,
+              "c3": 0.7494601607322693,
+              "c4": 1
+            },
+            {
+              "time": 0.9666666388511658,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.9666666984558105,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.9666666984558105,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": 0.24948038160800934,
+              "c2": 0,
+              "c3": 0.6258151531219482,
+              "c4": 0.5042734742164612
+            },
+            {
+              "time": 8,
+              "color": "ffffff82"
+            }
+          ]
+        },
+        "water_surface_08_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "water_surface_ripples_01_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff92",
+              "curve": 0.3689024746417999,
+              "c2": 0.4705882668495178,
+              "c3": 0.7530487775802612,
+              "c4": 1
+            },
+            {
+              "time": 1,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.600000023841858,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.133333444595337,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.933333396911621,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.199999809265137,
+              "color": "ffffffff",
+              "curve": 0.25391849875450134,
+              "c2": 0,
+              "c3": 0.6206896305084229,
+              "c4": 0.4736842215061188
+            },
+            {
+              "time": 8,
+              "color": "ffffff92"
+            }
+          ]
+        },
+        "water_surface_ripples_01_add2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff1f",
+              "curve": 0.3191831111907959,
+              "c2": 0.28125,
+              "c3": 0.7572280168533325,
+              "c4": 1
+            },
+            {
+              "time": 1.2333333492279053,
+              "color": "ffffffff",
+              "curve": 0.25391849875450134,
+              "c2": 0,
+              "c3": 0.6206896305084229,
+              "c4": 0.4736842215061188
+            },
+            {
+              "time": 2.0333333015441895,
+              "color": "ffffff92",
+              "curve": 0.3689024746417999,
+              "c2": 0.4705882668495178,
+              "c3": 0.7530487775802612,
+              "c4": 1
+            },
+            {
+              "time": 3.0333333015441895,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.299999952316284,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.633333444595337,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.166666507720947,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.9666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.699999809265137,
+              "color": "ffffff00",
+              "curve": 0.284868061542511,
+              "c2": 0,
+              "c3": 0.6254712343215942,
+              "c4": 0.383333295583725
+            },
+            {
+              "time": 8,
+              "color": "ffffff1f"
+            }
+          ]
+        },
+        "water_surface_ripples_02_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "fffffffa",
+              "curve": 0.2728658616542816,
+              "c2": 0.09999999403953552,
+              "c3": 0.7530487179756165,
+              "c4": 1
+            },
+            {
+              "time": 1.7000000476837158,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.9666666984558105,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.766666889190674,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.366666793823242,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.900000095367432,
+              "color": "ffffffff",
+              "curve": 0.3164062201976776,
+              "c2": 0,
+              "c3": 0.650390625,
+              "c4": 0.3461538255214691
+            },
+            {
+              "time": 8,
+              "color": "fffffffa"
+            }
+          ]
+        },
+        "water_surface_ripples_02_add2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.799999952316284,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.400000095367432,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffff",
+              "curve": 0.3164062201976776,
+              "c2": 0,
+              "c3": 0.650390625,
+              "c4": 0.3461538255214691
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "fffffffa",
+              "curve": 0.2728658616542816,
+              "c2": 0.09999999403953552,
+              "c3": 0.7530487179756165,
+              "c4": 1
+            },
+            {
+              "time": 7.733333110809326,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "water_surface_ripples_03_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff48",
+              "curve": 0.3823530077934265,
+              "c2": 0.5714285373687744,
+              "c3": 0.7352941632270813,
+              "c4": 1
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.866666555404663,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.266666889190674,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.800000190734863,
+              "color": "ffffffff",
+              "curve": 0.2432432472705841,
+              "c2": 0,
+              "c3": 0.6486486792564392,
+              "c4": 0.6000000238418579
+            },
+            {
+              "time": 8,
+              "color": "ffffff48"
+            }
+          ]
+        },
+        "water_surface_ripples_03_add2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff78",
+              "curve": 0.3728255331516266,
+              "c2": 0.4888888895511627,
+              "c3": 0.7512929439544678,
+              "c4": 1
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.200000047683716,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.733333110809326,
+              "color": "ffffffff",
+              "curve": 0.2432432472705841,
+              "c2": 0,
+              "c3": 0.6486486792564392,
+              "c4": 0.6000000238418579
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffff48",
+              "curve": 0.3823530077934265,
+              "c2": 0.5714285373687744,
+              "c3": 0.7352941632270813,
+              "c4": 1
+            },
+            {
+              "time": 6.5333333015441895,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.266666889190674,
+              "color": "ffffff00",
+              "curve": 0.2514258623123169,
+              "c2": 0,
+              "c3": 0.6230989098548889,
+              "c4": 0.4893617331981659
+            },
+            {
+              "time": 8,
+              "color": "ffffff78"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "gate_Splash_01_add": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "water_surface_ripples_03_add": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.6560747623443604,
+              "y": 1.4686248302459717,
+              "curve": 0.3976517915725708,
+              "c2": 0.6335189938545227,
+              "c3": 0.7447675466537476,
+              "c4": 1
+            },
+            {
+              "time": 0.6000000238418579,
+              "x": 1.7000000476837158,
+              "y": 1.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": 1,
+              "y": 1,
+              "curve": 0,
+              "c2": 0.33000001311302185,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.666666507720947,
+              "x": 1.7000000476837158,
+              "y": 1.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.266666889190674,
+              "x": 1,
+              "y": 1,
+              "curve": 0,
+              "c2": 0.33000001311302185,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 1.6560747623443604,
+              "y": 1.4686248302459717
+            }
+          ]
+        },
+        "water_surface_ripples_02_add": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.4889121055603027,
+              "y": 1.3492228984832764,
+              "curve": 0.36547955870628357,
+              "c2": 0.5518094301223755,
+              "c3": 0.7898939251899719,
+              "c4": 1
+            },
+            {
+              "time": 1.7000000476837158,
+              "x": 1.7000000476837158,
+              "y": 1.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.433333396911621,
+              "x": 1,
+              "y": 1,
+              "curve": 0,
+              "c2": 0.33000001311302185,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.766666889190674,
+              "x": 1.7000000476837158,
+              "y": 1.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.366666793823242,
+              "x": 1,
+              "y": 1,
+              "curve": 0,
+              "c2": 0.33000001311302185,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 1.4889121055603027,
+              "y": 1.3492228984832764
+            }
+          ]
+        },
+        "water_surface_ripples_01_add": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.6042933464050293,
+              "y": 1.4316381216049194,
+              "curve": 0.4022988975048065,
+              "c2": 0.6074986457824707,
+              "c3": 0.7701150178909302,
+              "c4": 1
+            },
+            {
+              "time": 1,
+              "x": 1.7000000476837158,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2666666507720947,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.600000023841858,
+              "x": 1,
+              "y": 1,
+              "curve": 0,
+              "c2": 0.33000001311302185,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.933333396911621,
+              "x": 1.7000000476837158,
+              "y": 1.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.666666507720947,
+              "x": 1,
+              "y": 1,
+              "curve": 0,
+              "c2": 0.2729302942752838,
+              "c3": 0.5454545021057129,
+              "c4": 0.7427011728286743
+            },
+            {
+              "time": 8,
+              "x": 1.6042933464050293,
+              "y": 1.4316381216049194
+            }
+          ]
+        },
+        "water_surface_ripples_01_add2": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.1725103855133057,
+              "y": 1.123221755027771,
+              "curve": 0.11604135483503342,
+              "c2": 0.3116283714771271,
+              "c3": 0.5934486985206604,
+              "c4": 0.7468857169151306
+            },
+            {
+              "time": 2.0333333015441895,
+              "x": 1.6042933464050293,
+              "y": 1.4316381216049194,
+              "curve": 0.4022988975048065,
+              "c2": 0.6074986457824707,
+              "c3": 0.7701150178909302,
+              "c4": 1
+            },
+            {
+              "time": 3.0333333015441895,
+              "x": 1.7000000476837158,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.299999952316284,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.633333444595337,
+              "x": 1,
+              "y": 1,
+              "curve": 0,
+              "c2": 0.33000001311302185,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.9666666984558105,
+              "x": 1.7000000476837158,
+              "y": 1.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.699999809265137,
+              "x": 1,
+              "y": 1,
+              "curve": 0,
+              "c2": 0.307371586561203,
+              "c3": 0.35087719559669495,
+              "c4": 0.6432449221611023
+            },
+            {
+              "time": 8,
+              "x": 1.1725103855133057,
+              "y": 1.123221755027771
+            }
+          ]
+        },
+        "water_surface_ripples_02_add2": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.4748786687850952,
+              "y": 1.3391990661621094,
+              "curve": 0.3568548858165741,
+              "c2": 0.42105263471603394,
+              "c3": 0.7560484409332275,
+              "c4": 1
+            },
+            {
+              "time": 0.46666666865348816,
+              "x": 1,
+              "y": 1,
+              "curve": 0,
+              "c2": 0.33000001311302185,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.799999952316284,
+              "x": 1.7000000476837158,
+              "y": 1.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.400000095367432,
+              "x": 1,
+              "y": 1,
+              "curve": 0,
+              "c2": 0.33000001311302185,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.0333333015441895,
+              "x": 1.4889121055603027,
+              "y": 1.3492228984832764,
+              "curve": 0.36547955870628357,
+              "c2": 0.5518094301223755,
+              "c3": 0.7898939251899719,
+              "c4": 1
+            },
+            {
+              "time": 7.733333110809326,
+              "x": 1.7000000476837158,
+              "y": 1.5,
+              "curve": 0.26133906841278076,
+              "c2": 0,
+              "c3": 0.617710530757904,
+              "c4": 0.4399999976158142
+            },
+            {
+              "time": 8,
+              "x": 1.4748786687850952,
+              "y": 1.3391990661621094
+            }
+          ]
+        },
+        "water_surface_ripples_03_add2": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.2959693670272827,
+              "y": 1.2114067077636719,
+              "curve": 0.23242776095867157,
+              "c2": 0.45180821418762207,
+              "c3": 0.784389853477478,
+              "c4": 1
+            },
+            {
+              "time": 2.5999999046325684,
+              "x": 1.7000000476837158,
+              "y": 1.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.200000047683716,
+              "x": 1,
+              "y": 1,
+              "curve": 0,
+              "c2": 0.33000001311302185,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.933333396911621,
+              "x": 1.6560747623443604,
+              "y": 1.4686248302459717,
+              "curve": 0.3976517915725708,
+              "c2": 0.6335189938545227,
+              "c3": 0.7447675466537476,
+              "c4": 1
+            },
+            {
+              "time": 6.5333333015441895,
+              "x": 1.7000000476837158,
+              "y": 1.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.266666889190674,
+              "x": 1,
+              "y": 1,
+              "curve": 0,
+              "c2": 0.28313639760017395,
+              "c3": 0.37974685430526733,
+              "c4": 0.6304503679275513
+            },
+            {
+              "time": 8,
+              "x": 1.2959693670272827,
+              "y": 1.2114067077636719
+            }
+          ]
+        },
+        "gate_Splash_02_add": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

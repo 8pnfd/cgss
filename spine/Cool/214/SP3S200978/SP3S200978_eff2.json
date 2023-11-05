@@ -1,0 +1,263 @@
+{
+  "skeleton": {
+    "hash": "As31RYMKF0bnnlqgqzdC6pQG3b8",
+    "spine": "3.8",
+    "width": 1301.331298828125,
+    "height": 665.0499877929688,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg_haka",
+      "bone": "all",
+      "attachment": "bg_haka",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_house",
+      "bone": "all",
+      "attachment": "bg_house",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_tree",
+      "bone": "all",
+      "attachment": "bg_tree",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_tori",
+      "bone": "all",
+      "attachment": "bg_tori",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_tukil2",
+      "bone": "all",
+      "attachment": "bg_tukil2",
+      "blend": "additive"
+    },
+    {
+      "name": "bg_tukil1",
+      "bone": "all",
+      "attachment": "bg_tukil1",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg_haka": {
+          "bg_haka": {
+            "type": "region",
+            "name": "bg_haka",
+            "path": "bg_haka",
+            "rotation": 0,
+            "x": -377.1183776855469,
+            "y": 219.86000061035156,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 60,
+            "height": 98,
+            "color": "ffffffff"
+          }
+        },
+        "bg_house": {
+          "bg_house": {
+            "type": "region",
+            "name": "bg_house",
+            "path": "bg_house",
+            "rotation": 0,
+            "x": 417.52239990234375,
+            "y": 443.8528137207031,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 469,
+            "height": 381,
+            "color": "ffffffff"
+          }
+        },
+        "bg_tree": {
+          "bg_tree": {
+            "type": "region",
+            "name": "bg_tree",
+            "path": "bg_tree",
+            "rotation": 0,
+            "x": -322.8088073730469,
+            "y": 519.9099731445312,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 653,
+            "height": 632,
+            "color": "ffffffff"
+          }
+        },
+        "bg_tori": {
+          "bg_tori": {
+            "type": "region",
+            "name": "bg_tori",
+            "path": "bg_tori",
+            "rotation": 0,
+            "x": 314.8728332519531,
+            "y": 610.6876220703125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 361,
+            "height": 124,
+            "color": "ffffffff"
+          }
+        },
+        "bg_tukil2": {
+          "bg_tukil2": {
+            "type": "region",
+            "name": "bg_tukil2",
+            "path": "bg_tukil2",
+            "rotation": 0,
+            "x": -234.64796447753906,
+            "y": 683.7896118164062,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 275,
+            "height": 148,
+            "color": "ffffffff"
+          }
+        },
+        "bg_tukil1": {
+          "bg_tukil1": {
+            "type": "region",
+            "name": "bg_tukil1",
+            "path": "bg_tukil1",
+            "rotation": 0,
+            "x": -75.62516784667969,
+            "y": 574.6307983398438,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 530,
+            "height": 258,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "bg_tukil1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffff8e",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "ffffff8e",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "bg_tukil2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffff8e",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "ffffff8e",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

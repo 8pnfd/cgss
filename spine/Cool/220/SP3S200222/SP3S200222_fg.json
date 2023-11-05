@@ -1,0 +1,1215 @@
+{
+  "skeleton": {
+    "hash": "YypJNBwmvCP/8kjGGxh9sKMCxeQ",
+    "spine": "3.8",
+    "width": 1418.76708984375,
+    "height": 688.9600219726562,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "y": -3,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "y": -3,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "y": -3,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_4",
+      "parent": "fg_2",
+      "x": -435.18170166015625,
+      "y": 42.77604675292969,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_5",
+      "parent": "fg_2",
+      "x": 591.522216796875,
+      "y": 92.21601867675781,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_lightsaber1",
+      "parent": "fg_1",
+      "rotation": 32.425106048583984,
+      "x": 684.6656494140625,
+      "y": 336.0092468261719,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_lightsaber2",
+      "parent": "fg_1",
+      "x": 658.8858642578125,
+      "y": 28.944183349609375,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_lightsaber3",
+      "parent": "fg_1",
+      "rotation": -2.3357086181640625,
+      "x": -203.48036193847656,
+      "y": -58.829811096191406,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_lightsaber4",
+      "parent": "fg_1",
+      "x": -616.8731079101562,
+      "y": 5.880229949951172,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_lightsaber5",
+      "parent": "fg_1",
+      "rotation": -15.380241394042969,
+      "x": -456.7755126953125,
+      "y": -24.367828369140625,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fg_lightsaber1",
+      "bone": "fg_lightsaber1",
+      "attachment": "fg_lightsaber1",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_lightsaber10",
+      "bone": "fg_lightsaber1",
+      "attachment": "fg_lightsaber1",
+      "blend": "multiply"
+    },
+    {
+      "name": "fg_lightsaber2",
+      "bone": "fg_lightsaber2",
+      "attachment": "fg_lightsaber2",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_lightsaber9",
+      "bone": "fg_lightsaber2",
+      "attachment": "fg_lightsaber2",
+      "blend": "multiply"
+    },
+    {
+      "name": "fg_lightsaber3",
+      "bone": "fg_lightsaber3",
+      "attachment": "fg_lightsaber3",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_lightsaber8",
+      "bone": "fg_lightsaber3",
+      "attachment": "fg_lightsaber3",
+      "blend": "multiply"
+    },
+    {
+      "name": "fg_lightsaber4",
+      "bone": "fg_lightsaber4",
+      "attachment": "fg_lightsaber4",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_lightsaber7",
+      "bone": "fg_lightsaber4",
+      "attachment": "fg_lightsaber4",
+      "blend": "multiply"
+    },
+    {
+      "name": "fg_lightsaber5",
+      "bone": "fg_lightsaber5",
+      "attachment": "fg_lightsaber5",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_lightsaber6",
+      "bone": "fg_lightsaber5",
+      "attachment": "fg_lightsaber5",
+      "blend": "multiply"
+    },
+    {
+      "name": "eff_lightsaber1_add",
+      "bone": "fg_4",
+      "attachment": "eff_lightsaber1_add",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_lightsaber1_scr",
+      "bone": "fg_4",
+      "attachment": "eff_lightsaber1_scr",
+      "blend": "screen"
+    },
+    {
+      "name": "eff_lightsaber2_add",
+      "bone": "fg_5",
+      "attachment": "eff_lightsaber2_add",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_lightsaber2_scr",
+      "bone": "fg_5",
+      "attachment": "eff_lightsaber2_scr",
+      "blend": "screen"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "fg_lightsaber1": {
+          "fg_lightsaber1": {
+            "type": "region",
+            "name": "fg_lightsaber1",
+            "path": "fg_lightsaber1",
+            "rotation": 0,
+            "x": -7.449951171875,
+            "y": 49.375091552734375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 58,
+            "height": 184,
+            "color": "ffffffff"
+          }
+        },
+        "fg_lightsaber10": {
+          "fg_lightsaber1": {
+            "type": "region",
+            "name": "fg_lightsaber1",
+            "path": "fg_lightsaber1",
+            "rotation": 0,
+            "x": -7.449951171875,
+            "y": 49.375091552734375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 58,
+            "height": 184,
+            "color": "ffffffff"
+          }
+        },
+        "fg_lightsaber2": {
+          "fg_lightsaber2": {
+            "type": "region",
+            "name": "fg_lightsaber2",
+            "path": "fg_lightsaber2",
+            "rotation": 0,
+            "x": -124.749755859375,
+            "y": 132.62506103515625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 316,
+            "height": 379,
+            "color": "ffffffff"
+          }
+        },
+        "fg_lightsaber9": {
+          "fg_lightsaber2": {
+            "type": "region",
+            "name": "fg_lightsaber2",
+            "path": "fg_lightsaber2",
+            "rotation": 0,
+            "x": -124.749755859375,
+            "y": 132.62506103515625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 316,
+            "height": 379,
+            "color": "ffffffff"
+          }
+        },
+        "fg_lightsaber3": {
+          "fg_lightsaber3": {
+            "type": "region",
+            "name": "fg_lightsaber3",
+            "path": "fg_lightsaber3",
+            "rotation": 0,
+            "x": -4.1497802734375,
+            "y": 45.225128173828125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 70,
+            "height": 114,
+            "color": "ffffffff"
+          }
+        },
+        "fg_lightsaber8": {
+          "fg_lightsaber3": {
+            "type": "region",
+            "name": "fg_lightsaber3",
+            "path": "fg_lightsaber3",
+            "rotation": 0,
+            "x": -4.1497802734375,
+            "y": 45.225128173828125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 70,
+            "height": 114,
+            "color": "ffffffff"
+          }
+        },
+        "fg_lightsaber4": {
+          "fg_lightsaber4": {
+            "type": "region",
+            "name": "fg_lightsaber4",
+            "path": "fg_lightsaber4",
+            "rotation": 0,
+            "x": 17.9501953125,
+            "y": 49.97515869140625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 173,
+            "height": 148,
+            "color": "ffffffff"
+          }
+        },
+        "fg_lightsaber7": {
+          "fg_lightsaber4": {
+            "type": "region",
+            "name": "fg_lightsaber4",
+            "path": "fg_lightsaber4",
+            "rotation": 0,
+            "x": 17.9501953125,
+            "y": 49.97515869140625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 173,
+            "height": 148,
+            "color": "ffffffff"
+          }
+        },
+        "fg_lightsaber5": {
+          "fg_lightsaber5": {
+            "type": "region",
+            "name": "fg_lightsaber5",
+            "path": "fg_lightsaber5",
+            "rotation": 0,
+            "x": -0.7996826171875,
+            "y": 80.3001708984375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 84,
+            "height": 170,
+            "color": "ffffffff"
+          }
+        },
+        "fg_lightsaber6": {
+          "fg_lightsaber5": {
+            "type": "region",
+            "name": "fg_lightsaber5",
+            "path": "fg_lightsaber5",
+            "rotation": 0,
+            "x": -0.7996826171875,
+            "y": 80.3001708984375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 84,
+            "height": 170,
+            "color": "ffffffff"
+          }
+        },
+        "eff_lightsaber1_add": {
+          "eff_lightsaber1_add": {
+            "type": "region",
+            "name": "eff_lightsaber1_add",
+            "path": "eff_lightsaber1_add",
+            "rotation": 0,
+            "x": 944.4136352539062,
+            "y": 220.90386962890625,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 91,
+            "height": 172,
+            "color": "ffffffff"
+          }
+        },
+        "eff_lightsaber1_scr": {
+          "eff_lightsaber1_scr": {
+            "type": "region",
+            "name": "eff_lightsaber1_scr",
+            "path": "eff_lightsaber1_scr",
+            "rotation": 0,
+            "x": 947.7095336914062,
+            "y": 187.94384765625,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 93,
+            "height": 156,
+            "color": "ffffffff"
+          }
+        },
+        "eff_lightsaber2_add": {
+          "eff_lightsaber2_add": {
+            "type": "region",
+            "name": "eff_lightsaber2_add",
+            "path": "eff_lightsaber2_add",
+            "rotation": 0,
+            "x": -998.5781860351562,
+            "y": -37.83204650878906,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 138,
+            "height": 64,
+            "color": "ffffffff"
+          }
+        },
+        "eff_lightsaber2_scr": {
+          "eff_lightsaber2_scr": {
+            "type": "region",
+            "name": "eff_lightsaber2_scr",
+            "path": "eff_lightsaber2_scr",
+            "rotation": 0,
+            "x": -998.5781860351562,
+            "y": -37.83204650878906,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 143,
+            "height": 67,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_lightsaber1_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.0333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.0333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff_lightsaber1_scr": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.0333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.0333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff_lightsaber2_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.0333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.0333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff_lightsaber2_scr": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.0333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.0333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "fg_lightsaber6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.0333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.0333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fg_lightsaber7": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.0333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.0333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fg_lightsaber8": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.0333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.0333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fg_lightsaber9": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.0333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.0333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fg_lightsaber10": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.0333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.0333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

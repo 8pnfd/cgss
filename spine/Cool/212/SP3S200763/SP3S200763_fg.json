@@ -1,0 +1,147 @@
+{
+  "skeleton": {
+    "hash": "DijwGjTPRD6jvdszGUmb+hNm9JA",
+    "spine": "3.8",
+    "width": 1315,
+    "height": 892.5,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "ray_add2",
+      "bone": "fg_1",
+      "color": "ffffff94",
+      "attachment": "ray_add",
+      "blend": "screen"
+    },
+    {
+      "name": "ray_add",
+      "bone": "fg_1",
+      "attachment": "ray_add",
+      "blend": "screen"
+    },
+    {
+      "name": "Hilight_add2",
+      "bone": "fg_1",
+      "color": "ffffffa6",
+      "attachment": "Hilight_add",
+      "blend": "screen"
+    },
+    {
+      "name": "Hilight_add",
+      "bone": "fg_1",
+      "attachment": "Hilight_add",
+      "blend": "screen"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "ray_add2": {
+          "ray_add": {
+            "type": "region",
+            "name": "ray_add",
+            "path": "ray_add",
+            "rotation": 0,
+            "x": -296.7999572753906,
+            "y": 413.4079895019531,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 388,
+            "height": 446,
+            "color": "ffffffff"
+          }
+        },
+        "ray_add": {
+          "ray_add": {
+            "type": "region",
+            "name": "ray_add",
+            "path": "ray_add",
+            "rotation": 0,
+            "x": -296.7999572753906,
+            "y": 413.4079895019531,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 388,
+            "height": 446,
+            "color": "ffffffff"
+          }
+        },
+        "Hilight_add2": {
+          "Hilight_add": {
+            "type": "region",
+            "name": "Hilight_add",
+            "path": "Hilight_add",
+            "rotation": 0,
+            "x": 64.20002746582031,
+            "y": 327.9079895019531,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 566,
+            "height": 361,
+            "color": "ffffffff"
+          }
+        },
+        "Hilight_add": {
+          "Hilight_add": {
+            "type": "region",
+            "name": "Hilight_add",
+            "path": "Hilight_add",
+            "rotation": 0,
+            "x": 64.20002746582031,
+            "y": 327.9079895019531,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 566,
+            "height": 361,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

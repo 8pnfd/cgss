@@ -1,0 +1,230 @@
+{
+  "skeleton": {
+    "hash": "kiwqTAYuOYjYN4bFGO0arAJhncQ",
+    "spine": "3.8",
+    "width": 448.9983825683594,
+    "height": 96.95079803466797,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fg_kusa1",
+      "bone": "all",
+      "attachment": "fg_kusa1",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_kusa2",
+      "bone": "all",
+      "attachment": "fg_kusa2",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_kusa3",
+      "bone": "all",
+      "attachment": "fg_kusa3",
+      "blend": "normal"
+    },
+    {
+      "name": "rg_ido",
+      "bone": "all",
+      "attachment": "rg_ido",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_ido_ef",
+      "bone": "all",
+      "attachment": "fg_ido_ef",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "fg_kusa1": {
+          "fg_kusa1": {
+            "type": "region",
+            "name": "fg_kusa1",
+            "path": "fg_kusa1",
+            "rotation": 0,
+            "x": -144.85719299316406,
+            "y": 81.79640197753906,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 10,
+            "height": 17,
+            "color": "ffffffff"
+          }
+        },
+        "fg_kusa2": {
+          "fg_kusa2": {
+            "type": "region",
+            "name": "fg_kusa2",
+            "path": "fg_kusa2",
+            "rotation": 0,
+            "x": 71.018798828125,
+            "y": 87.53199768066406,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 24,
+            "height": 29,
+            "color": "ffffffff"
+          }
+        },
+        "fg_kusa3": {
+          "fg_kusa3": {
+            "type": "region",
+            "name": "fg_kusa3",
+            "path": "fg_kusa3",
+            "rotation": 0,
+            "x": 114.23640441894531,
+            "y": 85.11840057373047,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 29,
+            "height": 21,
+            "color": "ffffffff"
+          }
+        },
+        "rg_ido": {
+          "rg_ido": {
+            "type": "region",
+            "name": "rg_ido",
+            "path": "rg_ido",
+            "rotation": 0,
+            "x": 2.0588021278381348,
+            "y": 45.581199645996094,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 362,
+            "height": 81,
+            "color": "ffffffff"
+          }
+        },
+        "fg_ido_ef": {
+          "fg_ido_ef": {
+            "type": "region",
+            "name": "fg_ido_ef",
+            "path": "fg_ido_ef",
+            "rotation": 0,
+            "x": 109.05720520019531,
+            "y": 45.51839828491211,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 161,
+            "height": 38,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "fg_ido_ef": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffff60"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4,
+              "color": "ffffff60"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffffa1",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.733333110809326,
+              "color": "fffffffd",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffa6",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "fffffffd",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffff60"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "skeleton": {
+    "hash": "ScJhbO0+e3yNGpYCO2EmPQeIg+4",
+    "spine": "3.8",
+    "width": 1332.0001220703125,
+    "height": 878,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "bg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "bg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "bg_3",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg",
+      "bone": "bg_3",
+      "attachment": "bg",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_window1",
+      "bone": "bg_2",
+      "attachment": "bg_window1",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_window2_add",
+      "bone": "bg_2",
+      "attachment": "bg_window2_add",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg": {
+          "bg": {
+            "type": "region",
+            "name": "bg",
+            "path": "bg",
+            "rotation": 0,
+            "x": -6.09994649887085,
+            "y": 408.29998779296875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1332,
+            "height": 878,
+            "color": "ffffffff"
+          }
+        },
+        "bg_window1": {
+          "bg_window1": {
+            "type": "region",
+            "name": "bg_window1",
+            "path": "bg_window1",
+            "rotation": 0,
+            "x": -59.480682373046875,
+            "y": 496.47991943359375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 713,
+            "height": 406,
+            "color": "ffffffff"
+          }
+        },
+        "bg_window2_add": {
+          "bg_window2_add": {
+            "type": "region",
+            "name": "bg_window2_add",
+            "path": "bg_window2_add",
+            "rotation": 0,
+            "x": -67.33346557617188,
+            "y": 543.64306640625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 545,
+            "height": 274,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

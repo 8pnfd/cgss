@@ -1,0 +1,123 @@
+{
+  "skeleton": {
+    "hash": "zmhQx1p+vPBKunDGmwbUy/iVlvE",
+    "spine": "3.8",
+    "width": 512.060302734375,
+    "height": 270.19183349609375,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "x": -5.267293090582825e-8,
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.092784742695585e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "x": -1.092784742695585e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_flash",
+      "parent": "fg_1",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "x": -1.092784742695585e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "x": -1.092784742695585e-7,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_flash",
+      "bone": "eff_flash",
+      "attachment": "eff_flash",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_flash_add",
+      "bone": "eff_flash",
+      "attachment": "eff_flash_add",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_flash": {
+          "eff_flash": {
+            "type": "region",
+            "name": "eff_flash",
+            "path": "eff_flash",
+            "rotation": -30,
+            "x": -176.83993530273438,
+            "y": 347.0460205078125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 260,
+            "height": 92,
+            "color": "ffffffff"
+          }
+        },
+        "eff_flash_add": {
+          "eff_flash_add": {
+            "type": "region",
+            "name": "eff_flash_add",
+            "path": "eff_flash_add",
+            "rotation": -14.79998779296875,
+            "x": -122.3279037475586,
+            "y": 332.3919372558594,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 490,
+            "height": 150,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

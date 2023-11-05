@@ -1,0 +1,157 @@
+{
+  "skeleton": {
+    "hash": "67kgynRXdK5P/PUsPp20GCZ1njs",
+    "spine": "3.8",
+    "width": 1008.0001220703125,
+    "height": 952,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_light",
+      "parent": "all",
+      "x": -626.2278442382812,
+      "y": 784.3146362304688,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_light",
+      "bone": "eff_light",
+      "color": "ffffff2d",
+      "attachment": "eff_light",
+      "blend": "screen"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_light": {
+          "eff_light": {
+            "type": "region",
+            "name": "eff_light",
+            "path": "eff_light",
+            "rotation": 0,
+            "x": 463.76904296875,
+            "y": -429.33172607421875,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 252,
+            "height": 238,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "94ceff0e"
+            },
+            {
+              "time": 0.8999999761581421,
+              "color": "94ebff60"
+            },
+            {
+              "time": 1.100000023841858,
+              "color": "a6d1ff34"
+            },
+            {
+              "time": 1.5,
+              "color": "94ceff60"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffff07"
+            },
+            {
+              "time": 3.700000047683716,
+              "color": "cbe9ff55"
+            },
+            {
+              "time": 4.400000095367432,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.233333110809326,
+              "color": "cbe9ff60"
+            },
+            {
+              "time": 5.400000095367432,
+              "color": "cbe9ff33"
+            },
+            {
+              "time": 5.599999904632568,
+              "color": "cbe9ff60"
+            },
+            {
+              "time": 6.199999809265137,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.0333333015441895,
+              "color": "94ceff38"
+            },
+            {
+              "time": 8,
+              "color": "94ceff0e"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

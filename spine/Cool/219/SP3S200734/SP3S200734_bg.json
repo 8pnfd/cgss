@@ -1,0 +1,695 @@
+{
+  "skeleton": {
+    "hash": "HGuVZ/4J+dCgeqVEpRT8H6a1d2Y",
+    "spine": "3.8",
+    "width": 1355.740234375,
+    "height": 915.8499755859375,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_1",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_2",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_3",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_cloud1",
+      "parent": "bg_1",
+      "x": 687.1091918945312,
+      "y": -62.92242431640625,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_cloud2",
+      "parent": "bg_1",
+      "x": 687.1091918945312,
+      "y": -62.92242431640625,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_cloud3",
+      "parent": "bg_1",
+      "x": 687.1091918945312,
+      "y": -62.92242431640625,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_cloud4",
+      "parent": "bg_2",
+      "x": 687.1091918945312,
+      "y": -62.92242431640625,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_cloud5",
+      "parent": "bg_2",
+      "x": 687.1091918945312,
+      "y": -62.92242431640625,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_cloud6",
+      "parent": "bg_2",
+      "x": 687.1091918945312,
+      "y": -62.92242431640625,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg",
+      "bone": "bg_3",
+      "attachment": "bg",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_cloud3",
+      "bone": "eff_cloud3",
+      "attachment": "eff_cloud3",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_cloud6",
+      "bone": "eff_cloud6",
+      "attachment": "eff_cloud3",
+      "blend": "normal"
+    },
+    {
+      "name": "bg2",
+      "bone": "bg_3",
+      "attachment": "bg2",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_cloud2",
+      "bone": "eff_cloud2",
+      "attachment": "eff_cloud2",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_cloud5",
+      "bone": "eff_cloud5",
+      "attachment": "eff_cloud2",
+      "blend": "normal"
+    },
+    {
+      "name": "bg1",
+      "bone": "bg_3",
+      "attachment": "bg1",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_cloud1",
+      "bone": "eff_cloud1",
+      "attachment": "eff_cloud1",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_cloud4",
+      "bone": "eff_cloud4",
+      "attachment": "eff_cloud1",
+      "blend": "normal"
+    },
+    {
+      "name": "bg3",
+      "bone": "bg_3",
+      "attachment": "bg3",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg": {
+          "bg": {
+            "type": "region",
+            "name": "bg",
+            "path": "bg",
+            "rotation": 0,
+            "x": -0.03996371477842331,
+            "y": 412.04998779296875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1335,
+            "height": 879,
+            "color": "ffffffff"
+          }
+        },
+        "eff_cloud3": {
+          "eff_cloud3": {
+            "type": "region",
+            "name": "eff_cloud3",
+            "path": "eff_cloud3",
+            "rotation": 0,
+            "x": -171.90902709960938,
+            "y": 310.1223449707031,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 173,
+            "height": 84,
+            "color": "ffffffff"
+          }
+        },
+        "eff_cloud6": {
+          "eff_cloud3": {
+            "type": "region",
+            "name": "eff_cloud3",
+            "path": "eff_cloud3",
+            "rotation": 0,
+            "x": -171.90902709960938,
+            "y": 310.1223449707031,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 173,
+            "height": 84,
+            "color": "ffffffff"
+          }
+        },
+        "bg2": {
+          "bg2": {
+            "type": "region",
+            "name": "bg2",
+            "path": "bg2",
+            "rotation": 0,
+            "x": 504.1180419921875,
+            "y": 186.43800354003906,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 331,
+            "height": 140,
+            "color": "ffffffff"
+          }
+        },
+        "eff_cloud2": {
+          "eff_cloud2": {
+            "type": "region",
+            "name": "eff_cloud2",
+            "path": "eff_cloud2",
+            "rotation": 0,
+            "x": -104.90902709960938,
+            "y": 247.12242126464844,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 212,
+            "height": 191,
+            "color": "ffffffff"
+          }
+        },
+        "eff_cloud5": {
+          "eff_cloud2": {
+            "type": "region",
+            "name": "eff_cloud2",
+            "path": "eff_cloud2",
+            "rotation": 0,
+            "x": -104.90902709960938,
+            "y": 247.12242126464844,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 212,
+            "height": 191,
+            "color": "ffffffff"
+          }
+        },
+        "bg1": {
+          "bg1": {
+            "type": "region",
+            "name": "bg1",
+            "path": "bg1",
+            "rotation": 0,
+            "x": 5.870129585266113,
+            "y": 90.155029296875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1323,
+            "height": 235,
+            "color": "ffffffff"
+          }
+        },
+        "eff_cloud1": {
+          "eff_cloud1": {
+            "type": "region",
+            "name": "eff_cloud1",
+            "path": "eff_cloud1",
+            "rotation": 0,
+            "x": -157.90908813476562,
+            "y": 104.12242126464844,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 318,
+            "height": 211,
+            "color": "ffffffff"
+          }
+        },
+        "eff_cloud4": {
+          "eff_cloud1": {
+            "type": "region",
+            "name": "eff_cloud1",
+            "path": "eff_cloud1",
+            "rotation": 0,
+            "x": -157.90908813476562,
+            "y": 104.12242126464844,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 318,
+            "height": 211,
+            "color": "ffffffff"
+          }
+        },
+        "bg3": {
+          "bg3": {
+            "type": "region",
+            "name": "bg3",
+            "path": "bg3",
+            "rotation": 0,
+            "x": -4.025493144989014,
+            "y": 72.05000305175781,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 533,
+            "height": 199,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_cloud1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.9666666984558105,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_cloud2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff53"
+            },
+            {
+              "time": 1.2999999523162842,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8,
+              "color": "ffffff53"
+            }
+          ]
+        },
+        "eff_cloud3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffa9"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8,
+              "color": "ffffffa9"
+            }
+          ]
+        },
+        "eff_cloud4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.9666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff_cloud5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.300000190734863,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffffaa"
+            }
+          ]
+        },
+        "eff_cloud6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff54"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.633333206176758,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffff54"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "eff_cloud3": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -5.54754638671875,
+              "y": -24.361083984375,
+              "curve": 0.382328599691391,
+              "c2": 0.5724507570266724,
+              "c3": 0.7349668145179749,
+              "c4": 1
+            },
+            {
+              "time": 2.633333444595337,
+              "x": -21.680057525634766,
+              "y": -28.183971405029297,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6666667461395264,
+              "x": 35.872005462646484,
+              "y": -14.545991897583008,
+              "curve": 0.24318914115428925,
+              "c2": 0,
+              "c3": 0.6491827964782715,
+              "c4": 0.6020151376724243
+            },
+            {
+              "time": 8,
+              "x": -5.54754638671875,
+              "y": -24.361083984375
+            }
+          ]
+        },
+        "eff_cloud2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0.36874282360076904
+            },
+            {
+              "time": 1.2999999523162842,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "angle": 2.2597312927246094
+            },
+            {
+              "time": 8,
+              "angle": 0.36874282360076904
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": -34.1385498046875,
+              "y": -9.081916809082031
+            },
+            {
+              "time": 1.2999999523162842,
+              "x": -49.6080322265625,
+              "y": -8.672012329101562,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": 45.19195556640625,
+              "y": -11.183975219726562
+            },
+            {
+              "time": 8,
+              "x": -34.1385498046875,
+              "y": -9.081916809082031
+            }
+          ]
+        },
+        "eff_cloud1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 35.87200927734375,
+              "y": 9.351028442382812,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.9666666984558105,
+              "x": -21.680055618286133,
+              "y": -8.672008514404297,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 35.87200927734375,
+              "y": 9.351028442382812
+            }
+          ]
+        },
+        "eff_cloud4": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 7.095947265625,
+              "y": 0.339508056640625,
+              "curve": 0.375,
+              "c2": 0.5,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.9666666984558105,
+              "x": -21.680055618286133,
+              "y": -8.672008514404297,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 35.87200927734375,
+              "y": 9.351028442382812,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.625,
+              "c4": 0.5
+            },
+            {
+              "time": 8,
+              "x": 7.095947265625,
+              "y": 0.339508056640625
+            }
+          ]
+        },
+        "eff_cloud5": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 1.5064873695373535
+            },
+            {
+              "time": 1.3333333730697632,
+              "angle": 1.1298656463623047
+            },
+            {
+              "time": 5.300000190734863,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "angle": 2.2597312927246094
+            },
+            {
+              "time": 8,
+              "angle": 1.5064873695373535
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 13.5919189453125,
+              "y": -10.346656799316406
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": -2.20806884765625,
+              "y": -9.927993774414062
+            },
+            {
+              "time": 5.300000190734863,
+              "x": -49.6080322265625,
+              "y": -8.672012329101562,
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "x": 45.19195556640625,
+              "y": -11.183975219726562
+            },
+            {
+              "time": 8,
+              "x": 13.5919189453125,
+              "y": -10.346656799316406
+            }
+          ]
+        },
+        "eff_cloud6": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 30.367431640625,
+              "y": -15.850395202636719,
+              "curve": 0.29870128631591797,
+              "c2": 0.21739132702350616,
+              "c3": 0.649350643157959,
+              "c4": 0.6086957454681396
+            },
+            {
+              "time": 2.6666667461395264,
+              "x": 7.095947265625,
+              "y": -21.36498260498047,
+              "curve": 0.375,
+              "c2": 0.5,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.633333206176758,
+              "x": -21.680057525634766,
+              "y": -28.183971405029297,
+              "curve": "stepped"
+            },
+            {
+              "time": 6.666666507720947,
+              "x": 35.872005462646484,
+              "y": -14.545991897583008,
+              "curve": 0.29032257199287415,
+              "c2": 0,
+              "c3": 0.6290322542190552,
+              "c4": 0.3750000298023224
+            },
+            {
+              "time": 8,
+              "x": 30.367431640625,
+              "y": -15.850395202636719
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

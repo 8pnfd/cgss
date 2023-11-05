@@ -1,0 +1,249 @@
+{
+  "skeleton": {
+    "hash": "l6LOWvjnQHRfrLFvTwWo2hISTe4",
+    "spine": "3.8",
+    "width": 1315.6094970703125,
+    "height": 676,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "light",
+      "parent": "all",
+      "x": 3.9240705966949463,
+      "y": -19.130157470703125,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "ef2_bg",
+      "bone": "all",
+      "attachment": "ef2_bg",
+      "blend": "normal"
+    },
+    {
+      "name": "ef2_light_1_add",
+      "bone": "light",
+      "attachment": "ef2_light_1_add",
+      "blend": "additive"
+    },
+    {
+      "name": "ef2_light_2_add",
+      "bone": "light",
+      "attachment": null,
+      "blend": "additive"
+    },
+    {
+      "name": "ef2_light_4_add",
+      "bone": "light",
+      "attachment": "ef2_light_4_add",
+      "blend": "additive"
+    },
+    {
+      "name": "ef2_light_5_add",
+      "bone": "light",
+      "attachment": "ef2_light_5_add",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "ef2_bg": {
+          "ef2_bg": {
+            "type": "region",
+            "name": "ef2_bg",
+            "path": "ef2_bg",
+            "rotation": 0,
+            "x": -0.3744960427284241,
+            "y": 199.57200622558594,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1310,
+            "height": 432,
+            "color": "ffffffff"
+          }
+        },
+        "ef2_light_1_add": {
+          "ef2_light_1_add": {
+            "type": "region",
+            "name": "ef2_light_1_add",
+            "path": "ef2_light_1_add",
+            "rotation": 0,
+            "x": 328.1154479980469,
+            "y": 316.8771667480469,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 163,
+            "height": 23,
+            "color": "ffffffff"
+          }
+        },
+        "ef2_light_2_add": {
+          "ef2_light_2_add": {
+            "type": "region",
+            "name": "ef2_light_2_add",
+            "path": "ef2_light_2_add",
+            "rotation": 0,
+            "x": -357.83758544921875,
+            "y": 349.587646484375,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 311,
+            "height": 77,
+            "color": "ffffffff"
+          }
+        },
+        "ef2_light_4_add": {
+          "ef2_light_4_add": {
+            "type": "region",
+            "name": "ef2_light_4_add",
+            "path": "ef2_light_4_add",
+            "rotation": 0,
+            "x": 462.6019592285156,
+            "y": 340.1511535644531,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 95,
+            "height": 169,
+            "color": "ffffffff"
+          }
+        },
+        "ef2_light_5_add": {
+          "ef2_light_5_add": {
+            "type": "region",
+            "name": "ef2_light_5_add",
+            "path": "ef2_light_5_add",
+            "rotation": 0,
+            "x": -371.4940490722656,
+            "y": 184.70616149902344,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 145,
+            "height": 75,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "ef2_light_1_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffffb7"
+            },
+            {
+              "time": 2,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3,
+              "color": "ffffffb7"
+            },
+            {
+              "time": 4,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5,
+              "color": "ffffffb7"
+            },
+            {
+              "time": 6,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7,
+              "color": "ffffffb7"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "ef2_light_2_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffff73",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "ffffff73",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "skeleton": {
+    "hash": "vcSa40GjwHkZ4BuKDEejJ9e/sxw",
+    "spine": "3.8",
+    "width": 494.00006103515625,
+    "height": 480,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "shine",
+      "parent": "all",
+      "x": -693.1217041015625,
+      "y": 936.8674926757812,
+      "transform": "normal"
+    },
+    {
+      "name": "shine2",
+      "parent": "all",
+      "x": -693.1217041015625,
+      "y": 936.8674926757812,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_shine",
+      "bone": "shine",
+      "attachment": "eff_shine",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_shine2",
+      "bone": "shine2",
+      "attachment": "eff_shine",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_shine": {
+          "eff_shine": {
+            "type": "region",
+            "name": "eff_shine",
+            "path": "eff_shine",
+            "rotation": 0,
+            "x": 283.1058044433594,
+            "y": -312.0517578125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 247,
+            "height": 240,
+            "color": "ffffffff"
+          }
+        },
+        "eff_shine2": {
+          "eff_shine": {
+            "type": "region",
+            "name": "eff_shine",
+            "path": "eff_shine",
+            "rotation": 0,
+            "x": 283.1058044433594,
+            "y": -312.0517578125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 247,
+            "height": 240,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_shine": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.6616330742835999,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.9000000953674316,
+              "color": "ffffff2e",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2011558711528778,
+              "c4": 0.9899020195007324
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff_shine2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": 0.42239147424697876,
+              "c2": 0,
+              "c3": 0.7438236474990845,
+              "c4": 0.4084506928920746
+            },
+            {
+              "time": 1.0333333015441895,
+              "color": "ffffffeb",
+              "curve": 0.5116793513298035,
+              "c2": 0.35555556416511536,
+              "c3": 0.6812156438827515,
+              "c4": 1
+            },
+            {
+              "time": 6.766666889190674,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "shine": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 4.666666507720947,
+              "x": 1.2235521078109741,
+              "y": 1.2235521078109741
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "shine2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 8.7919921875,
+              "y": 10.9898681640625
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 6.766666889190674,
+              "x": 1.5542781352996826,
+              "y": 1.5542781352996826
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

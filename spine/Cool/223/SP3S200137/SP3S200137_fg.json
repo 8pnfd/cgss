@@ -1,0 +1,269 @@
+{
+  "skeleton": {
+    "hash": "KY/DhxPRjDtFJ9sa/wHMq2nysg0",
+    "spine": "3.8",
+    "width": 1172.0001220703125,
+    "height": 520,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_light1_screen",
+      "bone": "fg_1",
+      "attachment": "eff_light1_screen",
+      "blend": "screen"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_light1_screen": {
+          "eff_light1_screen": {
+            "type": "region",
+            "name": "eff_light1_screen",
+            "path": "eff_light1_screen",
+            "rotation": 0,
+            "x": 86.3416519165039,
+            "y": 630.2463989257812,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 293,
+            "height": 130,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_gacha": {
+      "slots": {},
+      "bones": {
+        "fg_3": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.666666507720947,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 140,
+              "y": -130,
+              "curve": 0.09062500298023224,
+              "c2": 0.12317327409982681,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.666666507720947,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.1299999952316284,
+              "y": 1.1299999952316284,
+              "curve": 0.09062500298023224,
+              "c2": 0.12317327409982681,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.666666507720947,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "fg_2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.666666507720947,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 80,
+              "y": -160,
+              "curve": 0.09062500298023224,
+              "c2": 0.12317327409982681,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.666666507720947,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.159999966621399,
+              "y": 1.159999966621399,
+              "curve": 0.09062500298023224,
+              "c2": 0.12317327409982681,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.666666507720947,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "fg_1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.666666507720947,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -200
+            },
+            {
+              "time": 4.666666507720947,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158,
+              "curve": 0.09062500298023224,
+              "c2": 0.12317327409982681,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.666666507720947,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "all": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.666666507720947,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": -300,
+              "y": -40
+            },
+            {
+              "time": 4.666666507720947,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158
+            },
+            {
+              "time": 4.666666507720947,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}
