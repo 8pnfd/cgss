@@ -1,0 +1,177 @@
+{
+  "skeleton": {
+    "hash": "LH/Z4MiEWMho8H/V6O3O8DWD8ts",
+    "spine": "3.8",
+    "width": 1296,
+    "height": 826,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "ef_hikari_1",
+      "bone": "all",
+      "attachment": "ef_hikari_1",
+      "blend": "screen"
+    },
+    {
+      "name": "ef_hikari_2",
+      "bone": "all",
+      "attachment": "ef_hikari_2",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "ef_hikari_1": {
+          "ef_hikari_1": {
+            "type": "region",
+            "name": "ef_hikari_1",
+            "path": "ef_hikari_1",
+            "rotation": 0,
+            "x": -0.48348164558410645,
+            "y": 419.4804992675781,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 648,
+            "height": 413,
+            "color": "ffffffff"
+          }
+        },
+        "ef_hikari_2": {
+          "ef_hikari_2": {
+            "type": "region",
+            "name": "ef_hikari_2",
+            "path": "ef_hikari_2",
+            "rotation": 0,
+            "x": -307.3934631347656,
+            "y": 582.22998046875,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 341,
+            "height": 246,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "ef_hikari_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffbe",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffbe",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff6c",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffff6c",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffffbe",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffbe"
+            }
+          ]
+        },
+        "ef_hikari_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffbe",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffbe",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff6c",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffff6c",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffffbe",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffbe"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

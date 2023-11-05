@@ -1,0 +1,267 @@
+{
+  "skeleton": {
+    "hash": "WrdJVTGUtpMsiyEACPvP2WDe8pk",
+    "spine": "3.8",
+    "width": 1639.477294921875,
+    "height": 1056.1087646484375,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_ray_a",
+      "parent": "all",
+      "rotation": 40.94352722167969,
+      "x": -658.9441528320312,
+      "y": 940.4308471679688,
+      "scaleX": 2,
+      "scaleY": 2,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_ray_a1",
+      "parent": "eff_ray_a",
+      "rotation": -25.199493408203125,
+      "x": -8.452178955078125,
+      "y": 1.733154296875,
+      "scaleX": 1.430715560913086,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_ray_a2",
+      "parent": "eff_ray_a",
+      "rotation": -25.199493408203125,
+      "x": -8.452178955078125,
+      "y": 1.733154296875,
+      "scaleX": 1.430715560913086,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "ef/ef_light_screen",
+      "bone": "eff_ray_a1",
+      "attachment": "ef_light_screen",
+      "blend": "multiply"
+    },
+    {
+      "name": "ef/ef_light_screen2",
+      "bone": "eff_ray_a2",
+      "color": "ffffff00",
+      "attachment": "ef_light_screen",
+      "blend": "multiply"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "ef/ef_light_screen": {
+          "ef_light_screen": {
+            "type": "region",
+            "name": "ef_light_screen",
+            "path": "ef_light_screen",
+            "rotation": -16.6992244720459,
+            "x": 182.79296875,
+            "y": -317.0227355957031,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 542,
+            "height": 461,
+            "color": "ffffff83"
+          }
+        },
+        "ef/ef_light_screen2": {
+          "ef_light_screen": {
+            "type": "region",
+            "name": "ef_light_screen",
+            "path": "ef_light_screen",
+            "rotation": -16.6992244720459,
+            "x": 182.79296875,
+            "y": -317.0227355957031,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 542,
+            "height": 461,
+            "color": "ffffff83"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "ef/ef_light_screen": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 0.9666666388511658,
+              "color": "ffffff1f",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.9666666984558105,
+              "color": "ffffff1f",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffff1f",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "ef/ef_light_screen2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffff1f",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffff1f",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "eff_ray_a1": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.744440495967865,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "x": 0.744440495967865,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 0.744440495967865,
+              "y": 1
+            }
+          ]
+        },
+        "eff_ray_a2": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.744440495967865,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "x": 0.744440495967865,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 0.744440495967865,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

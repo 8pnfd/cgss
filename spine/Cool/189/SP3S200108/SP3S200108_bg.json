@@ -1,0 +1,398 @@
+{
+  "skeleton": {
+    "hash": "G1vv3j/JR2HIU+mSBrfGIylqmis",
+    "spine": "3.8",
+    "width": 1322.0001220703125,
+    "height": 872,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -4.371138828673793e-8,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_1",
+      "parent": "all",
+      "x": -0.9999999403953552,
+      "y": -1,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_2",
+      "parent": "all",
+      "x": -0.9999999403953552,
+      "y": -1,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_3",
+      "parent": "all",
+      "x": -0.9999999403953552,
+      "y": -1,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_ray_L1",
+      "parent": "bg_3",
+      "rotation": -21,
+      "x": -193.0290069580078,
+      "y": 565.9766845703125,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_ray_R1",
+      "parent": "bg_3",
+      "rotation": 11,
+      "x": 340.78240966796875,
+      "y": 488.0966796875,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg",
+      "bone": "bg_3",
+      "attachment": "bg",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_ray_add05",
+      "bone": "bg_ray_R1",
+      "attachment": "eff_ray_add05",
+      "blend": "additive"
+    },
+    {
+      "name": "bg_mask1",
+      "bone": "bg_3",
+      "attachment": "bg_mask1",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_mask2",
+      "bone": "bg_3",
+      "attachment": "bg_mask2",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_ray_add10",
+      "bone": "bg_ray_L1",
+      "attachment": "eff_ray_add10",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg": {
+          "bg": {
+            "type": "region",
+            "name": "bg",
+            "path": "bg",
+            "rotation": 0,
+            "x": 0.2644360363483429,
+            "y": 412.2040100097656,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1322,
+            "height": 872,
+            "color": "ffffffff"
+          }
+        },
+        "eff_ray_add05": {
+          "eff_ray_add05": {
+            "type": "region",
+            "name": "eff_ray_add05",
+            "path": "eff_ray_add05",
+            "rotation": -4,
+            "x": 2.0374755859375,
+            "y": -135.49172973632812,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 64,
+            "height": 333,
+            "color": "ffffffff"
+          }
+        },
+        "bg_mask1": {
+          "bg_mask1": {
+            "type": "region",
+            "name": "bg_mask1",
+            "path": "bg_mask1",
+            "rotation": 0,
+            "x": 343.1256408691406,
+            "y": 492.872802734375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 39,
+            "height": 54,
+            "color": "ffffffff"
+          }
+        },
+        "bg_mask2": {
+          "bg_mask2": {
+            "type": "region",
+            "name": "bg_mask2",
+            "path": "bg_mask2",
+            "rotation": 0,
+            "x": -194.1011505126953,
+            "y": 570.4912109375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 47,
+            "height": 58,
+            "color": "ffffffff"
+          }
+        },
+        "eff_ray_add10": {
+          "eff_ray_add10": {
+            "type": "region",
+            "name": "eff_ray_add10",
+            "path": "eff_ray_add10",
+            "rotation": 2.9999990463256836,
+            "x": -11.856269836425781,
+            "y": -155.28903198242188,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 68,
+            "height": 318,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {
+        "bg_ray_L1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 2.4181785583496094,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "angle": -9.963027954101562,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "angle": 11.047607421875,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "angle": 2.4181785583496094,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 10,
+              "angle": -9.963027954101562,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 14,
+              "angle": 11.047607421875,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 16,
+              "angle": 2.4181785583496094
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 12,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 16,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "bg_ray_R1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -5.201026916503906,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "angle": 4.746761322021484,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "angle": -9.711040496826172,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "angle": -5.201026916503906,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 10,
+              "angle": 4.746761322021484,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 14,
+              "angle": -9.711040496826172,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 16,
+              "angle": -5.201026916503906
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 12,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 16,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

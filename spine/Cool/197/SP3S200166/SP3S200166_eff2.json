@@ -1,0 +1,730 @@
+{
+  "skeleton": {
+    "hash": "fpafH/G4K605sYYApcJi36OMv84",
+    "spine": "3.8",
+    "width": 1485.290771484375,
+    "height": 916.0474853515625,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1,
+      "y": -1,
+      "transform": "normal"
+    },
+    {
+      "name": "bg3",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "ray1",
+      "parent": "bg3",
+      "rotation": 34.775230407714844,
+      "x": -2.3229269981384277,
+      "y": -12.777969360351562,
+      "length": 100,
+      "transform": "normal"
+    },
+    {
+      "name": "ray2",
+      "parent": "bg3",
+      "rotation": 114.16537475585938,
+      "x": 336.0378723144531,
+      "y": -135.92697143554688,
+      "length": 100,
+      "transform": "normal"
+    },
+    {
+      "name": "ray3",
+      "parent": "bg3",
+      "rotation": 100.8800048828125,
+      "x": -430.69879150390625,
+      "y": -113.00695037841797,
+      "length": 100,
+      "transform": "normal"
+    },
+    {
+      "name": "ray4",
+      "parent": "bg3",
+      "rotation": 68.22023010253906,
+      "x": -710.1879272460938,
+      "y": 89.24494934082031,
+      "length": 100,
+      "transform": "normal"
+    },
+    {
+      "name": "ray5",
+      "parent": "bg3",
+      "rotation": 56.251529693603516,
+      "x": 365.6412048339844,
+      "y": -107.51490783691406,
+      "scaleY": 0.889575183391571,
+      "length": 100,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "ray1_screen",
+      "bone": "ray1",
+      "attachment": "ray1_screen",
+      "blend": "additive"
+    },
+    {
+      "name": "ray1_screen3",
+      "bone": "ray5",
+      "attachment": "ray1_screen",
+      "blend": "additive"
+    },
+    {
+      "name": "ray1_screen2",
+      "bone": "ray3",
+      "attachment": "ray1_screen",
+      "blend": "additive"
+    },
+    {
+      "name": "ray2_screen",
+      "bone": "ray2",
+      "attachment": "ray1_screen",
+      "blend": "additive"
+    },
+    {
+      "name": "ray2_screen2",
+      "bone": "ray4",
+      "attachment": "ray1_screen",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "ray1_screen": {
+          "ray1_screen": {
+            "type": "region",
+            "name": "ray1_screen",
+            "path": "ray1_screen",
+            "rotation": -90,
+            "x": 265.04022216796875,
+            "y": -4.1720147132873535,
+            "scaleX": 0.7603789567947388,
+            "scaleY": 1.2963529825210571,
+            "width": 93,
+            "height": 479,
+            "color": "ffffffff"
+          }
+        },
+        "ray1_screen3": {
+          "ray1_screen": {
+            "type": "region",
+            "name": "ray1_screen",
+            "path": "ray1_screen",
+            "rotation": -90,
+            "x": 265.04022216796875,
+            "y": -4.1720147132873535,
+            "scaleX": 1.102202296257019,
+            "scaleY": 1.2963529825210571,
+            "width": 93,
+            "height": 479,
+            "color": "ffffffff"
+          }
+        },
+        "ray1_screen2": {
+          "ray1_screen": {
+            "type": "region",
+            "name": "ray1_screen",
+            "path": "ray1_screen",
+            "rotation": -90,
+            "x": 374.8250427246094,
+            "y": -4.172015190124512,
+            "scaleX": 0.7603789567947388,
+            "scaleY": 1.7534847259521484,
+            "width": 93,
+            "height": 479,
+            "color": "ffffffff"
+          }
+        },
+        "ray2_screen": {
+          "ray1_screen": {
+            "type": "region",
+            "name": "ray1_screen",
+            "path": "ray1_screen",
+            "rotation": -90,
+            "x": 215.5,
+            "y": -6.864999771118164,
+            "scaleX": 0.800000011920929,
+            "scaleY": 1,
+            "width": 93,
+            "height": 479,
+            "color": "ffffffff"
+          }
+        },
+        "ray2_screen2": {
+          "ray1_screen": {
+            "type": "region",
+            "name": "ray1_screen",
+            "path": "ray1_screen",
+            "rotation": -90,
+            "x": 323.79998779296875,
+            "y": -6.864999771118164,
+            "scaleX": 0.9100000262260437,
+            "scaleY": 1.5299999713897705,
+            "width": 93,
+            "height": 479,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "ray1_screen": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffbfbfff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffbfbfff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.933333396911621,
+              "color": "ffbfbf00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.433333396911621,
+              "color": "ffbfbfff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8.300000190734863,
+              "color": "ffbfbfff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 9.800000190734863,
+              "color": "ffbfbf00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 11.300000190734863,
+              "color": "ffbfbfff",
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "color": "ffbfbfff"
+            }
+          ]
+        },
+        "ray1_screen2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffbfbfff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffbfbfff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.933333396911621,
+              "color": "ffbfbf00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.433333396911621,
+              "color": "ffbfbfff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8.300000190734863,
+              "color": "ffbfbfff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 9.800000190734863,
+              "color": "ffbfbf00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 11.300000190734863,
+              "color": "ffbfbfff",
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "color": "ffbfbfff"
+            }
+          ]
+        },
+        "ray1_screen3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffbfbfff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffbfbfff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffbfbf00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.933333396911621,
+              "color": "ffbfbfff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.800000190734863,
+              "color": "ffbfbfff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8.300000190734863,
+              "color": "ffbfbf00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 9.800000190734863,
+              "color": "ffbfbfff",
+              "curve": "stepped"
+            },
+            {
+              "time": 10.5,
+              "color": "ffbfbfff",
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "color": "ffbfbfff"
+            }
+          ]
+        },
+        "ray2_screen": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffd7d791",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffd7d791",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.5,
+              "color": "ffd7d791",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "color": "ffd7d700",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.5,
+              "color": "ffd7d791",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.5333333015441895,
+              "color": "ffd7d791",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8.033333778381348,
+              "color": "ffd7d700",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 9.533333778381348,
+              "color": "ffd7d791",
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "color": "ffd7d791"
+            }
+          ]
+        },
+        "ray2_screen2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffd7d791",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffd7d791",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.5,
+              "color": "ffd7d791",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "color": "ffd7d700",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.5,
+              "color": "ffd7d791",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.5333333015441895,
+              "color": "ffd7d791",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8.033333778381348,
+              "color": "ffd7d700",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 9.533333778381348,
+              "color": "ffd7d791",
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "color": "ffd7d791"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "ray5": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 2.6646385192871094,
+              "curve": 0.375,
+              "c2": 0.5,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.5,
+              "angle": -11.266189575195312,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.5,
+              "angle": 16.59546661376953,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.5,
+              "angle": -11.266189575195312,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 10.5,
+              "angle": 16.59546661376953,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.767587423324585,
+              "c4": 0.6539162397384644
+            },
+            {
+              "time": 12,
+              "angle": 2.6646385192871094
+            }
+          ]
+        },
+        "ray4": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -11.080169677734375,
+              "curve": 0.37310564517974854,
+              "c2": 0.6202530860900879,
+              "c3": 0.7128727436065674,
+              "c4": 1
+            },
+            {
+              "time": 0.5333333611488342,
+              "angle": -13.392169952392578,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.5333333015441895,
+              "angle": 7.2554473876953125,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.5333333015441895,
+              "angle": -13.392169952392578,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 9.533333778381348,
+              "angle": 7.2554473876953125,
+              "curve": 0.2429477721452713,
+              "c2": 0,
+              "c3": 0.6843028664588928,
+              "c4": 0.7317073345184326
+            },
+            {
+              "time": 12,
+              "angle": -11.080169677734375
+            }
+          ]
+        },
+        "ray2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -11.080169677734375,
+              "curve": 0.37310564517974854,
+              "c2": 0.6202530860900879,
+              "c3": 0.7128727436065674,
+              "c4": 1
+            },
+            {
+              "time": 0.5333333611488342,
+              "angle": -13.392169952392578,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.5333333015441895,
+              "angle": 7.2554473876953125,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.5333333015441895,
+              "angle": -13.392169952392578,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 9.533333778381348,
+              "angle": 7.2554473876953125,
+              "curve": 0.2429477721452713,
+              "c2": 0,
+              "c3": 0.6843028664588928,
+              "c4": 0.7317073345184326
+            },
+            {
+              "time": 12,
+              "angle": -11.080169677734375
+            }
+          ]
+        },
+        "ray3": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 16.59546661376953,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "angle": -11.266189575195312,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "angle": 16.59546661376953,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 9,
+              "angle": -11.266189575195312,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 12,
+              "angle": 16.59546661376953
+            }
+          ]
+        },
+        "ray1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 16.59546661376953,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "angle": -11.266189575195312,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "angle": 16.59546661376953,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 9,
+              "angle": -11.266189575195312,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 12,
+              "angle": 16.59546661376953
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

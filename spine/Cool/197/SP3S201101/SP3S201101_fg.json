@@ -1,0 +1,5021 @@
+{
+  "skeleton": {
+    "hash": "ug32jIhU2/0fy3ZBzEdpm2LdDVA",
+    "spine": "3.8",
+    "width": 1275.670654296875,
+    "height": 720.9351196289062,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "illumination_all",
+      "parent": "fg_1",
+      "x": -0.000012977186997886747,
+      "y": -50,
+      "transform": "normal"
+    },
+    {
+      "name": "illumination_01",
+      "parent": "illumination_all",
+      "rotation": -68.01476287841797,
+      "x": 283.0761413574219,
+      "y": 1134.7874755859375,
+      "length": 324.3334655761719,
+      "transform": "normal"
+    },
+    {
+      "name": "illumination_02",
+      "parent": "illumination_all",
+      "rotation": -50.599334716796875,
+      "x": -15.308426856994629,
+      "y": 912.3529052734375,
+      "length": 223.0647430419922,
+      "transform": "normal"
+    },
+    {
+      "name": "illumination_03",
+      "parent": "illumination_all",
+      "rotation": -44.14488220214844,
+      "x": -313.8744201660156,
+      "y": 915.430908203125,
+      "length": 145.84005737304688,
+      "transform": "normal"
+    },
+    {
+      "name": "illumination_04",
+      "parent": "illumination_all",
+      "rotation": -42.049251556396484,
+      "x": -379.1705627441406,
+      "y": 598.5978393554688,
+      "length": 42.032447814941406,
+      "transform": "normal"
+    },
+    {
+      "name": "illumination_05",
+      "parent": "illumination_all",
+      "rotation": -42.76882553100586,
+      "x": -538.9253540039062,
+      "y": 581.2913818359375,
+      "length": 97.53443908691406,
+      "transform": "normal"
+    },
+    {
+      "name": "illumination_06",
+      "parent": "illumination_all",
+      "rotation": -41.00908279418945,
+      "x": -770.0554809570312,
+      "y": 568.0935668945312,
+      "length": 275.4126892089844,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "illumination_light_a2",
+      "bone": "illumination_02",
+      "attachment": "illumination_light_a2",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_light_a3",
+      "bone": "illumination_03",
+      "attachment": "illumination_light_a3",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_light_a4",
+      "bone": "illumination_04",
+      "attachment": "illumination_light_a4",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_light_a5",
+      "bone": "illumination_05",
+      "attachment": "illumination_light_a5",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_light_a6",
+      "bone": "illumination_06",
+      "attachment": "illumination_light_a6",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_light_b2",
+      "bone": "illumination_02",
+      "attachment": "illumination_light_b2",
+      "blend": "screen"
+    },
+    {
+      "name": "illumination_light_b3",
+      "bone": "illumination_03",
+      "attachment": "illumination_light_b3",
+      "blend": "screen"
+    },
+    {
+      "name": "illumination_light_b4",
+      "bone": "illumination_04",
+      "attachment": "illumination_light_b4",
+      "blend": "screen"
+    },
+    {
+      "name": "illumination_light_b5",
+      "bone": "illumination_05",
+      "attachment": "illumination_light_b5",
+      "blend": "screen"
+    },
+    {
+      "name": "illumination_02",
+      "bone": "illumination_02",
+      "attachment": "illumination_02",
+      "blend": "normal"
+    },
+    {
+      "name": "illumination_center_02",
+      "bone": "illumination_02",
+      "color": "ffffff4a",
+      "attachment": "illumination_center",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_03",
+      "bone": "illumination_03",
+      "attachment": "illumination_03",
+      "blend": "normal"
+    },
+    {
+      "name": "illumination_center_03",
+      "bone": "illumination_03",
+      "color": "ffffff4a",
+      "attachment": "illumination_center",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge3_1",
+      "bone": "illumination_03",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge3_5",
+      "bone": "illumination_03",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge3_6",
+      "bone": "illumination_03",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge3_2",
+      "bone": "illumination_03",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge3_3",
+      "bone": "illumination_03",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge3_4",
+      "bone": "illumination_03",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_04",
+      "bone": "illumination_04",
+      "attachment": "illumination_04",
+      "blend": "normal"
+    },
+    {
+      "name": "illumination_05",
+      "bone": "illumination_05",
+      "attachment": "illumination_05",
+      "blend": "normal"
+    },
+    {
+      "name": "illumination_center_05",
+      "bone": "illumination_05",
+      "color": "ffffff4a",
+      "attachment": "illumination_center",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge5_1",
+      "bone": "illumination_05",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge5_2",
+      "bone": "illumination_05",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge5_3",
+      "bone": "illumination_05",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge5_4",
+      "bone": "illumination_05",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge5_5",
+      "bone": "illumination_05",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge5_6",
+      "bone": "illumination_05",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_02a",
+      "bone": "illumination_02",
+      "attachment": "illumination_02a",
+      "blend": "normal"
+    },
+    {
+      "name": "illumination_03a",
+      "bone": "illumination_03",
+      "attachment": "illumination_03a",
+      "blend": "normal"
+    },
+    {
+      "name": "illumination_05a",
+      "bone": "illumination_05",
+      "attachment": "illumination_05a",
+      "blend": "normal"
+    },
+    {
+      "name": "illumination_light_c2",
+      "bone": "illumination_02",
+      "attachment": "illumination_light_c2",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_light_c3",
+      "bone": "illumination_03",
+      "attachment": "illumination_light_c3",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_light_c4",
+      "bone": "illumination_04",
+      "attachment": "illumination_light_c4",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_light_c5",
+      "bone": "illumination_05",
+      "attachment": "illumination_light_c5",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge2_1",
+      "bone": "illumination_02",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge2_2",
+      "bone": "illumination_02",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge2_3",
+      "bone": "illumination_02",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge2_4",
+      "bone": "illumination_02",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge2_9",
+      "bone": "illumination_02",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge2_5",
+      "bone": "illumination_02",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge2_6",
+      "bone": "illumination_02",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge2_8",
+      "bone": "illumination_02",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge2_7",
+      "bone": "illumination_02",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_waku02",
+      "bone": "illumination_02",
+      "attachment": "illumination_waku02",
+      "blend": "normal"
+    },
+    {
+      "name": "illumination_light_b6",
+      "bone": "illumination_06",
+      "attachment": "illumination_light_b6",
+      "blend": "screen"
+    },
+    {
+      "name": "illumination_06",
+      "bone": "illumination_06",
+      "attachment": "illumination_06",
+      "blend": "normal"
+    },
+    {
+      "name": "illumination_edge6_1",
+      "bone": "illumination_06",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge6_3",
+      "bone": "illumination_06",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge6_7",
+      "bone": "illumination_06",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge6_8",
+      "bone": "illumination_06",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge6_4",
+      "bone": "illumination_06",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge6_5",
+      "bone": "illumination_06",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge6_6",
+      "bone": "illumination_06",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge6_2",
+      "bone": "illumination_06",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_center_06",
+      "bone": "illumination_06",
+      "color": "ffffff4a",
+      "attachment": "illumination_center",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_waku06",
+      "bone": "illumination_06",
+      "attachment": "illumination_waku06",
+      "blend": "normal"
+    },
+    {
+      "name": "illumination_light_c6",
+      "bone": "illumination_06",
+      "attachment": "illumination_light_c6",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_light_a1",
+      "bone": "illumination_01",
+      "attachment": "illumination_light_a1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_light_b1",
+      "bone": "illumination_01",
+      "attachment": "illumination_light_b1",
+      "blend": "screen"
+    },
+    {
+      "name": "illumination_01",
+      "bone": "illumination_01",
+      "attachment": "illumination_01",
+      "blend": "normal"
+    },
+    {
+      "name": "illumination_edge1_1",
+      "bone": "illumination_01",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge1_4",
+      "bone": "illumination_01",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge1_3",
+      "bone": "illumination_01",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge1_7",
+      "bone": "illumination_01",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge1_8",
+      "bone": "illumination_01",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge1_5",
+      "bone": "illumination_01",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge1_6",
+      "bone": "illumination_01",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_edge1_2",
+      "bone": "illumination_01",
+      "attachment": "illumination_edge1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_light_c1",
+      "bone": "illumination_01",
+      "attachment": "illumination_light_c1",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_center_01",
+      "bone": "illumination_01",
+      "color": "ffffff4a",
+      "attachment": "illumination_center",
+      "blend": "additive"
+    },
+    {
+      "name": "illumination_waku01",
+      "bone": "illumination_01",
+      "attachment": "illumination_waku01",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "illumination_light_a2": {
+          "illumination_light_a2": {
+            "type": "region",
+            "name": "illumination_light_a2",
+            "path": "illumination_light_a2",
+            "rotation": 50.59933090209961,
+            "x": 240.88998413085938,
+            "y": -9.6021728515625,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 128,
+            "height": 140,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_light_a3": {
+          "illumination_light_a3": {
+            "type": "region",
+            "name": "illumination_light_a3",
+            "path": "illumination_light_a3",
+            "rotation": 44.144874572753906,
+            "x": 158.35223388671875,
+            "y": -3.1822509765625,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 76,
+            "height": 82,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_light_a4": {
+          "illumination_light_a4": {
+            "type": "region",
+            "name": "illumination_light_a4",
+            "path": "illumination_light_a4",
+            "rotation": 42.04924392700195,
+            "x": 38.25732421875,
+            "y": -0.8743133544921875,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 35,
+            "height": 34,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_light_a5": {
+          "illumination_light_a5": {
+            "type": "region",
+            "name": "illumination_light_a5",
+            "path": "illumination_light_a5",
+            "rotation": 42.76881790161133,
+            "x": 103.08514404296875,
+            "y": -4.86016845703125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 74,
+            "height": 67,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_light_a6": {
+          "illumination_light_a6": {
+            "type": "region",
+            "name": "illumination_light_a6",
+            "path": "illumination_light_a6",
+            "rotation": 41.00907897949219,
+            "x": 309.83544921875,
+            "y": 30.654190063476562,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 140,
+            "height": 158,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_light_b2": {
+          "illumination_light_b2": {
+            "type": "region",
+            "name": "illumination_light_b2",
+            "path": "illumination_light_b2",
+            "rotation": 50.59933090209961,
+            "x": 224.26736450195312,
+            "y": -8.15325927734375,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 131,
+            "height": 154,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_light_b3": {
+          "illumination_light_b3": {
+            "type": "region",
+            "name": "illumination_light_b3",
+            "path": "illumination_light_b3",
+            "rotation": 44.144874572753906,
+            "x": 154.71636962890625,
+            "y": -4.711395263671875,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 76,
+            "height": 75,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_light_b4": {
+          "illumination_light_b4": {
+            "type": "region",
+            "name": "illumination_light_b4",
+            "path": "illumination_light_b4",
+            "rotation": 42.04924392700195,
+            "x": 45.2672119140625,
+            "y": -0.9538726806640625,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 46,
+            "height": 43,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_light_b5": {
+          "illumination_light_b5": {
+            "type": "region",
+            "name": "illumination_light_b5",
+            "path": "illumination_light_b5",
+            "rotation": 42.76881790161133,
+            "x": 108.229736328125,
+            "y": -2.525421142578125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 91,
+            "height": 84,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_02": {
+          "illumination_02": {
+            "type": "region",
+            "name": "illumination_02",
+            "path": "illumination_02",
+            "rotation": 50.59933090209961,
+            "x": 243.75015258789062,
+            "y": -6.00372314453125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 134,
+            "height": 168,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_center_02": {
+          "illumination_center": {
+            "type": "region",
+            "name": "illumination_center",
+            "path": "illumination_center",
+            "rotation": 32.753807067871094,
+            "x": 247.43402099609375,
+            "y": -9.69415283203125,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "width": 63,
+            "height": 58,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_03": {
+          "illumination_03": {
+            "type": "region",
+            "name": "illumination_03",
+            "path": "illumination_03",
+            "rotation": 44.144874572753906,
+            "x": 152.9310302734375,
+            "y": -3.12548828125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 75,
+            "height": 77,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_center_03": {
+          "illumination_center": {
+            "type": "region",
+            "name": "illumination_center",
+            "path": "illumination_center",
+            "rotation": 44.14487838745117,
+            "x": 151.32000732421875,
+            "y": -3.0015869140625,
+            "scaleX": 0.800000011920929,
+            "scaleY": 0.800000011920929,
+            "width": 63,
+            "height": 58,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_edge3_1": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              174.4199981689453,
+              15.579999923706055,
+              180.97999572753906,
+              16.100000381469727,
+              198.66000366210938,
+              -3
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge3_5": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              0.688915491104126,
+              0.381597101688385,
+              1,
+              1,
+              0,
+              1,
+              0.3084469437599182,
+              0.37932610511779785
+            ],
+            "triangles": [
+              2,
+              3,
+              0,
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              156.07000732421875,
+              23.559999465942383,
+              156.5,
+              25.43000030517578,
+              179.47999572753906,
+              16.290000915527344,
+              173.94000244140625,
+              15.779999732971191
+            ],
+            "hull": 4
+          }
+        },
+        "illumination_edge3_6": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              0.688915491104126,
+              0.381597101688385,
+              1,
+              1,
+              0,
+              1,
+              0.3084469437599182,
+              0.37932610511779785
+            ],
+            "triangles": [
+              2,
+              3,
+              0,
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              152.0399932861328,
+              -30.459999084472656,
+              152.4499969482422,
+              -28.049999237060547,
+              171.35000610351562,
+              -22.549999237060547,
+              177.60000610351562,
+              -23.469999313354492
+            ],
+            "hull": 4
+          }
+        },
+        "illumination_edge3_2": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              181.85000610351562,
+              -3.890000104904175,
+              172.6199951171875,
+              15.979999542236328,
+              198.24000549316406,
+              -3.6600000858306885
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge3_3": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              171.4199981689453,
+              -22.5,
+              181.52999877929688,
+              -4.119999885559082,
+              197.50999450683594,
+              -4.599999904632568
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge3_4": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              179.38999938964844,
+              -23.229999542236328,
+              172.57000732421875,
+              -22.479999542236328,
+              197.94000244140625,
+              -5.21999979019165
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_04": {
+          "illumination_04": {
+            "type": "region",
+            "name": "illumination_04",
+            "path": "illumination_04",
+            "rotation": 42.04924392700195,
+            "x": 39.7740478515625,
+            "y": 0.2795257568359375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 40,
+            "height": 37,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_05": {
+          "illumination_05": {
+            "type": "region",
+            "name": "illumination_05",
+            "path": "illumination_05",
+            "rotation": 42.76881790161133,
+            "x": 115.5657958984375,
+            "y": -0.47607421875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 75,
+            "height": 69,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_center_05": {
+          "illumination_center": {
+            "type": "region",
+            "name": "illumination_center",
+            "path": "illumination_center",
+            "rotation": 42.768821716308594,
+            "x": 117.60455322265625,
+            "y": -1.5452880859375,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "width": 63,
+            "height": 58,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_edge5_1": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              131.47000122070312,
+              10.970000267028809,
+              141.4499969482422,
+              16.850000381469727,
+              158.72999572753906,
+              0.6399999856948853
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge5_2": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              114.41999816894531,
+              25.280000686645508,
+              131.35000610351562,
+              22.860000610351562,
+              140.07000732421875,
+              17.899999618530273
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge5_3": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              113.06999969482422,
+              18.31999969482422,
+              113.55999755859375,
+              24.59000015258789,
+              140.85000610351562,
+              17.309999465942383
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge5_4": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              131.47999572753906,
+              11.25,
+              116.31999969482422,
+              17.200000762939453,
+              141.02000427246094,
+              16.860000610351562
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge5_5": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              140.52000427246094,
+              -5.03000020980835,
+              131.47999572753906,
+              10.119999885559082,
+              159.1699981689453,
+              -0.5699999928474426
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge5_6": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              0.6841809749603271,
+              0.3721854090690613,
+              1,
+              1,
+              0,
+              1,
+              0.31000271439552307,
+              0.37619549036026
+            ],
+            "triangles": [
+              3,
+              0,
+              1,
+              2,
+              3,
+              1
+            ],
+            "vertices": [
+              157.4199981689453,
+              -1.840000033378601,
+              141.4199981689453,
+              -14.550000190734863,
+              127.98999786376953,
+              -22.059999465942383,
+              140.77000427246094,
+              -6.059999942779541
+            ],
+            "hull": 4
+          }
+        },
+        "illumination_02a": {
+          "illumination_02a": {
+            "type": "region",
+            "name": "illumination_02a",
+            "path": "illumination_02a",
+            "rotation": 50.59933090209961,
+            "x": 90.069580078125,
+            "y": -0.6187744140625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 89,
+            "height": 96,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_03a": {
+          "illumination_03a": {
+            "type": "region",
+            "name": "illumination_03a",
+            "path": "illumination_03a",
+            "rotation": 44.144874572753906,
+            "x": 73.2562255859375,
+            "y": 0.211517333984375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 51,
+            "height": 51,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_05a": {
+          "illumination_05a": {
+            "type": "region",
+            "name": "illumination_05a",
+            "path": "illumination_05a",
+            "rotation": 42.76881790161133,
+            "x": 54.0723876953125,
+            "y": -0.3740234375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 24,
+            "height": 22,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_light_c2": {
+          "illumination_light_c2": {
+            "type": "region",
+            "name": "illumination_light_c2",
+            "path": "illumination_light_c2",
+            "rotation": 50.59933090209961,
+            "x": 240.73910522460938,
+            "y": -4.750732421875,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 102,
+            "height": 131,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_light_c3": {
+          "illumination_light_c3": {
+            "type": "region",
+            "name": "illumination_light_c3",
+            "path": "illumination_light_c3",
+            "rotation": 44.144874572753906,
+            "x": 153.5118408203125,
+            "y": -5.930694580078125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 64,
+            "height": 67,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_light_c4": {
+          "illumination_light_c4": {
+            "type": "region",
+            "name": "illumination_light_c4",
+            "path": "illumination_light_c4",
+            "rotation": 42.04924392700195,
+            "x": 38.46240234375,
+            "y": -0.9284210205078125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 33,
+            "height": 33,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_light_c5": {
+          "illumination_light_c5": {
+            "type": "region",
+            "name": "illumination_light_c5",
+            "path": "illumination_light_c5",
+            "rotation": 42.76881790161133,
+            "x": 108.41619873046875,
+            "y": 0.742584228515625,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 59,
+            "height": 59,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_edge2_1": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              305.2799987792969,
+              24.969999313354492,
+              340.19000244140625,
+              -12.5,
+              282.010009765625,
+              15.34000015258789
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge2_2": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              285.2300109863281,
+              41.45000076293945,
+              304.5799865722656,
+              25.280000686645508,
+              253.89999389648438,
+              45.369998931884766
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge2_3": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              247.77000427246094,
+              46.849998474121094,
+              304.5799865722656,
+              25.280000686645508,
+              246.1199951171875,
+              32.15999984741211
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge2_4": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              250,
+              32.720001220703125,
+              304.5799865722656,
+              25.280000686645508,
+              282.1700134277344,
+              15.220000267028809
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge2_9": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              242.6999969482422,
+              1.690000057220459,
+              281.7799987792969,
+              14.130000114440918,
+              297.4700012207031,
+              -20.729999542236328
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge2_5": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              281.4700012207031,
+              15.720000267028809,
+              339.8900146484375,
+              -14.350000381469727,
+              298.95001220703125,
+              -20.389999389648438
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge2_6": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              298.95001220703125,
+              -21.079999923706055,
+              340.1600036621094,
+              -13.15999984741211,
+              271.42999267578125,
+              -53.900001525878906
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge2_8": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              234.00999450683594,
+              -46.349998474121094,
+              295.8900146484375,
+              -23.56999969482422,
+              269.45001220703125,
+              -55.52000045776367
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge2_7": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              0.718829870223999,
+              0.4410638213157654,
+              1,
+              1,
+              0,
+              1,
+              0.2733909785747528,
+              0.4498676657676697
+            ],
+            "triangles": [
+              3,
+              0,
+              1,
+              2,
+              3,
+              1
+            ],
+            "vertices": [
+              233.30999755859375,
+              -59.38999938964844,
+              203.30999755859375,
+              -50.349998474121094,
+              233.49000549316406,
+              -45.869998931884766,
+              267.0299987792969,
+              -55.4900016784668
+            ],
+            "hull": 4
+          }
+        },
+        "illumination_waku02": {
+          "illumination_waku02": {
+            "type": "region",
+            "name": "illumination_waku02",
+            "path": "illumination_waku02",
+            "rotation": 50.59933090209961,
+            "x": 245.24734497070312,
+            "y": -6.36138916015625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 129,
+            "height": 161,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_light_b6": {
+          "illumination_light_b6": {
+            "type": "region",
+            "name": "illumination_light_b6",
+            "path": "illumination_light_b6",
+            "rotation": 41.00907897949219,
+            "x": 310.0289306640625,
+            "y": 16.715774536132812,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 131,
+            "height": 150,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_06": {
+          "illumination_06": {
+            "type": "region",
+            "name": "illumination_06",
+            "path": "illumination_06",
+            "rotation": 41.00907897949219,
+            "x": 290.1856689453125,
+            "y": 1.4360198974609375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 211,
+            "height": 203,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_edge6_1": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              367.760009765625,
+              54.189998626708984,
+              424.4599914550781,
+              -0.4099999964237213,
+              345.57000732421875,
+              52.41999816894531
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge6_3": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              343.0199890136719,
+              52.61000061035156,
+              424.1400146484375,
+              -1.5700000524520874,
+              373.04998779296875,
+              -1.5800000429153442
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge6_7": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              288.8900146484375,
+              38.66999816894531,
+              342.1199951171875,
+              53.34000015258789,
+              372.1000061035156,
+              -1.0199999809265137
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge6_8": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              287.29998779296875,
+              -40.41999816894531,
+              372.2099914550781,
+              -1.8899999856948853,
+              342.8699951171875,
+              -56.779998779296875
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge6_4": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              372.80999755859375,
+              -1.75,
+              424.1400146484375,
+              -1.5700000524520874,
+              343.5,
+              -56.7599983215332
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge6_5": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              343.2099914550781,
+              -57.5,
+              422.8800048828125,
+              -3.2300000190734863,
+              368.760009765625,
+              -58.810001373291016
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge6_6": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              0.6478551626205444,
+              0.2999735474586487,
+              1,
+              1,
+              0,
+              1,
+              0.3529647886753082,
+              0.28974485397338867
+            ],
+            "triangles": [
+              2,
+              3,
+              0,
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              287.2799987792969,
+              -83.9000015258789,
+              288.3999938964844,
+              -78.08000183105469,
+              344.1300048828125,
+              -56.15999984741211,
+              366.8800048828125,
+              -59.13999938964844
+            ],
+            "hull": 4
+          }
+        },
+        "illumination_edge6_2": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              0.6625295281410217,
+              0.3291446566581726,
+              1,
+              1,
+              0,
+              1,
+              0.3352522552013397,
+              0.32538700103759766
+            ],
+            "triangles": [
+              2,
+              3,
+              0,
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              287.5400085449219,
+              74.81999969482422,
+              287.6600036621094,
+              82.83999633789062,
+              364.3599853515625,
+              55.9900016784668,
+              341.6499938964844,
+              54.5
+            ],
+            "hull": 4
+          }
+        },
+        "illumination_center_06": {
+          "illumination_center": {
+            "type": "region",
+            "name": "illumination_center",
+            "path": "illumination_center",
+            "rotation": 41.00908279418945,
+            "x": 295.8555908203125,
+            "y": -6.22454833984375,
+            "scaleX": 2.0999999046325684,
+            "scaleY": 2.0999999046325684,
+            "width": 63,
+            "height": 58,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_waku06": {
+          "illumination_waku06": {
+            "type": "region",
+            "name": "illumination_waku06",
+            "path": "illumination_waku06",
+            "rotation": 41.00907897949219,
+            "x": 287.78179931640625,
+            "y": 1.9146270751953125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 208,
+            "height": 200,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_light_c6": {
+          "illumination_light_c6": {
+            "type": "region",
+            "name": "illumination_light_c6",
+            "path": "illumination_light_c6",
+            "rotation": 41.00907897949219,
+            "x": 298.4989013671875,
+            "y": 16.25958251953125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 122,
+            "height": 140,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_light_a1": {
+          "illumination_light_a1": {
+            "type": "region",
+            "name": "illumination_light_a1",
+            "path": "illumination_light_a1",
+            "rotation": 68.01475524902344,
+            "x": 378.67706298828125,
+            "y": -45.625244140625,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 237,
+            "height": 124,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_light_b1": {
+          "illumination_light_b1": {
+            "type": "region",
+            "name": "illumination_light_b1",
+            "path": "illumination_light_b1",
+            "rotation": 68.01475524902344,
+            "x": 357.29071044921875,
+            "y": -44.7066650390625,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 183,
+            "height": 104,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_01": {
+          "illumination_01": {
+            "type": "region",
+            "name": "illumination_01",
+            "path": "illumination_01",
+            "rotation": 68.01475524902344,
+            "x": 341.05084228515625,
+            "y": -31.669921875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 249,
+            "height": 168,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_edge1_1": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              362.82000732421875,
+              91.91999816894531,
+              438.30999755859375,
+              1.409999966621399,
+              327.9800109863281,
+              89.4000015258789
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge1_4": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              367.6600036621094,
+              1.8300000429153442,
+              437.42999267578125,
+              -0.7699999809265137,
+              320.1300048828125,
+              -76.0999984741211
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge1_3": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              323.94000244140625,
+              89.68000030517578,
+              439.3999938964844,
+              0.07000000029802322,
+              366.6300048828125,
+              0.6399999856948853
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge1_7": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              232.88999938964844,
+              69.83000183105469,
+              323.0799865722656,
+              87.80000305175781,
+              364.2300109863281,
+              1.6100000143051147
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge1_8": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              242.38999938964844,
+              -58.41999816894531,
+              365.3299865722656,
+              -0.09000000357627869,
+              319.8399963378906,
+              -80.73999786376953
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge1_5": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              320.3599853515625,
+              -79.9800033569336,
+              438.9599914550781,
+              0.2800000011920929,
+              354.07000732421875,
+              -83.13999938964844
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_edge1_6": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              0.6891497373580933,
+              0.3820628523826599,
+              1,
+              1,
+              0,
+              1,
+              0.3077888786792755,
+              0.38065028190612793
+            ],
+            "triangles": [
+              2,
+              3,
+              0,
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              242.60000610351562,
+              -118.88999938964844,
+              245.4499969482422,
+              -109.26000213623047,
+              321.9700012207031,
+              -80.97000122070312,
+              349.3699951171875,
+              -82.2699966430664
+            ],
+            "hull": 4
+          }
+        },
+        "illumination_edge1_2": {
+          "illumination_edge1": {
+            "type": "mesh",
+            "name": "illumination_edge1",
+            "path": "illumination_edge1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0.49695491790771484,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              322.8500061035156,
+              90.30000305175781,
+              254.0800018310547,
+              130.9600067138672,
+              362.04998779296875,
+              92.13999938964844
+            ],
+            "hull": 3
+          }
+        },
+        "illumination_light_c1": {
+          "illumination_light_c1": {
+            "type": "region",
+            "name": "illumination_light_c1",
+            "path": "illumination_light_c1",
+            "rotation": 68.01475524902344,
+            "x": 376.00103759765625,
+            "y": -49.272705078125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 231,
+            "height": 123,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_center_01": {
+          "illumination_center": {
+            "type": "region",
+            "name": "illumination_center",
+            "path": "illumination_center",
+            "rotation": 54.90978240966797,
+            "x": 317.53106689453125,
+            "y": -2.259033203125,
+            "scaleX": 2.5,
+            "scaleY": 2.5,
+            "width": 63,
+            "height": 58,
+            "color": "ffffffff"
+          }
+        },
+        "illumination_waku01": {
+          "illumination_waku01": {
+            "type": "region",
+            "name": "illumination_waku01",
+            "path": "illumination_waku01",
+            "rotation": 68.01475524902344,
+            "x": 341.05084228515625,
+            "y": -31.669921875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 249,
+            "height": 168,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "illumination_center_01": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff34",
+              "curve": 0.318595290184021,
+              "c2": 0.2790697515010834,
+              "c3": 0.7572005987167358,
+              "c4": 1
+            },
+            {
+              "time": 0.7666666507720947,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.6333333253860474,
+              "color": "ffffff3c",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff3c",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.699999809265137,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.733333110809326,
+              "color": "ffffff3c",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.766666889190674,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.800000190734863,
+              "color": "ffffff3c",
+              "curve": 0.2852478325366974,
+              "c2": 0,
+              "c3": 0.6257049441337585,
+              "c4": 0.3827160596847534
+            },
+            {
+              "time": 8,
+              "color": "ffffff34"
+            }
+          ]
+        },
+        "illumination_center_02": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff1c",
+              "curve": 0.349609375,
+              "c2": 0.39344263076782227,
+              "c3": 0.7569247484207153,
+              "c4": 1
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffff68",
+              "curve": 0.318595290184021,
+              "c2": 0.2790697515010834,
+              "c3": 0.7572005987167358,
+              "c4": 1
+            },
+            {
+              "time": 1.600000023841858,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.4666666984558105,
+              "color": "ffffff68",
+              "curve": 0.318595290184021,
+              "c2": 0.2790697515010834,
+              "c3": 0.7572005987167358,
+              "c4": 1
+            },
+            {
+              "time": 3.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4.5,
+              "color": "ffffff68",
+              "curve": 0.318595290184021,
+              "c2": 0.2790697515010834,
+              "c3": 0.7572005987167358,
+              "c4": 1
+            },
+            {
+              "time": 5.5333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.566666603088379,
+              "color": "ffffff68",
+              "curve": 0.318595290184021,
+              "c2": 0.2790697515010834,
+              "c3": 0.7572005987167358,
+              "c4": 1
+            },
+            {
+              "time": 7.599999904632568,
+              "color": "ffffff00",
+              "curve": 0.26577362418174744,
+              "c2": 0,
+              "c3": 0.6177441477775574,
+              "c4": 0.4252873361110687
+            },
+            {
+              "time": 8,
+              "color": "ffffff1c"
+            }
+          ]
+        },
+        "illumination_center_03": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff68",
+              "curve": 0.35948845744132996,
+              "c2": 0.4313724935054779,
+              "c3": 0.7555943131446838,
+              "c4": 1
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.4666666984558105,
+              "color": "ffffff9e",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.5,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.5,
+              "color": "ffffff9e",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.5333333015441895,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.566666603088379,
+              "color": "ffffff9e",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.599999904632568,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.633333206176758,
+              "color": "ffffff9e",
+              "curve": 0.25972822308540344,
+              "c2": 0,
+              "c3": 0.617974042892456,
+              "c4": 0.446153849363327
+            },
+            {
+              "time": 8,
+              "color": "ffffff68"
+            }
+          ]
+        },
+        "illumination_center_05": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff02",
+              "curve": 0.2762955129146576,
+              "c2": 0.11428570747375488,
+              "c3": 0.7534633278846741,
+              "c4": 1
+            },
+            {
+              "time": 0.9666666388511658,
+              "color": "ffffff65",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.9333332777023315,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.799999952316284,
+              "color": "ffffff65",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.8333332538604736,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.833333492279053,
+              "color": "ffffff65",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.900000095367432,
+              "color": "ffffff65",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.933333396911621,
+              "color": "ffffff00",
+              "curve": 0.31394970417022705,
+              "c2": 0,
+              "c3": 0.6481541991233826,
+              "c4": 0.3483146131038666
+            },
+            {
+              "time": 8,
+              "color": "ffffff02"
+            }
+          ]
+        },
+        "illumination_center_06": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff01",
+              "curve": 0.2661290466785431,
+              "c2": 0.0714285746216774,
+              "c3": 0.7521994113922119,
+              "c4": 1
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffff82",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.8666666746139526,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.866666555404663,
+              "color": "ffffff82",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.9000000953674316,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4.933333396911621,
+              "color": "ffffff82",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.9666666984558105,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7,
+              "color": "ffffff82",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.9666666984558105,
+              "color": "ffffff00",
+              "curve": 0.3212927579879761,
+              "c2": 0,
+              "c3": 0.6549429297447205,
+              "c4": 0.34210526943206787
+            },
+            {
+              "time": 8,
+              "color": "ffffff01"
+            }
+          ]
+        },
+        "illumination_edge1_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.2333333492279053,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.7999999523162842,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.0333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.900000095367432,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.599999904632568,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge1_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9666666388511658,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.2666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.8333333730697632,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.099999904632568,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.400000095367432,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.9666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge1_3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7666666507720947,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.0666667222976685,
+              "color": "ffffff95",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.6333333253860474,
+              "color": "ffffff95"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.866666793823242,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.166666507720947,
+              "color": "ffffff95",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.733333110809326,
+              "color": "ffffff95"
+            },
+            {
+              "time": 6.433333396911621,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.599999904632568,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge1_4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff6b"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.9666666984558105,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.2666666507720947,
+              "color": "ffffff95",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.8333332538604736,
+              "color": "ffffff95"
+            },
+            {
+              "time": 4.5333333015441895,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.933333396911621,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.233333110809326,
+              "color": "ffffff95",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.300000190734863,
+              "color": "ffffff95",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.800000190734863,
+              "color": "ffffff95"
+            },
+            {
+              "time": 8,
+              "color": "ffffff6b"
+            }
+          ]
+        },
+        "illumination_edge1_5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.03333333507180214,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.2333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.5333333015441895,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.099999904632568,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.800000190734863,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.166666507720947,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.4666666984558105,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "illumination_edge1_6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.23333333432674408,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.4666666984558105,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.7666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.0333333015441895,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.366666793823242,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "illumination_edge1_7": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.5666667222976685,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.8666666746139526,
+              "color": "ffffff95",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffff95"
+            },
+            {
+              "time": 3.133333444595337,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.9666666984558105,
+              "color": "ffffff95",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.5333333015441895,
+              "color": "ffffff95"
+            },
+            {
+              "time": 7.233333110809326,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge1_8": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff31"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffff95",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7666666507720947,
+              "color": "ffffff95"
+            },
+            {
+              "time": 1.4666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.0333333015441895,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.799999952316284,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4.099999904632568,
+              "color": "ffffff95",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "ffffff95"
+            },
+            {
+              "time": 5.366666793823242,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.900000095367432,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffff31"
+            }
+          ]
+        },
+        "illumination_edge2_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.9666666984558105,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.2666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.8333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.5333333015441895,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.366666793823242,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.933333396911621,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.633333206176758,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge2_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff79"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.9666666984558105,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.233333110809326,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.766666889190674,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.066666603088379,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.633333206176758,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8,
+              "color": "ffffff79"
+            }
+          ]
+        },
+        "illumination_edge2_3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff24"
+            },
+            {
+              "time": 0.10000000149011612,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.299999952316284,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.5333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.833333492279053,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.400000095367432,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8,
+              "color": "ffffff24"
+            }
+          ]
+        },
+        "illumination_edge2_4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.200000047683716,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.066666603088379,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.7666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.300000190734863,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.599999904632568,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.166666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.866666793823242,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge2_5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.7666666507720947,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.066666603088379,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.733333110809326,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.433333396911621,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge2_6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5666666626930237,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1333333253860474,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.8333333730697632,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.166666507720947,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4.4666666984558105,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.0333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.733333110809326,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge2_7": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.699999988079071,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffff71"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.5666667222976685,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.2666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.599999904632568,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4.900000095367432,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.4666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge2_8": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.7666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.0333333015441895,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.433333396911621,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.366666793823242,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.233333110809326,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge2_9": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.9666666984558105,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.2666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.8333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.5333333015441895,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.366666793823242,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.933333396911621,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.633333206176758,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge3_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.0333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.899999976158142,
+              "color": "ffffff78"
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.133333206176758,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.433333396911621,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "color": "ffffff78"
+            },
+            {
+              "time": 6.699999809265137,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.833333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge3_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7666666507720947,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.0666667222976685,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.6333333253860474,
+              "color": "ffffff78"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.866666793823242,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.166666507720947,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.733333110809326,
+              "color": "ffffff78"
+            },
+            {
+              "time": 6.433333396911621,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.833333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge3_3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.23333333432674408,
+              "color": "ffffff78"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.2666666507720947,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.566666603088379,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.133333206176758,
+              "color": "ffffff78"
+            },
+            {
+              "time": 4.833333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.366666793823242,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffff78"
+            },
+            {
+              "time": 7.833333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffff78"
+            }
+          ]
+        },
+        "illumination_edge3_4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffff78"
+            },
+            {
+              "time": 1.1666666269302368,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.799999952316284,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.366666793823242,
+              "color": "ffffff78"
+            },
+            {
+              "time": 5.066666603088379,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.599999904632568,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.833333492279053,
+              "color": "ffffff5d"
+            },
+            {
+              "time": 7.900000095367432,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff78"
+            }
+          ]
+        },
+        "illumination_edge3_5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.6333333253860474,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.200000047683716,
+              "color": "ffffff78"
+            },
+            {
+              "time": 2.9000000953674316,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.433333396911621,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.733333110809326,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.300000190734863,
+              "color": "ffffff78"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.833333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge3_6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff1a"
+            },
+            {
+              "time": 0.23333333432674408,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffff78"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.9000000953674316,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.8333332538604736,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4.133333206176758,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.699999809265137,
+              "color": "ffffff78"
+            },
+            {
+              "time": 5.400000095367432,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.833333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.933333396911621,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffff1a"
+            }
+          ]
+        },
+        "illumination_edge5_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1666666269302368,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.0999999046325684,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.4000000953674316,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.9666666984558105,
+              "color": "ffffff78"
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.199999809265137,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.5,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.066666603088379,
+              "color": "ffffff78"
+            },
+            {
+              "time": 7.766666889190674,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge5_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff5b"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1666666269302368,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.866666555404663,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.1666667461395264,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.7333333492279053,
+              "color": "ffffff78"
+            },
+            {
+              "time": 4.433333396911621,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.9666666984558105,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.266666889190674,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.833333492279053,
+              "color": "ffffff78"
+            },
+            {
+              "time": 8,
+              "color": "ffffff5b"
+            }
+          ]
+        },
+        "illumination_edge5_3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff2d"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1666666269302368,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.9000000953674316,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.4666666984558105,
+              "color": "ffffff78"
+            },
+            {
+              "time": 4.166666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.699999809265137,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.566666603088379,
+              "color": "ffffff78"
+            },
+            {
+              "time": 8,
+              "color": "ffffff2d"
+            }
+          ]
+        },
+        "illumination_edge5_4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff05"
+            },
+            {
+              "time": 0.03333333507180214,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1666666269302368,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.366666555404663,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.2333333492279053,
+              "color": "ffffff78"
+            },
+            {
+              "time": 3.933333396911621,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.4666666984558105,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.766666889190674,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff78"
+            },
+            {
+              "time": 8,
+              "color": "ffffff05"
+            }
+          ]
+        },
+        "illumination_edge5_5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1666666269302368,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.0999999046325684,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.4000000953674316,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.9666666984558105,
+              "color": "ffffff78"
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.199999809265137,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.5,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.066666603088379,
+              "color": "ffffff78"
+            },
+            {
+              "time": 7.766666889190674,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge5_6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8333333134651184,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.1333333253860474,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1666666269302368,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.7000000476837158,
+              "color": "ffffff78"
+            },
+            {
+              "time": 2.4000000953674316,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.733333110809326,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.0333333015441895,
+              "color": "ffffff78",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.599999904632568,
+              "color": "ffffff78"
+            },
+            {
+              "time": 6.300000190734863,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge6_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3666666746139526,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.066666603088379,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.599999904632568,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4.900000095367432,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.4666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge6_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7666666507720947,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.0666667222976685,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.6333333253860474,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.866666793823242,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.166666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.733333110809326,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.433333396911621,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge6_3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff38"
+            },
+            {
+              "time": 0.23333333432674408,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.0333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.900000095367432,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.599999904632568,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.933333396911621,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffff38"
+            }
+          ]
+        },
+        "illumination_edge6_4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff79"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.9666666984558105,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.233333110809326,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.766666889190674,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7,
+              "color": "ffffffc6"
+            },
+            {
+              "time": 7.066666603088379,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.633333206176758,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8,
+              "color": "ffffff79"
+            }
+          ]
+        },
+        "illumination_edge6_5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.03333333507180214,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.133333444595337,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.066666603088379,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.366666555404663,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.933333396911621,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.633333206176758,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.166666507720947,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.4666666984558105,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "illumination_edge6_6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.23333333432674408,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.2666666507720947,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.566666603088379,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.133333206176758,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.833333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.366666793823242,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "illumination_edge6_7": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.0666667222976685,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.7666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.300000190734863,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4.599999904632568,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.166666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "illumination_edge6_8": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffc2"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.9333332777023315,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.866666555404663,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.1666667461395264,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.7333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.433333396911621,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.9666666984558105,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7,
+              "color": "ffffff1c"
+            },
+            {
+              "time": 7.266666889190674,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.833333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8,
+              "color": "ffffffc2"
+            }
+          ]
+        },
+        "illumination_light_a1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffffb4",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "ffffffb4",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "illumination_light_b1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffffb4",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "ffffffb4",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "illumination_light_c1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffffb4",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "ffffffb4",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "illumination_01": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 359.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.5431034564971924,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "angle": 2.1373214721679688,
+              "curve": 0.38479623198509216,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "angle": 359.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.7688088417053223,
+              "c4": 0.9991765022277832
+            },
+            {
+              "time": 6,
+              "angle": 2.1373214721679688,
+              "curve": 0.38479623198509216,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "angle": 359.5
+            }
+          ]
+        },
+        "illumination_02": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0.3051490783691406,
+              "curve": 0.37542957067489624,
+              "c2": 0.538461446762085,
+              "c3": 0.7150689959526062,
+              "c4": 1
+            },
+            {
+              "time": 0.8333333134651184,
+              "angle": 359.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.5431034564971924,
+              "c4": 1
+            },
+            {
+              "time": 2.8333332538604736,
+              "angle": 1.2828369140625,
+              "curve": 0.38479623198509216,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.833333492279053,
+              "angle": 359.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.7688088417053223,
+              "c4": 0.9991765022277832
+            },
+            {
+              "time": 6.833333492279053,
+              "angle": 1.2828369140625,
+              "curve": 0.35381367802619934,
+              "c2": 0,
+              "c3": 0.6971185803413391,
+              "c4": 0.5454545617103577
+            },
+            {
+              "time": 8,
+              "angle": 0.3051490783691406
+            }
+          ]
+        },
+        "illumination_03": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -0.46539306640625,
+              "curve": 0.2525489330291748,
+              "c2": 0.142857164144516,
+              "c3": 0.5527950525283813,
+              "c4": 1
+            },
+            {
+              "time": 1.8333333730697632,
+              "angle": 360.5,
+              "curve": 0.38479623198509216,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.8333332538604736,
+              "angle": 359.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.7688088417053223,
+              "c4": 0.9991765022277832
+            },
+            {
+              "time": 5.833333492279053,
+              "angle": 360.5,
+              "curve": 0.2311912178993225,
+              "c2": 0.0007238828111439943,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.833333492279053,
+              "angle": 359.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.5431034564971924,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "angle": -0.46539306640625
+            }
+          ]
+        },
+        "illumination_04": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 359.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.5431034564971924,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "angle": 360.5,
+              "curve": 0.38479623198509216,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "angle": 359.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.7688088417053223,
+              "c4": 0.9991765022277832
+            },
+            {
+              "time": 6,
+              "angle": 360.5,
+              "curve": 0.2311912178993225,
+              "c2": 0.0007238828111439943,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "angle": 359.5
+            }
+          ]
+        },
+        "illumination_05": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0.09954833984375,
+              "curve": 0.36299049854278564,
+              "c2": 0.45467111468315125,
+              "c3": 0.7575348615646362,
+              "c4": 1
+            },
+            {
+              "time": 1.1666666269302368,
+              "angle": 359.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.5431034564971924,
+              "c4": 1
+            },
+            {
+              "time": 3.1666667461395264,
+              "angle": 360.5,
+              "curve": 0.38479623198509216,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.166666507720947,
+              "angle": 359.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.7688088417053223,
+              "c4": 0.9991765022277832
+            },
+            {
+              "time": 7.166666507720947,
+              "angle": 360.5,
+              "curve": 0.241706982254982,
+              "c2": 0.0008011836907826364,
+              "c3": 0.6087055206298828,
+              "c4": 0.4620956778526306
+            },
+            {
+              "time": 8,
+              "angle": 0.09954833984375
+            }
+          ]
+        },
+        "illumination_06": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0.628509521484375,
+              "curve": 0.375,
+              "c2": 0.5,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1,
+              "angle": 1.7569923400878906,
+              "curve": 0.38479623198509216,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "angle": 359.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.7688088417053223,
+              "c4": 0.9991765022277832
+            },
+            {
+              "time": 5,
+              "angle": 1.7569923400878906,
+              "curve": 0.38479623198509216,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "angle": 359.5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.625,
+              "c4": 0.5
+            },
+            {
+              "time": 8,
+              "angle": 0.628509521484375
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

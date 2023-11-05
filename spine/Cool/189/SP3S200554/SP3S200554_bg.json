@@ -1,0 +1,222 @@
+{
+  "skeleton": {
+    "hash": "mOA/ZGIRHnF76pe3oCehXtsEqc0",
+    "spine": "3.8",
+    "width": 1377.0001220703125,
+    "height": 904,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -4.371138828673793e-8,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_1",
+      "parent": "all",
+      "x": -0.9999999403953552,
+      "y": -1,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_2",
+      "parent": "all",
+      "x": -0.9999999403953552,
+      "y": -1,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_3",
+      "parent": "all",
+      "x": -0.9999999403953552,
+      "y": -1,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg",
+      "bone": "bg_2",
+      "attachment": "bg",
+      "blend": "normal"
+    },
+    {
+      "name": "orihime",
+      "bone": "bg_2",
+      "attachment": "eff_orihime_add",
+      "blend": "screen"
+    },
+    {
+      "name": "hikoboshi",
+      "bone": "bg_2",
+      "attachment": "eff_hikoboshi_add",
+      "blend": "screen"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg": {
+          "bg": {
+            "type": "region",
+            "name": "bg",
+            "path": "bg",
+            "rotation": 0,
+            "x": 4.761634826660156,
+            "y": 400.1776123046875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1377,
+            "height": 904,
+            "color": "ffffffff"
+          }
+        },
+        "orihime": {
+          "eff_orihime_add": {
+            "type": "region",
+            "name": "eff_orihime_add",
+            "path": "eff_orihime_add",
+            "rotation": 0,
+            "x": 171.14395141601562,
+            "y": 454.06195068359375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 30,
+            "height": 30,
+            "color": "ffffffff"
+          }
+        },
+        "hikoboshi": {
+          "eff_hikoboshi_add": {
+            "type": "region",
+            "name": "eff_hikoboshi_add",
+            "path": "eff_hikoboshi_add",
+            "rotation": 0,
+            "x": 262.7020263671875,
+            "y": 621.0177612304688,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 37,
+            "height": 39,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "hikoboshi": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "orihime": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

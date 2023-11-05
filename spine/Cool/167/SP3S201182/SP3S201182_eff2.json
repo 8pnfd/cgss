@@ -1,0 +1,338 @@
+{
+  "skeleton": {
+    "hash": "xZMkM8/QDHSa7GBTI0Lc0K76W9s",
+    "spine": "3.8",
+    "width": 472.4462890625,
+    "height": 832.44921875,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_hi",
+      "parent": "all",
+      "x": 8.742277657347586e-8,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_light",
+      "bone": "eff_hi",
+      "attachment": "eff_light",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_light_2",
+      "bone": "eff_hi",
+      "attachment": "eff_light_2",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_hi",
+      "bone": "eff_hi",
+      "attachment": "eff_hi",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_light": {
+          "eff_light": {
+            "type": "region",
+            "name": "eff_light",
+            "path": "eff_light",
+            "rotation": 0,
+            "x": 513.1444702148438,
+            "y": 339.8847961425781,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 130,
+            "height": 342,
+            "color": "ffffffff"
+          }
+        },
+        "eff_light_2": {
+          "eff_light_2": {
+            "type": "region",
+            "name": "eff_light_2",
+            "path": "eff_light_2",
+            "rotation": 0,
+            "x": 576.341552734375,
+            "y": 385.2142333984375,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 66,
+            "height": 50,
+            "color": "ffffffff"
+          }
+        },
+        "eff_hi": {
+          "eff_hi": {
+            "type": "region",
+            "name": "eff_hi",
+            "path": "eff_hi",
+            "rotation": 0,
+            "x": 406.69830322265625,
+            "y": 414.3340148925781,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 118,
+            "height": 208,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_hi": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffe1"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffa8"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "fffffff9"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffb0"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "fffffff3"
+            },
+            {
+              "time": 2.8333332538604736,
+              "color": "ffffffe1"
+            },
+            {
+              "time": 3,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.266666889190674,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffe1"
+            },
+            {
+              "time": 6,
+              "color": "ffffffa8"
+            },
+            {
+              "time": 6.099999904632568,
+              "color": "fffffff9"
+            },
+            {
+              "time": 6.133333206176758,
+              "color": "ffffffb0"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "fffffff3"
+            },
+            {
+              "time": 6.366666793823242,
+              "color": "ffffffe1"
+            },
+            {
+              "time": 6.599999904632568,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.833333492279053,
+              "color": "ffffffe1"
+            },
+            {
+              "time": 6.900000095367432,
+              "color": "ffffffa8"
+            },
+            {
+              "time": 6.9666666984558105,
+              "color": "fffffff9"
+            },
+            {
+              "time": 7,
+              "color": "ffffffb0"
+            },
+            {
+              "time": 7.066666603088379,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.166666507720947,
+              "color": "ffffffe1"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff_light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff_light_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffe1"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffa8"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "fffffff9"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffb0"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "fffffff3"
+            },
+            {
+              "time": 2.8333332538604736,
+              "color": "ffffffe1"
+            },
+            {
+              "time": 3,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.266666889190674,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffe1"
+            },
+            {
+              "time": 6,
+              "color": "ffffffa8"
+            },
+            {
+              "time": 6.099999904632568,
+              "color": "fffffff9"
+            },
+            {
+              "time": 6.133333206176758,
+              "color": "ffffffb0"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "fffffff3"
+            },
+            {
+              "time": 6.366666793823242,
+              "color": "ffffffe1"
+            },
+            {
+              "time": 6.599999904632568,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.833333492279053,
+              "color": "ffffffe1"
+            },
+            {
+              "time": 6.900000095367432,
+              "color": "ffffffa8"
+            },
+            {
+              "time": 6.9666666984558105,
+              "color": "fffffff9"
+            },
+            {
+              "time": 7,
+              "color": "ffffffb0"
+            },
+            {
+              "time": 7.066666603088379,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.166666507720947,
+              "color": "ffffffe1"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

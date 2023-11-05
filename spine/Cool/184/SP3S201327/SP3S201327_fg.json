@@ -1,0 +1,300 @@
+{
+  "skeleton": {
+    "hash": "+OpzRVLWccZPRTDK6c8FVc+SLu8",
+    "spine": "3.8",
+    "width": 1268.513916015625,
+    "height": 515.373046875,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "spot",
+      "parent": "all",
+      "rotation": -90,
+      "x": -639.2246704101562,
+      "y": 634.1597290039062,
+      "length": 100,
+      "transform": "normal"
+    },
+    {
+      "name": "spot2",
+      "parent": "all",
+      "rotation": -90,
+      "x": 279.0509948730469,
+      "y": 809.2546997070312,
+      "length": 100,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "spot",
+      "bone": "spot",
+      "attachment": "lamp_light bulb_hi_1",
+      "blend": "additive"
+    },
+    {
+      "name": "spot2",
+      "bone": "spot2",
+      "attachment": "lamp_light bulb_hi_2",
+      "blend": "additive"
+    },
+    {
+      "name": "lamp_1",
+      "bone": "all",
+      "attachment": "lamp_1",
+      "blend": "normal"
+    },
+    {
+      "name": "lamp_2",
+      "bone": "all",
+      "attachment": "lamp_2",
+      "blend": "normal"
+    },
+    {
+      "name": "light bulb_1",
+      "bone": "all",
+      "attachment": "light bulb_1",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "spot": {
+          "lamp_light bulb_hi_1": {
+            "type": "region",
+            "name": "lamp_light bulb_hi_1",
+            "path": "lamp_light bulb_hi_1",
+            "rotation": 89.99999237060547,
+            "x": 1.1617431640625,
+            "y": 77.2467041015625,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 87,
+            "height": 178,
+            "color": "ffffffff"
+          }
+        },
+        "spot2": {
+          "lamp_light bulb_hi_2": {
+            "type": "region",
+            "name": "lamp_light bulb_hi_2",
+            "path": "lamp_light bulb_hi_2",
+            "rotation": 89.99999237060547,
+            "x": 33.07568359375,
+            "y": -5.428955078125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 182,
+            "height": 63,
+            "color": "ffffffff"
+          }
+        },
+        "lamp_1": {
+          "lamp_1": {
+            "type": "region",
+            "name": "lamp_1",
+            "path": "lamp_1",
+            "rotation": 0,
+            "x": -565.4779663085938,
+            "y": 627.79150390625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 167,
+            "height": 344,
+            "color": "ffffffff"
+          }
+        },
+        "lamp_2": {
+          "lamp_2": {
+            "type": "region",
+            "name": "lamp_2",
+            "path": "lamp_2",
+            "rotation": 0,
+            "x": 373.0360412597656,
+            "y": 763.635009765625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 493,
+            "height": 138,
+            "color": "ffffffff"
+          }
+        },
+        "light bulb_1": {
+          "light bulb_1": {
+            "type": "region",
+            "name": "light bulb_1",
+            "path": "light bulb_1",
+            "rotation": 0,
+            "x": -592.4779663085938,
+            "y": 384.8059997558594,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 113,
+            "height": 122,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "spot": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffdd",
+              "curve": 0.3815581798553467,
+              "c2": 0.0009960159659385681,
+              "c3": 0.6320512294769287,
+              "c4": 0.9990040063858032
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": 0.3815581798553467,
+              "c2": 0.0009960159659385681,
+              "c3": 0.6320512294769287,
+              "c4": 0.9990040063858032
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffdd",
+              "curve": 0.3815581798553467,
+              "c2": 0.0009960159659385681,
+              "c3": 0.6320512294769287,
+              "c4": 0.9990040063858032
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": 0.3815581798553467,
+              "c2": 0.0009960159659385681,
+              "c3": 0.6320512294769287,
+              "c4": 0.9990040063858032
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffdd",
+              "curve": 0.3815581798553467,
+              "c2": 0.0009960159659385681,
+              "c3": 0.6320512294769287,
+              "c4": 0.9990040063858032
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffffff",
+              "curve": 0.3815581798553467,
+              "c2": 0.0009960159659385681,
+              "c3": 0.6320512294769287,
+              "c4": 0.9990040063858032
+            },
+            {
+              "time": 8,
+              "color": "ffffffdd"
+            }
+          ]
+        },
+        "spot2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffd9",
+              "curve": 0.31584712862968445,
+              "c2": 0.49950194358825684,
+              "c3": 0.6282567977905273,
+              "c4": 0.9990040063858032
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffb2",
+              "curve": 0.3815581798553467,
+              "c2": 0.0009960159659385681,
+              "c3": 0.6320512294769287,
+              "c4": 0.9990040063858032
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": 0.3815581798553467,
+              "c2": 0.0009960159659385681,
+              "c3": 0.6320512294769287,
+              "c4": 0.9990040063858032
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffffb2",
+              "curve": 0.3815581798553467,
+              "c2": 0.0009960159659385681,
+              "c3": 0.6320512294769287,
+              "c4": 0.9990040063858032
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "ffffffff",
+              "curve": 0.3815581798553467,
+              "c2": 0.0009960159659385681,
+              "c3": 0.6320512294769287,
+              "c4": 0.9990040063858032
+            },
+            {
+              "time": 6,
+              "color": "ffffffb2",
+              "curve": 0.3815581798553467,
+              "c2": 0.0009960159659385681,
+              "c3": 0.6320512294769287,
+              "c4": 0.9990040063858032
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffffff",
+              "curve": 0.3777029514312744,
+              "c2": 0.0009960159659385681,
+              "c3": 0.6905354857444763,
+              "c4": 0.5004979968070984
+            },
+            {
+              "time": 8,
+              "color": "ffffffd9"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

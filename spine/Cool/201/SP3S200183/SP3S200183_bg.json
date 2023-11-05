@@ -1,0 +1,755 @@
+{
+  "skeleton": {
+    "hash": "qbH45GTNJ38UL7+U0Bupv6HHpkE",
+    "spine": "3.8",
+    "width": 1377.0001220703125,
+    "height": 922,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "bg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "bg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "bg_3",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "bg_balloon_green_01",
+      "parent": "bg_2",
+      "x": -68.86141967773438,
+      "y": 792.929931640625,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_balloon_green_02",
+      "parent": "bg_2",
+      "x": 515.5050048828125,
+      "y": 732.0507202148438,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_balloon_orange_01",
+      "parent": "bg_2",
+      "x": 56.420204162597656,
+      "y": 758.230712890625,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_balloon_orange_02",
+      "parent": "bg_2",
+      "x": 540.9749755859375,
+      "y": 744.3302001953125,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_balloon_pink_01",
+      "parent": "bg_2",
+      "x": -343.3768005371094,
+      "y": 647.9149780273438,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_balloon_red_01",
+      "parent": "bg_2",
+      "x": 42.19829177856445,
+      "y": 797.375,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_balloon_yellow_01",
+      "parent": "bg_2",
+      "x": 446.8584289550781,
+      "y": 542.384033203125,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg",
+      "bone": "bg_3",
+      "attachment": "bg",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_balloon_green_01",
+      "bone": "bg_balloon_green_01",
+      "attachment": "bg_balloon_green_01",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_balloon_green_02",
+      "bone": "bg_balloon_green_02",
+      "attachment": "bg_balloon_green_02",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_balloon_orange_01",
+      "bone": "bg_balloon_orange_01",
+      "attachment": "bg_balloon_orange_01",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_balloon_orange_02",
+      "bone": "bg_balloon_orange_02",
+      "attachment": "bg_balloon_orange_02",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_balloon_pink_01",
+      "bone": "bg_balloon_pink_01",
+      "attachment": "bg_balloon_pink_01",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_balloon_red_01",
+      "bone": "bg_balloon_red_01",
+      "attachment": "bg_balloon_red_01",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_balloon_yellow_01",
+      "bone": "bg_balloon_yellow_01",
+      "attachment": "bg_balloon_yellow_01",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg": {
+          "bg": {
+            "type": "region",
+            "name": "bg",
+            "path": "bg",
+            "rotation": 0,
+            "x": 0,
+            "y": 430,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1377,
+            "height": 922,
+            "color": "ffffffff"
+          }
+        },
+        "bg_balloon_green_01": {
+          "bg_balloon_green_01": {
+            "type": "region",
+            "name": "bg_balloon_green_01",
+            "path": "bg_balloon_green_01",
+            "rotation": 0,
+            "x": -22.574111938476562,
+            "y": -32.86676025390625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 81,
+            "height": 104,
+            "color": "ffffffff"
+          }
+        },
+        "bg_balloon_green_02": {
+          "bg_balloon_green_02": {
+            "type": "region",
+            "name": "bg_balloon_green_02",
+            "path": "bg_balloon_green_02",
+            "rotation": 0,
+            "x": -4.105712890625,
+            "y": -4.68914794921875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 35,
+            "height": 46,
+            "color": "ffffffff"
+          }
+        },
+        "bg_balloon_orange_01": {
+          "bg_balloon_orange_01": {
+            "type": "region",
+            "name": "bg_balloon_orange_01",
+            "path": "bg_balloon_orange_01",
+            "rotation": 0,
+            "x": -6.3205413818359375,
+            "y": -7.90313720703125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 69,
+            "height": 84,
+            "color": "ffffffff"
+          }
+        },
+        "bg_balloon_orange_02": {
+          "bg_balloon_orange_02": {
+            "type": "region",
+            "name": "bg_balloon_orange_02",
+            "path": "bg_balloon_orange_02",
+            "rotation": 0,
+            "x": -2.698486328125,
+            "y": -3.69622802734375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 29,
+            "height": 35,
+            "color": "ffffffff"
+          }
+        },
+        "bg_balloon_pink_01": {
+          "bg_balloon_pink_01": {
+            "type": "region",
+            "name": "bg_balloon_pink_01",
+            "path": "bg_balloon_pink_01",
+            "rotation": 0,
+            "x": -104.1231689453125,
+            "y": -110.23980712890625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 427,
+            "height": 463,
+            "color": "ffffffff"
+          }
+        },
+        "bg_balloon_red_01": {
+          "bg_balloon_red_01": {
+            "type": "region",
+            "name": "bg_balloon_red_01",
+            "path": "bg_balloon_red_01",
+            "rotation": 0,
+            "x": -14.015026092529297,
+            "y": -8.8690185546875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 68,
+            "height": 62,
+            "color": "ffffffff"
+          }
+        },
+        "bg_balloon_yellow_01": {
+          "bg_balloon_yellow_01": {
+            "type": "region",
+            "name": "bg_balloon_yellow_01",
+            "path": "bg_balloon_yellow_01",
+            "rotation": 0,
+            "x": -10.187591552734375,
+            "y": -14.48486328125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 50,
+            "height": 68,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "bg_balloon_green_02": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.299999952316284,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff00",
+              "curve": 0.29518070816993713,
+              "c2": 0,
+              "c3": 0.6325300931930542,
+              "c4": 0.3684210479259491
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "bg_balloon_orange_02": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.0333333015441895,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff00",
+              "curve": 0.29518070816993713,
+              "c2": 0,
+              "c3": 0.6325300931930542,
+              "c4": 0.3684210479259491
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "bg_balloon_green_01": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 4,
+              "x": 105.82095336914062,
+              "y": 208.0748291015625,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.0333333015441895,
+              "x": -63.800018310546875,
+              "y": -236.9615478515625
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.625,
+              "c4": 0.5
+            },
+            {
+              "time": 4,
+              "x": 1.100000023841858,
+              "y": 1.100000023841858,
+              "curve": 0.375,
+              "c2": 0.5,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "bg_balloon_green_02": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 2.99078369140625
+            },
+            {
+              "time": 3.299999952316284,
+              "x": 65.66400146484375,
+              "y": 213.3587646484375,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333332538604736,
+              "x": -54.086334228515625,
+              "y": -328.35986328125
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 2.99078369140625
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.027482509613037,
+              "y": 1.027482509613037,
+              "curve": 0.37585872411727905,
+              "c2": 0.6129032373428345,
+              "c3": 0.7173699140548706,
+              "c4": 1
+            },
+            {
+              "time": 1.6666666269302368,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.625,
+              "c4": 0.5
+            },
+            {
+              "time": 5.666666507720947,
+              "x": 1.100000023841858,
+              "y": 1.100000023841858,
+              "curve": 0.3464314341545105,
+              "c2": 0.37597912549972534,
+              "c3": 0.692862868309021,
+              "c4": 0.7519581913948059
+            },
+            {
+              "time": 8,
+              "x": 1.027482509613037,
+              "y": 1.027482509613037
+            }
+          ]
+        },
+        "bg_balloon_orange_01": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 2.74884033203125
+            },
+            {
+              "time": 4.333333492279053,
+              "x": 170.02688598632812,
+              "y": 266.706787109375,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.366666793823242,
+              "x": -93.86356353759766,
+              "y": -221.991943359375
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 2.74884033203125
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.0564509630203247,
+              "y": 1.0564509630203247,
+              "curve": 0.38235291838645935,
+              "c2": 0.5714285969734192,
+              "c3": 0.7352941036224365,
+              "c4": 1
+            },
+            {
+              "time": 2.6666667461395264,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.625,
+              "c4": 0.5
+            },
+            {
+              "time": 6.666666507720947,
+              "x": 1.100000023841858,
+              "y": 1.100000023841858,
+              "curve": 0.3374999761581421,
+              "c2": 0.3461538553237915,
+              "c3": 0.6749999523162842,
+              "c4": 0.692307710647583
+            },
+            {
+              "time": 8,
+              "x": 1.0564509630203247,
+              "y": 1.0564509630203247
+            }
+          ]
+        },
+        "bg_balloon_orange_02": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 1.69854736328125
+            },
+            {
+              "time": 3,
+              "x": 73.7039794921875,
+              "y": 188.178466796875,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.0333333015441895,
+              "x": -63.8433837890625,
+              "y": -339.529296875
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 1.69854736328125
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.0146528482437134,
+              "y": 1.0146528482437134,
+              "curve": 0.3672807812690735,
+              "c2": 0.6319018602371216,
+              "c3": 0.7045669555664062,
+              "c4": 1
+            },
+            {
+              "time": 1.1333333253860474,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.625,
+              "c4": 0.5
+            },
+            {
+              "time": 5.133333206176758,
+              "x": 1.100000023841858,
+              "y": 1.100000023841858,
+              "curve": 0.35350722074508667,
+              "c2": 0.402189701795578,
+              "c3": 0.7070144414901733,
+              "c4": 0.804379403591156
+            },
+            {
+              "time": 8,
+              "x": 1.0146528482437134,
+              "y": 1.0146528482437134
+            }
+          ]
+        },
+        "bg_balloon_pink_01": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 4,
+              "x": 405.9989929199219,
+              "y": 643.2489624023438,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.0333333015441895,
+              "x": -510.3498229980469,
+              "y": -699.128662109375
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "x": 1.0499999523162842,
+              "y": 1.0499999523162842,
+              "curve": 0.34043624997138977,
+              "c2": 0.35559070110321045,
+              "c3": 0.6808724999427795,
+              "c4": 0.7111814022064209
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "bg_balloon_red_01": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 3.24261474609375
+            },
+            {
+              "time": 4,
+              "x": 101.06489562988281,
+              "y": 154.24554443359375,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.0333333015441895,
+              "x": -81.13967895507812,
+              "y": -208.82904052734375
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 3.24261474609375
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.030065894126892,
+              "y": 1.030065894126892,
+              "curve": 0.3770394027233124,
+              "c2": 0.6091205477714539,
+              "c3": 0.7194923758506775,
+              "c4": 1
+            },
+            {
+              "time": 1.7666666507720947,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.766666889190674,
+              "x": 1.100000023841858,
+              "y": 1.100000023841858,
+              "curve": 0.3452933728694916,
+              "c2": 0.3719872832298279,
+              "c3": 0.6905868053436279,
+              "c4": 0.7439745664596558
+            },
+            {
+              "time": 8,
+              "x": 1.030065894126892,
+              "y": 1.030065894126892
+            }
+          ]
+        },
+        "bg_balloon_yellow_01": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 1.0548095703125
+            },
+            {
+              "time": 5.333333492279053,
+              "x": 181.91690063476562,
+              "y": 476.6546630859375,
+              "curve": "stepped"
+            },
+            {
+              "time": 5.366666793823242,
+              "x": -44.9290771484375,
+              "y": -189.984375
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 1.0548095703125
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.0087779760360718,
+              "y": 1.0087779760360718,
+              "curve": 0.36059102416038513,
+              "c2": 0.6417909860610962,
+              "c3": 0.696122407913208,
+              "c4": 1
+            },
+            {
+              "time": 0.8333333134651184,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.833333492279053,
+              "x": 1.100000023841858,
+              "y": 1.100000023841858,
+              "curve": 0.35828322172164917,
+              "c2": 0.42136067152023315,
+              "c3": 0.7165664434432983,
+              "c4": 0.8427213430404663
+            },
+            {
+              "time": 8,
+              "x": 1.0087779760360718,
+              "y": 1.0087779760360718
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

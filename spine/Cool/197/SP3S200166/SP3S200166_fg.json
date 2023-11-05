@@ -1,0 +1,178 @@
+{
+  "skeleton": {
+    "hash": "62gyZp6fuNLz7d+zvctha8uF8BE",
+    "spine": "3.8",
+    "width": 1382.30859375,
+    "height": 872,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1,
+      "y": -1,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_smoke1",
+      "bone": "fg_1",
+      "attachment": "eff_smoke1",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_smoke2",
+      "bone": "fg_1",
+      "attachment": "eff_smoke2",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_smoke3",
+      "bone": "fg_1",
+      "attachment": "eff_smoke3",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_light4_add1",
+      "bone": "fg_1",
+      "attachment": "eff_light4_add1",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_light4_add2",
+      "bone": "fg_1",
+      "attachment": "eff_light4_add2",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_smoke1": {
+          "eff_smoke1": {
+            "type": "region",
+            "name": "eff_smoke1",
+            "path": "eff_smoke1",
+            "rotation": 0,
+            "x": 478.0780029296875,
+            "y": 69.19760131835938,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 107,
+            "height": 120,
+            "color": "ffffffff"
+          }
+        },
+        "eff_smoke2": {
+          "eff_smoke2": {
+            "type": "region",
+            "name": "eff_smoke2",
+            "path": "eff_smoke2",
+            "rotation": 0,
+            "x": 132.1676025390625,
+            "y": -10.728799819946289,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 62,
+            "height": 61,
+            "color": "ffffffff"
+          }
+        },
+        "eff_smoke3": {
+          "eff_smoke3": {
+            "type": "region",
+            "name": "eff_smoke3",
+            "path": "eff_smoke3",
+            "rotation": 0,
+            "x": -476.2383728027344,
+            "y": 280.635986328125,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 104,
+            "height": 149,
+            "color": "ffffffff"
+          }
+        },
+        "eff_light4_add1": {
+          "eff_light4_add1": {
+            "type": "region",
+            "name": "eff_light4_add1",
+            "path": "eff_light4_add1",
+            "rotation": 0,
+            "x": 303.5700378417969,
+            "y": 140.19760131835938,
+            "scaleX": 8,
+            "scaleY": 8,
+            "width": 98,
+            "height": 78,
+            "color": "ffffffff"
+          }
+        },
+        "eff_light4_add2": {
+          "eff_light4_add2": {
+            "type": "region",
+            "name": "eff_light4_add2",
+            "path": "eff_light4_add2",
+            "rotation": 0,
+            "x": -394.7383728027344,
+            "y": 263.1976013183594,
+            "scaleX": 8,
+            "scaleY": 8,
+            "width": 73,
+            "height": 109,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

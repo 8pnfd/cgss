@@ -1,0 +1,579 @@
+{
+  "skeleton": {
+    "hash": "g5FYCVYw7LsoS+IRg/A/e5bE3gY",
+    "spine": "3.8",
+    "width": 264.88421630859375,
+    "height": 827.3674926757812,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "leaf",
+      "parent": "fg_3",
+      "transform": "normal"
+    },
+    {
+      "name": "leaf_3",
+      "parent": "leaf",
+      "x": -433.7934875488281,
+      "y": 511.137451171875,
+      "transform": "normal"
+    },
+    {
+      "name": "leaf_4",
+      "parent": "leaf",
+      "x": -433.7934875488281,
+      "y": 511.137451171875,
+      "transform": "normal"
+    },
+    {
+      "name": "leaf_5",
+      "parent": "leaf",
+      "x": -433.7934875488281,
+      "y": 511.137451171875,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "leaf_3",
+      "bone": "leaf_3",
+      "attachment": "leaf_1_l",
+      "blend": "normal"
+    },
+    {
+      "name": "leaf_scl3",
+      "bone": "leaf_3",
+      "attachment": "leaf_scl1_l",
+      "blend": "screen"
+    },
+    {
+      "name": "leaf_1",
+      "bone": "fg_3",
+      "attachment": "leaf_01",
+      "blend": "normal"
+    },
+    {
+      "name": "leaf_7",
+      "bone": "fg_3",
+      "attachment": "leaf_07",
+      "blend": "normal"
+    },
+    {
+      "name": "leaf_8",
+      "bone": "fg_3",
+      "attachment": "leaf_07",
+      "blend": "normal"
+    },
+    {
+      "name": "leaf_1_boke3",
+      "bone": "leaf_5",
+      "attachment": "leaf_1_l",
+      "blend": "normal"
+    },
+    {
+      "name": "leaf_scl1_boke3",
+      "bone": "leaf_5",
+      "attachment": "leaf_scl1_l",
+      "blend": "screen"
+    },
+    {
+      "name": "leaf_1_boke2",
+      "bone": "leaf_4",
+      "attachment": "leaf_1_l",
+      "blend": "normal"
+    },
+    {
+      "name": "leaf_scl1_boke2",
+      "bone": "leaf_4",
+      "attachment": "leaf_scl1_l",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [
+    {
+      "name": "leaf_07_1",
+      "order": 0,
+      "bones": [
+        "leaf_4"
+      ],
+      "target": "leaf_7",
+      "positionMode": "percent",
+      "spacingMode": "length",
+      "rotateMode": "tangent",
+      "rotation": -180,
+      "position": 0,
+      "spacing": 0,
+      "rotateMix": 0,
+      "translateMix": 1
+    },
+    {
+      "name": "leaf_08_1",
+      "order": 1,
+      "bones": [
+        "leaf_3"
+      ],
+      "target": "leaf_8",
+      "positionMode": "percent",
+      "spacingMode": "length",
+      "rotateMode": "tangent",
+      "rotation": -180,
+      "position": 0,
+      "spacing": 0,
+      "rotateMix": 0,
+      "translateMix": 1
+    },
+    {
+      "name": "leaf_9_01",
+      "order": 2,
+      "bones": [
+        "leaf_5"
+      ],
+      "target": "leaf_1",
+      "positionMode": "percent",
+      "spacingMode": "length",
+      "rotateMode": "tangent",
+      "rotation": -180,
+      "position": 0,
+      "spacing": 0,
+      "rotateMix": 0,
+      "translateMix": 1
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "leaf_3": {
+          "leaf_1_l": {
+            "type": "region",
+            "name": "leaf_1_l",
+            "path": "leaf_1_l",
+            "rotation": 0,
+            "x": 5.866668701171875,
+            "y": -1.962738037109375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 134,
+            "height": 92,
+            "color": "ffffffff"
+          }
+        },
+        "leaf_scl3": {
+          "leaf_scl1_l": {
+            "type": "region",
+            "name": "leaf_scl1_l",
+            "path": "leaf_scl1_l",
+            "rotation": 0,
+            "x": -0.8094482421875,
+            "y": -1.4140625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 89,
+            "height": 81,
+            "color": "ffffffff"
+          }
+        },
+        "leaf_1": {
+          "leaf_01": {
+            "type": "path",
+            "name": "leaf_01",
+            "closed": false,
+            "constantSpeed": true,
+            "vertexCount": 6,
+            "vertices": [
+              1876.9100341796875,
+              831.8400268554688,
+              908.3699951171875,
+              336.1199951171875,
+              212.9499969482422,
+              -18.260000228881836,
+              -876.25,
+              100.19999694824219,
+              -1180.1600341796875,
+              131.1199951171875,
+              -2267.1201171875,
+              247.99000549316406
+            ],
+            "lengths": [
+              2122.20751953125,
+              5369.14111328125
+            ]
+          }
+        },
+        "leaf_7": {
+          "leaf_07": {
+            "type": "path",
+            "name": "leaf_07",
+            "closed": false,
+            "constantSpeed": true,
+            "vertexCount": 6,
+            "vertices": [
+              1996.75,
+              101.36000061035156,
+              909.8900146484375,
+              46.58000183105469,
+              260.2900085449219,
+              13.680000305175781,
+              -595.8699951171875,
+              144.47999572753906,
+              -1091.72998046875,
+              371.8699951171875,
+              -2081.550048828125,
+              827.010009765625
+            ],
+            "lengths": [
+              2042.2349853515625,
+              5259.171875
+            ]
+          }
+        },
+        "leaf_8": {
+          "leaf_07": {
+            "type": "path",
+            "name": "leaf_07",
+            "closed": false,
+            "constantSpeed": true,
+            "vertexCount": 6,
+            "vertices": [
+              2096.93994140625,
+              1032.9200439453125,
+              1038.97998046875,
+              777.969970703125,
+              419.239990234375,
+              630.1199951171875,
+              -430.32000732421875,
+              775.5900268554688,
+              -904.0900268554688,
+              885.9299926757812,
+              -1964.219970703125,
+              1136.9599609375
+            ],
+            "lengths": [
+              1959.9541015625,
+              5070.8388671875
+            ]
+          }
+        },
+        "leaf_1_boke3": {
+          "leaf_1_l": {
+            "type": "region",
+            "name": "leaf_1_l",
+            "path": "leaf_1_l",
+            "rotation": 0,
+            "x": 5.60003662109375,
+            "y": -2.800048828125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 134,
+            "height": 92,
+            "color": "ffffffff"
+          }
+        },
+        "leaf_scl1_boke3": {
+          "leaf_scl1_l": {
+            "type": "region",
+            "name": "leaf_scl1_l",
+            "path": "leaf_scl1_l",
+            "rotation": 0,
+            "x": 5.60003662109375,
+            "y": -2.800048828125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 89,
+            "height": 81,
+            "color": "ffffffff"
+          }
+        },
+        "leaf_1_boke2": {
+          "leaf_1_l": {
+            "type": "region",
+            "name": "leaf_1_l",
+            "path": "leaf_1_l",
+            "rotation": 0,
+            "x": 12.4739990234375,
+            "y": -5.939994812011719,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 134,
+            "height": 92,
+            "color": "ffffffff"
+          }
+        },
+        "leaf_scl1_boke2": {
+          "leaf_scl1_l": {
+            "type": "region",
+            "name": "leaf_scl1_l",
+            "path": "leaf_scl1_l",
+            "rotation": 0,
+            "x": 12.4739990234375,
+            "y": -5.939994812011719,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 89,
+            "height": 81,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {
+        "leaf_3": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -157.4999542236328
+            },
+            {
+              "time": 1.2999999523162842,
+              "angle": -90
+            },
+            {
+              "time": 3.066666603088379,
+              "angle": -0.100006103515625
+            },
+            {
+              "time": 4.833333492279053,
+              "angle": 90
+            },
+            {
+              "time": 6.599999904632568,
+              "angle": 180
+            },
+            {
+              "time": 8.333333015441895,
+              "angle": -90
+            },
+            {
+              "time": 10.100000381469727,
+              "angle": -0.100006103515625,
+              "curve": "stepped"
+            },
+            {
+              "time": 37,
+              "angle": 0
+            },
+            {
+              "time": 38.766666412353516,
+              "angle": 90
+            },
+            {
+              "time": 40.53333282470703,
+              "angle": 180
+            },
+            {
+              "time": 42.266666412353516,
+              "angle": -90
+            },
+            {
+              "time": 44.03333282470703,
+              "angle": -0.100006103515625
+            },
+            {
+              "time": 45.79999923706055,
+              "angle": 90
+            },
+            {
+              "time": 47.56666564941406,
+              "angle": 180
+            },
+            {
+              "time": 48,
+              "angle": -157.4999542236328
+            }
+          ]
+        },
+        "leaf_4": {
+          "rotate": [
+            {
+              "time": 15,
+              "angle": 0
+            },
+            {
+              "time": 16.799999237060547,
+              "angle": 90
+            },
+            {
+              "time": 18.53333282470703,
+              "angle": 180
+            },
+            {
+              "time": 20.33333396911621,
+              "angle": -90
+            },
+            {
+              "time": 22.100000381469727,
+              "angle": -0.100006103515625
+            },
+            {
+              "time": 23.899999618530273,
+              "angle": 90
+            },
+            {
+              "time": 25.66666603088379,
+              "angle": 180
+            },
+            {
+              "time": 27.433332443237305,
+              "angle": -90
+            },
+            {
+              "time": 29.233333587646484,
+              "angle": -0.100006103515625
+            },
+            {
+              "time": 31,
+              "angle": 90
+            },
+            {
+              "time": 32.766666412353516,
+              "angle": 180
+            },
+            {
+              "time": 34.53333282470703,
+              "angle": -90
+            },
+            {
+              "time": 36.33333206176758,
+              "angle": -0.100006103515625
+            }
+          ]
+        },
+        "leaf_5": {
+          "rotate": [
+            {
+              "time": 29.866666793823242,
+              "angle": 0
+            },
+            {
+              "time": 31.66666603088379,
+              "angle": 90
+            },
+            {
+              "time": 33.46666717529297,
+              "angle": 180
+            },
+            {
+              "time": 35.266666412353516,
+              "angle": -90
+            },
+            {
+              "time": 37.03333282470703,
+              "angle": -0.100006103515625
+            },
+            {
+              "time": 38.79999923706055,
+              "angle": 90
+            },
+            {
+              "time": 40.599998474121094,
+              "angle": 180
+            },
+            {
+              "time": 42.400001525878906,
+              "angle": -90
+            },
+            {
+              "time": 44.20000076293945,
+              "angle": -0.100006103515625
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {
+        "leaf_07_1": {
+          "position": [
+            {
+              "time": 15.333333015441895,
+              "position": 0
+            },
+            {
+              "time": 29.66666603088379,
+              "position": 1
+            }
+          ]
+        },
+        "leaf_08_1": {
+          "position": [
+            {
+              "time": 0,
+              "position": 0.7674418687820435
+            },
+            {
+              "time": 3.3333332538604736,
+              "position": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 37,
+              "position": 0
+            },
+            {
+              "time": 48,
+              "position": 0.7674418687820435
+            }
+          ]
+        },
+        "leaf_9_01": {
+          "position": [
+            {
+              "time": 30.03333282470703,
+              "position": 0
+            },
+            {
+              "time": 44.36666488647461,
+              "position": 1
+            }
+          ]
+        }
+      },
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

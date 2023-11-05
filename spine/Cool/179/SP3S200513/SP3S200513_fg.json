@@ -1,0 +1,124 @@
+{
+  "skeleton": {
+    "hash": "pbXpZ3i9HYXm5mheF3JixPIQq94",
+    "spine": "3.8",
+    "width": 91.00001525878906,
+    "height": 91,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "shower_head",
+      "parent": "all",
+      "x": 32.30002975463867,
+      "y": 343.8537902832031,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "shower_head",
+      "bone": "shower_head",
+      "attachment": "shower_head",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "shower_head": {
+          "shower_head": {
+            "type": "region",
+            "name": "shower_head",
+            "path": "shower_head",
+            "rotation": 0,
+            "x": 4.615877151489258,
+            "y": 3.044036865234375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 91,
+            "height": 91,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {
+        "shower_head": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

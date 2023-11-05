@@ -1,0 +1,189 @@
+{
+  "skeleton": {
+    "hash": "sOJYY7383iMUjnge5GyQ5sXN9KQ",
+    "spine": "3.8",
+    "width": 1378,
+    "height": 990,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "ef_light_1",
+      "bone": "all",
+      "attachment": "ef_light_1",
+      "blend": "additive"
+    },
+    {
+      "name": "ef_light_2",
+      "bone": "all",
+      "attachment": "ef_light_1",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "ef_light_1": {
+          "ef_light_1": {
+            "type": "region",
+            "name": "ef_light_1",
+            "path": "ef_light_1",
+            "rotation": 0,
+            "x": 3.4816172122955322,
+            "y": 393.50640869140625,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 689,
+            "height": 495,
+            "color": "ffffffff"
+          }
+        },
+        "ef_light_2": {
+          "ef_light_1": {
+            "type": "region",
+            "name": "ef_light_1",
+            "path": "ef_light_1",
+            "rotation": 0,
+            "x": 3.4816172122955322,
+            "y": 393.50640869140625,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 689,
+            "height": 495,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "ef_light_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.3666666746139526,
+              "color": "ffffff50",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.366666793823242,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.366666793823242,
+              "color": "ffffff50",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "ef_light_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff4b",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.3666666746139526,
+              "color": "ffffff50",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff4b",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.366666793823242,
+              "color": "ffffff4b",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.366666793823242,
+              "color": "ffffff50",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffff4b"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "skeleton": {
+    "hash": "9bz9tGz9vOHLq6HDj1grpld9lcM",
+    "spine": "3.8",
+    "width": 562.0001220703125,
+    "height": 564.0000610351562,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_circle_add4",
+      "parent": "all",
+      "x": -550.2186279296875,
+      "y": 527.8428344726562,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_circle_add16",
+      "parent": "all",
+      "x": -580.0313720703125,
+      "y": 750.4960327148438,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_circle2_add15",
+      "bone": "eff_circle_add16",
+      "attachment": "eff_circle6_add",
+      "blend": "screen"
+    },
+    {
+      "name": "eff_circle2_add07_screen2",
+      "bone": "eff_circle_add4",
+      "attachment": "eff_circle5_add",
+      "blend": "screen"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_circle2_add15": {
+          "eff_circle6_add": {
+            "type": "region",
+            "name": "eff_circle6_add",
+            "path": "eff_circle6_add",
+            "rotation": 0,
+            "x": 0,
+            "y": 0,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 281,
+            "height": 282,
+            "color": "ffffffff"
+          }
+        },
+        "eff_circle2_add07_screen2": {
+          "eff_circle5_add": {
+            "type": "region",
+            "name": "eff_circle5_add",
+            "path": "eff_circle5_add",
+            "rotation": 0,
+            "x": 0,
+            "y": 0,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 118,
+            "height": 112,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_circle2_add15": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.2333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.099999904632568,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_circle2_add07_screen2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.6333333253860474,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.300000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.9666666984558105,
+              "color": "ffffff21"
+            },
+            {
+              "time": 5.066666603088379,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.300000190734863,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.9666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "eff_circle_add4": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.20000000298023224,
+              "x": 0.800000011920929,
+              "y": 0.800000011920929
+            },
+            {
+              "time": 4.9666666984558105,
+              "x": 1.4856164455413818,
+              "y": 1.4856164455413818
+            },
+            {
+              "time": 5.066666603088379,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 5.300000190734863,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.9666666984558105,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "eff_circle_add16": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.2333333492279053,
+              "x": 0.800000011920929,
+              "y": 0.800000011920929
+            },
+            {
+              "time": 7.099999904632568,
+              "x": 1.5,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.333333492279053,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

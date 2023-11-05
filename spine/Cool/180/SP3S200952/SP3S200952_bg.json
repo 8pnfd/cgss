@@ -1,0 +1,149 @@
+{
+  "skeleton": {
+    "hash": "lJI7ZmJtkR3ze5xxiVfR/hXrc6Q",
+    "spine": "3.8",
+    "width": 1787.1702880859375,
+    "height": 1651.985107421875,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_1",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_2",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_3",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg",
+      "bone": "bg_3",
+      "attachment": "bg",
+      "blend": "normal"
+    },
+    {
+      "name": "Hi",
+      "bone": "bg_1",
+      "attachment": "Hi",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg": {
+          "bg": {
+            "type": "region",
+            "name": "bg",
+            "path": "bg",
+            "rotation": 0,
+            "x": -2.4135642051696777,
+            "y": 406.5495910644531,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1316,
+            "height": 850,
+            "color": "ffffffff"
+          }
+        },
+        "Hi": {
+          "Hi": {
+            "type": "region",
+            "name": "Hi",
+            "path": "Hi",
+            "rotation": 0,
+            "x": -78.37073516845703,
+            "y": 463.8238220214844,
+            "scaleX": 3.8516595363616943,
+            "scaleY": 4.279754161834717,
+            "width": 464,
+            "height": 386,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "Hi": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffb7",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.399999976158142,
+              "color": "ffffffb7"
+            },
+            {
+              "time": 2.1666667461395264,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.0333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.066666603088379,
+              "color": "ffffffb7",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffb7"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

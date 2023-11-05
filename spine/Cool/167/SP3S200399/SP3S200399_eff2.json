@@ -1,0 +1,400 @@
+{
+  "skeleton": {
+    "hash": "afBZJmIiO0OvmFascghOtkcia1k",
+    "spine": "3.8",
+    "width": 1183.3204345703125,
+    "height": 850.3522338867188,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_light",
+      "parent": "all",
+      "x": -0.000015662048099329695,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff2_light2_screen",
+      "bone": "eff_light",
+      "color": "ffffff00",
+      "attachment": "eff2_light2_screen",
+      "blend": "screen"
+    },
+    {
+      "name": "eff2_light2_screen2",
+      "bone": "eff_light",
+      "color": "ffffff00",
+      "attachment": "eff2_light2_screen",
+      "blend": "screen"
+    },
+    {
+      "name": "eff2_light1_screen",
+      "bone": "eff_light",
+      "attachment": "eff2_light1_screen",
+      "blend": "screen"
+    },
+    {
+      "name": "eff2_light1_screen2",
+      "bone": "eff_light",
+      "attachment": "eff2_light1_screen",
+      "blend": "screen"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff2_light2_screen": {
+          "eff2_light2_screen": {
+            "type": "region",
+            "name": "eff2_light2_screen",
+            "path": "eff2_light2_screen",
+            "rotation": -0.00039333105087280273,
+            "x": -592.1699829101562,
+            "y": 27.804000854492188,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 117,
+            "height": 81,
+            "color": "ffffffff"
+          }
+        },
+        "eff2_light2_screen2": {
+          "eff2_light2_screen": {
+            "type": "region",
+            "name": "eff2_light2_screen",
+            "path": "eff2_light2_screen",
+            "rotation": -0.00039333105087280273,
+            "x": -592.1699829101562,
+            "y": 27.804000854492188,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 117,
+            "height": 81,
+            "color": "ffffff93"
+          }
+        },
+        "eff2_light1_screen": {
+          "eff2_light1_screen": {
+            "type": "region",
+            "name": "eff2_light1_screen",
+            "path": "eff2_light1_screen",
+            "rotation": -0.00039333105087280273,
+            "x": 491.15008544921875,
+            "y": 810.155517578125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 83,
+            "height": 55,
+            "color": "ffffffff"
+          }
+        },
+        "eff2_light1_screen2": {
+          "eff2_light1_screen": {
+            "type": "region",
+            "name": "eff2_light1_screen",
+            "path": "eff2_light1_screen",
+            "rotation": -0.00039333105087280273,
+            "x": 491.15008544921875,
+            "y": 810.155517578125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 83,
+            "height": 55,
+            "color": "ffffff93"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff2_light1_screen": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffbe"
+            },
+            {
+              "time": 1.2999999523162842,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3666666746139526,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffbe"
+            },
+            {
+              "time": 3.9666666984558105,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.0333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffbe"
+            },
+            {
+              "time": 6.633333206176758,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.699999809265137,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffbe"
+            }
+          ]
+        },
+        "eff2_light1_screen2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffbe"
+            },
+            {
+              "time": 1.2999999523162842,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3666666746139526,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffbe"
+            },
+            {
+              "time": 3.9666666984558105,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.0333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffbe"
+            },
+            {
+              "time": 6.633333206176758,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.699999809265137,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffbe"
+            }
+          ]
+        },
+        "eff2_light2_screen": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.03333333507180214,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.218068242073059,
+              "color": "ffffffbe",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffbe"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.700000047683716,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffbe"
+            },
+            {
+              "time": 5.300000190734863,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.366666793823242,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffffbe"
+            },
+            {
+              "time": 7.9666666984558105,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff2_light2_screen2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.03333333507180214,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffbe"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.700000047683716,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffbe"
+            },
+            {
+              "time": 5.300000190734863,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.366666793823242,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffffbe"
+            },
+            {
+              "time": 7.9666666984558105,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

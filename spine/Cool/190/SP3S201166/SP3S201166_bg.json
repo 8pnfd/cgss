@@ -1,0 +1,186 @@
+{
+  "skeleton": {
+    "hash": "005/z+X5JvwZsKnbBofoUHb4y7A",
+    "spine": "3.8",
+    "width": 1297.9185791015625,
+    "height": 843.0059814453125,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_1",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_2",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_3",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_sea",
+      "parent": "bg_1",
+      "x": 2.6226831550957286e-7,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg",
+      "bone": "bg_3",
+      "attachment": "bg",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_sea_1",
+      "bone": "bg_sea",
+      "attachment": "bg_sea_1",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_sea_2",
+      "bone": "bg_sea",
+      "attachment": "bg_sea_2",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_sea_3",
+      "bone": "bg_sea",
+      "attachment": "bg_sea_3",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_sea_4",
+      "bone": "bg_sea",
+      "attachment": "bg_sea_4",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg": {
+          "bg": {
+            "type": "region",
+            "name": "bg",
+            "path": "bg",
+            "rotation": 0,
+            "x": -215.3000030517578,
+            "y": 413.1000061035156,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 868,
+            "height": 843,
+            "color": "ffffffff"
+          }
+        },
+        "bg_sea_1": {
+          "bg_sea_1": {
+            "type": "region",
+            "name": "bg_sea_1",
+            "path": "bg_sea_1",
+            "rotation": 0,
+            "x": 436.6185607910156,
+            "y": 604.45849609375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 424,
+            "height": 273,
+            "color": "ffffffff"
+          }
+        },
+        "bg_sea_2": {
+          "bg_sea_2": {
+            "type": "region",
+            "name": "bg_sea_2",
+            "path": "bg_sea_2",
+            "rotation": 46,
+            "x": 139.75352478027344,
+            "y": 414.7086181640625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 226,
+            "height": 41,
+            "color": "ffffffff"
+          }
+        },
+        "bg_sea_3": {
+          "bg_sea_3": {
+            "type": "region",
+            "name": "bg_sea_3",
+            "path": "bg_sea_3",
+            "rotation": 0,
+            "x": -140.17848205566406,
+            "y": 96.59400177001953,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 321,
+            "height": 210,
+            "color": "ffffffff"
+          }
+        },
+        "bg_sea_4": {
+          "bg_sea_4": {
+            "type": "region",
+            "name": "bg_sea_4",
+            "path": "bg_sea_4",
+            "rotation": 0,
+            "x": 101.44355773925781,
+            "y": 281.9964904785156,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 201,
+            "height": 258,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

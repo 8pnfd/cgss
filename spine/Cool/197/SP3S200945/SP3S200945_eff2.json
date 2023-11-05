@@ -1,0 +1,98 @@
+{
+  "skeleton": {
+    "hash": "u0TLRXdk8CfKBZnQA7JqU+rEFGw",
+    "spine": "3.8",
+    "width": 1328.39111328125,
+    "height": 852,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg_sub1",
+      "bone": "all",
+      "attachment": "bg_sub1",
+      "blend": "normal"
+    },
+    {
+      "name": "eff2_moon_light",
+      "bone": "all",
+      "attachment": "eff2_moon_light",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg_sub1": {
+          "bg_sub1": {
+            "type": "region",
+            "name": "bg_sub1",
+            "path": "bg_sub1",
+            "rotation": 0,
+            "x": 380.9739990234375,
+            "y": 411.7749938964844,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 546,
+            "height": 852,
+            "color": "ffffffff"
+          }
+        },
+        "eff2_moon_light": {
+          "eff2_moon_light": {
+            "type": "region",
+            "name": "eff2_moon_light",
+            "path": "eff2_moon_light",
+            "rotation": 0,
+            "x": -457.4169921875,
+            "y": 457.8215026855469,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 217,
+            "height": 230,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

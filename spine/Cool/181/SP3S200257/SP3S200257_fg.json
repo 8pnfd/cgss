@@ -1,0 +1,103 @@
+{
+  "skeleton": {
+    "hash": "HWiRdIiFNEMIdOk/Bjqx+FQ3Wqw",
+    "spine": "3.8",
+    "width": 483.5000305175781,
+    "height": 738.5,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "dress_screen",
+      "bone": "fg_3",
+      "attachment": "dress_screen",
+      "blend": "screen"
+    },
+    {
+      "name": "dress",
+      "bone": "fg_3",
+      "attachment": "dress",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "dress_screen": {
+          "dress_screen": {
+            "type": "region",
+            "name": "dress_screen",
+            "path": "dress_screen",
+            "rotation": 0,
+            "x": -443.0201721191406,
+            "y": 329.4285888671875,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 241,
+            "height": 366,
+            "color": "ffffffff"
+          }
+        },
+        "dress": {
+          "dress": {
+            "type": "region",
+            "name": "dress",
+            "path": "dress",
+            "rotation": 0,
+            "x": -476.5201721191406,
+            "y": 304.4285888671875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 418,
+            "height": 695,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

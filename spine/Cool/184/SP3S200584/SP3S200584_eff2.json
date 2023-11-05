@@ -1,0 +1,328 @@
+{
+  "skeleton": {
+    "hash": "SdyVXIyN8y2wx3yFKuvLRFn6r1Y",
+    "spine": "3.8",
+    "width": 1328.9422607421875,
+    "height": 475.21063232421875,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_ray_a",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_ray_a1",
+      "parent": "eff_ray_a",
+      "x": 350.0860900878906,
+      "y": 689.3720703125,
+      "scaleX": 2,
+      "scaleY": 2,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_ray_a2",
+      "parent": "eff_ray_a",
+      "x": -467.5498962402344,
+      "y": 677.41796875,
+      "scaleX": 2,
+      "scaleY": 2,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_ray_add_left2",
+      "bone": "eff_ray_a1",
+      "color": "ffffffc2",
+      "attachment": "eff_ray_add_left",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_ray_add_light2",
+      "bone": "eff_ray_a2",
+      "color": "ffffffc2",
+      "attachment": "eff_ray_add_light",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_ray_add_left",
+      "bone": "eff_ray_a1",
+      "color": "ffffffc2",
+      "attachment": "eff_ray_add_left",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_ray_add_light",
+      "bone": "eff_ray_a2",
+      "color": "ffffffc2",
+      "attachment": "eff_ray_add_light",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_ray_add_left2": {
+          "eff_ray_add_left": {
+            "type": "region",
+            "name": "eff_ray_add_left",
+            "path": "eff_ray_add_left",
+            "rotation": 0,
+            "x": -0.0205078125,
+            "y": -258.98333740234375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 313,
+            "height": 237,
+            "color": "ffffffff"
+          }
+        },
+        "eff_ray_add_light2": {
+          "eff_ray_add_light": {
+            "type": "region",
+            "name": "eff_ray_add_light",
+            "path": "eff_ray_add_light",
+            "rotation": 0,
+            "x": 1.8264007568359375,
+            "y": -259.6116027832031,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 202,
+            "height": 225,
+            "color": "ffffffff"
+          }
+        },
+        "eff_ray_add_left": {
+          "eff_ray_add_left": {
+            "type": "region",
+            "name": "eff_ray_add_left",
+            "path": "eff_ray_add_left",
+            "rotation": 0,
+            "x": -0.0205078125,
+            "y": -258.98333740234375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 313,
+            "height": 237,
+            "color": "ffffffff"
+          }
+        },
+        "eff_ray_add_light": {
+          "eff_ray_add_light": {
+            "type": "region",
+            "name": "eff_ray_add_light",
+            "path": "eff_ray_add_light",
+            "rotation": 0,
+            "x": 1.8264007568359375,
+            "y": -259.6116027832031,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 202,
+            "height": 225,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_ray_add_left": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff15",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffff15",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffff15"
+            }
+          ]
+        },
+        "eff_ray_add_left2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff7e",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffff7e",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffff7e"
+            }
+          ]
+        },
+        "eff_ray_add_light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff15",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffff15",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffff15"
+            }
+          ]
+        },
+        "eff_ray_add_light2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff7e",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffff7e",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffff7e"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

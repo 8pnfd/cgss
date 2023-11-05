@@ -1,0 +1,1875 @@
+{
+  "skeleton": {
+    "hash": "QNAdKVWXMgILbOsdgBNN+Co8aZU",
+    "spine": "3.8",
+    "width": 1369.747314453125,
+    "height": 961.1892700195312,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_rens_b",
+      "parent": "all",
+      "x": -8.742277657347586e-8,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_rens_b1",
+      "parent": "eff_rens_b",
+      "rotation": 47,
+      "x": 325.87957763671875,
+      "y": 930.1139526367188,
+      "transform": "normal"
+    },
+    {
+      "name": "hi_scl",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "hi_scl_01",
+      "parent": "hi_scl",
+      "x": 297.431640625,
+      "y": 858.0258178710938,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "hi_scl",
+      "bone": "hi_scl_01",
+      "attachment": "hi_scl",
+      "blend": "screen"
+    },
+    {
+      "name": "Lensflare_L_scl2",
+      "bone": "eff_rens_b1",
+      "attachment": "Lensflare_L_scl",
+      "blend": "screen"
+    },
+    {
+      "name": "Lensflare_circle_add3",
+      "bone": "eff_rens_b1",
+      "attachment": "Lensflare_circle_add03",
+      "blend": "additive"
+    },
+    {
+      "name": "Lensflare_circle_add5",
+      "bone": "eff_rens_b1",
+      "attachment": "Lensflare_circle_add05",
+      "blend": "additive"
+    },
+    {
+      "name": "Lensflare_circle_scl1",
+      "bone": "eff_rens_b1",
+      "attachment": "Lensflare_circle_scl01",
+      "blend": "screen"
+    },
+    {
+      "name": "Lensflare_circle_scl2",
+      "bone": "eff_rens_b1",
+      "attachment": "Lensflare_circle_scl02",
+      "blend": "screen"
+    },
+    {
+      "name": "Lensflare_circle_scl4",
+      "bone": "eff_rens_b1",
+      "attachment": "Lensflare_circle_scl04",
+      "blend": "screen"
+    },
+    {
+      "name": "Lensflare_circle_scl6",
+      "bone": "eff_rens_b1",
+      "attachment": "Lensflare_circle_scl06",
+      "blend": "screen"
+    },
+    {
+      "name": "Lensflare_circle_scl7",
+      "bone": "eff_rens_b1",
+      "attachment": "Lensflare_circle_scl07",
+      "blend": "screen"
+    },
+    {
+      "name": "Lensflare_ling_add1",
+      "bone": "eff_rens_b1",
+      "attachment": "Lensflare_ling_add01",
+      "blend": "additive"
+    },
+    {
+      "name": "Lensflare_ling_add3",
+      "bone": "eff_rens_b1",
+      "attachment": "Lensflare_ling_add03",
+      "blend": "additive"
+    },
+    {
+      "name": "Lensflare_ling_scl2",
+      "bone": "eff_rens_b1",
+      "attachment": "Lensflare_ling_scl02",
+      "blend": "screen"
+    },
+    {
+      "name": "Lensflare_ling_scl4",
+      "bone": "eff_rens_b1",
+      "attachment": "Lensflare_ling_scl04",
+      "blend": "screen"
+    },
+    {
+      "name": "ghost_add2",
+      "bone": "eff_rens_b1",
+      "attachment": "ghost_add",
+      "blend": "additive"
+    },
+    {
+      "name": "rainbow_add1",
+      "bone": "eff_rens_b1",
+      "attachment": "rainbow_add01",
+      "blend": "additive"
+    },
+    {
+      "name": "rainbow_add2",
+      "bone": "eff_rens_b1",
+      "attachment": "rainbow_add02",
+      "blend": "additive"
+    },
+    {
+      "name": "rainbow_add3",
+      "bone": "eff_rens_b1",
+      "attachment": "rainbow_add03",
+      "blend": "additive"
+    },
+    {
+      "name": "rainbow_add4",
+      "bone": "eff_rens_b1",
+      "attachment": "rainbow_add04",
+      "blend": "additive"
+    },
+    {
+      "name": "rainbow_add5",
+      "bone": "eff_rens_b1",
+      "attachment": "rainbow_add05",
+      "blend": "additive"
+    },
+    {
+      "name": "rainbow_add6",
+      "bone": "eff_rens_b1",
+      "attachment": "rainbow_add06",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "hi_scl": {
+          "hi_scl": {
+            "type": "region",
+            "name": "hi_scl",
+            "path": "hi_scl",
+            "rotation": 0,
+            "x": -152.76959228515625,
+            "y": -318.86602783203125,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 275,
+            "height": 175,
+            "color": "ffffffff"
+          }
+        },
+        "Lensflare_L_scl2": {
+          "Lensflare_L_scl": {
+            "type": "region",
+            "name": "Lensflare_L_scl",
+            "path": "Lensflare_L_scl",
+            "rotation": -47,
+            "x": -659.042724609375,
+            "y": 239.5071563720703,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 161,
+            "height": 297,
+            "color": "ffffffff"
+          }
+        },
+        "Lensflare_circle_add3": {
+          "Lensflare_circle_add03": {
+            "type": "region",
+            "name": "Lensflare_circle_add03",
+            "path": "Lensflare_circle_add03",
+            "rotation": -47,
+            "x": -697.718505859375,
+            "y": 21.310739517211914,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 111,
+            "height": 111,
+            "color": "ffffffff"
+          }
+        },
+        "Lensflare_circle_add5": {
+          "Lensflare_circle_add05": {
+            "type": "region",
+            "name": "Lensflare_circle_add05",
+            "path": "Lensflare_circle_add05",
+            "rotation": -47,
+            "x": -836.7511596679688,
+            "y": 18.14108657836914,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 34,
+            "height": 34,
+            "color": "ffffffff"
+          }
+        },
+        "Lensflare_circle_scl1": {
+          "Lensflare_circle_scl01": {
+            "type": "region",
+            "name": "Lensflare_circle_scl01",
+            "path": "Lensflare_circle_scl01",
+            "rotation": -47,
+            "x": -225.89540100097656,
+            "y": -12.173406600952148,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 26,
+            "height": 26,
+            "color": "ffffffff"
+          }
+        },
+        "Lensflare_circle_scl2": {
+          "Lensflare_circle_scl02": {
+            "type": "region",
+            "name": "Lensflare_circle_scl02",
+            "path": "Lensflare_circle_scl02",
+            "rotation": -47,
+            "x": -265.1539001464844,
+            "y": -13.214820861816406,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 93,
+            "height": 92,
+            "color": "ffffffff"
+          }
+        },
+        "Lensflare_circle_scl4": {
+          "Lensflare_circle_scl04": {
+            "type": "region",
+            "name": "Lensflare_circle_scl04",
+            "path": "Lensflare_circle_scl04",
+            "rotation": -47,
+            "x": -794.0772094726562,
+            "y": 34.739768981933594,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 51,
+            "height": 45,
+            "color": "ffffffff"
+          }
+        },
+        "Lensflare_circle_scl6": {
+          "Lensflare_circle_scl06": {
+            "type": "region",
+            "name": "Lensflare_circle_scl06",
+            "path": "Lensflare_circle_scl06",
+            "rotation": -47,
+            "x": -997.9674682617188,
+            "y": 24.519447326660156,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 96,
+            "height": 96,
+            "color": "ffffffff"
+          }
+        },
+        "Lensflare_circle_scl7": {
+          "Lensflare_circle_scl07": {
+            "type": "region",
+            "name": "Lensflare_circle_scl07",
+            "path": "Lensflare_circle_scl07",
+            "rotation": -47,
+            "x": -1289.9134521484375,
+            "y": 106.90531158447266,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 33,
+            "height": 90,
+            "color": "ffffffff"
+          }
+        },
+        "Lensflare_ling_add1": {
+          "Lensflare_ling_add01": {
+            "type": "region",
+            "name": "Lensflare_ling_add01",
+            "path": "Lensflare_ling_add01",
+            "rotation": -47,
+            "x": -190.32972717285156,
+            "y": -76.81884002685547,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 241,
+            "height": 168,
+            "color": "ffffffff"
+          }
+        },
+        "Lensflare_ling_add3": {
+          "Lensflare_ling_add03": {
+            "type": "region",
+            "name": "Lensflare_ling_add03",
+            "path": "Lensflare_ling_add03",
+            "rotation": -47,
+            "x": -383.7268371582031,
+            "y": -153.93817138671875,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 272,
+            "height": 199,
+            "color": "ffffffff"
+          }
+        },
+        "Lensflare_ling_scl2": {
+          "Lensflare_ling_scl02": {
+            "type": "region",
+            "name": "Lensflare_ling_scl02",
+            "path": "Lensflare_ling_scl02",
+            "rotation": -47,
+            "x": -354.50732421875,
+            "y": -147.81100463867188,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 264,
+            "height": 187,
+            "color": "ffffffff"
+          }
+        },
+        "Lensflare_ling_scl4": {
+          "Lensflare_ling_scl04": {
+            "type": "region",
+            "name": "Lensflare_ling_scl04",
+            "path": "Lensflare_ling_scl04",
+            "rotation": -47,
+            "x": -383.2294616699219,
+            "y": -162.30801391601562,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 269,
+            "height": 202,
+            "color": "ffffffff"
+          }
+        },
+        "ghost_add2": {
+          "ghost_add": {
+            "type": "region",
+            "name": "ghost_add",
+            "path": "ghost_add",
+            "rotation": -47,
+            "x": -980.8543701171875,
+            "y": 29.45033836364746,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 94,
+            "height": 125,
+            "color": "ffffffff"
+          }
+        },
+        "rainbow_add1": {
+          "rainbow_add01": {
+            "type": "region",
+            "name": "rainbow_add01",
+            "path": "rainbow_add01",
+            "rotation": -47,
+            "x": -451.1074523925781,
+            "y": -559.7886352539062,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 58,
+            "height": 54,
+            "color": "ffffffff"
+          }
+        },
+        "rainbow_add2": {
+          "rainbow_add02": {
+            "type": "region",
+            "name": "rainbow_add02",
+            "path": "rainbow_add02",
+            "rotation": -47,
+            "x": -484.3821716308594,
+            "y": -620.3152465820312,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 62,
+            "height": 82,
+            "color": "ffffffff"
+          }
+        },
+        "rainbow_add3": {
+          "rainbow_add03": {
+            "type": "region",
+            "name": "rainbow_add03",
+            "path": "rainbow_add03",
+            "rotation": -47,
+            "x": -544.0537109375,
+            "y": -693.7938842773438,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 62,
+            "height": 75,
+            "color": "ffffffff"
+          }
+        },
+        "rainbow_add4": {
+          "rainbow_add04": {
+            "type": "region",
+            "name": "rainbow_add04",
+            "path": "rainbow_add04",
+            "rotation": -47,
+            "x": -836.1757202148438,
+            "y": 147.67526245117188,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 53,
+            "height": 57,
+            "color": "ffffffff"
+          }
+        },
+        "rainbow_add5": {
+          "rainbow_add05": {
+            "type": "region",
+            "name": "rainbow_add05",
+            "path": "rainbow_add05",
+            "rotation": -47,
+            "x": -814.361572265625,
+            "y": 284.0307922363281,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 62,
+            "height": 34,
+            "color": "ffffffff"
+          }
+        },
+        "rainbow_add6": {
+          "rainbow_add06": {
+            "type": "region",
+            "name": "rainbow_add06",
+            "path": "rainbow_add06",
+            "rotation": -47,
+            "x": -1011.4180297851562,
+            "y": 243.498046875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 33,
+            "height": 34,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "Lensflare_L_scl2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1666666716337204,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.799999952316284,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.9666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffffad"
+            },
+            {
+              "time": 6.099999904632568,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Lensflare_circle_add3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.366666555404663,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffad"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Lensflare_circle_add5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.366666555404663,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffad"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Lensflare_circle_scl1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.366666555404663,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffad"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Lensflare_circle_scl2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.366666555404663,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffad"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Lensflare_circle_scl4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.366666555404663,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffad"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Lensflare_circle_scl6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1666666716337204,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.799999952316284,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.9666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffffad"
+            },
+            {
+              "time": 6.099999904632568,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Lensflare_circle_scl7": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1666666716337204,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.799999952316284,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.9666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffffad"
+            },
+            {
+              "time": 6.099999904632568,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Lensflare_ling_add1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.366666555404663,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffad"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Lensflare_ling_add3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.366666555404663,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffad"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Lensflare_ling_scl2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.366666555404663,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffad"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "Lensflare_ling_scl4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.366666555404663,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffad"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "ghost_add2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1666666716337204,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.799999952316284,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.9666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffffad"
+            },
+            {
+              "time": 6.099999904632568,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "hi_scl": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2,
+              "color": "ffffff9d"
+            },
+            {
+              "time": 4,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6,
+              "color": "ffffff9d"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "rainbow_add1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1666666716337204,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.799999952316284,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.9666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffffad"
+            },
+            {
+              "time": 6.099999904632568,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "rainbow_add2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1666666716337204,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.799999952316284,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.9666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffffad"
+            },
+            {
+              "time": 6.099999904632568,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "rainbow_add3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1666666716337204,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.799999952316284,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.9666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffffad"
+            },
+            {
+              "time": 6.099999904632568,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "rainbow_add4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1666666716337204,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.799999952316284,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.9666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffffad"
+            },
+            {
+              "time": 6.099999904632568,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "rainbow_add5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1666666716337204,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.799999952316284,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.9666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffffad"
+            },
+            {
+              "time": 6.099999904632568,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "rainbow_add6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1666666716337204,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.799999952316284,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.9666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffffad"
+            },
+            {
+              "time": 6.099999904632568,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "eff_rens_b1": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.9600000381469727,
+              "y": 1,
+              "curve": 0.21932469308376312,
+              "c2": 0.038844622671604156,
+              "c3": 0.9345906376838684,
+              "c4": 0.912350594997406
+            },
+            {
+              "time": 7.333333492279053,
+              "x": 1.0800000429153442,
+              "y": 1.0800000429153442,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

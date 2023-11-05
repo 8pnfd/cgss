@@ -1,0 +1,124 @@
+{
+  "skeleton": {
+    "hash": "9IK0iBCBzXTZiZrwm/byf+7Lr1M",
+    "spine": "3.8",
+    "width": 443.0000915527344,
+    "height": 643,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "ringcase",
+      "bone": "fg_1",
+      "attachment": "ringcase",
+      "blend": "normal"
+    },
+    {
+      "name": "tape",
+      "bone": "fg_1",
+      "attachment": "tape",
+      "blend": "normal"
+    },
+    {
+      "name": "crystal",
+      "bone": "fg_1",
+      "attachment": "crystal",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "ringcase": {
+          "ringcase": {
+            "type": "region",
+            "name": "ringcase",
+            "path": "ringcase",
+            "rotation": 0,
+            "x": -437.9999694824219,
+            "y": 318.1000061035156,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 443,
+            "height": 607,
+            "color": "ffffffff"
+          }
+        },
+        "tape": {
+          "tape": {
+            "type": "region",
+            "name": "tape",
+            "path": "tape",
+            "rotation": 0,
+            "x": -441.5,
+            "y": 72.0999984741211,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 436,
+            "height": 187,
+            "color": "ffffffff"
+          }
+        },
+        "crystal": {
+          "crystal": {
+            "type": "region",
+            "name": "crystal",
+            "path": "crystal",
+            "rotation": 0,
+            "x": -585.5,
+            "y": 104.0999984741211,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 148,
+            "height": 251,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

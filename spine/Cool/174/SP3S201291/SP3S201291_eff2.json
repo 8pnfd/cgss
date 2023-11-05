@@ -1,0 +1,98 @@
+{
+  "skeleton": {
+    "hash": "Zf7+8yeuSPtIAPjjiclIxXIwjN4",
+    "spine": "3.8",
+    "width": 1310,
+    "height": 855,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_bg_light_02",
+      "bone": "all",
+      "attachment": "eff_bg_light_02",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_bg_light_01",
+      "bone": "all",
+      "attachment": "eff_bg_light_01",
+      "blend": "screen"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_bg_light_02": {
+          "eff_bg_light_02": {
+            "type": "region",
+            "name": "eff_bg_light_02",
+            "path": "eff_bg_light_02",
+            "rotation": 0,
+            "x": 0.18501803278923035,
+            "y": 412.2749938964844,
+            "scaleX": 5,
+            "scaleY": 5,
+            "width": 262,
+            "height": 171,
+            "color": "ffffffff"
+          }
+        },
+        "eff_bg_light_01": {
+          "eff_bg_light_01": {
+            "type": "region",
+            "name": "eff_bg_light_01",
+            "path": "eff_bg_light_01",
+            "rotation": 0,
+            "x": -48.49597930908203,
+            "y": 391.0069885253906,
+            "scaleX": 5,
+            "scaleY": 5,
+            "width": 240,
+            "height": 160,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "skeleton": {
+    "hash": "sNp5XIz3ylmr9q8PnLHJfBfvs9U",
+    "spine": "3.8",
+    "width": 1376.0001220703125,
+    "height": 936,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_1",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_2",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_3",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg",
+      "bone": "bg_3",
+      "attachment": "bg",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_ef1",
+      "bone": "bg_2",
+      "attachment": "bg_ef1",
+      "blend": "additive"
+    },
+    {
+      "name": "bg_ef2",
+      "bone": "bg_2",
+      "attachment": "bg_ef2",
+      "blend": "additive"
+    },
+    {
+      "name": "bg_ef3",
+      "bone": "bg_2",
+      "attachment": "bg_ef3",
+      "blend": "additive"
+    },
+    {
+      "name": "bg_rait_ef",
+      "bone": "bg_2",
+      "attachment": "bg_rait_ef",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg": {
+          "bg": {
+            "type": "region",
+            "name": "bg",
+            "path": "bg",
+            "rotation": 0,
+            "x": -0.22450000047683716,
+            "y": 409.89801025390625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1314,
+            "height": 862,
+            "color": "ffffffff"
+          }
+        },
+        "bg_ef1": {
+          "bg_ef1": {
+            "type": "region",
+            "name": "bg_ef1",
+            "path": "bg_ef1",
+            "rotation": 0,
+            "x": 2.3240370750427246,
+            "y": 421.5885009765625,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 688,
+            "height": 468,
+            "color": "ffffffff"
+          }
+        },
+        "bg_ef2": {
+          "bg_ef2": {
+            "type": "region",
+            "name": "bg_ef2",
+            "path": "bg_ef2",
+            "rotation": 0,
+            "x": -47.328956604003906,
+            "y": 490.50799560546875,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 120,
+            "height": 399,
+            "color": "ffffffff"
+          }
+        },
+        "bg_ef3": {
+          "bg_ef3": {
+            "type": "region",
+            "name": "bg_ef3",
+            "path": "bg_ef3",
+            "rotation": 0,
+            "x": 456.6165466308594,
+            "y": 584.4865112304688,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 81,
+            "height": 305,
+            "color": "ffffffff"
+          }
+        },
+        "bg_rait_ef": {
+          "bg_rait_ef": {
+            "type": "region",
+            "name": "bg_rait_ef",
+            "path": "bg_rait_ef",
+            "rotation": 0,
+            "x": 318.77606201171875,
+            "y": 662.1444702148438,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 64,
+            "height": 35,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "bg_ef1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.699999988079071,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8.666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 14.966666221618652,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "bg_ef2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.699999988079071,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8.666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 14.966666221618652,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "bg_ef3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.699999988079071,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8.666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 14.966666221618652,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "bg_rait_ef": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.699999988079071,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8.666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 14.966666221618652,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

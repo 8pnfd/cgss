@@ -1,0 +1,110 @@
+{
+  "skeleton": {
+    "hash": "XLGKyRyZcE+24w5lttoBNkU7t7Q",
+    "spine": "3.8",
+    "width": 642.000244140625,
+    "height": 774,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_sun2",
+      "parent": "all",
+      "rotation": -136.39047241210938,
+      "x": 685.087646484375,
+      "y": 866.795166015625,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_sun_a2",
+      "bone": "eff_sun2",
+      "attachment": "bg_add",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_sun_a2": {
+          "bg_add": {
+            "type": "region",
+            "name": "bg_add",
+            "path": "bg_add",
+            "rotation": 136.39047241210938,
+            "x": 541.8855590820312,
+            "y": 55.008514404296875,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 321,
+            "height": 387,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_sun_a2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

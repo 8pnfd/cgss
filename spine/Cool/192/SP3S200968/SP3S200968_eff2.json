@@ -1,0 +1,362 @@
+{
+  "skeleton": {
+    "hash": "tMEBcvVb47IsAqPn5fFhtWdAGcU",
+    "spine": "3.8",
+    "width": 1365.979736328125,
+    "height": 909.8170166015625,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "iruka",
+      "parent": "all",
+      "rotation": -32.84330749511719,
+      "x": -535.1534423828125,
+      "y": 502.15093994140625,
+      "transform": "normal"
+    },
+    {
+      "name": "kame",
+      "parent": "all",
+      "rotation": -18.91195297241211,
+      "x": 389.16571044921875,
+      "y": 19.924684524536133,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "iruka_po-ru_2",
+      "bone": "iruka",
+      "attachment": "iruka_po-ru_1",
+      "blend": "normal"
+    },
+    {
+      "name": "iruka_po-ru_1",
+      "bone": "iruka",
+      "attachment": "iruka_po-ru_1",
+      "blend": "normal"
+    },
+    {
+      "name": "iruka_1",
+      "bone": "iruka",
+      "attachment": "iruka_1",
+      "blend": "normal"
+    },
+    {
+      "name": "iruka_2",
+      "bone": "iruka",
+      "attachment": "iruka_2",
+      "blend": "normal"
+    },
+    {
+      "name": "kame",
+      "bone": "kame",
+      "attachment": "kame",
+      "blend": "normal"
+    },
+    {
+      "name": "kamepo-ru_3",
+      "bone": "kame",
+      "attachment": "kamepo-ru_2",
+      "blend": "normal"
+    },
+    {
+      "name": "kamepo-ru_2",
+      "bone": "kame",
+      "attachment": "kamepo-ru_2",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "iruka_po-ru_2": {
+          "iruka_po-ru_1": {
+            "type": "mesh",
+            "name": "iruka_po-ru_1",
+            "path": "iruka_po-ru_1",
+            "color": "ffffffff",
+            "uvs": [
+              0.9999989867210388,
+              0.057147398591041565,
+              0.00011762887152144685,
+              0.05883033946156502,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              3,
+              1,
+              2,
+              0,
+              1,
+              3
+            ],
+            "vertices": [
+              86.68000030517578,
+              428.75,
+              42.93000030517578,
+              433.489990234375,
+              46.27000045776367,
+              460.04998779296875,
+              89.93000030517578,
+              454.54998779296875
+            ],
+            "hull": 4
+          }
+        },
+        "iruka_po-ru_1": {
+          "iruka_po-ru_1": {
+            "type": "region",
+            "name": "iruka_po-ru_1",
+            "path": "iruka_po-ru_1",
+            "rotation": -7.177520751953125,
+            "x": 37.728904724121094,
+            "y": 213.476318359375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 44,
+            "height": 455,
+            "color": "ffffffff"
+          }
+        },
+        "iruka_1": {
+          "iruka_1": {
+            "type": "region",
+            "name": "iruka_1",
+            "path": "iruka_1",
+            "rotation": 32.84330749511719,
+            "x": 88.65311431884766,
+            "y": -93.70399475097656,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 202,
+            "height": 269,
+            "color": "ffffffff"
+          }
+        },
+        "iruka_2": {
+          "iruka_2": {
+            "type": "region",
+            "name": "iruka_2",
+            "path": "iruka_2",
+            "rotation": 32.84330749511719,
+            "x": -1.5261733531951904,
+            "y": -108.45523834228516,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 180,
+            "height": 269,
+            "color": "ffffffff"
+          }
+        },
+        "kame": {
+          "kame": {
+            "type": "region",
+            "name": "kame",
+            "path": "kame",
+            "rotation": 18.91195297241211,
+            "x": -5.405945301055908,
+            "y": -25.288570404052734,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 324,
+            "height": 88,
+            "color": "ffffffff"
+          }
+        },
+        "kamepo-ru_3": {
+          "kamepo-ru_2": {
+            "type": "mesh",
+            "name": "kamepo-ru_2",
+            "path": "kamepo-ru_2",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              0.08454501628875732,
+              0,
+              0.08492261171340942,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              2,
+              3,
+              0,
+              1,
+              2,
+              0
+            ],
+            "vertices": [
+              30.149999618530273,
+              744.6599731445312,
+              -5.849999904632568,
+              744.4099731445312,
+              -5.760000228881836,
+              811.3300170898438,
+              30.239999771118164,
+              811.280029296875
+            ],
+            "hull": 4
+          }
+        },
+        "kamepo-ru_2": {
+          "kamepo-ru_2": {
+            "type": "region",
+            "name": "kamepo-ru_2",
+            "path": "kamepo-ru_2",
+            "rotation": -0.0790557861328125,
+            "x": 11.630188941955566,
+            "y": 372.18438720703125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 36,
+            "height": 788,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {
+        "kame": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 4.76434326171875,
+              "y": 13.906003952026367,
+              "curve": 0.375,
+              "c2": 0.5,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "x": -2.12408447265625,
+              "y": -6.199731826782227,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "x": 11.65277099609375,
+              "y": 34.011741638183594,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.625,
+              "c4": 0.5
+            },
+            {
+              "time": 8,
+              "x": 4.76434326171875,
+              "y": 13.906003952026367
+            }
+          ]
+        },
+        "iruka": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0.15338897705078125,
+              "curve": 0.38172033429145813,
+              "c2": 0.5833331942558289,
+              "c3": 0.7311828136444092,
+              "c4": 1
+            },
+            {
+              "time": 1.2000000476837158,
+              "angle": 0
+            },
+            {
+              "time": 5.199999809265137,
+              "angle": 0.6333160400390625,
+              "curve": 0.24271844327449799,
+              "c2": 0,
+              "c3": 0.6553398370742798,
+              "c4": 0.625
+            },
+            {
+              "time": 8,
+              "angle": 0.15338897705078125
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": -1.362548828125,
+              "y": -2.110595703125,
+              "curve": 0.38172033429145813,
+              "c2": 0.5833331942558289,
+              "c3": 0.7311828136444092,
+              "c4": 1
+            },
+            {
+              "time": 1.2000000476837158,
+              "x": 2.976348876953125,
+              "y": 4.61090087890625,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.199999809265137,
+              "x": -14.93798828125,
+              "y": -23.140716552734375,
+              "curve": 0.24271844327449799,
+              "c2": 0,
+              "c3": 0.6553398370742798,
+              "c4": 0.625
+            },
+            {
+              "time": 8,
+              "x": -1.362548828125,
+              "y": -2.110595703125
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

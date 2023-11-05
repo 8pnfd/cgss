@@ -1,0 +1,121 @@
+{
+  "skeleton": {
+    "hash": "oYmWedRfujT/GHxRClOlTUXq0yg",
+    "spine": "3.8",
+    "width": 562.0000610351562,
+    "height": 378,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "ring_1",
+      "bone": "fg_3",
+      "attachment": "ring_1",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "ring_1": {
+          "ring_1": {
+            "type": "mesh",
+            "name": "ring_1",
+            "path": "ring_1",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0.38255709409713745,
+              0.6631627082824707,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              0,
+              0,
+              2,
+              3
+            ],
+            "vertices": [
+              646.1699829101562,
+              -6.289999961853027,
+              84.16999816894531,
+              -6.289999961853027,
+              84.16999816894531,
+              227.10000610351562,
+              456.8699951171875,
+              371.7099914550781,
+              646.1699829101562,
+              371.7099914550781
+            ],
+            "hull": 5
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

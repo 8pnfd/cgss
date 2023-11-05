@@ -1,0 +1,155 @@
+{
+  "skeleton": {
+    "hash": "2pjmaQuKLbMb/5JoJyouiYC9V28",
+    "spine": "3.8",
+    "width": 597.2301025390625,
+    "height": 419.9999694824219,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fg_3",
+      "bone": "fg_3",
+      "attachment": "fg2_add",
+      "blend": "additive"
+    },
+    {
+      "name": "fg4_sweat",
+      "bone": "fg_2",
+      "attachment": "fg4_sweat",
+      "blend": "normal"
+    },
+    {
+      "name": "fg4_sweat_add",
+      "bone": "fg_2",
+      "attachment": "fg4_sweat_add",
+      "blend": "additive"
+    },
+    {
+      "name": "fg1",
+      "bone": "fg_3",
+      "attachment": "fg1",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "fg_3": {
+          "fg2_add": {
+            "type": "region",
+            "name": "fg2_add",
+            "path": "fg2_add",
+            "rotation": 0,
+            "x": 380.89312744140625,
+            "y": 331.6362609863281,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 422,
+            "height": 420,
+            "color": "ffffffff"
+          }
+        },
+        "fg4_sweat": {
+          "fg4_sweat": {
+            "type": "region",
+            "name": "fg4_sweat",
+            "path": "fg4_sweat",
+            "rotation": 0,
+            "x": 7.515033721923828,
+            "y": 329.4388732910156,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 22,
+            "height": 12,
+            "color": "ffffffff"
+          }
+        },
+        "fg4_sweat_add": {
+          "fg4_sweat_add": {
+            "type": "region",
+            "name": "fg4_sweat_add",
+            "path": "fg4_sweat_add",
+            "rotation": 0,
+            "x": 8.663042068481445,
+            "y": 331.5546875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 28,
+            "height": 20,
+            "color": "ffffffff"
+          }
+        },
+        "fg1": {
+          "fg1": {
+            "type": "region",
+            "name": "fg1",
+            "path": "fg1",
+            "rotation": 0,
+            "x": 446.02923583984375,
+            "y": 438.0212097167969,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 129,
+            "height": 150,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

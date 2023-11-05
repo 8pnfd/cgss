@@ -1,0 +1,537 @@
+{
+  "skeleton": {
+    "hash": "5sFODGejSFeNEFIYpxNLoUvSHgQ",
+    "spine": "3.8",
+    "width": 1341.7318115234375,
+    "height": 1024.351806640625,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_1",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_2",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_3",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "thunder_A_glow",
+      "parent": "bg_3",
+      "rotation": 27.847639083862305,
+      "x": -157.99632263183594,
+      "y": 731.4265747070312,
+      "transform": "normal"
+    },
+    {
+      "name": "thunder_B_glow",
+      "parent": "bg_3",
+      "rotation": 27.847639083862305,
+      "x": -443.96417236328125,
+      "y": 525.6720581054688,
+      "scaleX": 0.8999999761581421,
+      "scaleY": 0.6000000238418579,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg_sky",
+      "bone": "bg_3",
+      "attachment": "bg_sky",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_thunder_B_sky_light",
+      "bone": "bg_3",
+      "attachment": "bg_thunder_B_sky_light",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_thunder_A_sky_light",
+      "bone": "bg_3",
+      "attachment": "bg_thunder_A_sky_light",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_thunder_B_light",
+      "bone": "bg_3",
+      "attachment": "bg_thunder_B_light",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_thunder_B",
+      "bone": "bg_3",
+      "attachment": "bg_thunder_B",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_thunder_A_light",
+      "bone": "bg_3",
+      "attachment": "bg_thunder_A_light",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_thunder_A",
+      "bone": "bg_3",
+      "attachment": "bg_thunder_A",
+      "blend": "normal"
+    },
+    {
+      "name": "thunder_B_glow",
+      "bone": "thunder_B_glow",
+      "attachment": "fg_rain_B_glow",
+      "blend": "additive"
+    },
+    {
+      "name": "bg",
+      "bone": "bg_1",
+      "attachment": "bg",
+      "blend": "normal"
+    },
+    {
+      "name": "thunder_A_glow",
+      "bone": "thunder_A_glow",
+      "attachment": "fg_rain_B_glow",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg_sky": {
+          "bg_sky": {
+            "type": "region",
+            "name": "bg_sky",
+            "path": "bg_sky",
+            "rotation": 0,
+            "x": -296.70245361328125,
+            "y": 636.1859741210938,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 704,
+            "height": 394,
+            "color": "ffffffff"
+          }
+        },
+        "bg_thunder_B_sky_light": {
+          "bg_thunder_B_sky_light": {
+            "type": "region",
+            "name": "bg_thunder_B_sky_light",
+            "path": "bg_thunder_B_sky_light",
+            "rotation": 0,
+            "x": -448.2424621582031,
+            "y": 533.5604858398438,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 147,
+            "height": 93,
+            "color": "ffffffff"
+          }
+        },
+        "bg_thunder_A_sky_light": {
+          "bg_thunder_A_sky_light": {
+            "type": "region",
+            "name": "bg_thunder_A_sky_light",
+            "path": "bg_thunder_A_sky_light",
+            "rotation": 0,
+            "x": -135.50244140625,
+            "y": 751.66748046875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 180,
+            "height": 124,
+            "color": "ffffffff"
+          }
+        },
+        "bg_thunder_B_light": {
+          "bg_thunder_B_light": {
+            "type": "region",
+            "name": "bg_thunder_B_light",
+            "path": "bg_thunder_B_light",
+            "rotation": 0,
+            "x": -446.4479675292969,
+            "y": 505.29150390625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 76,
+            "height": 101,
+            "color": "ffffffff"
+          }
+        },
+        "bg_thunder_B": {
+          "bg_thunder_B": {
+            "type": "region",
+            "name": "bg_thunder_B",
+            "path": "bg_thunder_B",
+            "rotation": 0,
+            "x": -440.7739562988281,
+            "y": 501.8494873046875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 81,
+            "height": 92,
+            "color": "ffffffff"
+          }
+        },
+        "bg_thunder_A_light": {
+          "bg_thunder_A_light": {
+            "type": "region",
+            "name": "bg_thunder_A_light",
+            "path": "bg_thunder_A_light",
+            "rotation": 0,
+            "x": -139.69044494628906,
+            "y": 722.7465209960938,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 142,
+            "height": 118,
+            "color": "ffffffff"
+          }
+        },
+        "bg_thunder_A": {
+          "bg_thunder_A": {
+            "type": "region",
+            "name": "bg_thunder_A",
+            "path": "bg_thunder_A",
+            "rotation": 0,
+            "x": -133.0269317626953,
+            "y": 715.10498046875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 122,
+            "height": 117,
+            "color": "ffffffff"
+          }
+        },
+        "thunder_B_glow": {
+          "fg_rain_B_glow": {
+            "type": "region",
+            "name": "fg_rain_B_glow",
+            "path": "fg_rain_B_glow",
+            "rotation": -55.49327850341797,
+            "x": -4.21710205078125,
+            "y": -5.36639404296875,
+            "scaleX": 1.6269938945770264,
+            "scaleY": 1.6269938945770264,
+            "width": 246,
+            "height": 275,
+            "color": "ffffffff"
+          }
+        },
+        "bg": {
+          "bg": {
+            "type": "region",
+            "name": "bg",
+            "path": "bg",
+            "rotation": 0,
+            "x": -0.20246371626853943,
+            "y": 411.88751220703125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1297,
+            "height": 841,
+            "color": "ffffffff"
+          }
+        },
+        "thunder_A_glow": {
+          "fg_rain_B_glow": {
+            "type": "region",
+            "name": "fg_rain_B_glow",
+            "path": "fg_rain_B_glow",
+            "rotation": -55.49327850341797,
+            "x": -4.21710205078125,
+            "y": -5.36639404296875,
+            "scaleX": 1.6269938945770264,
+            "scaleY": 1.6269938945770264,
+            "width": 246,
+            "height": 275,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "bg_thunder_A": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": 0.29812976717948914,
+              "c2": 0.09090909361839294,
+              "c3": 0.6778053641319275,
+              "c4": 0.9025974273681641
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "bg_thunder_A_light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": 0.29812976717948914,
+              "c2": 0.09090909361839294,
+              "c3": 0.6778053641319275,
+              "c4": 0.9025974273681641
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "bg_thunder_A_sky_light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": 0.29812976717948914,
+              "c2": 0.09090909361839294,
+              "c3": 0.6778053641319275,
+              "c4": 0.9025974273681641
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "bg_thunder_B": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffff",
+              "curve": 0.29812976717948914,
+              "c2": 0.09090909361839294,
+              "c3": 0.6778053641319275,
+              "c4": 0.9025974273681641
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "bg_thunder_B_light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffff",
+              "curve": 0.29812976717948914,
+              "c2": 0.09090909361839294,
+              "c3": 0.6778053641319275,
+              "c4": 0.9025974273681641
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "bg_thunder_B_sky_light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffff",
+              "curve": 0.29812976717948914,
+              "c2": 0.09090909361839294,
+              "c3": 0.6778053641319275,
+              "c4": 0.9025974273681641
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "thunder_A_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2000000476837158,
+              "color": "ffffff00",
+              "curve": 0.6169100999832153,
+              "c2": 0.07386363297700882,
+              "c3": 0.6246752738952637,
+              "c4": 0.9082792401313782
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffff5a",
+              "curve": 0.051075007766485214,
+              "c2": 0.5852272510528564,
+              "c3": 0.46794164180755615,
+              "c4": 0.9650974273681641
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "thunder_B_glow": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.199999809265137,
+              "color": "ffffff00",
+              "curve": 0.6169100999832153,
+              "c2": 0.07386363297700882,
+              "c3": 0.6246752738952637,
+              "c4": 0.9082792401313782
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffff5a",
+              "curve": 0.051075007766485214,
+              "c2": 0.5852272510528564,
+              "c3": 0.46794164180755615,
+              "c4": 0.9650974273681641
+            },
+            {
+              "time": 7,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "thunder_A_glow": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": 1,
+              "y": 1,
+              "curve": 0.29812976717948914,
+              "c2": 0.09090909361839294,
+              "c3": 0.6778053641319275,
+              "c4": 0.9025974273681641
+            },
+            {
+              "time": 3,
+              "x": 0.800000011920929,
+              "y": 0.800000011920929
+            }
+          ]
+        },
+        "thunder_B_glow": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "x": 1,
+              "y": 1,
+              "curve": 0.29812976717948914,
+              "c2": 0.09090909361839294,
+              "c3": 0.6778053641319275,
+              "c4": 0.9025974273681641
+            },
+            {
+              "time": 7,
+              "x": 0.800000011920929,
+              "y": 0.800000011920929
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

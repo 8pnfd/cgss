@@ -1,0 +1,134 @@
+{
+  "skeleton": {
+    "hash": "RP+d8cPWT2/1ySj09CMS90Z6KT0",
+    "spine": "3.8",
+    "width": 1419.41552734375,
+    "height": 730.2020874023438,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fg_02_add_38",
+      "bone": "fg_3",
+      "attachment": "fg_02_add_38",
+      "blend": "additive"
+    },
+    {
+      "name": "fg_01",
+      "bone": "fg_3",
+      "attachment": "fg_01",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_02_38",
+      "bone": "fg_3",
+      "attachment": "fg_02_38",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "fg_02_add_38": {
+          "fg_02_add_38": {
+            "type": "region",
+            "name": "fg_02_add_38",
+            "path": "fg_02_add_38",
+            "rotation": -38,
+            "x": 347.8304138183594,
+            "y": 603.171630859375,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 453,
+            "height": 95,
+            "color": "ffffffff"
+          }
+        },
+        "fg_01": {
+          "fg_01": {
+            "type": "region",
+            "name": "fg_01",
+            "path": "fg_01",
+            "rotation": 0,
+            "x": 0.007559916004538536,
+            "y": 674.8504638671875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1304,
+            "height": 245,
+            "color": "ffffffff"
+          }
+        },
+        "fg_02_38": {
+          "fg_02_38": {
+            "type": "region",
+            "name": "fg_02_38",
+            "path": "fg_02_38",
+            "rotation": -38,
+            "x": 353.6170349121094,
+            "y": 635.4411010742188,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 944,
+            "height": 136,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}
