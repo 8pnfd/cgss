@@ -1,0 +1,499 @@
+{
+  "skeleton": {
+    "hash": "Wd1fR3tV1JUCcUgyEjURfryMasw",
+    "spine": "3.8",
+    "width": 376.2352600097656,
+    "height": 234.94085693359375,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_bubble_a",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_bubble1",
+      "parent": "eff_bubble_a",
+      "x": 416.258544921875,
+      "y": 75.68223571777344,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_bubble9",
+      "parent": "eff_bubble_a",
+      "x": 612.9784545898438,
+      "y": 20.87036895751953,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_bubble1_s",
+      "parent": "eff_bubble1",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_bubble9_s",
+      "parent": "eff_bubble9",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fg_hosi_add1",
+      "bone": "eff_bubble9_s",
+      "attachment": "fg_hosi_add1",
+      "blend": "additive"
+    },
+    {
+      "name": "fg_hosi_add2",
+      "bone": "eff_bubble1_s",
+      "attachment": "fg_hosi_add2",
+      "blend": "additive"
+    },
+    {
+      "name": "fg_hosi_1",
+      "bone": "eff_bubble9_s",
+      "attachment": "fg_hosi_1",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_hosi_2",
+      "bone": "eff_bubble1_s",
+      "attachment": "fg_hosi_2",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "fg_hosi_add1": {
+          "fg_hosi_add1": {
+            "type": "region",
+            "name": "fg_hosi_add1",
+            "path": "fg_hosi_add1",
+            "rotation": 0,
+            "x": -0.14093017578125,
+            "y": -4.393369674682617,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 66,
+            "height": 65,
+            "color": "ffffffff"
+          }
+        },
+        "fg_hosi_add2": {
+          "fg_hosi_add2": {
+            "type": "region",
+            "name": "fg_hosi_add2",
+            "path": "fg_hosi_add2",
+            "rotation": 0,
+            "x": 3.3437347412109375,
+            "y": -4.264369964599609,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 117,
+            "height": 115,
+            "color": "ffffffff"
+          }
+        },
+        "fg_hosi_1": {
+          "fg_hosi_1": {
+            "type": "region",
+            "name": "fg_hosi_1",
+            "path": "fg_hosi_1",
+            "rotation": 0,
+            "x": 1.0550537109375,
+            "y": -2.6393680572509766,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 107,
+            "height": 103,
+            "color": "ffffffff"
+          }
+        },
+        "fg_hosi_2": {
+          "fg_hosi_2": {
+            "type": "region",
+            "name": "fg_hosi_2",
+            "path": "fg_hosi_2",
+            "rotation": 0,
+            "x": 3.851226806640625,
+            "y": -3.066619873046875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 196,
+            "height": 190,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {
+        "eff_bubble9_s": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -8.112190246582031,
+              "curve": 0.3342902362346649,
+              "c2": 0.3368421494960785,
+              "c3": 0.7575739026069641,
+              "c4": 1
+            },
+            {
+              "time": 1.5666667222976685,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.4666666984558105,
+              "x": 0,
+              "y": -10,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.333333492279053,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.4666666984558105,
+              "x": 0,
+              "y": -10,
+              "curve": 0.2752618193626404,
+              "c2": 0,
+              "c3": 0.6204314231872559,
+              "c4": 0.4012738764286041
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": -8.112190246582031
+            }
+          ]
+        },
+        "eff_bubble1_s": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.133333444595337,
+              "x": 0,
+              "y": -10,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.233333110809326,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.133333206176758,
+              "x": 0,
+              "y": -10,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "eff_bubble1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": 0,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "angle": -5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "angle": 5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.5,
+              "x": -5,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.333333492279053,
+              "x": -5,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.666666507720947,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.833333492279053,
+              "x": -5,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "eff_bubble9": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -4.03546142578125,
+              "curve": 0.31081080436706543,
+              "c2": 0.2500000298023224,
+              "c3": 0.7567567825317383,
+              "c4": 1
+            },
+            {
+              "time": 3.3333332538604736,
+              "angle": 5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 5.333333492279053,
+              "angle": 0,
+              "curve": 0,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.333333492279053,
+              "angle": -5,
+              "curve": 0.29032257199287415,
+              "c2": 0,
+              "c3": 0.6290322542190552,
+              "c4": 0.3750000298023224
+            },
+            {
+              "time": 8,
+              "angle": -4.03546142578125
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": -0.77130126953125,
+              "y": 0,
+              "curve": 0.3771625757217407,
+              "c2": 0.6086958646774292,
+              "c3": 0.7197231650352478,
+              "c4": 1
+            },
+            {
+              "time": 0.3333333432674408,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.6666666269302368,
+              "x": -5,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.166666507720947,
+              "x": -5,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.333333492279053,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.833333492279053,
+              "x": -5,
+              "y": 0,
+              "curve": 0.24251499772071838,
+              "c2": 0,
+              "c3": 0.6736527681350708,
+              "c4": 0.6923076510429382
+            },
+            {
+              "time": 8,
+              "x": -0.77130126953125,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

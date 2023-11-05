@@ -1,0 +1,103 @@
+{
+  "skeleton": {
+    "hash": "Nfm6/72NnjyXXO26POOKcl7s8LI",
+    "spine": "3.8",
+    "width": 496.0000305175781,
+    "height": 285.5,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fg",
+      "bone": "fg_1",
+      "attachment": "fg",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_screen",
+      "bone": "fg_1",
+      "attachment": "fg_screen",
+      "blend": "screen"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "fg": {
+          "fg": {
+            "type": "region",
+            "name": "fg",
+            "path": "fg",
+            "rotation": 0,
+            "x": 364.20361328125,
+            "y": 99.53994750976562,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 473,
+            "height": 247,
+            "color": "ffffffff"
+          }
+        },
+        "fg_screen": {
+          "fg_screen": {
+            "type": "region",
+            "name": "fg_screen",
+            "path": "fg_screen",
+            "rotation": 0,
+            "x": 250.70361328125,
+            "y": 129.53994750976562,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 146,
+            "height": 132,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

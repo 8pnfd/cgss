@@ -1,0 +1,339 @@
+{
+  "skeleton": {
+    "hash": "81LTQh8CYBeb55OTDQgEbHzx2hM",
+    "spine": "3.8",
+    "width": 423.3768005371094,
+    "height": 372,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "eff1_light",
+      "parent": "fg_1",
+      "x": 564.7257690429688,
+      "y": 175.29751586914062,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fg",
+      "bone": "fg_1",
+      "attachment": "fg",
+      "blend": "normal"
+    },
+    {
+      "name": "eff1_light",
+      "bone": "eff1_light",
+      "attachment": "eff1_light",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "fg": {
+          "fg": {
+            "type": "region",
+            "name": "fg",
+            "path": "fg",
+            "rotation": 0,
+            "x": 459.89019775390625,
+            "y": 129.70799255371094,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 373,
+            "height": 272,
+            "color": "ffffffff"
+          }
+        },
+        "eff1_light": {
+          "eff1_light": {
+            "type": "region",
+            "name": "eff1_light",
+            "path": "eff1_light",
+            "rotation": 0,
+            "x": -77.95883178710938,
+            "y": 1.4440765380859375,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 105,
+            "height": 93,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff1_light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25773194432258606,
+              "c2": 0,
+              "c3": 0.6185566782951355,
+              "c4": 0.4545454978942871
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffffdb",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff",
+              "curve": 0.2450980544090271,
+              "c2": 0,
+              "c3": 0.6372549533843994,
+              "c4": 0.5555555820465088
+            },
+            {
+              "time": 0.8666666746139526,
+              "color": "ffffffe6",
+              "curve": 0.3814432919025421,
+              "c2": 0.5454546213150024,
+              "c3": 0.7422679662704468,
+              "c4": 1
+            },
+            {
+              "time": 1.2000000476837158,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.4666666984558105,
+              "color": "ffffffe6",
+              "curve": 0.3814432919025421,
+              "c2": 0.5454546213150024,
+              "c3": 0.7422679662704468,
+              "c4": 1
+            },
+            {
+              "time": 1.7999999523162842,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.133333444595337,
+              "color": "ffffffff",
+              "curve": 0.25773194432258606,
+              "c2": 0,
+              "c3": 0.6185566782951355,
+              "c4": 0.4545454978942871
+            },
+            {
+              "time": 2.4000000953674316,
+              "color": "ffffffdb",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.8333332538604736,
+              "color": "ffffffff",
+              "curve": 0.25773194432258606,
+              "c2": 0,
+              "c3": 0.6185566782951355,
+              "c4": 0.4545454978942871
+            },
+            {
+              "time": 2.9666666984558105,
+              "color": "ffffffd5",
+              "curve": 0.36274510622024536,
+              "c2": 0.4444444179534912,
+              "c3": 0.7549020051956177,
+              "c4": 1
+            },
+            {
+              "time": 3.5,
+              "color": "ffffffff",
+              "curve": 0.2450980544090271,
+              "c2": 0,
+              "c3": 0.6372549533843994,
+              "c4": 0.5555555820465088
+            },
+            {
+              "time": 3.700000047683716,
+              "color": "ffffffd1",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.0333333015441895,
+              "color": "ffffffe6",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffffff",
+              "curve": 0.2450980544090271,
+              "c2": 0,
+              "c3": 0.6372549533843994,
+              "c4": 0.5555555820465088
+            },
+            {
+              "time": 4.566666603088379,
+              "color": "ffffffe6",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.866666793823242,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.133333206176758,
+              "color": "ffffffe6",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.4666666984558105,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.633333206176758,
+              "color": "ffffffe6",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffff",
+              "curve": 0.25773194432258606,
+              "c2": 0,
+              "c3": 0.6185566782951355,
+              "c4": 0.4545454978942871
+            },
+            {
+              "time": 6,
+              "color": "ffffffe6",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.5,
+              "color": "ffffffff",
+              "curve": 0.25773194432258606,
+              "c2": 0,
+              "c3": 0.6185566782951355,
+              "c4": 0.4545454978942871
+            },
+            {
+              "time": 6.633333206176758,
+              "color": "ffffffd5",
+              "curve": 0.36274510622024536,
+              "c2": 0.4444444179534912,
+              "c3": 0.7549020051956177,
+              "c4": 1
+            },
+            {
+              "time": 7.166666507720947,
+              "color": "ffffffff",
+              "curve": 0.2450980544090271,
+              "c2": 0,
+              "c3": 0.6372549533843994,
+              "c4": 0.5555555820465088
+            },
+            {
+              "time": 7.366666793823242,
+              "color": "ffffffe6",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.699999809265137,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

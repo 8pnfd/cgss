@@ -1,0 +1,328 @@
+{
+  "skeleton": {
+    "hash": "lrBQ8wNjKK+HGkY4614CM3cbN00",
+    "spine": "3.8",
+    "width": 175.484130859375,
+    "height": 139.3095703125,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_rens_b",
+      "parent": "all",
+      "x": -8.742277657347586e-8,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_rens_b1",
+      "parent": "eff_rens_b",
+      "rotation": 47,
+      "x": -699.3025512695312,
+      "y": 759.9779663085938,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_rens_b2",
+      "parent": "eff_rens_b",
+      "rotation": 47,
+      "x": -699.3025512695312,
+      "y": 759.9779663085938,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_rens_b_add3",
+      "bone": "eff_rens_b1",
+      "attachment": "eff_rens_1_add",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_rens_b_add6",
+      "bone": "eff_rens_b2",
+      "attachment": "eff_rens_2_add",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_rens_b_add3": {
+          "eff_rens_1_add": {
+            "type": "region",
+            "name": "eff_rens_1_add",
+            "path": "eff_rens_1_add",
+            "rotation": -47.000003814697266,
+            "x": 56.25444030761719,
+            "y": -349.548095703125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 76,
+            "height": 75,
+            "color": "ffffffff"
+          }
+        },
+        "eff_rens_b_add6": {
+          "eff_rens_2_add": {
+            "type": "region",
+            "name": "eff_rens_2_add",
+            "path": "eff_rens_2_add",
+            "rotation": -47.000003814697266,
+            "x": 78.08114624023438,
+            "y": -437.19146728515625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 117,
+            "height": 116,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_rens_b_add3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.366666555404663,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffad"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_rens_b_add6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.066666603088379,
+              "color": "ffffffad"
+            },
+            {
+              "time": 3.133333444595337,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.200000047683716,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 3.2666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.400000095367432,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.4666666984558105,
+              "color": "ffffffad"
+            },
+            {
+              "time": 6.5333333015441895,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.599999904632568,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.766666889190674,
+              "color": "ffffff73"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "eff_rens_b1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 7.333333492279053,
+              "x": -94.60498046875,
+              "y": 50.0849609375
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": 0.21932469308376312,
+              "c2": 0.038844622671604156,
+              "c3": 0.9345906376838684,
+              "c4": 0.912350594997406
+            },
+            {
+              "time": 7.333333492279053,
+              "x": 1.0800000429153442,
+              "y": 1.0800000429153442,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "eff_rens_b2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 7.333333492279053,
+              "x": 16.65802001953125,
+              "y": -4.505859375
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": 0.21932469308376312,
+              "c2": 0.038844622671604156,
+              "c3": 0.9345906376838684,
+              "c4": 0.912350594997406
+            },
+            {
+              "time": 7.333333492279053,
+              "x": 1.0800000429153442,
+              "y": 1.0800000429153442,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

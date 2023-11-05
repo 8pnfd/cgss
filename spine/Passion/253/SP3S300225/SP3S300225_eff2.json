@@ -1,0 +1,174 @@
+{
+  "skeleton": {
+    "hash": "nR3EGJLpM8tGkdeu9aoh8ficlQM",
+    "spine": "3.8",
+    "width": 762.0001220703125,
+    "height": 940,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": 9.10504951434632e-8,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_rens_a",
+      "parent": "all",
+      "x": 730.1278076171875,
+      "y": 920.968994140625,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_rens_a_add1",
+      "bone": "eff_rens_a",
+      "color": "ffffff9b",
+      "attachment": "eff_sunlight_add",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_rens_a_add1": {
+          "eff_sunlight_add": {
+            "type": "region",
+            "name": "eff_sunlight_add",
+            "path": "eff_sunlight_add",
+            "rotation": 0,
+            "x": -415.5478820800781,
+            "y": -505.51177978515625,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 381,
+            "height": 470,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "_home2": {
+      "slots": {
+        "eff_rens_a_add1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffbc"
+            },
+            {
+              "time": 2.366666555404663,
+              "color": "ffffffbf"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffff6e"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffbf"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffbf"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffbf"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffff6e"
+            },
+            {
+              "time": 6,
+              "color": "ffffffbf"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 6.133333206176758,
+              "color": "ffffffbf"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "eff_rens_a": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 0.9065431356430054,
+              "curve": 0.21932469308376312,
+              "c2": 0.038844622671604156,
+              "c3": 0.9345906376838684,
+              "c4": 0.912350594997406
+            },
+            {
+              "time": 7.333333492279053,
+              "x": 1,
+              "y": 1.133178949356079
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

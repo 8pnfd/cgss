@@ -1,0 +1,125 @@
+{
+  "skeleton": {
+    "hash": "LLGF1TrnalHX0UNCEftz/hNs8OU",
+    "spine": "3.8",
+    "width": 644.0217895507812,
+    "height": 230.00625610351562,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "y": 0.8199999928474426,
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "x": 0.4730072319507599,
+      "y": 0.47299957275390625,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fg1",
+      "bone": "fg_1",
+      "attachment": "fg1",
+      "blend": "normal"
+    },
+    {
+      "name": "fg2",
+      "bone": "fg_2",
+      "attachment": "fg2",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "fg1": {
+          "fg1": {
+            "type": "region",
+            "name": "fg1",
+            "path": "fg1",
+            "rotation": 0,
+            "x": 274.7839660644531,
+            "y": 456.1418762207031,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 305,
+            "height": 203,
+            "color": "ffffffff"
+          }
+        },
+        "fg2": {
+          "fg2": {
+            "type": "region",
+            "name": "fg2",
+            "path": "fg2",
+            "rotation": 0,
+            "x": -150.76486206054688,
+            "y": 359.6086120605469,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 131,
+            "height": 63,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "fg2": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

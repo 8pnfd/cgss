@@ -1,0 +1,1857 @@
+{
+  "skeleton": {
+    "hash": "ABo6Te+FnOmZXBWKhnjz+6+XdDI",
+    "spine": "3.8",
+    "width": 1310.522705078125,
+    "height": 1262.738037109375,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "laser_blue_l_orange",
+      "parent": "fg_1",
+      "x": -396.2784118652344,
+      "y": 174.56695556640625,
+      "transform": "normal"
+    },
+    {
+      "name": "laser_blue_l_orange2",
+      "parent": "fg_1",
+      "x": -396.2784118652344,
+      "y": 174.56695556640625,
+      "transform": "normal"
+    },
+    {
+      "name": "laser_blue_r_orange",
+      "parent": "fg_1",
+      "x": 455.58087158203125,
+      "y": 594.6986694335938,
+      "transform": "normal"
+    },
+    {
+      "name": "laser_blue_r_orange2",
+      "parent": "fg_1",
+      "x": 455.58087158203125,
+      "y": 594.6986694335938,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "laser_blue_l_orange",
+      "bone": "laser_blue_l_orange",
+      "attachment": "laser_blue_l_orange",
+      "blend": "additive"
+    },
+    {
+      "name": "laser_blue_l_orange2",
+      "bone": "laser_blue_l_orange2",
+      "attachment": "laser_blue_l_orange",
+      "blend": "additive"
+    },
+    {
+      "name": "laser_blue_r_orange",
+      "bone": "laser_blue_r_orange",
+      "attachment": "laser_blue_r_orange",
+      "blend": "additive"
+    },
+    {
+      "name": "laser_blue_r_orange2",
+      "bone": "laser_blue_r_orange2",
+      "attachment": "laser_blue_r_orange",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "laser_blue_l_orange": {
+          "laser_blue_l_orange": {
+            "type": "region",
+            "name": "laser_blue_l_orange",
+            "path": "laser_blue_l_orange",
+            "rotation": 0,
+            "x": 313.7579040527344,
+            "y": -195.82945251464844,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 535,
+            "height": 436,
+            "color": "ffffffff"
+          }
+        },
+        "laser_blue_l_orange2": {
+          "laser_blue_l_orange": {
+            "type": "region",
+            "name": "laser_blue_l_orange",
+            "path": "laser_blue_l_orange",
+            "rotation": 0,
+            "x": 313.7579040527344,
+            "y": -195.82945251464844,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 535,
+            "height": 436,
+            "color": "ffffffff"
+          }
+        },
+        "laser_blue_r_orange": {
+          "laser_blue_r_orange": {
+            "type": "region",
+            "name": "laser_blue_r_orange",
+            "path": "laser_blue_r_orange",
+            "rotation": 0,
+            "x": -205.57884216308594,
+            "y": -309.2231750488281,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 443,
+            "height": 520,
+            "color": "ffffffff"
+          }
+        },
+        "laser_blue_r_orange2": {
+          "laser_blue_r_orange": {
+            "type": "region",
+            "name": "laser_blue_r_orange",
+            "path": "laser_blue_r_orange",
+            "rotation": 0,
+            "x": -205.57884216308594,
+            "y": -309.2231750488281,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 443,
+            "height": 520,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "laser_blue_l_orange": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff64"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffff32"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffff95"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffff64"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff95"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.8666666746139526,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 1.0666667222976685,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.1333333253860474,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 1.2000000476837158,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.2666666507720947,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.399999976158142,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 1.4666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.5333333015441895,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 1.600000023841858,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 1.7333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.7999999523162842,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 1.8666666746139526,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.9333332777023315,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 2,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.066666603088379,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 2.133333444595337,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.200000047683716,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 2.2666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 2.4000000953674316,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.4666666984558105,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 2.799999952316284,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.866666555404663,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 2.933333396911621,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 3.066666603088379,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.133333444595337,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 3.200000047683716,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.2666666507720947,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.4000000953674316,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 3.4666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.5333333015441895,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 3.5999999046325684,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 3.7333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.799999952316284,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 3.866666555404663,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.933333396911621,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 4,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.066666603088379,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 4.133333206176758,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.199999809265137,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 4.266666889190674,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 4.400000095367432,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.4666666984558105,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 4.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.599999904632568,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.733333110809326,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 4.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.866666793823242,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 4.933333396911621,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 5.066666603088379,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.133333206176758,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 5.199999809265137,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.266666889190674,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.400000095367432,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 5.4666666984558105,
+              "color": "ffffff95"
+            },
+            {
+              "time": 5.5333333015441895,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 5.599999904632568,
+              "color": "ffffff95"
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 5.733333110809326,
+              "color": "ffffff64"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffff95"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffff32"
+            },
+            {
+              "time": 6,
+              "color": "ffffff29"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 11,
+              "color": "ffffff00"
+            },
+            {
+              "time": 11.733333587646484,
+              "color": "ffffff32"
+            },
+            {
+              "time": 11.800000190734863,
+              "color": "ffffff00"
+            },
+            {
+              "time": 11.866666793823242,
+              "color": "ffffff64"
+            },
+            {
+              "time": 11.933333396911621,
+              "color": "ffffff32"
+            },
+            {
+              "time": 12,
+              "color": "ffffff64"
+            }
+          ]
+        },
+        "laser_blue_l_orange2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff29"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.733333110809326,
+              "color": "ffffff32"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffff64"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffff32"
+            },
+            {
+              "time": 6,
+              "color": "ffffff64"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffff32"
+            },
+            {
+              "time": 6.133333206176758,
+              "color": "ffffff95"
+            },
+            {
+              "time": 6.199999809265137,
+              "color": "ffffff64"
+            },
+            {
+              "time": 6.266666889190674,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffff95"
+            },
+            {
+              "time": 6.400000095367432,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.4666666984558105,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 6.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.599999904632568,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.733333110809326,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 6.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.866666793823242,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 6.933333396911621,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 7.066666603088379,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.133333206176758,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 7.199999809265137,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.266666889190674,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.400000095367432,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 7.4666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.5333333015441895,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 7.599999904632568,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 7.733333110809326,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.800000190734863,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 7.866666793823242,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.933333396911621,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8.066666603088379,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 8.133333206176758,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8.199999809265137,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 8.266666412353516,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8.333333015441895,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 8.399999618530273,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8.466666221618652,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 8.533333778381348,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8.600000381469727,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 8.666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8.733333587646484,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 8.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8.866666793823242,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 8.933333396911621,
+              "color": "ffffffff"
+            },
+            {
+              "time": 9,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 9.066666603088379,
+              "color": "ffffffff"
+            },
+            {
+              "time": 9.133333206176758,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 9.199999809265137,
+              "color": "ffffffff"
+            },
+            {
+              "time": 9.266666412353516,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 9.333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 9.399999618530273,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 9.466666221618652,
+              "color": "ffffffff"
+            },
+            {
+              "time": 9.533333778381348,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 9.600000381469727,
+              "color": "ffffffff"
+            },
+            {
+              "time": 9.666666984558105,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 9.733333587646484,
+              "color": "ffffffff"
+            },
+            {
+              "time": 9.800000190734863,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 9.866666793823242,
+              "color": "ffffffff"
+            },
+            {
+              "time": 9.933333396911621,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 10,
+              "color": "ffffffff"
+            },
+            {
+              "time": 10.066666603088379,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 10.133333206176758,
+              "color": "ffffffff"
+            },
+            {
+              "time": 10.199999809265137,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 10.266666412353516,
+              "color": "ffffffff"
+            },
+            {
+              "time": 10.333333015441895,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 10.399999618530273,
+              "color": "ffffffff"
+            },
+            {
+              "time": 10.466666221618652,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 10.533333778381348,
+              "color": "ffffffff"
+            },
+            {
+              "time": 10.600000381469727,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 10.666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 10.733333587646484,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 10.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 10.866666793823242,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 10.933333396911621,
+              "color": "ffffffff"
+            },
+            {
+              "time": 11,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 11.066666603088379,
+              "color": "ffffffff"
+            },
+            {
+              "time": 11.133333206176758,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 11.199999809265137,
+              "color": "ffffffff"
+            },
+            {
+              "time": 11.266666412353516,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 11.333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 11.399999618530273,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 11.466666221618652,
+              "color": "ffffff95"
+            },
+            {
+              "time": 11.533333778381348,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 11.600000381469727,
+              "color": "ffffff95"
+            },
+            {
+              "time": 11.666666984558105,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 11.733333587646484,
+              "color": "ffffff64"
+            },
+            {
+              "time": 11.800000190734863,
+              "color": "ffffff95"
+            },
+            {
+              "time": 11.866666793823242,
+              "color": "ffffff32"
+            },
+            {
+              "time": 12,
+              "color": "ffffff29"
+            }
+          ]
+        },
+        "laser_blue_r_orange": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff2d"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffff32"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffff64"
+            },
+            {
+              "time": 0.2666666805744171,
+              "color": "ffffff32"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff64"
+            },
+            {
+              "time": 0.4000000059604645,
+              "color": "ffffff32"
+            },
+            {
+              "time": 0.46666666865348816,
+              "color": "ffffff95"
+            },
+            {
+              "time": 0.5333333611488342,
+              "color": "ffffff64"
+            },
+            {
+              "time": 0.6000000238418579,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff95"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.800000011920929,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 0.8666666746139526,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.0666667222976685,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 1.1333333253860474,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.2000000476837158,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 1.2666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 1.399999976158142,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.4666666984558105,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 1.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.600000023841858,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.7333333492279053,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 1.7999999523162842,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.8666666746139526,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 1.9333332777023315,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 2.066666603088379,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.133333444595337,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 2.200000047683716,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.2666666507720947,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.4000000953674316,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 2.4666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 2.5999999046325684,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.799999952316284,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 2.866666555404663,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.933333396911621,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 3,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.066666603088379,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 3.133333444595337,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.200000047683716,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 3.2666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 3.4000000953674316,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.4666666984558105,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 3.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.5999999046325684,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.7333333492279053,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 3.799999952316284,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.866666555404663,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 3.933333396911621,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 4.066666603088379,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.133333206176758,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 4.199999809265137,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.266666889190674,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.400000095367432,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 4.4666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.5333333015441895,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 4.599999904632568,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 4.733333110809326,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.800000190734863,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 4.866666793823242,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.933333396911621,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.066666603088379,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 5.133333206176758,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.199999809265137,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 5.266666889190674,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 5.400000095367432,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.4666666984558105,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 5.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.599999904632568,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.733333110809326,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffff95"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffff95"
+            },
+            {
+              "time": 6,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffff64"
+            },
+            {
+              "time": 6.133333206176758,
+              "color": "ffffff95"
+            },
+            {
+              "time": 6.199999809265137,
+              "color": "ffffff32"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffff29"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 11.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 12,
+              "color": "ffffff2d"
+            }
+          ]
+        },
+        "laser_blue_r_orange2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 0.06666667014360428,
+              "color": "ffffff64"
+            },
+            {
+              "time": 0.13333334028720856,
+              "color": "ffffff95"
+            },
+            {
+              "time": 0.20000000298023224,
+              "color": "ffffff32"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff29"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffff32"
+            },
+            {
+              "time": 6.133333206176758,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.199999809265137,
+              "color": "ffffff64"
+            },
+            {
+              "time": 6.266666889190674,
+              "color": "ffffff32"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffff64"
+            },
+            {
+              "time": 6.400000095367432,
+              "color": "ffffff32"
+            },
+            {
+              "time": 6.4666666984558105,
+              "color": "ffffff95"
+            },
+            {
+              "time": 6.5333333015441895,
+              "color": "ffffff64"
+            },
+            {
+              "time": 6.599999904632568,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffff95"
+            },
+            {
+              "time": 6.733333110809326,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.800000190734863,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 6.866666793823242,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.933333396911621,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 7,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.066666603088379,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 7.133333206176758,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.199999809265137,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 7.266666889190674,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 7.400000095367432,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.4666666984558105,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 7.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.599999904632568,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.733333110809326,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 7.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.866666793823242,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 7.933333396911621,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 8.066666603088379,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8.133333206176758,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 8.199999809265137,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8.266666412353516,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 8.333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8.399999618530273,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 8.466666221618652,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8.533333778381348,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 8.600000381469727,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8.666666984558105,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 8.733333587646484,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8.800000190734863,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 8.866666793823242,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8.933333396911621,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 9,
+              "color": "ffffffff"
+            },
+            {
+              "time": 9.066666603088379,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 9.133333206176758,
+              "color": "ffffffff"
+            },
+            {
+              "time": 9.199999809265137,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 9.266666412353516,
+              "color": "ffffffff"
+            },
+            {
+              "time": 9.333333015441895,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 9.399999618530273,
+              "color": "ffffffff"
+            },
+            {
+              "time": 9.466666221618652,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 9.533333778381348,
+              "color": "ffffffff"
+            },
+            {
+              "time": 9.600000381469727,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 9.666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 9.733333587646484,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 9.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 9.866666793823242,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 9.933333396911621,
+              "color": "ffffffff"
+            },
+            {
+              "time": 10,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 10.066666603088379,
+              "color": "ffffffff"
+            },
+            {
+              "time": 10.133333206176758,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 10.199999809265137,
+              "color": "ffffffff"
+            },
+            {
+              "time": 10.266666412353516,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 10.333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 10.399999618530273,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 10.466666221618652,
+              "color": "ffffffff"
+            },
+            {
+              "time": 10.533333778381348,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 10.600000381469727,
+              "color": "ffffffff"
+            },
+            {
+              "time": 10.666666984558105,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 10.733333587646484,
+              "color": "ffffffff"
+            },
+            {
+              "time": 10.800000190734863,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 10.866666793823242,
+              "color": "ffffffff"
+            },
+            {
+              "time": 10.933333396911621,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 11,
+              "color": "ffffffff"
+            },
+            {
+              "time": 11.066666603088379,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 11.133333206176758,
+              "color": "ffffffff"
+            },
+            {
+              "time": 11.199999809265137,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 11.266666412353516,
+              "color": "ffffffff"
+            },
+            {
+              "time": 11.333333015441895,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 11.399999618530273,
+              "color": "ffffffff"
+            },
+            {
+              "time": 11.466666221618652,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 11.533333778381348,
+              "color": "ffffffff"
+            },
+            {
+              "time": 11.600000381469727,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 11.666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 11.733333587646484,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 11.800000190734863,
+              "color": "ffffff95"
+            },
+            {
+              "time": 11.866666793823242,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 11.933333396911621,
+              "color": "ffffff95"
+            },
+            {
+              "time": 12,
+              "color": "ffffffc7"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "laser_blue_r_orange": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 3,
+              "angle": 90
+            },
+            {
+              "time": 6,
+              "angle": -180
+            },
+            {
+              "time": 9,
+              "angle": -90
+            },
+            {
+              "time": 12,
+              "angle": 0
+            }
+          ]
+        },
+        "laser_blue_l_orange": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0
+            },
+            {
+              "time": 3,
+              "angle": -90
+            },
+            {
+              "time": 6,
+              "angle": -180
+            },
+            {
+              "time": 9,
+              "angle": 90
+            },
+            {
+              "time": 12,
+              "angle": 0
+            }
+          ]
+        },
+        "laser_blue_r_orange2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -180
+            },
+            {
+              "time": 3,
+              "angle": -90
+            },
+            {
+              "time": 6,
+              "angle": 0
+            },
+            {
+              "time": 9,
+              "angle": 90
+            },
+            {
+              "time": 12,
+              "angle": -180
+            }
+          ]
+        },
+        "laser_blue_l_orange2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -180
+            },
+            {
+              "time": 3,
+              "angle": 90
+            },
+            {
+              "time": 6,
+              "angle": 0
+            },
+            {
+              "time": 9,
+              "angle": -90
+            },
+            {
+              "time": 12,
+              "angle": -180
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

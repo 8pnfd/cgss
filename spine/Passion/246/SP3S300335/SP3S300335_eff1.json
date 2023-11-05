@@ -1,0 +1,209 @@
+{
+  "skeleton": {
+    "hash": "t4qgYiNY9jk0Se7KenHM2lDBSro",
+    "spine": "3.8",
+    "width": 1225.1717529296875,
+    "height": 624.0877075195312,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_lensflare",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "y": -3,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_lensflare_a",
+      "parent": "eff_lensflare",
+      "rotation": -24,
+      "x": -491.82421875,
+      "y": 519.0418701171875,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_lensflare_a",
+      "bone": "eff_lensflare_a",
+      "attachment": "eff_lensflare",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_lensflare_a2",
+      "bone": "eff_lensflare_a",
+      "attachment": "eff_lensflare",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_lensflare_a": {
+          "eff_lensflare": {
+            "type": "region",
+            "name": "eff_lensflare",
+            "path": "eff_lensflare",
+            "rotation": 23.98420524597168,
+            "x": 620.509765625,
+            "y": 14.0574951171875,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "width": 980,
+            "height": 499,
+            "color": "ffffffff"
+          }
+        },
+        "eff_lensflare_a2": {
+          "eff_lensflare": {
+            "type": "region",
+            "name": "eff_lensflare",
+            "path": "eff_lensflare",
+            "rotation": 23.98420524597168,
+            "x": 620.509765625,
+            "y": 14.0574951171875,
+            "scaleX": 1.25,
+            "scaleY": 1.25,
+            "width": 980,
+            "height": 499,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_lensflare_a": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffff81",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffff81"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_lensflare_a2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.366666555404663,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffffae"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffae"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "eff_lensflare_a": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.949999988079071,
+              "y": 0.949999988079071
+            },
+            {
+              "time": 8,
+              "x": 1.0499999523162842,
+              "y": 1.0499999523162842
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

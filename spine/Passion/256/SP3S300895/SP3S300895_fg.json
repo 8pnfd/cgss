@@ -1,0 +1,254 @@
+{
+  "skeleton": {
+    "hash": "1ZPPnZVcFnb/n0IL+YMfW2PKN8A",
+    "spine": "3.8",
+    "width": 1377.733642578125,
+    "height": 978,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "scl_blu",
+      "parent": "fg_3",
+      "transform": "normal"
+    },
+    {
+      "name": "scl_blu2",
+      "parent": "fg_3",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fg_02",
+      "bone": "fg_3",
+      "attachment": "fg_02",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_01",
+      "bone": "fg_3",
+      "attachment": "fg_01",
+      "blend": "normal"
+    },
+    {
+      "name": "scl_blu",
+      "bone": "scl_blu",
+      "attachment": "scl_blu",
+      "blend": "screen"
+    },
+    {
+      "name": "scl_blu2",
+      "bone": "scl_blu2",
+      "attachment": "scl_blu",
+      "blend": "screen"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "fg_02": {
+          "fg_02": {
+            "type": "region",
+            "name": "fg_02",
+            "path": "fg_02",
+            "rotation": 0,
+            "x": 232.04248046875,
+            "y": 116.114501953125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 922,
+            "height": 317,
+            "color": "ffffffff"
+          }
+        },
+        "fg_01": {
+          "fg_01": {
+            "type": "region",
+            "name": "fg_01",
+            "path": "fg_01",
+            "rotation": 0,
+            "x": -393.6910095214844,
+            "y": 446.3500061035156,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 582,
+            "height": 978,
+            "color": "ffffffff"
+          }
+        },
+        "scl_blu": {
+          "scl_blu": {
+            "type": "region",
+            "name": "scl_blu",
+            "path": "scl_blu",
+            "rotation": 0,
+            "x": -259.22344970703125,
+            "y": 560.1719970703125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 192,
+            "height": 202,
+            "color": "ffffffff"
+          }
+        },
+        "scl_blu2": {
+          "scl_blu": {
+            "type": "region",
+            "name": "scl_blu",
+            "path": "scl_blu",
+            "rotation": 0,
+            "x": -259.22344970703125,
+            "y": 560.1719970703125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 192,
+            "height": 202,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "scl_blu": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.8333333730697632,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.833333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "scl_blu2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.8333333730697632,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.833333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

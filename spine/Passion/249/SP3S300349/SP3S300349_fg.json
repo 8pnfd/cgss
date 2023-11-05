@@ -1,0 +1,140 @@
+{
+  "skeleton": {
+    "hash": "LkxJALg0MwEVmTMHwZzlcJSiCn0",
+    "spine": "3.8",
+    "width": 970.0001220703125,
+    "height": 857.77880859375,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "x": -0.9999999403953552,
+      "y": -1,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "x": -0.9999999403953552,
+      "y": -1,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "x": -0.9999999403953552,
+      "y": -1,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "shuttle",
+      "bone": "fg_1",
+      "attachment": "shuttle",
+      "blend": "normal"
+    },
+    {
+      "name": "orbit",
+      "bone": "fg_1",
+      "attachment": "orbit",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_aura_add",
+      "bone": "fg_1",
+      "attachment": "eff_aura_add",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "shuttle": {
+          "shuttle": {
+            "type": "region",
+            "name": "shuttle",
+            "path": "shuttle",
+            "rotation": 0,
+            "x": -295.87158203125,
+            "y": 431.118408203125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 37,
+            "height": 50,
+            "color": "ffffffff"
+          }
+        },
+        "orbit": {
+          "orbit": {
+            "type": "region",
+            "name": "orbit",
+            "path": "orbit",
+            "rotation": 0,
+            "x": -29.13314437866211,
+            "y": 643.4644165039062,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 525,
+            "height": 361,
+            "color": "ffffffff"
+          }
+        },
+        "eff_aura_add": {
+          "eff_aura_add": {
+            "type": "region",
+            "name": "eff_aura_add",
+            "path": "eff_aura_add",
+            "rotation": 0,
+            "x": 165.34042358398438,
+            "y": 329.18560791015625,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 485,
+            "height": 363,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}
