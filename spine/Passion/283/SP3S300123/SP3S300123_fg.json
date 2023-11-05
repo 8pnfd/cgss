@@ -1,0 +1,142 @@
+{
+  "skeleton": {
+    "hash": "4nFaMHXPQyTDTw6dmFkOSicfmog",
+    "spine": "3.8",
+    "width": 1080.6446533203125,
+    "height": 285.5570068359375,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "y": -3,
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "y": 3,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "y": -3,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "y": -3,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "y": -3,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fg1",
+      "bone": "fg_1",
+      "attachment": "fg1",
+      "blend": "normal"
+    },
+    {
+      "name": "fg2",
+      "bone": "fg_1",
+      "attachment": "fg2",
+      "blend": "normal"
+    },
+    {
+      "name": "fg3",
+      "bone": "fg_1",
+      "attachment": "fg3",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "fg1": {
+          "fg1": {
+            "type": "region",
+            "name": "fg1",
+            "path": "fg1",
+            "rotation": 0,
+            "x": -519.8472290039062,
+            "y": 200.21481323242188,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 330,
+            "height": 150,
+            "color": "ffffffff"
+          }
+        },
+        "fg2": {
+          "fg2": {
+            "type": "region",
+            "name": "fg2",
+            "path": "fg2",
+            "rotation": 0,
+            "x": 33.78680419921875,
+            "y": 45.79898452758789,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 21,
+            "height": 21,
+            "color": "ffffffff"
+          }
+        },
+        "fg3": {
+          "fg3": {
+            "type": "region",
+            "name": "fg3",
+            "path": "fg3",
+            "rotation": 0,
+            "x": 315.2973937988281,
+            "y": 40.65779495239258,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 161,
+            "height": 102,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

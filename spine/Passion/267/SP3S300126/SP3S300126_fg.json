@@ -1,0 +1,724 @@
+{
+  "skeleton": {
+    "hash": "suAAnmf4ywR06EXKC8abYyTIe8g",
+    "spine": "3.8",
+    "width": 1409.0770263671875,
+    "height": 828.4005126953125,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg3",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_penlight_a1",
+      "parent": "fg3",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_penlight_a3",
+      "parent": "fg3",
+      "transform": "normal"
+    },
+    {
+      "name": "fg1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "fg3",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fg2_1",
+      "bone": "fg2",
+      "attachment": "fg2_1",
+      "blend": "normal"
+    },
+    {
+      "name": "fg2_2",
+      "bone": "fg2",
+      "attachment": "fg2_2",
+      "blend": "normal"
+    },
+    {
+      "name": "fg2_3",
+      "bone": "fg2",
+      "attachment": "fg2_3",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_penlight_a2_add3",
+      "bone": "eff_penlight_a3",
+      "attachment": "eff_lightsaber5_scr",
+      "blend": "screen"
+    },
+    {
+      "name": "eff_penlight_a2_add4",
+      "bone": "eff_penlight_a3",
+      "attachment": "eff_lightsaber4_scr",
+      "blend": "screen"
+    },
+    {
+      "name": "eff_penlight_a1_add3",
+      "bone": "eff_penlight_a3",
+      "attachment": "eff_lightsaber3_scr",
+      "blend": "screen"
+    },
+    {
+      "name": "eff_lightsaber1",
+      "bone": "fg_2",
+      "attachment": "eff_lightsaber1",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_lightsaber2",
+      "bone": "fg_2",
+      "attachment": "eff_lightsaber2",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_lightsaber3",
+      "bone": "fg_2",
+      "attachment": "eff_lightsaber3",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_lightsaber4",
+      "bone": "fg_2",
+      "attachment": "eff_lightsaber4",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_lightsaber5",
+      "bone": "fg_2",
+      "attachment": "eff_lightsaber5",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_lightsaber7",
+      "bone": "fg_2",
+      "attachment": "eff_lightsaber7",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_penlight_a2_add2",
+      "bone": "eff_penlight_a1",
+      "attachment": "eff_lightsaber6_add",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_penlight_a1_add2",
+      "bone": "eff_penlight_a1",
+      "attachment": "eff_lightsaber5_add",
+      "blend": "additive"
+    },
+    {
+      "name": "fg1_1",
+      "bone": "fg1",
+      "attachment": "fg1_1",
+      "blend": "normal"
+    },
+    {
+      "name": "fg1_2",
+      "bone": "fg1",
+      "attachment": "fg1_2",
+      "blend": "normal"
+    },
+    {
+      "name": "fg1_3",
+      "bone": "fg1",
+      "attachment": "fg1_3",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "fg2_1": {
+          "fg2_1": {
+            "type": "region",
+            "name": "fg2_1",
+            "path": "fg2_1",
+            "rotation": 0,
+            "x": 459.51593017578125,
+            "y": 36.483978271484375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 452,
+            "height": 159,
+            "color": "ffffffff"
+          }
+        },
+        "fg2_2": {
+          "fg2_2": {
+            "type": "region",
+            "name": "fg2_2",
+            "path": "fg2_2",
+            "rotation": 0,
+            "x": 551.82373046875,
+            "y": 102.02996063232422,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 267,
+            "height": 292,
+            "color": "ffffffff"
+          }
+        },
+        "fg2_3": {
+          "fg2_3": {
+            "type": "region",
+            "name": "fg2_3",
+            "path": "fg2_3",
+            "rotation": 0,
+            "x": 611.964599609375,
+            "y": 314.89276123046875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 147,
+            "height": 244,
+            "color": "ffffffff"
+          }
+        },
+        "eff_penlight_a2_add3": {
+          "eff_lightsaber5_scr": {
+            "type": "region",
+            "name": "eff_lightsaber5_scr",
+            "path": "eff_lightsaber5_scr",
+            "rotation": 0,
+            "x": 605.998291015625,
+            "y": 492.0969543457031,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 40,
+            "height": 117,
+            "color": "ffffffff"
+          }
+        },
+        "eff_penlight_a2_add4": {
+          "eff_lightsaber4_scr": {
+            "type": "region",
+            "name": "eff_lightsaber4_scr",
+            "path": "eff_lightsaber4_scr",
+            "rotation": 0,
+            "x": 410.783203125,
+            "y": 149.45310974121094,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 138,
+            "height": 96,
+            "color": "ffffffff"
+          }
+        },
+        "eff_penlight_a1_add3": {
+          "eff_lightsaber3_scr": {
+            "type": "region",
+            "name": "eff_lightsaber3_scr",
+            "path": "eff_lightsaber3_scr",
+            "rotation": 0,
+            "x": -503.0462341308594,
+            "y": 20.011093139648438,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 89,
+            "height": 31,
+            "color": "ffffffff"
+          }
+        },
+        "eff_lightsaber1": {
+          "eff_lightsaber1": {
+            "type": "region",
+            "name": "eff_lightsaber1",
+            "path": "eff_lightsaber1",
+            "rotation": 0,
+            "x": -458.4600830078125,
+            "y": 0.394805908203125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 141,
+            "height": 86,
+            "color": "ffffffff"
+          }
+        },
+        "eff_lightsaber2": {
+          "eff_lightsaber2": {
+            "type": "region",
+            "name": "eff_lightsaber2",
+            "path": "eff_lightsaber2",
+            "rotation": 0,
+            "x": 274.6940612792969,
+            "y": -4.3296356201171875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 144,
+            "height": 75,
+            "color": "ffffffff"
+          }
+        },
+        "eff_lightsaber3": {
+          "eff_lightsaber3": {
+            "type": "region",
+            "name": "eff_lightsaber3",
+            "path": "eff_lightsaber3",
+            "rotation": -18.624614715576172,
+            "x": 548.9251098632812,
+            "y": 214.1764373779297,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 329,
+            "height": 127,
+            "color": "ffffffff"
+          }
+        },
+        "eff_lightsaber4": {
+          "eff_lightsaber4": {
+            "type": "region",
+            "name": "eff_lightsaber4",
+            "path": "eff_lightsaber4",
+            "rotation": -30.902069091796875,
+            "x": 518.3806762695312,
+            "y": 38.355995178222656,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 369,
+            "height": 107,
+            "color": "ffffffff"
+          }
+        },
+        "eff_lightsaber5": {
+          "eff_lightsaber5": {
+            "type": "region",
+            "name": "eff_lightsaber5",
+            "path": "eff_lightsaber5",
+            "rotation": 0,
+            "x": 638.5678100585938,
+            "y": 386.87237548828125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 94,
+            "height": 120,
+            "color": "ffffffff"
+          }
+        },
+        "eff_lightsaber7": {
+          "eff_lightsaber7": {
+            "type": "region",
+            "name": "eff_lightsaber7",
+            "path": "eff_lightsaber7",
+            "rotation": 0,
+            "x": -640.9868774414062,
+            "y": -6.727996826171875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 86,
+            "height": 71,
+            "color": "ffffffff"
+          }
+        },
+        "eff_penlight_a2_add2": {
+          "eff_lightsaber6_add": {
+            "type": "region",
+            "name": "eff_lightsaber6_add",
+            "path": "eff_lightsaber6_add",
+            "rotation": 0,
+            "x": 75.20523834228516,
+            "y": 206.7920379638672,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 306,
+            "height": 124,
+            "color": "ffffffff"
+          }
+        },
+        "eff_penlight_a1_add2": {
+          "eff_lightsaber5_add": {
+            "type": "region",
+            "name": "eff_lightsaber5_add",
+            "path": "eff_lightsaber5_add",
+            "rotation": 0,
+            "x": 100.5566635131836,
+            "y": 189.88003540039062,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 293,
+            "height": 116,
+            "color": "ffffffff"
+          }
+        },
+        "fg1_1": {
+          "fg1_1": {
+            "type": "region",
+            "name": "fg1_1",
+            "path": "fg1_1",
+            "rotation": 0,
+            "x": -340.7160339355469,
+            "y": 340.0677795410156,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 9,
+            "height": 23,
+            "color": "ffffffff"
+          }
+        },
+        "fg1_2": {
+          "fg1_2": {
+            "type": "region",
+            "name": "fg1_2",
+            "path": "fg1_2",
+            "rotation": 0,
+            "x": -276.5526428222656,
+            "y": 382.9505310058594,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 4,
+            "height": 3,
+            "color": "ffffffff"
+          }
+        },
+        "fg1_3": {
+          "fg1_3": {
+            "type": "region",
+            "name": "fg1_3",
+            "path": "fg1_3",
+            "rotation": 0,
+            "x": -60.12388610839844,
+            "y": 467.6547546386719,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 58,
+            "height": 29,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_penlight_a1_add2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff_penlight_a1_add3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff_penlight_a2_add2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff_penlight_a2_add3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff_penlight_a2_add4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

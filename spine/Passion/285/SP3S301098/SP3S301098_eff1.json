@@ -1,0 +1,307 @@
+{
+  "skeleton": {
+    "hash": "Km1UjOrXHvS/8vqP3pig/Zghjn4",
+    "spine": "3.8",
+    "width": 0,
+    "height": 0,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "hikari",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "hikari2",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "ef1_hikari1",
+      "bone": "hikari",
+      "attachment": "ef1_hikari1",
+      "blend": "additive"
+    },
+    {
+      "name": "ef1_hikari3",
+      "bone": "hikari2",
+      "attachment": "ef1_hikari1",
+      "blend": "additive"
+    },
+    {
+      "name": "ef1_hikari2",
+      "bone": "hikari",
+      "attachment": "ef1_hikari2",
+      "blend": "screen"
+    },
+    {
+      "name": "ef1_hikari4",
+      "bone": "hikari2",
+      "attachment": "ef1_hikari2",
+      "blend": "screen"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "ef1_hikari1": {
+          "ef1_hikari1": {
+            "type": "region",
+            "name": "ef1_hikari1",
+            "path": "ef1_hikari1",
+            "rotation": 0,
+            "x": 413.5510559082031,
+            "y": 608.45849609375,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 280,
+            "height": 281,
+            "color": "ffffffff"
+          }
+        },
+        "ef1_hikari3": {
+          "ef1_hikari1": {
+            "type": "region",
+            "name": "ef1_hikari1",
+            "path": "ef1_hikari1",
+            "rotation": 0,
+            "x": 413.5510559082031,
+            "y": 608.45849609375,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 280,
+            "height": 281,
+            "color": "ffffffff"
+          }
+        },
+        "ef1_hikari2": {
+          "ef1_hikari2": {
+            "type": "mesh",
+            "name": "ef1_hikari2",
+            "path": "ef1_hikari2",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              650.9600219726562,
+              469.239990234375,
+              406.9599914550781,
+              469.239990234375,
+              406.9599914550781,
+              833.52001953125,
+              650.9600219726562,
+              833.52001953125
+            ],
+            "hull": 4
+          }
+        },
+        "ef1_hikari4": {
+          "ef1_hikari2": {
+            "type": "mesh",
+            "name": "ef1_hikari2",
+            "path": "ef1_hikari2",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              1,
+              2,
+              3,
+              1,
+              3,
+              0
+            ],
+            "vertices": [
+              650.9600219726562,
+              469.239990234375,
+              406.9599914550781,
+              469.239990234375,
+              406.9599914550781,
+              833.52001953125,
+              650.9600219726562,
+              833.52001953125
+            ],
+            "hull": 4
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "ef1_hikari1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff81",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1,
+              "color": "ffffff2b",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffff81",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "color": "ffffff2b",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffff81",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffff2b",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffff81"
+            }
+          ]
+        },
+        "ef1_hikari2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff81",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1,
+              "color": "ffffff2b",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffff81",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "color": "ffffff2b",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffff81",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffff2b",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffff81"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

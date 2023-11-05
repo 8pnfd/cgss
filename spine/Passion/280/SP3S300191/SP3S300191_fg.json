@@ -1,0 +1,92 @@
+{
+  "skeleton": {
+    "hash": "a1rlWTd5DuKTyt7z1KEUuMiW+lE",
+    "spine": "3.8",
+    "width": 140.00003051757812,
+    "height": 108,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_light_a_add",
+      "bone": "fg_1",
+      "attachment": "eff_light_a_add",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_light_a_add": {
+          "eff_light_a_add": {
+            "type": "region",
+            "name": "eff_light_a_add",
+            "path": "eff_light_a_add",
+            "rotation": 0,
+            "x": -229.499755859375,
+            "y": 529.0701904296875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 140,
+            "height": 108,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "skeleton": {
+    "hash": "ZH9gof+GjRrFnEo8cmotWOwjyJk",
+    "spine": "3.8",
+    "width": 475,
+    "height": 274.927978515625,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fg_b",
+      "bone": "fg_1",
+      "attachment": "fg_b",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_a",
+      "bone": "fg_1",
+      "attachment": "fg_a",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "fg_b": {
+          "fg_b": {
+            "type": "region",
+            "name": "fg_b",
+            "path": "fg_b",
+            "rotation": 0,
+            "x": -361.7684631347656,
+            "y": 170.0554962158203,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 100,
+            "height": 258,
+            "color": "ffffffff"
+          }
+        },
+        "fg_a": {
+          "fg_a": {
+            "type": "region",
+            "name": "fg_a",
+            "path": "fg_a",
+            "rotation": 0,
+            "x": -182.73248291015625,
+            "y": 66.62750244140625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 475,
+            "height": 85,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

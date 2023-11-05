@@ -1,0 +1,273 @@
+{
+  "skeleton": {
+    "hash": "YwxfKpvCTVsPPOnUq3otXDb5yEc",
+    "spine": "3.8",
+    "width": 231.00009155273438,
+    "height": 789.0001220703125,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_rens_b",
+      "parent": "all",
+      "x": 0.00004698552220361307,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_rens_b1",
+      "parent": "eff_rens_b",
+      "rotation": -2.20001220703125,
+      "x": -232.80322265625,
+      "y": 1139.869384765625,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_rens_b_add2",
+      "bone": "eff_rens_b1",
+      "attachment": "eff_rens_b_add2",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_rens_b_add1",
+      "bone": "eff_rens_b1",
+      "attachment": "LensFlare1_add",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_rens_b_add2": {
+          "eff_rens_b_add2": {
+            "type": "region",
+            "name": "eff_rens_b_add2",
+            "path": "LensFlare1_add",
+            "rotation": 2.20001220703125,
+            "x": -3.2877197265625,
+            "y": -855.40966796875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 78,
+            "height": 227,
+            "color": "ffffffff"
+          }
+        },
+        "eff_rens_b_add1": {
+          "LensFlare1_add": {
+            "type": "region",
+            "name": "LensFlare1_add",
+            "path": "LensFlare2_add",
+            "rotation": 2.20001220703125,
+            "x": -12.82666015625,
+            "y": -697.6028442382812,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 231,
+            "height": 789,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_rens_b_add1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.366666555404663,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffad"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_rens_b_add2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.366666555404663,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffffad"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffad"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "eff_rens_b1": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": 0.21932469308376312,
+              "c2": 0.038844622671604156,
+              "c3": 0.9345906376838684,
+              "c4": 0.912350594997406
+            },
+            {
+              "time": 7.333333492279053,
+              "x": 1.0800000429153442,
+              "y": 1.0800000429153442,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "skeleton": {
+    "hash": "3nJSCyc6oGDELLCaJv4nzgeosrk",
+    "spine": "3.8",
+    "width": 1028.0001220703125,
+    "height": 680,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "x": -1,
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": 1,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "x": -1,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "x": -1,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "x": -1,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_4",
+      "parent": "fg_1",
+      "x": 308.2857666015625,
+      "y": 245.35061645507812,
+      "scaleX": 4,
+      "scaleY": 4,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "body_light_mut",
+      "bone": "fg_4",
+      "attachment": "body_light_add",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "body_light_mut": {
+          "body_light_add": {
+            "type": "region",
+            "name": "body_light_add",
+            "path": "body_light_add",
+            "rotation": 0,
+            "x": -67.00959014892578,
+            "y": -12.469593048095703,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 257,
+            "height": 170,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "body_light_mut": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.9333333373069763,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.7000000476837158,
+              "color": "ffffff51"
+            },
+            {
+              "time": 2.799999952316284,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.1666667461395264,
+              "color": "ffffff94"
+            },
+            {
+              "time": 5.366666793823242,
+              "color": "ffffffd2"
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffff58"
+            },
+            {
+              "time": 5.900000095367432,
+              "color": "ffffffd1"
+            },
+            {
+              "time": 6.099999904632568,
+              "color": "ffffff6e"
+            },
+            {
+              "time": 6.400000095367432,
+              "color": "ffffffbb"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "skeleton": {
+    "hash": "iUy55JBZU2BNgdD792SrX7jb2Jg",
+    "spine": "3.8",
+    "width": 787.7660522460938,
+    "height": 536.6150512695312,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "sweets_01",
+      "parent": "fg_3",
+      "x": -123.1396255493164,
+      "y": 198.97378540039062,
+      "transform": "normal"
+    },
+    {
+      "name": "sweets_02",
+      "parent": "fg_3",
+      "x": 145.59632873535156,
+      "y": 493.54974365234375,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "sweets_add01",
+      "bone": "sweets_01",
+      "attachment": "sweets_add01",
+      "blend": "additive"
+    },
+    {
+      "name": "sweets_01",
+      "bone": "sweets_01",
+      "attachment": "sweets_01",
+      "blend": "normal"
+    },
+    {
+      "name": "sweets_add02",
+      "bone": "sweets_02",
+      "attachment": "sweets_add02",
+      "blend": "additive"
+    },
+    {
+      "name": "sweets_02",
+      "bone": "sweets_02",
+      "attachment": "sweets_02",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_desk1",
+      "bone": "fg_3",
+      "attachment": "fg_desk1",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_desk2",
+      "bone": "root",
+      "attachment": "fg_desk2",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "sweets_add01": {
+          "sweets_add01": {
+            "type": "region",
+            "name": "sweets_add01",
+            "path": "sweets_add01",
+            "rotation": 0,
+            "x": 4.581845760345459,
+            "y": 0.604217529296875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 27,
+            "height": 23,
+            "color": "ffffffff"
+          }
+        },
+        "sweets_01": {
+          "sweets_01": {
+            "type": "region",
+            "name": "sweets_01",
+            "path": "sweets_01",
+            "rotation": 0,
+            "x": 1.1433700323104858,
+            "y": -1.102325439453125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 27,
+            "height": 18,
+            "color": "ffffffff"
+          }
+        },
+        "sweets_add02": {
+          "sweets_add02": {
+            "type": "region",
+            "name": "sweets_add02",
+            "path": "sweets_add02",
+            "rotation": 0,
+            "x": 0.968841552734375,
+            "y": 2.246246337890625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 42,
+            "height": 42,
+            "color": "ffffffff"
+          }
+        },
+        "sweets_02": {
+          "sweets_02": {
+            "type": "region",
+            "name": "sweets_02",
+            "path": "sweets_02",
+            "rotation": 0,
+            "x": -1.896270751953125,
+            "y": -0.782745361328125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 43,
+            "height": 37,
+            "color": "ffffffff"
+          }
+        },
+        "fg_desk1": {
+          "fg_desk1": {
+            "type": "region",
+            "name": "fg_desk1",
+            "path": "fg_desk1",
+            "rotation": 0,
+            "x": 397.110595703125,
+            "y": 98.68096923828125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 131,
+            "height": 237,
+            "color": "ffffffff"
+          }
+        },
+        "fg_desk2": {
+          "fg_desk2": {
+            "type": "region",
+            "name": "fg_desk2",
+            "path": "fg_desk2",
+            "rotation": 0,
+            "x": 595.269775390625,
+            "y": 313.6557312011719,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 114,
+            "height": 182,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {
+        "sweets_02": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "x": 0,
+              "y": -9.407989501953125,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "x": 0,
+              "y": -9.407989501953125,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "sweets_01": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": -6.7380828857421875,
+              "curve": 0.3513513505458832,
+              "c2": 0.4000000059604645,
+              "c3": 0.7567566633224487,
+              "c4": 1
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.625,
+              "c4": 0.5
+            },
+            {
+              "time": 3.3333332538604736,
+              "x": 0,
+              "y": -9.407989501953125,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.333333492279053,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.333333492279053,
+              "x": 0,
+              "y": -9.407989501953125,
+              "curve": 0.2647058665752411,
+              "c2": 0,
+              "c3": 0.6176470518112183,
+              "c4": 0.4285714328289032
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": -6.7380828857421875
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

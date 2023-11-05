@@ -1,0 +1,272 @@
+{
+  "skeleton": {
+    "hash": "DHYXb3sqfdAtGDGvUMsZiWn7zzk",
+    "spine": "3.8",
+    "width": 1349.5,
+    "height": 896,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "frame_2",
+      "bone": "fg_1",
+      "attachment": "frame_2",
+      "blend": "normal"
+    },
+    {
+      "name": "frame_1",
+      "bone": "fg_1",
+      "attachment": "frame_1",
+      "blend": "normal"
+    },
+    {
+      "name": "glass_screen",
+      "bone": "fg_1",
+      "attachment": "glass_screen",
+      "blend": "screen"
+    },
+    {
+      "name": "glass_2_add",
+      "bone": "fg_1",
+      "attachment": "glass_2_add",
+      "blend": "additive"
+    },
+    {
+      "name": "glass_1_add",
+      "bone": "fg_1",
+      "color": "fffffff0",
+      "attachment": "glass_1_add",
+      "blend": "additive"
+    },
+    {
+      "name": "sticker",
+      "bone": "fg_1",
+      "attachment": "sticker",
+      "blend": "normal"
+    },
+    {
+      "name": "sticker_2_multi",
+      "bone": "fg_1",
+      "attachment": "sticker_2_multi",
+      "blend": "multiply"
+    },
+    {
+      "name": "sticker_1_multi",
+      "bone": "fg_1",
+      "attachment": "sticker_1_multi",
+      "blend": "multiply"
+    },
+    {
+      "name": "light_add",
+      "bone": "fg_1",
+      "attachment": "light_add",
+      "blend": "additive"
+    },
+    {
+      "name": "light_multi",
+      "bone": "fg_1",
+      "attachment": "light_multi",
+      "blend": "multiply"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "frame_2": {
+          "frame_2": {
+            "type": "region",
+            "name": "frame_2",
+            "path": "frame_2",
+            "rotation": 0,
+            "x": 326.2000427246094,
+            "y": 220.7899932861328,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 618,
+            "height": 369,
+            "color": "ffffffff"
+          }
+        },
+        "frame_1": {
+          "frame_1": {
+            "type": "region",
+            "name": "frame_1",
+            "path": "frame_1",
+            "rotation": 0,
+            "x": -185.79998779296875,
+            "y": 69.29000091552734,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 708,
+            "height": 212,
+            "color": "ffffffff"
+          }
+        },
+        "glass_screen": {
+          "glass_screen": {
+            "type": "region",
+            "name": "glass_screen",
+            "path": "glass_screen",
+            "rotation": 0,
+            "x": -2.2999789714813232,
+            "y": 242.2899932861328,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 281,
+            "height": 130,
+            "color": "ffffffff"
+          }
+        },
+        "glass_2_add": {
+          "glass_2_add": {
+            "type": "region",
+            "name": "glass_2_add",
+            "path": "glass_2_add",
+            "rotation": 0,
+            "x": -153.949951171875,
+            "y": 520.7999877929688,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 258,
+            "height": 168,
+            "color": "ffffffff"
+          }
+        },
+        "glass_1_add": {
+          "glass_1_add": {
+            "type": "region",
+            "name": "glass_1_add",
+            "path": "glass_1_add",
+            "rotation": 0,
+            "x": 327.5250244140625,
+            "y": 573.2999877929688,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 281,
+            "height": 284,
+            "color": "ffffffff"
+          }
+        },
+        "sticker": {
+          "sticker": {
+            "type": "region",
+            "name": "sticker",
+            "path": "sticker",
+            "rotation": 0,
+            "x": 493.2000427246094,
+            "y": 283.2900085449219,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 84,
+            "height": 64,
+            "color": "ffffffff"
+          }
+        },
+        "sticker_2_multi": {
+          "sticker_2_multi": {
+            "type": "region",
+            "name": "sticker_2_multi",
+            "path": "sticker_2_multi",
+            "rotation": 0,
+            "x": 498.7000427246094,
+            "y": 277.7900085449219,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 85,
+            "height": 63,
+            "color": "ffffffff"
+          }
+        },
+        "sticker_1_multi": {
+          "sticker_1_multi": {
+            "type": "region",
+            "name": "sticker_1_multi",
+            "path": "sticker_1_multi",
+            "rotation": 0,
+            "x": 341.7000732421875,
+            "y": 630.7899780273438,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 97,
+            "height": 91,
+            "color": "ffffffff"
+          }
+        },
+        "light_add": {
+          "light_add": {
+            "type": "region",
+            "name": "light_add",
+            "path": "light_add",
+            "rotation": 0,
+            "x": 3.700035810470581,
+            "y": 410.2900085449219,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 337,
+            "height": 224,
+            "color": "ffffffff"
+          }
+        },
+        "light_multi": {
+          "light_multi": {
+            "type": "region",
+            "name": "light_multi",
+            "path": "light_multi",
+            "rotation": 0,
+            "x": -121.79993438720703,
+            "y": 741.7899780273438,
+            "scaleX": 4,
+            "scaleY": 4,
+            "width": 275,
+            "height": 58,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

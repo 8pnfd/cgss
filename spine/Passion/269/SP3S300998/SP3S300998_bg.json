@@ -1,0 +1,337 @@
+{
+  "skeleton": {
+    "hash": "2I376jWhuD+hXAlLV6h84NuKbbs",
+    "spine": "3.8",
+    "width": 1293.0001220703125,
+    "height": 837,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_1",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_2",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_3",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg",
+      "bone": "bg_3",
+      "attachment": "bg",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_light_3",
+      "bone": "bg_1",
+      "attachment": "bg_light_3",
+      "blend": "additive"
+    },
+    {
+      "name": "bg_light_2",
+      "bone": "bg_1",
+      "attachment": "bg_light_2",
+      "blend": "additive"
+    },
+    {
+      "name": "bg_light_1",
+      "bone": "bg_1",
+      "attachment": "bg_light_1",
+      "blend": "additive"
+    },
+    {
+      "name": "bg_light_4",
+      "bone": "bg_1",
+      "attachment": "bg_light_4",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg": {
+          "bg": {
+            "type": "region",
+            "name": "bg",
+            "path": "bg",
+            "rotation": 0,
+            "x": 0.38449999690055847,
+            "y": 411.94549560546875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1293,
+            "height": 837,
+            "color": "ffffffff"
+          }
+        },
+        "bg_light_3": {
+          "bg_light_3": {
+            "type": "region",
+            "name": "bg_light_3",
+            "path": "bg_light_3",
+            "rotation": 0,
+            "x": 147.7940673828125,
+            "y": 640.3324584960938,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 232,
+            "height": 189,
+            "color": "ffffffff"
+          }
+        },
+        "bg_light_2": {
+          "bg_light_2": {
+            "type": "region",
+            "name": "bg_light_2",
+            "path": "bg_light_2",
+            "rotation": 0,
+            "x": -87.00798797607422,
+            "y": 203.09500122070312,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 206,
+            "height": 175,
+            "color": "ffffffff"
+          }
+        },
+        "bg_light_1": {
+          "bg_light_1": {
+            "type": "region",
+            "name": "bg_light_1",
+            "path": "bg_light_1",
+            "rotation": 0,
+            "x": -505.115478515625,
+            "y": 364.5434875488281,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 141,
+            "height": 232,
+            "color": "ffffffff"
+          }
+        },
+        "bg_light_4": {
+          "bg_light_4": {
+            "type": "region",
+            "name": "bg_light_4",
+            "path": "bg_light_4",
+            "rotation": 0,
+            "x": 477.4765625,
+            "y": 635.9639892578125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 146,
+            "height": 100,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "bg_light_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5,
+              "color": "ffffff00",
+              "curve": 0.07864592969417572,
+              "c2": 0.8979591727256775,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.166666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.833333492279053,
+              "color": "ffffffff",
+              "curve": 0.07864592969417572,
+              "c2": 0.8979591727256775,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "bg_light_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff00",
+              "curve": 0.07864592969417572,
+              "c2": 0.8979591727256775,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.8333332538604736,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.833333492279053,
+              "color": "ffffffff",
+              "curve": 0.07864592969417572,
+              "c2": 0.8979591727256775,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "bg_light_3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffff00",
+              "curve": 0.07864592969417572,
+              "c2": 0.8979591727256775,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.833333492279053,
+              "color": "ffffffff",
+              "curve": 0.07864592969417572,
+              "c2": 0.8979591727256775,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "bg_light_4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00",
+              "curve": 0.07864592969417572,
+              "c2": 0.8979591727256775,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.1666666269302368,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.833333492279053,
+              "color": "ffffffff",
+              "curve": 0.07864592969417572,
+              "c2": 0.8979591727256775,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}
