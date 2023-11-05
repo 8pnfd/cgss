@@ -1,0 +1,239 @@
+{
+  "skeleton": {
+    "hash": "JkEkYX3oXZlP4VpS/68vxqBs8aE",
+    "spine": "3.8",
+    "width": 436.7748107910156,
+    "height": 410.9999084472656,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_bird1",
+      "parent": "fg_1",
+      "x": 489.9396057128906,
+      "y": 564.9354858398438,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_bird1",
+      "bone": "eff_bird1",
+      "attachment": "eff_bird1",
+      "blend": "normal"
+    },
+    {
+      "name": "pass_eff_bird1",
+      "bone": "all",
+      "attachment": "pass_eff_bird1",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [
+    {
+      "name": "pass_eff_bird1",
+      "order": 0,
+      "bones": [
+        "eff_bird1"
+      ],
+      "target": "pass_eff_bird1",
+      "positionMode": "percent",
+      "spacingMode": "length",
+      "rotateMode": "tangent",
+      "rotation": 0,
+      "position": 0.009999999776482582,
+      "spacing": 0,
+      "rotateMix": 1,
+      "translateMix": 1
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_bird1": {
+          "eff_bird1": {
+            "type": "region",
+            "name": "eff_bird1",
+            "path": "eff_bird1",
+            "rotation": 0,
+            "x": -60.439605712890625,
+            "y": 50.06451416015625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 347,
+            "height": 270,
+            "color": "ffffffff"
+          }
+        },
+        "pass_eff_bird1": {
+          "pass_eff_bird1": {
+            "type": "path",
+            "name": "pass_eff_bird1",
+            "closed": false,
+            "constantSpeed": true,
+            "vertexCount": 9,
+            "vertices": [
+              411.489990234375,
+              510,
+              490.2699890136719,
+              565,
+              490.260009765625,
+              565,
+              510.07000732421875,
+              576.1799926757812,
+              517.3800048828125,
+              593.469970703125,
+              525.2000122070312,
+              611.9500122070312,
+              523.27001953125,
+              642,
+              523.260009765625,
+              641.9600219726562,
+              459.45001220703125,
+              570.0700073242188
+            ],
+            "lengths": [
+              39.84398651123047,
+              88.9981918334961,
+              261.9482421875
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {
+        "eff_bird1": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": 0.3995935022830963,
+              "c2": 0,
+              "c3": 0.6004064679145813,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "x": 0.949999988079071,
+              "y": 0.8999999761581421,
+              "curve": 0.3995935022830963,
+              "c2": 0,
+              "c3": 0.6004064679145813,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {
+        "pass_eff_bird1": {
+          "position": [
+            {
+              "time": 0,
+              "position": 0.009999999776482582,
+              "curve": 0.405826598405838,
+              "c2": 0.0018382353009656072,
+              "c3": 0.6191056370735168,
+              "c4": 0.998161792755127
+            },
+            {
+              "time": 4,
+              "position": 0.598800003528595,
+              "curve": 0.405826598405838,
+              "c2": 0.0018382353009656072,
+              "c3": 0.6191056370735168,
+              "c4": 0.998161792755127
+            },
+            {
+              "time": 8,
+              "position": 0.009999999776482582
+            }
+          ],
+          "mix": [
+            {
+              "time": 0,
+              "rotateMix": 0.009999999776482582,
+              "translateMix": 1
+            },
+            {
+              "time": 0.6666666865348816,
+              "rotateMix": 0,
+              "translateMix": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.7333333492279053,
+              "rotateMix": 0.07400000095367432,
+              "translateMix": 1,
+              "curve": 0.2548131048679352,
+              "c2": 0,
+              "c3": 0.6200453042984009,
+              "c4": 0.46875
+            },
+            {
+              "time": 8,
+              "rotateMix": 0.009999999776482582,
+              "translateMix": 1
+            }
+          ]
+        }
+      },
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "skeleton": {
+    "hash": "196v0BTPoOovBfoDwYzEdinn800",
+    "spine": "3.8",
+    "width": 618.0000610351562,
+    "height": 220,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_ray_h",
+      "bone": "all",
+      "attachment": "eff_ray_h",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_ray_h": {
+          "eff_ray_h": {
+            "type": "region",
+            "name": "eff_ray_h",
+            "path": "eff_ray_h",
+            "rotation": 0,
+            "x": 383.6759948730469,
+            "y": 377.23199462890625,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 309,
+            "height": 110,
+            "color": "ffffff9a"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_ray_h": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffffc7"
+            },
+            {
+              "time": 3,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.066666603088379,
+              "color": "ffffffd3"
+            },
+            {
+              "time": 3.133333444595337,
+              "color": "ffffffe0"
+            },
+            {
+              "time": 3.200000047683716,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 3.2666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffffb4",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

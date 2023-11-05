@@ -1,0 +1,265 @@
+{
+  "skeleton": {
+    "hash": "V37wldnhYuLEvgCSYZ5VnYCHtAY",
+    "spine": "3.8",
+    "width": 586.3250122070312,
+    "height": 322.4670104980469,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "candy1",
+      "parent": "fg_1",
+      "x": -89.55393981933594,
+      "y": 107.23829650878906,
+      "transform": "normal"
+    },
+    {
+      "name": "paper1",
+      "parent": "fg_1",
+      "x": 99.48594665527344,
+      "y": 146.15829467773438,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "candy1",
+      "bone": "candy1",
+      "attachment": "candy1",
+      "blend": "normal"
+    },
+    {
+      "name": "paper1",
+      "bone": "paper1",
+      "attachment": "paper1",
+      "blend": "normal"
+    },
+    {
+      "name": "front_desk",
+      "bone": "fg_1",
+      "attachment": "front_desk",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "candy1": {
+          "candy1": {
+            "type": "region",
+            "name": "candy1",
+            "path": "candy1",
+            "rotation": 0,
+            "x": 0.5289535522460938,
+            "y": 2.8947067260742188,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 62,
+            "height": 35,
+            "color": "ffffffff"
+          }
+        },
+        "paper1": {
+          "paper1": {
+            "type": "region",
+            "name": "paper1",
+            "path": "paper1",
+            "rotation": 0,
+            "x": 2.704071044921875,
+            "y": 3.112701416015625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 90,
+            "height": 90,
+            "color": "ffffffff"
+          }
+        },
+        "front_desk": {
+          "front_desk": {
+            "type": "region",
+            "name": "front_desk",
+            "path": "front_desk",
+            "rotation": 0,
+            "x": 385.8000183105469,
+            "y": 261.1000061035156,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 161,
+            "height": 308,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {
+        "paper1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.2000000476837158,
+              "x": -0.35593414306640625,
+              "y": -2.158294677734375,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.6666667461395264,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.866666555404663,
+              "x": -0.35593414306640625,
+              "y": -2.158294677734375,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.333333492279053,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.5333333015441895,
+              "x": -0.35593414306640625,
+              "y": -2.158294677734375,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "candy1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.1666666269302368,
+              "x": -0.61199951171875,
+              "y": -1.2382965087890625,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.6666667461395264,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.8333332538604736,
+              "x": -0.61199951171875,
+              "y": -1.2382965087890625,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.333333492279053,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.5,
+              "x": -0.61199951171875,
+              "y": -1.2382965087890625,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

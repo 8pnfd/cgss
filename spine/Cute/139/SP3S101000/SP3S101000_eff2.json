@@ -1,0 +1,217 @@
+{
+  "skeleton": {
+    "hash": "+z3kREPYxFmddjfHTNYaTuK+QLw",
+    "spine": "3.8",
+    "width": 325.959716796875,
+    "height": 357.5670166015625,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "bg_add3",
+      "parent": "all",
+      "x": 593.3519897460938,
+      "y": 361.97607421875,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "kanban_oku01_37",
+      "bone": "all",
+      "attachment": "kanban_oku01_37",
+      "blend": "normal"
+    },
+    {
+      "name": "kanban_oku02_37",
+      "bone": "all",
+      "attachment": "kanban_oku02_37",
+      "blend": "normal"
+    },
+    {
+      "name": "kanban_oku03_35",
+      "bone": "bg_add3",
+      "attachment": "kanban_oku03_35",
+      "blend": "normal"
+    },
+    {
+      "name": "kanban_hi_add02_56",
+      "bone": "bg_add3",
+      "attachment": "kanban_hi_add02_56",
+      "blend": "additive"
+    },
+    {
+      "name": "neon_hi_add03_52",
+      "bone": "bg_add3",
+      "attachment": "neon_hi_add03_52",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "kanban_oku01_37": {
+          "kanban_oku01_37": {
+            "type": "region",
+            "name": "kanban_oku01_37",
+            "path": "kanban_oku01_37",
+            "rotation": -37,
+            "x": 621.4359130859375,
+            "y": 204.6385040283203,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 178,
+            "height": 55,
+            "color": "ffffffff"
+          }
+        },
+        "kanban_oku02_37": {
+          "kanban_oku02_37": {
+            "type": "region",
+            "name": "kanban_oku02_37",
+            "path": "kanban_oku02_37",
+            "rotation": -37,
+            "x": 581.5739135742188,
+            "y": 308.76104736328125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 75,
+            "height": 49,
+            "color": "ffffffff"
+          }
+        },
+        "kanban_oku03_35": {
+          "kanban_oku03_35": {
+            "type": "region",
+            "name": "kanban_oku03_35",
+            "path": "kanban_oku03_35",
+            "rotation": -35,
+            "x": 22.69451904296875,
+            "y": -25.3670654296875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 300,
+            "height": 92,
+            "color": "ffffffff"
+          }
+        },
+        "kanban_hi_add02_56": {
+          "kanban_hi_add02_56": {
+            "type": "region",
+            "name": "kanban_hi_add02_56",
+            "path": "kanban_hi_add02_56",
+            "rotation": 56,
+            "x": -23.22808837890625,
+            "y": 12.544921875,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 53,
+            "height": 122,
+            "color": "ffffffff"
+          }
+        },
+        "neon_hi_add03_52": {
+          "neon_hi_add03_52": {
+            "type": "region",
+            "name": "neon_hi_add03_52",
+            "path": "neon_hi_add03_52",
+            "rotation": 52,
+            "x": 1.72894287109375,
+            "y": -16.06158447265625,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 60,
+            "height": 146,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "kanban_hi_add02_56": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffd9"
+            },
+            {
+              "time": 2,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4,
+              "color": "ffffffd9"
+            },
+            {
+              "time": 6,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8,
+              "color": "ffffffd9"
+            }
+          ]
+        },
+        "neon_hi_add03_52": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffd9"
+            },
+            {
+              "time": 2,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4,
+              "color": "ffffffd9"
+            },
+            {
+              "time": 6,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8,
+              "color": "ffffffd9"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

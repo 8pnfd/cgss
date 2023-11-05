@@ -1,0 +1,123 @@
+{
+  "skeleton": {
+    "hash": "BEITqnuEgB1FOItsjyOQZktrcxQ",
+    "spine": "3.8",
+    "width": 1308.0001220703125,
+    "height": 850,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_sunset",
+      "parent": "all",
+      "x": -0.000024596021830802783,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_sunset_add",
+      "bone": "eff_sunset",
+      "attachment": "eff_sunset_add",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_sunset_add": {
+          "eff_sunset_add": {
+            "type": "region",
+            "name": "eff_sunset_add",
+            "path": "eff_sunset_add",
+            "rotation": 0,
+            "x": -1.1999213695526123,
+            "y": 412.29998779296875,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 654,
+            "height": 425,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_sunset_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.566666603088379,
+              "color": "ffffffb2"
+            },
+            {
+              "time": 3.799999952316284,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

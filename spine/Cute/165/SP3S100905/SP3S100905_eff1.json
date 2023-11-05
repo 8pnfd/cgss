@@ -1,0 +1,182 @@
+{
+  "skeleton": {
+    "hash": "YG+iPX7xllE3yHL0uArP33qGnQs",
+    "spine": "3.8",
+    "width": 478.0001525878906,
+    "height": 853.0000610351562,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff1_sun",
+      "parent": "all",
+      "x": -651.6168823242188,
+      "y": 835.2975463867188,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff1_sun",
+      "bone": "eff1_sun",
+      "attachment": "eff1_sun",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff1_sun": {
+          "eff1_sun": {
+            "type": "region",
+            "name": "eff1_sun",
+            "path": "eff1_sun",
+            "rotation": 0,
+            "x": 236.30184936523438,
+            "y": -423.0225524902344,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 478,
+            "height": 853,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff1_sun": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "color": "ffffff80",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "ffffff3b",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffff64",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "eff1_sun": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.666666507720947,
+              "x": 1.0499999523162842,
+              "y": 1.0499999523162842,
+              "curve": 0.2552083432674408,
+              "c2": 0,
+              "c3": 0.6197916269302368,
+              "c4": 0.46666669845581055
+            },
+            {
+              "time": 5.666666507720947,
+              "x": 1.100000023841858,
+              "y": 1.100000023841858,
+              "curve": 0.3668341636657715,
+              "c2": 0.4615384340286255,
+              "c3": 0.7537688612937927,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

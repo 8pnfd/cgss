@@ -1,0 +1,190 @@
+{
+  "skeleton": {
+    "hash": "IP33360XaRcHc2l3sBUINRriJcw",
+    "spine": "3.8",
+    "width": 1377.0001220703125,
+    "height": 987.0700073242188,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_1",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "y": -3,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_2",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "y": -3,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_3",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "y": -3,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg",
+      "bone": "bg_1",
+      "attachment": "bg",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_light_c_add",
+      "bone": "bg_1",
+      "attachment": "bg_light_c_add",
+      "blend": "additive"
+    },
+    {
+      "name": "bg_light_b_screen",
+      "bone": "bg_1",
+      "attachment": "bg_light_b_screen",
+      "blend": "screen"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg": {
+          "bg": {
+            "type": "region",
+            "name": "bg",
+            "path": "bg",
+            "rotation": 0,
+            "x": 3.232834815979004,
+            "y": 397.7296142578125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1377,
+            "height": 987,
+            "color": "ffffffff"
+          }
+        },
+        "bg_light_c_add": {
+          "bg_light_c_add": {
+            "type": "region",
+            "name": "bg_light_c_add",
+            "path": "bg_light_c_add",
+            "rotation": 0,
+            "x": -28.548755645751953,
+            "y": 496.52960205078125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 515,
+            "height": 394,
+            "color": "ffffffff"
+          }
+        },
+        "bg_light_b_screen": {
+          "bg_light_b_screen": {
+            "type": "region",
+            "name": "bg_light_b_screen",
+            "path": "bg_light_b_screen",
+            "rotation": 0,
+            "x": -81.08953857421875,
+            "y": 685.2996215820312,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 326,
+            "height": 206,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "bg_light_b_screen": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffca",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "bg_light_c_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffca",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

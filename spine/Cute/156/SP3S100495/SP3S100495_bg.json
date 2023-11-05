@@ -1,0 +1,241 @@
+{
+  "skeleton": {
+    "hash": "JOr4PxEgpEKG6CsaLNsSZohOfkQ",
+    "spine": "3.8",
+    "width": 1377.0001220703125,
+    "height": 933,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_1",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "y": -3,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_2",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "y": -3,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_3",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "y": -3,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg",
+      "bone": "bg_3",
+      "attachment": "bg",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_light_screen",
+      "bone": "bg_3",
+      "attachment": "bg_light_screen",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg": {
+          "bg": {
+            "type": "region",
+            "name": "bg",
+            "path": "bg",
+            "rotation": 0,
+            "x": 3.965610980987549,
+            "y": 424.54559326171875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1377,
+            "height": 933,
+            "color": "ffffffff"
+          }
+        },
+        "bg_light_screen": {
+          "bg_light_screen": {
+            "type": "region",
+            "name": "bg_light_screen",
+            "path": "bg_light_screen",
+            "rotation": 0,
+            "x": 483.4444274902344,
+            "y": 621.7232055664062,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 418,
+            "height": 501,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "bg_light_screen": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff3a"
+            },
+            {
+              "time": 1,
+              "color": "ffffff30"
+            },
+            {
+              "time": 1.1333333253860474,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.2999999523162842,
+              "color": "ffffff63"
+            },
+            {
+              "time": 1.4666666984558105,
+              "color": "ffffff11"
+            },
+            {
+              "time": 2,
+              "color": "ffffff2a"
+            },
+            {
+              "time": 2.133333444595337,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.2666666507720947,
+              "color": "ffffff56"
+            },
+            {
+              "time": 2.4666666984558105,
+              "color": "ffffff2b"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffff55"
+            },
+            {
+              "time": 2.9000000953674316,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.866666555404663,
+              "color": "ffffff30"
+            },
+            {
+              "time": 4,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4.166666507720947,
+              "color": "ffffff63"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffff11"
+            },
+            {
+              "time": 4.866666793823242,
+              "color": "ffffff2a"
+            },
+            {
+              "time": 5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.133333206176758,
+              "color": "ffffff56"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffff2b"
+            },
+            {
+              "time": 5.5333333015441895,
+              "color": "ffffff55"
+            },
+            {
+              "time": 5.766666889190674,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.900000095367432,
+              "color": "ffffff2a"
+            },
+            {
+              "time": 7.0333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.166666507720947,
+              "color": "ffffff56"
+            },
+            {
+              "time": 7.366666793823242,
+              "color": "ffffff2b"
+            },
+            {
+              "time": 7.566666603088379,
+              "color": "ffffff55"
+            },
+            {
+              "time": 7.800000190734863,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

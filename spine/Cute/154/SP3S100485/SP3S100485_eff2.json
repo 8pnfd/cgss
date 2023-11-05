@@ -1,0 +1,591 @@
+{
+  "skeleton": {
+    "hash": "zyzQdBTvlRUEmaHt8S+yVeBuKWM",
+    "spine": "3.8",
+    "width": 1372.9443359375,
+    "height": 1015.6100463867188,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff/eff_bg",
+      "parent": "all",
+      "x": 506.7872314453125,
+      "y": 872.8125,
+      "scaleX": 4,
+      "scaleY": 4,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_light_1",
+      "parent": "all",
+      "rotation": -122.76388549804688,
+      "x": 512.0006103515625,
+      "y": 874.1400756835938,
+      "scaleX": 4,
+      "scaleY": 4,
+      "length": 115.4239730834961,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_light_2",
+      "parent": "all",
+      "rotation": -123.95108032226562,
+      "x": 175.9276885986328,
+      "y": 878.10546875,
+      "scaleX": 4,
+      "scaleY": 4,
+      "length": 117.00935363769531,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_light_3",
+      "parent": "all",
+      "rotation": -122.91950988769531,
+      "x": -0.1432819366455078,
+      "y": 886.0443115234375,
+      "scaleX": 4,
+      "scaleY": 4,
+      "length": 131.95114135742188,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_light_4",
+      "parent": "all",
+      "rotation": -121.84248352050781,
+      "x": -354.5999450683594,
+      "y": 889.7626342773438,
+      "scaleX": 4,
+      "scaleY": 4,
+      "length": 107.46890258789062,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_bg_add",
+      "bone": "eff/eff_bg",
+      "attachment": "eff_bg_add",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_light_1_add",
+      "bone": "eff_light_1",
+      "attachment": "eff_light_1_add",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_light_2_add",
+      "bone": "eff_light_2",
+      "attachment": "eff_light_2_add",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_light_3_add",
+      "bone": "eff_light_3",
+      "attachment": "eff_light_3_add",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_light_4_add",
+      "bone": "eff_light_4",
+      "attachment": "eff_light_4_add",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_bg_add": {
+          "eff_bg_add": {
+            "type": "region",
+            "name": "eff_bg_add",
+            "path": "eff_bg_add",
+            "rotation": 0,
+            "x": -9.907604217529297,
+            "y": -42.932464599609375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 112,
+            "height": 93,
+            "color": "ffffffff"
+          }
+        },
+        "eff_light_1_add": {
+          "eff_light_1_add": {
+            "type": "mesh",
+            "name": "eff_light_1_add",
+            "path": "eff_light_1_add",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              0.23644667863845825,
+              0.29796886444091797,
+              1,
+              0,
+              1,
+              0,
+              0.8244732618331909,
+              0.6969282627105713,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              4,
+              5,
+              0,
+              3,
+              1,
+              2,
+              4,
+              1,
+              3,
+              4,
+              0,
+              1
+            ],
+            "vertices": [
+              76.88999938964844,
+              26.979999542236328,
+              276.95001220703125,
+              32.16999816894531,
+              300.80999755859375,
+              -4.909999847412109,
+              267.75,
+              -26.190000534057617,
+              56.630001068115234,
+              -39.400001525878906,
+              32.349998474121094,
+              -1.6799999475479126
+            ],
+            "hull": 6
+          }
+        },
+        "eff_light_2_add": {
+          "eff_light_2_add": {
+            "type": "mesh",
+            "name": "eff_light_2_add",
+            "path": "eff_light_2_add",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              0.15706217288970947,
+              0.312015175819397,
+              1,
+              0,
+              1,
+              0,
+              0.8249450325965881,
+              0.6714106202125549,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              4,
+              5,
+              0,
+              1,
+              2,
+              3,
+              4,
+              1,
+              3,
+              1,
+              4,
+              0
+            ],
+            "vertices": [
+              22.530000686645508,
+              31.610000610351562,
+              265.8599853515625,
+              44.4900016784668,
+              297.5799865722656,
+              -2.619999885559082,
+              261.57000732421875,
+              -26.860000610351562,
+              23.610000610351562,
+              -39.7599983215332,
+              -9.789999961853027,
+              9.850000381469727
+            ],
+            "hull": 6
+          }
+        },
+        "eff_light_3_add": {
+          "eff_light_3_add": {
+            "type": "mesh",
+            "name": "eff_light_3_add",
+            "path": "eff_light_3_add",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              0.07952046394348145,
+              0.15406811237335205,
+              1,
+              0,
+              1,
+              0,
+              0.887533962726593,
+              0.8354105353355408,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              4,
+              5,
+              0,
+              1,
+              2,
+              3,
+              4,
+              1,
+              3,
+              1,
+              4,
+              0
+            ],
+            "vertices": [
+              10.119999885559082,
+              15.920000076293945,
+              247.83999633789062,
+              19.65999984741211,
+              260.32000732421875,
+              0.38999998569488525,
+              239.63999938964844,
+              -12.989999771118164,
+              8.829999923706055,
+              -14.130000114440918,
+              -4.5,
+              6.449999809265137
+            ],
+            "hull": 6
+          }
+        },
+        "eff_light_4_add": {
+          "eff_light_4_add": {
+            "type": "mesh",
+            "name": "eff_light_4_add",
+            "path": "eff_light_4_add",
+            "color": "ffffffff",
+            "uvs": [
+              1,
+              0.15298312902450562,
+              0.18486052751541138,
+              1,
+              0,
+              1,
+              0,
+              0.561769425868988,
+              0.541523814201355,
+              0,
+              1,
+              0
+            ],
+            "triangles": [
+              4,
+              5,
+              0,
+              1,
+              2,
+              3,
+              4,
+              1,
+              3,
+              1,
+              4,
+              0
+            ],
+            "vertices": [
+              13.520000457763672,
+              27.469999313354492,
+              173.67999267578125,
+              32.900001525878906,
+              183.22999572753906,
+              17.510000228881836,
+              122.18000030517578,
+              -20.40999984741211,
+              15.920000076293945,
+              -23.93000030517578,
+              -7.789999961853027,
+              14.239999771118164
+            ],
+            "hull": 6
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_bg_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff80"
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4,
+              "color": "ffffff70"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffff0b"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffff70"
+            },
+            {
+              "time": 8,
+              "color": "ffffff80"
+            }
+          ]
+        },
+        "eff_light_1_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff88"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.733333110809326,
+              "color": "ffffff65"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffe2"
+            },
+            {
+              "time": 5.900000095367432,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 6,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff38"
+            },
+            {
+              "time": 8,
+              "color": "ffffff81"
+            }
+          ]
+        },
+        "eff_light_2_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff88"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.8333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.733333110809326,
+              "color": "ffffff65"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffe2"
+            },
+            {
+              "time": 5.900000095367432,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 6,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff38"
+            },
+            {
+              "time": 8,
+              "color": "ffffff81"
+            }
+          ]
+        },
+        "eff_light_3_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff88"
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.733333110809326,
+              "color": "ffffff65"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffe2"
+            },
+            {
+              "time": 5.900000095367432,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 6,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff38"
+            },
+            {
+              "time": 8,
+              "color": "ffffff81"
+            }
+          ]
+        },
+        "eff_light_4_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff88"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.733333110809326,
+              "color": "ffffff65"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffe2"
+            },
+            {
+              "time": 5.900000095367432,
+              "color": "ffffffaa"
+            },
+            {
+              "time": 6,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff38"
+            },
+            {
+              "time": 8,
+              "color": "ffffff81"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "eff/eff_bg": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 1.4666666984558105,
+              "x": 1.0450104475021362,
+              "y": 1.011252522468567
+            },
+            {
+              "time": 3.3333332538604736,
+              "x": 1.0514404773712158,
+              "y": 1.0128600597381592
+            },
+            {
+              "time": 5.433333396911621,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 6.266666889190674,
+              "x": 1.0424587726593018,
+              "y": 1.0106146335601807
+            },
+            {
+              "time": 6.9666666984558105,
+              "x": 1.0367431640625,
+              "y": 1.009185791015625
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,792 @@
+{
+  "skeleton": {
+    "hash": "TjNSqAhG3FduQMCawVbCNsBOLSA",
+    "spine": "3.8",
+    "width": 1345.5986328125,
+    "height": 936.7155151367188,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_fleaAll",
+      "parent": "all",
+      "x": 993.5156860351562,
+      "y": 888.0081176757812,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_fleaAll2",
+      "parent": "all",
+      "x": 176.3415069580078,
+      "y": 888.0081176757812,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_fleaAll3",
+      "parent": "all",
+      "x": -187.03631591796875,
+      "y": 888.0081176757812,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_flea7",
+      "bone": "all",
+      "attachment": "eff_flea7",
+      "blend": "screen"
+    },
+    {
+      "name": "eff_flea6",
+      "bone": "eff_fleaAll2",
+      "attachment": "eff_flea6",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_flea5",
+      "bone": "eff_fleaAll",
+      "attachment": "eff_flea5",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_flea4",
+      "bone": "eff_fleaAll",
+      "attachment": "eff_flea4",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_flea3",
+      "bone": "eff_fleaAll2",
+      "attachment": "eff_flea3",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_flea2",
+      "bone": "eff_fleaAll2",
+      "attachment": "eff_flea2",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_flea1",
+      "bone": "eff_fleaAll3",
+      "attachment": "eff_flea1",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_flea7": {
+          "eff_flea7": {
+            "type": "region",
+            "name": "eff_flea7",
+            "path": "eff_flea7",
+            "rotation": 0,
+            "x": 0.10153749585151672,
+            "y": 412.1134948730469,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 660,
+            "height": 425,
+            "color": "ffffffff"
+          }
+        },
+        "eff_flea6": {
+          "eff_flea6": {
+            "type": "region",
+            "name": "eff_flea6",
+            "path": "eff_flea6",
+            "rotation": 0,
+            "x": -620.8385009765625,
+            "y": -550.610107421875,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 241,
+            "height": 437,
+            "color": "ffffffff"
+          }
+        },
+        "eff_flea5": {
+          "eff_flea5": {
+            "type": "region",
+            "name": "eff_flea5",
+            "path": "eff_flea5",
+            "rotation": 0,
+            "x": -642.0667114257812,
+            "y": -664.8251342773438,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 196,
+            "height": 219,
+            "color": "ffffffff"
+          }
+        },
+        "eff_flea4": {
+          "eff_flea4": {
+            "type": "region",
+            "name": "eff_flea4",
+            "path": "eff_flea4",
+            "rotation": 0,
+            "x": -497.751708984375,
+            "y": -511.5776062011719,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 236,
+            "height": 259,
+            "color": "ffffffff"
+          }
+        },
+        "eff_flea3": {
+          "eff_flea3": {
+            "type": "region",
+            "name": "eff_flea3",
+            "path": "eff_flea3",
+            "rotation": 0,
+            "x": -722.3385009765625,
+            "y": -754.213623046875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 278,
+            "height": 338,
+            "color": "ffffffff"
+          }
+        },
+        "eff_flea2": {
+          "eff_flea2": {
+            "type": "region",
+            "name": "eff_flea2",
+            "path": "eff_flea2",
+            "rotation": 0,
+            "x": -574.7445068359375,
+            "y": -623.297119140625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 59,
+            "height": 64,
+            "color": "ffffffff"
+          }
+        },
+        "eff_flea1": {
+          "eff_flea1": {
+            "type": "region",
+            "name": "eff_flea1",
+            "path": "eff_flea1",
+            "rotation": 0,
+            "x": -408.68109130859375,
+            "y": -497.89410400390625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 141,
+            "height": 138,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_flea1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.8999999761581421,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.133333444595337,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.200000047683716,
+              "color": "ffffffad"
+            },
+            {
+              "time": 3.2666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 3.4000000953674316,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.566666603088379,
+              "color": "ffffffad"
+            },
+            {
+              "time": 5.633333206176758,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 5.699999809265137,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 5.766666889190674,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "fffffff3"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_flea2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.699999988079071,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.6333333253860474,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.566666603088379,
+              "color": "ffffffad"
+            },
+            {
+              "time": 3.633333444595337,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.700000047683716,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 3.7666666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.733333110809326,
+              "color": "ffffffad"
+            },
+            {
+              "time": 5.800000190734863,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "fffffff3"
+            },
+            {
+              "time": 6.933333396911621,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_flea3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.2333333492279053,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.700000047683716,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.7666666507720947,
+              "color": "ffffffad"
+            },
+            {
+              "time": 3.8333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.9000000953674316,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 3.9666666984558105,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "ffffffad"
+            },
+            {
+              "time": 6.300000190734863,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.366666793823242,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.433333396911621,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.5333333015441895,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.833333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_flea4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.7333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.8666666746139526,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.866666555404663,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.933333396911621,
+              "color": "ffffffad"
+            },
+            {
+              "time": 4,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.066666603088379,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 4.133333206176758,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.866666793823242,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffad"
+            },
+            {
+              "time": 6,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.066666603088379,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.133333206176758,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.166666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_flea5": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.4333332777023315,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.9000000953674316,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.9666666984558105,
+              "color": "ffffffad"
+            },
+            {
+              "time": 4.0333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.099999904632568,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 4.166666507720947,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.099999904632568,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "ffffffad"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.300000190734863,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.366666793823242,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.4666666984558105,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.833333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_flea6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.0333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.299999952316284,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.133333206176758,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.199999809265137,
+              "color": "ffffffad"
+            },
+            {
+              "time": 4.266666889190674,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 4.400000095367432,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.566666603088379,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.633333206176758,
+              "color": "ffffffad"
+            },
+            {
+              "time": 6.699999809265137,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.766666889190674,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.833333492279053,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.933333396911621,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_flea7": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.9666666388511658,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.700000047683716,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.7666666507720947,
+              "color": "ffffffad"
+            },
+            {
+              "time": 3.8333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.9000000953674316,
+              "color": "ffffffcb"
+            },
+            {
+              "time": 3.9666666984558105,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.9666666984558105,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffffad"
+            },
+            {
+              "time": 6.099999904632568,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.866666793823242,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "eff_fleaAll": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": 0.21932469308376312,
+              "c2": 0.038844622671604156,
+              "c3": 0.9345906376838684,
+              "c4": 0.912350594997406
+            },
+            {
+              "time": 7.833333492279053,
+              "x": 1.0800000429153442,
+              "y": 1.0800000429153442,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "eff_fleaAll2": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": 0.21932469308376312,
+              "c2": 0.038844622671604156,
+              "c3": 0.9345906376838684,
+              "c4": 0.912350594997406
+            },
+            {
+              "time": 7.833333492279053,
+              "x": 1.0800000429153442,
+              "y": 1.0800000429153442,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "eff_fleaAll3": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": 0.21932469308376312,
+              "c2": 0.038844622671604156,
+              "c3": 0.9345906376838684,
+              "c4": 0.912350594997406
+            },
+            {
+              "time": 7.833333492279053,
+              "x": 1.0800000429153442,
+              "y": 1.0800000429153442,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

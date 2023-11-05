@@ -1,0 +1,134 @@
+{
+  "skeleton": {
+    "hash": "GsvAtPAx2Jc0gt7vcfLiIP9XlkA",
+    "spine": "3.8",
+    "width": 1314.546142578125,
+    "height": 792.7279663085938,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "book_1",
+      "bone": "fg_3",
+      "attachment": "book_1",
+      "blend": "normal"
+    },
+    {
+      "name": "book_2",
+      "bone": "fg_3",
+      "attachment": "book_2",
+      "blend": "normal"
+    },
+    {
+      "name": "book3",
+      "bone": "fg_3",
+      "attachment": "book3",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "book_1": {
+          "book_1": {
+            "type": "region",
+            "name": "book_1",
+            "path": "book_1",
+            "rotation": 0,
+            "x": 214.26011657714844,
+            "y": 375.7874450683594,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 445,
+            "height": 792,
+            "color": "ffffffff"
+          }
+        },
+        "book_2": {
+          "book_2": {
+            "type": "region",
+            "name": "book_2",
+            "path": "book_2",
+            "rotation": 0,
+            "x": 444.9375305175781,
+            "y": 353.05950927734375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 429,
+            "height": 748,
+            "color": "ffffffff"
+          }
+        },
+        "book3": {
+          "book3": {
+            "type": "region",
+            "name": "book3",
+            "path": "book3",
+            "rotation": 0,
+            "x": -493.1084899902344,
+            "y": 300.74951171875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 324,
+            "height": 642,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

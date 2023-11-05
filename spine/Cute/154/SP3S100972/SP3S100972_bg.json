@@ -1,0 +1,972 @@
+{
+  "skeleton": {
+    "hash": "HsOx9CiAQSGc1Q/xmyQ7t6jHfwE",
+    "spine": "3.8",
+    "width": 1293.0001220703125,
+    "height": 837,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_1",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_2",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_3",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg",
+      "bone": "bg_3",
+      "attachment": "bg",
+      "blend": "normal"
+    },
+    {
+      "name": "robo_light_1_1",
+      "bone": "bg_1",
+      "attachment": "robo_light_1_1",
+      "blend": "additive"
+    },
+    {
+      "name": "robo_light_1_2",
+      "bone": "bg_1",
+      "attachment": "robo_light_1_2",
+      "blend": "additive"
+    },
+    {
+      "name": "robo_light_1_3",
+      "bone": "bg_1",
+      "attachment": "robo_light_1_3",
+      "blend": "additive"
+    },
+    {
+      "name": "robo_light_2_1",
+      "bone": "bg_1",
+      "attachment": "robo_light_2_1",
+      "blend": "additive"
+    },
+    {
+      "name": "robo_light_2_2",
+      "bone": "bg_1",
+      "attachment": "robo_light_2_2",
+      "blend": "additive"
+    },
+    {
+      "name": "robo_light_2_3",
+      "bone": "bg_1",
+      "attachment": "robo_light_2_3",
+      "blend": "additive"
+    },
+    {
+      "name": "robo_light_3_1",
+      "bone": "bg_1",
+      "attachment": "robo_light_3_1",
+      "blend": "additive"
+    },
+    {
+      "name": "robo_light_3_2",
+      "bone": "bg_1",
+      "attachment": "robo_light_3_2",
+      "blend": "additive"
+    },
+    {
+      "name": "robo_light_3_3",
+      "bone": "bg_1",
+      "attachment": "robo_light_3_3",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg": {
+          "bg": {
+            "type": "region",
+            "name": "bg",
+            "path": "bg",
+            "rotation": 0,
+            "x": 0.17806847393512726,
+            "y": 412.2099914550781,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1293,
+            "height": 837,
+            "color": "ffffffff"
+          }
+        },
+        "robo_light_1_1": {
+          "robo_light_1_1": {
+            "type": "region",
+            "name": "robo_light_1_1",
+            "path": "robo_light_1_1",
+            "rotation": 0,
+            "x": -10.068997383117676,
+            "y": 37.10900115966797,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 258,
+            "height": 54,
+            "color": "ffffffff"
+          }
+        },
+        "robo_light_1_2": {
+          "robo_light_1_2": {
+            "type": "region",
+            "name": "robo_light_1_2",
+            "path": "robo_light_1_2",
+            "rotation": 0,
+            "x": -10.282493591308594,
+            "y": 83.51249694824219,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 238,
+            "height": 50,
+            "color": "ffffffff"
+          }
+        },
+        "robo_light_1_3": {
+          "robo_light_1_3": {
+            "type": "region",
+            "name": "robo_light_1_3",
+            "path": "robo_light_1_3",
+            "rotation": 0,
+            "x": -9.28948974609375,
+            "y": 125.91950225830078,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 222,
+            "height": 47,
+            "color": "ffffffff"
+          }
+        },
+        "robo_light_2_1": {
+          "robo_light_2_1": {
+            "type": "region",
+            "name": "robo_light_2_1",
+            "path": "robo_light_2_1",
+            "rotation": 0,
+            "x": -10.00749683380127,
+            "y": 37.64149856567383,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 265,
+            "height": 63,
+            "color": "ffffffff"
+          }
+        },
+        "robo_light_2_2": {
+          "robo_light_2_2": {
+            "type": "region",
+            "name": "robo_light_2_2",
+            "path": "robo_light_2_2",
+            "rotation": 0,
+            "x": -10.220993041992188,
+            "y": 82.9000015258789,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 245,
+            "height": 62,
+            "color": "ffffffff"
+          }
+        },
+        "robo_light_2_3": {
+          "robo_light_2_3": {
+            "type": "region",
+            "name": "robo_light_2_3",
+            "path": "robo_light_2_3",
+            "rotation": 0,
+            "x": -6.7279887199401855,
+            "y": 124.2490005493164,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 234,
+            "height": 59,
+            "color": "ffffffff"
+          }
+        },
+        "robo_light_3_1": {
+          "robo_light_3_1": {
+            "type": "region",
+            "name": "robo_light_3_1",
+            "path": "robo_light_3_1",
+            "rotation": 0,
+            "x": -7.210496425628662,
+            "y": 34.19599914550781,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 278,
+            "height": 45,
+            "color": "ffffffff"
+          }
+        },
+        "robo_light_3_2": {
+          "robo_light_3_2": {
+            "type": "region",
+            "name": "robo_light_3_2",
+            "path": "robo_light_3_2",
+            "rotation": 0,
+            "x": -9.923993110656738,
+            "y": 81.59950256347656,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 253,
+            "height": 43,
+            "color": "ffffffff"
+          }
+        },
+        "robo_light_3_3": {
+          "robo_light_3_3": {
+            "type": "region",
+            "name": "robo_light_3_3",
+            "path": "robo_light_3_3",
+            "rotation": 0,
+            "x": -32.2244873046875,
+            "y": 117.5354995727539,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 192,
+            "height": 26,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "robo_light_1_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "robo_light_1_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "robo_light_1_3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff73",
+              "curve": 0.15704122185707092,
+              "c2": 0.3972732126712799,
+              "c3": 0.36036407947540283,
+              "c4": 0.9941568374633789
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 6,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffffff",
+              "curve": 0.41719481348991394,
+              "c2": 0,
+              "c3": 0.6854198575019836,
+              "c4": 0.42817091941833496
+            },
+            {
+              "time": 8,
+              "color": "ffffff73"
+            }
+          ]
+        },
+        "robo_light_2_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "robo_light_2_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "robo_light_2_3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff73",
+              "curve": 0.15704122185707092,
+              "c2": 0.3972732126712799,
+              "c3": 0.36036407947540283,
+              "c4": 0.9941568374633789
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 6,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffffff",
+              "curve": 0.41719481348991394,
+              "c2": 0,
+              "c3": 0.6854198575019836,
+              "c4": 0.42817091941833496
+            },
+            {
+              "time": 8,
+              "color": "ffffff73"
+            }
+          ]
+        },
+        "robo_light_3_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.23333333432674408,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.2333333492279053,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 2.2333333492279053,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.9000000953674316,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.9000000953674316,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 4.900000095367432,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.566666603088379,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.566666603088379,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 7.566666603088379,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "robo_light_3_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff0a",
+              "curve": 0.2532191276550293,
+              "c2": 0.5962244272232056,
+              "c3": 0.575995147228241,
+              "c4": 0.9892047643661499
+            },
+            {
+              "time": 0.23333333432674408,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.8999999761581421,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.899999976158142,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 2.9000000953674316,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.566666603088379,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.566666603088379,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 5.566666603088379,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.233333110809326,
+              "color": "ffffffff",
+              "curve": 0.3319075405597687,
+              "c2": 0,
+              "c3": 0.3912287950515747,
+              "c4": 0.6794925928115845
+            },
+            {
+              "time": 8,
+              "color": "ffffff0a"
+            }
+          ]
+        },
+        "robo_light_3_3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffed",
+              "curve": 0.1998707503080368,
+              "c2": 0.16561278700828552,
+              "c3": 0.25854113698005676,
+              "c4": 0.993977963924408
+            },
+            {
+              "time": 0.8999999761581421,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.5666667222976685,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.566666603088379,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 3.566666603088379,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.233333110809326,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.233333110809326,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.2321939915418625,
+              "c4": 0.993494987487793
+            },
+            {
+              "time": 6.233333110809326,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.900000095367432,
+              "color": "ffffff00",
+              "curve": 0.782425582408905,
+              "c2": 0.005797101650387049,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.900000095367432,
+              "color": "ffffffff",
+              "curve": 0.3675430715084076,
+              "c2": 0,
+              "c3": 0.695713996887207,
+              "c4": 0.3570593595504761
+            },
+            {
+              "time": 8,
+              "color": "ffffffed"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}
