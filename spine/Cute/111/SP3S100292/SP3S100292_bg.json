@@ -1,0 +1,225 @@
+{
+  "skeleton": {
+    "hash": "X2XKYtNUrJwMBgz+17wvNw9/Oc8",
+    "spine": "3.8",
+    "width": 1377.0001220703125,
+    "height": 1017.0000610351562,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.0053619092786903e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_1",
+      "parent": "all",
+      "x": -1.0053619092786903e-7,
+      "y": -2.299999952316284,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_2",
+      "parent": "all",
+      "x": -1.0053619092786903e-7,
+      "y": -2.299999952316284,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_3",
+      "parent": "all",
+      "x": -1.0053619092786903e-7,
+      "y": -2.299999952316284,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg",
+      "bone": "bg_3",
+      "attachment": "bg_b",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_psylium_add",
+      "bone": "bg_2",
+      "attachment": "eff_psylium_add",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg": {
+          "bg_b": {
+            "type": "region",
+            "name": "bg_b",
+            "path": "bg_b",
+            "rotation": 0,
+            "x": 3.5000500679016113,
+            "y": 382.0248718261719,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1377,
+            "height": 1017,
+            "color": "ffffffff"
+          }
+        },
+        "eff_psylium_add": {
+          "eff_psylium_add": {
+            "type": "region",
+            "name": "eff_psylium_add",
+            "path": "eff_psylium_add",
+            "rotation": 0,
+            "x": -490.9502258300781,
+            "y": 137.7310333251953,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 308,
+            "height": 282,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_psylium_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": 0.3872487545013428,
+              "c2": 0,
+              "c3": 0.6560928821563721,
+              "c4": 1
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff7e",
+              "curve": 0.3872487545013428,
+              "c2": 0,
+              "c3": 0.6560928821563721,
+              "c4": 1
+            },
+            {
+              "time": 1.3666666746139526,
+              "color": "ffffff00",
+              "curve": 0.3872487545013428,
+              "c2": 0,
+              "c3": 0.6560928821563721,
+              "c4": 1
+            },
+            {
+              "time": 2.0333333015441895,
+              "color": "ffffff7e",
+              "curve": 0.3872487545013428,
+              "c2": 0,
+              "c3": 0.6560928821563721,
+              "c4": 1
+            },
+            {
+              "time": 2.700000047683716,
+              "color": "ffffff00",
+              "curve": 0.3872487545013428,
+              "c2": 0,
+              "c3": 0.6560928821563721,
+              "c4": 1
+            },
+            {
+              "time": 3.4000000953674316,
+              "color": "ffffff7e",
+              "curve": 0.3872487545013428,
+              "c2": 0,
+              "c3": 0.6560928821563721,
+              "c4": 1
+            },
+            {
+              "time": 4.066666603088379,
+              "color": "ffffff00",
+              "curve": 0.3872487545013428,
+              "c2": 0,
+              "c3": 0.6560928821563721,
+              "c4": 1
+            },
+            {
+              "time": 4.766666889190674,
+              "color": "ffffff7e",
+              "curve": 0.3872487545013428,
+              "c2": 0,
+              "c3": 0.6560928821563721,
+              "c4": 1
+            },
+            {
+              "time": 5.433333396911621,
+              "color": "ffffff00",
+              "curve": 0.3872487545013428,
+              "c2": 0,
+              "c3": 0.6560928821563721,
+              "c4": 1
+            },
+            {
+              "time": 6.099999904632568,
+              "color": "ffffff7e",
+              "curve": 0.3872487545013428,
+              "c2": 0,
+              "c3": 0.6560928821563721,
+              "c4": 1
+            },
+            {
+              "time": 6.800000190734863,
+              "color": "ffffff00",
+              "curve": 0.3872487545013428,
+              "c2": 0,
+              "c3": 0.6560928821563721,
+              "c4": 1
+            },
+            {
+              "time": 7.4666666984558105,
+              "color": "ffffff7e",
+              "curve": 0.3872487545013428,
+              "c2": 0,
+              "c3": 0.6560928821563721,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

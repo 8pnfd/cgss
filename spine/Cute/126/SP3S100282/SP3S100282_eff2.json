@@ -1,0 +1,148 @@
+{
+  "skeleton": {
+    "hash": "Z60Zak1k6JVh+5fr62hr52UcWys",
+    "spine": "3.8",
+    "width": 853.891845703125,
+    "height": 315,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_fire",
+      "parent": "all",
+      "x": 458.25006103515625,
+      "y": 806.0499267578125,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_light",
+      "parent": "all",
+      "x": -110.44976806640625,
+      "y": 822,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_fire_screen",
+      "bone": "eff_fire",
+      "attachment": "eff_fire_screen",
+      "blend": "screen"
+    },
+    {
+      "name": "eff_light_screen_2",
+      "bone": "eff_light",
+      "color": "ffffff59",
+      "attachment": "eff_light_screen_2",
+      "blend": "screen"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_fire_screen": {
+          "eff_fire_screen": {
+            "type": "region",
+            "name": "eff_fire_screen",
+            "path": "eff_fire_screen",
+            "rotation": 0,
+            "x": -5.18402099609375,
+            "y": 6.37249755859375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 105,
+            "height": 67,
+            "color": "ffffffff"
+          }
+        },
+        "eff_light_screen_2": {
+          "eff_light_screen_2": {
+            "type": "region",
+            "name": "eff_light_screen_2",
+            "path": "eff_light_screen_2",
+            "rotation": 0,
+            "x": 5.6239776611328125,
+            "y": -122.82418823242188,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 487,
+            "height": 315,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_light_screen_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff95"
+            },
+            {
+              "time": 2,
+              "color": "ffffff32"
+            },
+            {
+              "time": 4,
+              "color": "ffffff95"
+            },
+            {
+              "time": 6,
+              "color": "ffffff32"
+            },
+            {
+              "time": 8,
+              "color": "ffffff95"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "eff_light": {
+          "scale": [
+            {
+              "time": 8,
+              "x": -28.288707733154297,
+              "y": -28.288707733154297
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "skeleton": {
+    "hash": "C2qnTh0wp5SBSkfkHjFTUD7Ke00",
+    "spine": "3.8",
+    "width": 468.5635681152344,
+    "height": 601.7705078125,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "lamp",
+      "parent": "fg_1",
+      "x": -490.4051513671875,
+      "y": 410.8517761230469,
+      "transform": "normal"
+    },
+    {
+      "name": "lamp_light1",
+      "parent": "lamp",
+      "x": 78.2650146484375,
+      "y": -110.99398803710938,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "lamp_pipe",
+      "bone": "fg_1",
+      "attachment": "lamp_pipe",
+      "blend": "normal"
+    },
+    {
+      "name": "lamp_light1_screen",
+      "bone": "lamp_light1",
+      "attachment": "lamp_light1_screen",
+      "blend": "screen"
+    },
+    {
+      "name": "lamp_herd",
+      "bone": "fg_1",
+      "attachment": "lamp_herd",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "lamp_pipe": {
+          "lamp_pipe": {
+            "type": "region",
+            "name": "lamp_pipe",
+            "path": "lamp_pipe",
+            "rotation": 0,
+            "x": -316.3459777832031,
+            "y": 169.70199584960938,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 294,
+            "height": 407,
+            "color": "ffffffff"
+          }
+        },
+        "lamp_light1_screen": {
+          "lamp_light1_screen": {
+            "type": "region",
+            "name": "lamp_light1_screen",
+            "path": "lamp_light1_screen",
+            "rotation": 0,
+            "x": -15.769317626953125,
+            "y": 13.114715576171875,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 210,
+            "height": 255,
+            "color": "ffffffff"
+          }
+        },
+        "lamp_herd": {
+          "lamp_herd": {
+            "type": "region",
+            "name": "lamp_herd",
+            "path": "lamp_herd",
+            "rotation": 0,
+            "x": -468.7454833984375,
+            "y": 385.3064880371094,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 323,
+            "height": 351,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

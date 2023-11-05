@@ -1,0 +1,141 @@
+{
+  "skeleton": {
+    "hash": "CFrcHJXd5hNT/rnFAoEjeG3HcMA",
+    "spine": "3.8",
+    "width": 1335.4901123046875,
+    "height": 850.7548828125,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -2.1855694143368964e-8,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "x": -1,
+      "y": -0.5,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "x": -1,
+      "y": -0.5,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "x": -1,
+      "y": -0.5,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fg1",
+      "bone": "fg_3",
+      "attachment": "fg1",
+      "blend": "normal"
+    },
+    {
+      "name": "fg2",
+      "bone": "fg_3",
+      "attachment": "fg2",
+      "blend": "normal"
+    },
+    {
+      "name": "fg2_light_add",
+      "bone": "fg_3",
+      "attachment": "fg2_light_add",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "fg1": {
+          "fg1": {
+            "type": "region",
+            "name": "fg1",
+            "path": "fg1",
+            "rotation": 0,
+            "x": 492.08642578125,
+            "y": 274.33758544921875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 320,
+            "height": 573,
+            "color": "ffffffff"
+          }
+        },
+        "fg2": {
+          "fg2": {
+            "type": "region",
+            "name": "fg2",
+            "path": "fg2",
+            "rotation": 0,
+            "x": -545.6019287109375,
+            "y": 712.8764038085938,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 207,
+            "height": 246,
+            "color": "ffffffff"
+          }
+        },
+        "fg2_light_add": {
+          "fg2_light_add": {
+            "type": "region",
+            "name": "fg2_light_add",
+            "path": "fg2_light_add",
+            "rotation": 0,
+            "x": -516.403564453125,
+            "y": 651.5924682617188,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 167,
+            "height": 187,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

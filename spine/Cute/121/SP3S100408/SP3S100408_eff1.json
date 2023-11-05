@@ -1,0 +1,4208 @@
+{
+  "skeleton": {
+    "hash": "ZhLKUphKwGk2z3TNbiEGRmrxbkc",
+    "spine": "3.8",
+    "width": 1341.880615234375,
+    "height": 494.27423095703125,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -4.371138828673793e-8,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_obj",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "bg_obj_1",
+      "parent": "bg_obj",
+      "x": -401.9059143066406,
+      "y": 863.6638793945312,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_obj_2",
+      "parent": "bg_obj",
+      "x": 426.2003173828125,
+      "y": 866.8534545898438,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_balloon_front",
+      "parent": "all",
+      "x": -0.9999999403953552,
+      "y": -1,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_balloon_b1",
+      "parent": "eff_balloon_front",
+      "rotation": -50,
+      "x": -514.8189697265625,
+      "y": 784.4356689453125,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_balloon_b2",
+      "parent": "eff_balloon_front",
+      "rotation": 30,
+      "x": 657.5511474609375,
+      "y": 483.96783447265625,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_balloon_b4",
+      "parent": "eff_balloon_front",
+      "rotation": 30,
+      "x": 270.0765380859375,
+      "y": 651.2837524414062,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_balloon_b6",
+      "parent": "eff_balloon_front",
+      "x": 564.24951171875,
+      "y": 820.4017333984375,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_balloon_front2",
+      "parent": "all",
+      "x": -0.9999999403953552,
+      "y": -1,
+      "scaleX": -1,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_balloon_b9",
+      "parent": "eff_balloon_front2",
+      "rotation": 30,
+      "x": 467.17626953125,
+      "y": 483.96783447265625,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_balloon_b12",
+      "parent": "eff_balloon_front2",
+      "x": 564.24951171875,
+      "y": 820.4017333984375,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_balloon_b1s",
+      "parent": "eff_balloon_b1",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_balloon_b2s",
+      "parent": "eff_balloon_b2",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_balloon_b2s2",
+      "parent": "eff_balloon_b9",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_balloon_b4s",
+      "parent": "eff_balloon_b4",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_balloon_b6s",
+      "parent": "eff_balloon_b6",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_balloon_b6s2",
+      "parent": "eff_balloon_b12",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_mark_a",
+      "parent": "all",
+      "x": -1.0000001192092896,
+      "y": 289.55987548828125,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_hart_01",
+      "parent": "eff_mark_a",
+      "x": 136.93394470214844,
+      "y": 204.94061279296875,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_mark_a2",
+      "parent": "all",
+      "x": -1.0000001192092896,
+      "y": 289.55987548828125,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_hart_1",
+      "parent": "eff_mark_a2",
+      "rotation": -20,
+      "x": 186.93394470214844,
+      "y": 164.94061279296875,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_hart_02",
+      "parent": "eff_mark_a",
+      "x": -223.70574951171875,
+      "y": 226.675537109375,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_hart_2",
+      "parent": "eff_mark_a2",
+      "rotation": 20,
+      "x": -283.70574951171875,
+      "y": 136.675537109375,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_balloon_b4",
+      "bone": "eff_balloon_b4s",
+      "attachment": "eff_balloon_b04",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_obj1",
+      "bone": "bg_obj_1",
+      "attachment": "bg_obj1",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_obj2",
+      "bone": "bg_obj_2",
+      "attachment": "bg_obj2",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_balloon_b12",
+      "bone": "eff_balloon_b6s2",
+      "attachment": "eff_balloon_b06",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_balloon_b9",
+      "bone": "eff_balloon_b2s2",
+      "attachment": "eff_balloon_b02",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_balloon_b6",
+      "bone": "eff_balloon_b6s",
+      "attachment": "eff_balloon_b06",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_balloon_b2",
+      "bone": "eff_balloon_b2s",
+      "attachment": "eff_balloon_b02",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_balloon_b1",
+      "bone": "eff_balloon_b1s",
+      "attachment": "eff_balloon_b01",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_hart_add1",
+      "bone": "eff_hart_01",
+      "attachment": "eff_hart_add1",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_hart_add4",
+      "bone": "eff_hart_1",
+      "attachment": "eff_hart_add1",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_hart_add3",
+      "bone": "eff_hart_2",
+      "attachment": "eff_hart_add2",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_hart_add2",
+      "bone": "eff_hart_02",
+      "attachment": "eff_hart_add2",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_hart_nor4",
+      "bone": "eff_hart_1",
+      "attachment": "eff_hart_nor1",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_hart_nor3",
+      "bone": "eff_hart_2",
+      "attachment": "eff_hart_nor2",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_hart_nor1",
+      "bone": "eff_hart_01",
+      "attachment": "eff_hart_nor1",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_hart_nor2",
+      "bone": "eff_hart_02",
+      "attachment": "eff_hart_nor2",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_balloon_b4": {
+          "eff_balloon_b04": {
+            "type": "region",
+            "name": "eff_balloon_b04",
+            "path": "eff_balloon_b04",
+            "rotation": -30,
+            "x": -5.37567138671875,
+            "y": -3.346923828125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 63,
+            "height": 68,
+            "color": "ffffffff"
+          }
+        },
+        "bg_obj1": {
+          "bg_obj1": {
+            "type": "region",
+            "name": "bg_obj1",
+            "path": "bg_obj1",
+            "rotation": 0,
+            "x": -29.32562255859375,
+            "y": -150.72747802734375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 112,
+            "height": 301,
+            "color": "ffffffff"
+          }
+        },
+        "bg_obj2": {
+          "bg_obj2": {
+            "type": "region",
+            "name": "bg_obj2",
+            "path": "bg_obj2",
+            "rotation": 0,
+            "x": 14.92535400390625,
+            "y": -195.99066162109375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 237,
+            "height": 293,
+            "color": "ffffffff"
+          }
+        },
+        "eff_balloon_b12": {
+          "eff_balloon_b06": {
+            "type": "region",
+            "name": "eff_balloon_b06",
+            "path": "eff_balloon_b06",
+            "rotation": 0,
+            "x": -3.75067138671875,
+            "y": 0.5650634765625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 102,
+            "height": 110,
+            "color": "ffffffff"
+          }
+        },
+        "eff_balloon_b9": {
+          "eff_balloon_b02": {
+            "type": "region",
+            "name": "eff_balloon_b02",
+            "path": "eff_balloon_b02",
+            "rotation": -30,
+            "x": -3.36419677734375,
+            "y": -6.4882049560546875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 145,
+            "height": 157,
+            "color": "ffffffff"
+          }
+        },
+        "eff_balloon_b6": {
+          "eff_balloon_b06": {
+            "type": "region",
+            "name": "eff_balloon_b06",
+            "path": "eff_balloon_b06",
+            "rotation": 0,
+            "x": -3.75067138671875,
+            "y": 0.5650634765625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 102,
+            "height": 110,
+            "color": "ffffffff"
+          }
+        },
+        "eff_balloon_b2": {
+          "eff_balloon_b02": {
+            "type": "region",
+            "name": "eff_balloon_b02",
+            "path": "eff_balloon_b02",
+            "rotation": -30,
+            "x": -3.3642578125,
+            "y": -6.4882354736328125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 145,
+            "height": 157,
+            "color": "ffffffff"
+          }
+        },
+        "eff_balloon_b1": {
+          "eff_balloon_b01": {
+            "type": "region",
+            "name": "eff_balloon_b01",
+            "path": "eff_balloon_b01",
+            "rotation": 50,
+            "x": 8.052734375,
+            "y": -3.1656036376953125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 153,
+            "height": 148,
+            "color": "ffffffff"
+          }
+        },
+        "eff_hart_add1": {
+          "eff_hart_add1": {
+            "type": "region",
+            "name": "eff_hart_add1",
+            "path": "eff_hart_add1",
+            "rotation": 0,
+            "x": 21.698089599609375,
+            "y": 29.0662841796875,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 37,
+            "height": 46,
+            "color": "ffffffff"
+          }
+        },
+        "eff_hart_add4": {
+          "eff_hart_add1": {
+            "type": "region",
+            "name": "eff_hart_add1",
+            "path": "eff_hart_add1",
+            "rotation": 0,
+            "x": 21.698089599609375,
+            "y": 29.0662841796875,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 37,
+            "height": 46,
+            "color": "ffffffff"
+          }
+        },
+        "eff_hart_add3": {
+          "eff_hart_add2": {
+            "type": "region",
+            "name": "eff_hart_add2",
+            "path": "eff_hart_add2",
+            "rotation": 0,
+            "x": -25.38543701171875,
+            "y": 36.15618896484375,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 56,
+            "height": 55,
+            "color": "ffffffff"
+          }
+        },
+        "eff_hart_add2": {
+          "eff_hart_add2": {
+            "type": "region",
+            "name": "eff_hart_add2",
+            "path": "eff_hart_add2",
+            "rotation": 0,
+            "x": -25.385421752929688,
+            "y": 36.15618896484375,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 56,
+            "height": 55,
+            "color": "ffffffff"
+          }
+        },
+        "eff_hart_nor4": {
+          "eff_hart_nor1": {
+            "type": "region",
+            "name": "eff_hart_nor1",
+            "path": "eff_hart_nor1",
+            "rotation": 0,
+            "x": 21.679672241210938,
+            "y": 30.0819091796875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 56,
+            "height": 75,
+            "color": "ffffffff"
+          }
+        },
+        "eff_hart_nor3": {
+          "eff_hart_nor2": {
+            "type": "region",
+            "name": "eff_hart_nor2",
+            "path": "eff_hart_nor2",
+            "rotation": 0,
+            "x": -25.922256469726562,
+            "y": 35.8837890625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 93,
+            "height": 92,
+            "color": "ffffffff"
+          }
+        },
+        "eff_hart_nor1": {
+          "eff_hart_nor1": {
+            "type": "region",
+            "name": "eff_hart_nor1",
+            "path": "eff_hart_nor1",
+            "rotation": 0,
+            "x": 21.6796875,
+            "y": 30.0819091796875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 56,
+            "height": 75,
+            "color": "ffffffff"
+          }
+        },
+        "eff_hart_nor2": {
+          "eff_hart_nor2": {
+            "type": "region",
+            "name": "eff_hart_nor2",
+            "path": "eff_hart_nor2",
+            "rotation": 0,
+            "x": -25.922225952148438,
+            "y": 35.8837890625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 93,
+            "height": 92,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_hart_add1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 9,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 10.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 10.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 11.666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 13,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 14.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 14.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 15.666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_hart_add2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 9.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 9.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 10.666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 13.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 13.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 14.666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_hart_add3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffc9",
+              "curve": 0.5111533999443054,
+              "c2": 0.3531295657157898,
+              "c3": 0.9019906520843506,
+              "c4": 0.7982532978057861
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 8.666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 10,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 11.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 11.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 12.666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 14,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 15.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 15.5,
+              "color": "ffffffff",
+              "curve": 0.34829720854759216,
+              "c2": 0.039912279695272446,
+              "c3": 0.7005780935287476,
+              "c4": 0.4679825007915497
+            },
+            {
+              "time": 16,
+              "color": "ffffffc9"
+            }
+          ]
+        },
+        "eff_hart_add4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 9.666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 11,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 12.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 12.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 13.666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 15,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_hart_nor1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 3.6666667461395264,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 7.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 9,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 10.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 10.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 11.666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 13,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 14.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 14.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 15.666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_hart_nor2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 9.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 9.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 10.666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 13.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 13.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 14.666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_hart_nor3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffc9",
+              "curve": 0.5111533999443054,
+              "c2": 0.3531295657157898,
+              "c3": 0.9019906520843506,
+              "c4": 0.7982532978057861
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 8.666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 10,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 11.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 11.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 12.666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 14,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 15.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 15.5,
+              "color": "ffffffff",
+              "curve": 0.34829720854759216,
+              "c2": 0.039912279695272446,
+              "c3": 0.7005780935287476,
+              "c4": 0.4679825007915497
+            },
+            {
+              "time": 16,
+              "color": "ffffffc9"
+            }
+          ]
+        },
+        "eff_hart_nor4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 9.666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 11,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 12.333333015441895,
+              "color": "ffffff00"
+            },
+            {
+              "time": 12.5,
+              "color": "ffffffff",
+              "curve": 0.4563037157058716,
+              "c2": 0.03095238097012043,
+              "c3": 0.9247850775718689,
+              "c4": 0.7642857432365417
+            },
+            {
+              "time": 13.666666984558105,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 15,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "eff_balloon_b2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 266.30389404296875,
+              "y": -475.7408752441406,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": 266.30389404296875,
+              "y": -475.7408752441406
+            },
+            {
+              "time": 7.300000190734863,
+              "x": -251.1148681640625,
+              "y": 445.226806640625,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.333333492279053,
+              "x": 266.30389404296875,
+              "y": -475.7408752441406,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 266.30389404296875,
+              "y": -475.7408752441406,
+              "curve": "stepped"
+            },
+            {
+              "time": 9.333333015441895,
+              "x": 266.30389404296875,
+              "y": -475.7408752441406
+            },
+            {
+              "time": 15.300000190734863,
+              "x": -251.1148681640625,
+              "y": 445.226806640625,
+              "curve": "stepped"
+            },
+            {
+              "time": 15.333333015441895,
+              "x": 266.30389404296875,
+              "y": -475.7408752441406,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "x": 266.30389404296875,
+              "y": -475.7408752441406
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158
+            },
+            {
+              "time": 4.666666507720947,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.300000190734863,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.333333492279053,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158,
+              "curve": "stepped"
+            },
+            {
+              "time": 9.333333015441895,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158
+            },
+            {
+              "time": 12.666666984558105,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 15.300000190734863,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 15.333333015441895,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158
+            }
+          ]
+        },
+        "eff_balloon_b6s2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 30,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6666667461395264,
+              "angle": 30
+            },
+            {
+              "time": 4,
+              "angle": 19.937105178833008
+            },
+            {
+              "time": 7.9666666984558105,
+              "angle": -10
+            },
+            {
+              "time": 8,
+              "angle": 30,
+              "curve": "stepped"
+            },
+            {
+              "time": 10.666666984558105,
+              "angle": 30
+            },
+            {
+              "time": 12,
+              "angle": 19.937105178833008
+            },
+            {
+              "time": 15.966666221618652,
+              "angle": -10
+            },
+            {
+              "time": 16,
+              "angle": 30
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6666667461395264,
+              "x": 0,
+              "y": 0,
+              "curve": 0,
+              "c2": 0.003105590119957924,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "x": -30.23568344116211,
+              "y": 0,
+              "curve": 0.3684210479259491,
+              "c2": 0.5003890991210938,
+              "c3": 0.7894737124443054,
+              "c4": 1
+            },
+            {
+              "time": 5.333333492279053,
+              "x": -50,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 7.9666666984558105,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 10.666666984558105,
+              "x": 0,
+              "y": 0,
+              "curve": 0,
+              "c2": 0.003105590119957924,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 12,
+              "x": -30.23568344116211,
+              "y": 0,
+              "curve": 0.3684210479259491,
+              "c2": 0.5003890991210938,
+              "c3": 0.7894737124443054,
+              "c4": 1
+            },
+            {
+              "time": 13.333333015441895,
+              "x": -50,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 15.966666221618652,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "eff_hart_2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -11.537525177001953,
+              "curve": 0.21939633786678314,
+              "c2": 0.545045018196106,
+              "c3": 0.5120179057121277,
+              "c4": 0.9189189076423645
+            },
+            {
+              "time": 0.6666666865348816,
+              "angle": -17.600006103515625,
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333332538604736,
+              "angle": 14.5,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 4.666666507720947,
+              "angle": -17.600006103515625,
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.333333492279053,
+              "angle": 14.5,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 8.666666984558105,
+              "angle": -17.600006103515625,
+              "curve": "stepped"
+            },
+            {
+              "time": 10,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 11.333333015441895,
+              "angle": 14.5,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 12.666666984558105,
+              "angle": -17.600006103515625,
+              "curve": "stepped"
+            },
+            {
+              "time": 14,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 15.333333015441895,
+              "angle": 14.5,
+              "curve": 0.3479561507701874,
+              "c2": 0.3777777850627899,
+              "c3": 0.6086739897727966,
+              "c4": 0.7311111092567444
+            },
+            {
+              "time": 16,
+              "angle": -11.537525177001953
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": -14.334121704101562,
+              "y": 14.334136962890625,
+              "curve": 0.21939633786678314,
+              "c2": 0.545045018196106,
+              "c3": 0.5120179057121277,
+              "c4": 0.9189189076423645
+            },
+            {
+              "time": 0.6666666865348816,
+              "x": -19.999984741210938,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "x": 10,
+              "y": -10,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333332538604736,
+              "x": 10,
+              "y": -10,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 4.666666507720947,
+              "x": -19.999984741210938,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "x": 10,
+              "y": -10,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.333333492279053,
+              "x": 10,
+              "y": -10,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 8.666666984558105,
+              "x": -19.999984741210938,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 10,
+              "x": 10,
+              "y": -10,
+              "curve": "stepped"
+            },
+            {
+              "time": 11.333333015441895,
+              "x": 10,
+              "y": -10,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 12.666666984558105,
+              "x": -19.999984741210938,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 14,
+              "x": 10,
+              "y": -10,
+              "curve": "stepped"
+            },
+            {
+              "time": 15.333333015441895,
+              "x": 10,
+              "y": -10,
+              "curve": 0.3479561507701874,
+              "c2": 0.3777777850627899,
+              "c3": 0.6086739897727966,
+              "c4": 0.7311111092567444
+            },
+            {
+              "time": 16,
+              "x": -14.334121704101562,
+              "y": 14.334136962890625
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.1083532571792603,
+              "y": 1.1903868913650513,
+              "curve": 0.21939633786678314,
+              "c2": 0.545045018196106,
+              "c3": 0.5120179057121277,
+              "c4": 0.9189189076423645
+            },
+            {
+              "time": 0.6666666865348816,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333332538604736,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 4.666666507720947,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.333333492279053,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 8.666666984558105,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 10,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 11.333333015441895,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 12.666666984558105,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 14,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 15.333333015441895,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": 0.3479561507701874,
+              "c2": 0.3777777850627899,
+              "c3": 0.6086739897727966,
+              "c4": 0.7311111092567444
+            },
+            {
+              "time": 16,
+              "x": 1.1083532571792603,
+              "y": 1.1903868913650513
+            }
+          ]
+        },
+        "eff_hart_02": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "angle": 14.5,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 2.6666667461395264,
+              "angle": -17.600006103515625,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "angle": 14.5,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 6.666666507720947,
+              "angle": -17.600006103515625,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 9.333333015441895,
+              "angle": 14.5,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 10.666666984558105,
+              "angle": -17.600006103515625,
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 13.333333015441895,
+              "angle": 14.5,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 14.666666984558105,
+              "angle": -17.600006103515625,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "angle": -25.5
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 10,
+              "y": -10,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": 10,
+              "y": -10,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 2.6666667461395264,
+              "x": -19.999984741210938,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 10,
+              "y": -10,
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "x": 10,
+              "y": -10,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 6.666666507720947,
+              "x": -19.999984741210938,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 10,
+              "y": -10,
+              "curve": "stepped"
+            },
+            {
+              "time": 9.333333015441895,
+              "x": 10,
+              "y": -10,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 10.666666984558105,
+              "x": -19.999984741210938,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "x": 10,
+              "y": -10,
+              "curve": "stepped"
+            },
+            {
+              "time": 13.333333015441895,
+              "x": 10,
+              "y": -10,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 14.666666984558105,
+              "x": -19.999984741210938,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "x": 10,
+              "y": -10
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 2.6666667461395264,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 6.666666507720947,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 9.333333015441895,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 10.666666984558105,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 13.333333015441895,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 14.666666984558105,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "x": 0.5,
+              "y": 0.2901277244091034
+            }
+          ]
+        },
+        "eff_balloon_b12": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 158.117919921875,
+              "y": -504.8678283691406,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6666667461395264,
+              "x": 158.117919921875,
+              "y": -504.8678283691406
+            },
+            {
+              "time": 4,
+              "x": 95.69830322265625,
+              "y": -357.73126220703125
+            },
+            {
+              "time": 7.9666666984558105,
+              "x": -90,
+              "y": 80,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 158.117919921875,
+              "y": -504.8678283691406,
+              "curve": "stepped"
+            },
+            {
+              "time": 10.666666984558105,
+              "x": 158.117919921875,
+              "y": -504.8678283691406
+            },
+            {
+              "time": 12,
+              "x": 95.69830322265625,
+              "y": -357.73126220703125
+            },
+            {
+              "time": 15.966666221618652,
+              "x": -90,
+              "y": 80,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "x": 158.117919921875,
+              "y": -504.8678283691406
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.2999999523162842,
+              "y": 1.2999999523162842,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.6666667461395264,
+              "x": 1.2999999523162842,
+              "y": 1.2999999523162842
+            },
+            {
+              "time": 4,
+              "x": 1.149999976158142,
+              "y": 1.149999976158142
+            },
+            {
+              "time": 5.333333492279053,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.9666666984558105,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 1.2999999523162842,
+              "y": 1.2999999523162842,
+              "curve": "stepped"
+            },
+            {
+              "time": 10.666666984558105,
+              "x": 1.2999999523162842,
+              "y": 1.2999999523162842
+            },
+            {
+              "time": 12,
+              "x": 1.149999976158142,
+              "y": 1.149999976158142
+            },
+            {
+              "time": 13.333333015441895,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 15.966666221618652,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "x": 1.2999999523162842,
+              "y": 1.2999999523162842
+            }
+          ]
+        },
+        "eff_balloon_b1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -229.14605712890625,
+              "y": -158.117919921875
+            },
+            {
+              "time": 4.633333206176758,
+              "x": 184.47088623046875,
+              "y": 135.9259033203125,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.666666507720947,
+              "x": -229.14605712890625,
+              "y": -158.117919921875,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": -229.14605712890625,
+              "y": -158.117919921875
+            },
+            {
+              "time": 12.633333206176758,
+              "x": 184.47088623046875,
+              "y": 135.9259033203125,
+              "curve": "stepped"
+            },
+            {
+              "time": 12.666666984558105,
+              "x": -229.14605712890625,
+              "y": -158.117919921875,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "x": -229.14605712890625,
+              "y": -158.117919921875
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158
+            },
+            {
+              "time": 2.3333332538604736,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.633333206176758,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.666666507720947,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158
+            },
+            {
+              "time": 10.333333015441895,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 12.633333206176758,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 12.666666984558105,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158
+            }
+          ]
+        },
+        "eff_balloon_b6s": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 19.937105178833008
+            },
+            {
+              "time": 3.9666666984558105,
+              "angle": -10
+            },
+            {
+              "time": 4,
+              "angle": 30,
+              "curve": "stepped"
+            },
+            {
+              "time": 6.666666507720947,
+              "angle": 30
+            },
+            {
+              "time": 8,
+              "angle": 19.937105178833008
+            },
+            {
+              "time": 11.966666221618652,
+              "angle": -10
+            },
+            {
+              "time": 12,
+              "angle": 30,
+              "curve": "stepped"
+            },
+            {
+              "time": 14.666666984558105,
+              "angle": 30
+            },
+            {
+              "time": 16,
+              "angle": 19.937105178833008
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": -30.23568344116211,
+              "y": 0,
+              "curve": 0.3684210479259491,
+              "c2": 0.5003890991210938,
+              "c3": 0.7894737124443054,
+              "c4": 1
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": -50,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 3.9666666984558105,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 6.666666507720947,
+              "x": 0,
+              "y": 0,
+              "curve": 0,
+              "c2": 0.003105590119957924,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": -30.23568344116211,
+              "y": 0,
+              "curve": 0.3684210479259491,
+              "c2": 0.5003890991210938,
+              "c3": 0.7894737124443054,
+              "c4": 1
+            },
+            {
+              "time": 9.333333015441895,
+              "x": -50,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 11.966666221618652,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 14.666666984558105,
+              "x": 0,
+              "y": 0,
+              "curve": 0,
+              "c2": 0.003105590119957924,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 16,
+              "x": -30.23568344116211,
+              "y": 0
+            }
+          ]
+        },
+        "eff_hart_1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333333432674408,
+              "angle": -25.5,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 1.6666666269302368,
+              "angle": 2.399993896484375,
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "angle": 2.399993896484375,
+              "curve": "stepped"
+            },
+            {
+              "time": 3,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "angle": -25.5,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 5.666666507720947,
+              "angle": 2.399993896484375,
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 8.333333015441895,
+              "angle": -25.5,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 9.666666984558105,
+              "angle": 2.399993896484375,
+              "curve": "stepped"
+            },
+            {
+              "time": 11,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 12.333333015441895,
+              "angle": -25.5,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 13.666666984558105,
+              "angle": 2.399993896484375,
+              "curve": "stepped"
+            },
+            {
+              "time": 15,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "angle": -25.5
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": -20,
+              "y": -20,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333333432674408,
+              "x": -20,
+              "y": -20,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 1.6666666269302368,
+              "x": 20,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "x": 20,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 3,
+              "x": -20,
+              "y": -20,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "x": -20,
+              "y": -20,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 5.666666507720947,
+              "x": 20,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "x": -20,
+              "y": -20,
+              "curve": "stepped"
+            },
+            {
+              "time": 8.333333015441895,
+              "x": -20,
+              "y": -20,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 9.666666984558105,
+              "x": 20,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 11,
+              "x": -20,
+              "y": -20,
+              "curve": "stepped"
+            },
+            {
+              "time": 12.333333015441895,
+              "x": -20,
+              "y": -20,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 13.666666984558105,
+              "x": 20,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 15,
+              "x": -20,
+              "y": -20,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "x": -20,
+              "y": -20
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3333333432674408,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": 0.25,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 1.6666666269302368,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 3,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.333333492279053,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": 0.25,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 5.666666507720947,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 8.333333015441895,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": 0.25,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 9.666666984558105,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 11,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 12.333333015441895,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": 0.25,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 13.666666984558105,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 15,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "x": 0.5,
+              "y": 0.2901277244091034
+            }
+          ]
+        },
+        "eff_hart_01": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 2.399993896484375,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "angle": -25.5,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 3.6666667461395264,
+              "angle": 2.399993896484375,
+              "curve": "stepped"
+            },
+            {
+              "time": 5,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 6.333333492279053,
+              "angle": -25.5,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 7.666666507720947,
+              "angle": 2.399993896484375,
+              "curve": "stepped"
+            },
+            {
+              "time": 9,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 10.333333015441895,
+              "angle": -25.5,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 11.666666984558105,
+              "angle": 2.399993896484375,
+              "curve": "stepped"
+            },
+            {
+              "time": 13,
+              "angle": -25.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 14.333333015441895,
+              "angle": -25.5,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 15.666666984558105,
+              "angle": 2.399993896484375,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "angle": 2.399993896484375
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 20,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": -20,
+              "y": -20,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "x": -20,
+              "y": -20,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 3.6666667461395264,
+              "x": 20,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 5,
+              "x": -20,
+              "y": -20,
+              "curve": "stepped"
+            },
+            {
+              "time": 6.333333492279053,
+              "x": -20,
+              "y": -20,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 7.666666507720947,
+              "x": 20,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 9,
+              "x": -20,
+              "y": -20,
+              "curve": "stepped"
+            },
+            {
+              "time": 10.333333015441895,
+              "x": -20,
+              "y": -20,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 11.666666984558105,
+              "x": 20,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 13,
+              "x": -20,
+              "y": -20,
+              "curve": "stepped"
+            },
+            {
+              "time": 14.333333015441895,
+              "x": -20,
+              "y": -20,
+              "curve": 0.2500000298023224,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 15.666666984558105,
+              "x": 20,
+              "y": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "x": 20,
+              "y": 20
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.3333332538604736,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": 0.25,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 3.6666667461395264,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 5,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 6.333333492279053,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": 0.25,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 7.666666507720947,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 9,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 10.333333015441895,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": 0.25,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 11.666666984558105,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 13,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": "stepped"
+            },
+            {
+              "time": 14.333333015441895,
+              "x": 0.5,
+              "y": 0.2901277244091034,
+              "curve": 0.25,
+              "c2": 0.5059523582458496,
+              "c3": 0.3746418356895447,
+              "c4": 0.9464285969734192
+            },
+            {
+              "time": 15.666666984558105,
+              "x": 1.25,
+              "y": 1.399999976158142,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "x": 1.25,
+              "y": 1.399999976158142
+            }
+          ]
+        },
+        "eff_balloon_b9": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 35.0552978515625,
+              "y": -64.13522338867188
+            },
+            {
+              "time": 3.299999952316284,
+              "x": -251.1148681640625,
+              "y": 445.226806640625,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333332538604736,
+              "x": 266.30389404296875,
+              "y": -475.7408752441406,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 266.30389404296875,
+              "y": -475.7408752441406,
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "x": 266.30389404296875,
+              "y": -475.7408752441406
+            },
+            {
+              "time": 8,
+              "x": 35.0552978515625,
+              "y": -64.13522338867188
+            },
+            {
+              "time": 11.300000190734863,
+              "x": -251.1148681640625,
+              "y": 445.226806640625,
+              "curve": "stepped"
+            },
+            {
+              "time": 11.333333015441895,
+              "x": 266.30389404296875,
+              "y": -475.7408752441406,
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "x": 266.30389404296875,
+              "y": -475.7408752441406,
+              "curve": "stepped"
+            },
+            {
+              "time": 13.333333015441895,
+              "x": 266.30389404296875,
+              "y": -475.7408752441406
+            },
+            {
+              "time": 16,
+              "x": 35.0552978515625,
+              "y": -64.13522338867188
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.040000081062317,
+              "y": 1.040000081062317
+            },
+            {
+              "time": 0.6666666865348816,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.299999952316284,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333332538604736,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158,
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158
+            },
+            {
+              "time": 8,
+              "x": 1.040000081062317,
+              "y": 1.040000081062317
+            },
+            {
+              "time": 8.666666984558105,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 11.300000190734863,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 11.333333015441895,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158,
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158,
+              "curve": "stepped"
+            },
+            {
+              "time": 13.333333015441895,
+              "x": 1.2000000476837158,
+              "y": 1.2000000476837158
+            },
+            {
+              "time": 16,
+              "x": 1.040000081062317,
+              "y": 1.040000081062317
+            }
+          ]
+        },
+        "eff_balloon_b6": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 95.69830322265625,
+              "y": -357.73126220703125
+            },
+            {
+              "time": 3.9666666984558105,
+              "x": -90,
+              "y": 80,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 158.117919921875,
+              "y": -504.8678283691406,
+              "curve": "stepped"
+            },
+            {
+              "time": 6.666666507720947,
+              "x": 158.117919921875,
+              "y": -504.8678283691406
+            },
+            {
+              "time": 8,
+              "x": 95.69830322265625,
+              "y": -357.73126220703125
+            },
+            {
+              "time": 11.966666221618652,
+              "x": -90,
+              "y": 80,
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "x": 158.117919921875,
+              "y": -504.8678283691406,
+              "curve": "stepped"
+            },
+            {
+              "time": 14.666666984558105,
+              "x": 158.117919921875,
+              "y": -504.8678283691406
+            },
+            {
+              "time": 16,
+              "x": 95.69830322265625,
+              "y": -357.73126220703125
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.149999976158142,
+              "y": 1.149999976158142
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.9666666984558105,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 1.2999999523162842,
+              "y": 1.2999999523162842,
+              "curve": "stepped"
+            },
+            {
+              "time": 6.666666507720947,
+              "x": 1.2999999523162842,
+              "y": 1.2999999523162842
+            },
+            {
+              "time": 8,
+              "x": 1.149999976158142,
+              "y": 1.149999976158142
+            },
+            {
+              "time": 9.333333015441895,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 11.966666221618652,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "x": 1.2999999523162842,
+              "y": 1.2999999523162842,
+              "curve": "stepped"
+            },
+            {
+              "time": 14.666666984558105,
+              "x": 1.2999999523162842,
+              "y": 1.2999999523162842
+            },
+            {
+              "time": 16,
+              "x": 1.149999976158142,
+              "y": 1.149999976158142
+            }
+          ]
+        },
+        "eff_balloon_b4": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 157.56082153320312,
+              "y": -136.48883056640625
+            },
+            {
+              "time": 3.9666666984558105,
+              "x": -140.0869140625,
+              "y": 224.69384765625,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 457.7098388671875,
+              "y": -500.7067565917969
+            },
+            {
+              "time": 8,
+              "x": 157.56082153320312,
+              "y": -136.48883056640625
+            },
+            {
+              "time": 11.966666221618652,
+              "x": -140.0869140625,
+              "y": 224.69384765625,
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "x": 457.7098388671875,
+              "y": -500.7067565917969
+            },
+            {
+              "time": 16,
+              "x": 157.56082153320312,
+              "y": -136.48883056640625
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.9666666984558105,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 1.5,
+              "y": 1.5
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 11.966666221618652,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "x": 1.5,
+              "y": 1.5
+            },
+            {
+              "time": 16,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "eff_balloon_b2s2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 2.122905731201172
+            },
+            {
+              "time": 3.299999952316284,
+              "angle": -20,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333332538604736,
+              "angle": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "angle": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "angle": 20
+            },
+            {
+              "time": 8,
+              "angle": 2.122905731201172
+            },
+            {
+              "time": 11.300000190734863,
+              "angle": -20,
+              "curve": "stepped"
+            },
+            {
+              "time": 11.333333015441895,
+              "angle": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "angle": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 13.333333015441895,
+              "angle": 20
+            },
+            {
+              "time": 16,
+              "angle": 2.122905731201172
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 106.51457214355469,
+              "y": -61.49624252319336,
+              "curve": 0.3835616409778595,
+              "c2": 0.6399999856948853,
+              "c3": 0.7226024270057678,
+              "c4": 1
+            },
+            {
+              "time": 0.3333333432674408,
+              "x": 105.39022827148438,
+              "y": -60.84710693359375,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 3.299999952316284,
+              "x": 131.37106323242188,
+              "y": -75.84710693359375,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.3333332538604736,
+              "x": 131.37106323242188,
+              "y": -75.84710693359375,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 131.37106323242188,
+              "y": -75.84710693359375,
+              "curve": "stepped"
+            },
+            {
+              "time": 5.333333492279053,
+              "x": 131.37106323242188,
+              "y": -75.84710693359375,
+              "curve": 0,
+              "c2": 0,
+              "c3": 0.6585365533828735,
+              "c4": 0.8181818127632141
+            },
+            {
+              "time": 8,
+              "x": 106.51457214355469,
+              "y": -61.49624252319336,
+              "curve": 0.3835616409778595,
+              "c2": 0.6399999856948853,
+              "c3": 0.7226024270057678,
+              "c4": 1
+            },
+            {
+              "time": 8.333333015441895,
+              "x": 105.39022827148438,
+              "y": -60.84710693359375,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 11.300000190734863,
+              "x": 131.37106323242188,
+              "y": -75.84710693359375,
+              "curve": "stepped"
+            },
+            {
+              "time": 11.333333015441895,
+              "x": 131.37106323242188,
+              "y": -75.84710693359375,
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "x": 131.37106323242188,
+              "y": -75.84710693359375,
+              "curve": "stepped"
+            },
+            {
+              "time": 13.333333015441895,
+              "x": 131.37106323242188,
+              "y": -75.84710693359375,
+              "curve": 0,
+              "c2": 0,
+              "c3": 0.6585365533828735,
+              "c4": 0.8181818127632141
+            },
+            {
+              "time": 16,
+              "x": 106.51457214355469,
+              "y": -61.49624252319336
+            }
+          ]
+        },
+        "eff_balloon_b2s": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "angle": 20
+            },
+            {
+              "time": 7.300000190734863,
+              "angle": -20,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.333333492279053,
+              "angle": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "angle": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 9.333333015441895,
+              "angle": 20
+            },
+            {
+              "time": 15.300000190734863,
+              "angle": -20,
+              "curve": "stepped"
+            },
+            {
+              "time": 15.333333015441895,
+              "angle": 20,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "angle": 20
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333333730697632,
+              "x": 0,
+              "y": 0,
+              "curve": 0,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.333333492279053,
+              "x": -25.9808349609375,
+              "y": 15,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 7.300000190734863,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.333333492279053,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 9.333333015441895,
+              "x": 0,
+              "y": 0,
+              "curve": 0,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 12.333333015441895,
+              "x": -25.9808349609375,
+              "y": 15,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 15.300000190734863,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 15.333333015441895,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "eff_balloon_b4s": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -0.08368301391601562
+            },
+            {
+              "time": 3.9666666984558105,
+              "angle": -20,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "angle": 20
+            },
+            {
+              "time": 8,
+              "angle": -0.08368301391601562
+            },
+            {
+              "time": 11.966666221618652,
+              "angle": -20,
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "angle": 20
+            },
+            {
+              "time": 16,
+              "angle": -0.08368301391601562
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": -43.30120849609375,
+              "y": 24.999984741210938,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 3.9666666984558105,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 0,
+              "y": 0,
+              "curve": 0,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": -43.30120849609375,
+              "y": 24.999984741210938,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 11.966666221618652,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "x": 0,
+              "y": 0,
+              "curve": 0,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 16,
+              "x": -43.30120849609375,
+              "y": 24.999984741210938
+            }
+          ]
+        },
+        "eff_balloon_b1s": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -10
+            },
+            {
+              "time": 4.633333206176758,
+              "angle": 10,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.666666507720947,
+              "angle": -10,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "angle": -10
+            },
+            {
+              "time": 12.633333206176758,
+              "angle": 10,
+              "curve": "stepped"
+            },
+            {
+              "time": 12.666666984558105,
+              "angle": -10,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "angle": -10
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 58.424346923828125,
+              "y": -80.13446044921875,
+              "curve": 0,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.3333332538604736,
+              "x": 90.56369018554688,
+              "y": -41.832244873046875,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 4.633333206176758,
+              "x": 1.016571044921875,
+              "y": 69.4312744140625,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.666666507720947,
+              "x": 58.424346923828125,
+              "y": -80.13446044921875,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 58.424346923828125,
+              "y": -80.13446044921875,
+              "curve": 0,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 10.333333015441895,
+              "x": 90.56369018554688,
+              "y": -41.832244873046875,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 12.633333206176758,
+              "x": 1.016571044921875,
+              "y": 69.4312744140625,
+              "curve": "stepped"
+            },
+            {
+              "time": 12.666666984558105,
+              "x": 58.424346923828125,
+              "y": -80.13446044921875,
+              "curve": "stepped"
+            },
+            {
+              "time": 16,
+              "x": 58.424346923828125,
+              "y": -80.13446044921875
+            }
+          ]
+        },
+        "bg_obj_1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "angle": 3,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "angle": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "angle": 3,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "angle": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 10,
+              "angle": 3,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 12,
+              "angle": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 14,
+              "angle": 3,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 16,
+              "angle": 0
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "x": 5.6259765625,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "x": 5.6259765625,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 10,
+              "x": 5.6259765625,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 12,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 14,
+              "x": 5.6259765625,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 16,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "bg_obj_2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": -0.5533981323242188,
+              "curve": 0.37931033968925476,
+              "c2": 0.6000000238418579,
+              "c3": 0.7241379022598267,
+              "c4": 1
+            },
+            {
+              "time": 0.5,
+              "angle": 0
+            },
+            {
+              "time": 2.5,
+              "angle": -3,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.5,
+              "angle": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.5,
+              "angle": -3,
+              "curve": 0.24242424964904785,
+              "c2": 0,
+              "c3": 0.6666666865348816,
+              "c4": 0.6666666865348816
+            },
+            {
+              "time": 8,
+              "angle": -0.5533981323242188,
+              "curve": 0.37931033968925476,
+              "c2": 0.6000000238418579,
+              "c3": 0.7241379022598267,
+              "c4": 1
+            },
+            {
+              "time": 8.5,
+              "angle": 0
+            },
+            {
+              "time": 10.5,
+              "angle": -3,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 12.5,
+              "angle": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 14.5,
+              "angle": -3,
+              "curve": 0.24242424964904785,
+              "c2": 0,
+              "c3": 0.6666666865348816,
+              "c4": 0.6666666865348816
+            },
+            {
+              "time": 16,
+              "angle": -0.5533981323242188
+            }
+          ],
+          "shear": [
+            {
+              "time": 0,
+              "x": -0.5857391357421875,
+              "y": 0,
+              "curve": 0.37931033968925476,
+              "c2": 0.6000000238418579,
+              "c3": 0.7241379022598267,
+              "c4": 1
+            },
+            {
+              "time": 0.5,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.5,
+              "x": -3.175323486328125,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.5,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.5,
+              "x": -3.175323486328125,
+              "y": 0,
+              "curve": 0.24242424964904785,
+              "c2": 0,
+              "c3": 0.6666666865348816,
+              "c4": 0.6666666865348816
+            },
+            {
+              "time": 8,
+              "x": -0.5857391357421875,
+              "y": 0,
+              "curve": 0.37931033968925476,
+              "c2": 0.6000000238418579,
+              "c3": 0.7241379022598267,
+              "c4": 1
+            },
+            {
+              "time": 8.5,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 10.5,
+              "x": -3.175323486328125,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 12.5,
+              "x": 0,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 14.5,
+              "x": -3.175323486328125,
+              "y": 0,
+              "curve": 0.24242424964904785,
+              "c2": 0,
+              "c3": 0.6666666865348816,
+              "c4": 0.6666666865348816
+            },
+            {
+              "time": 16,
+              "x": -0.5857391357421875,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

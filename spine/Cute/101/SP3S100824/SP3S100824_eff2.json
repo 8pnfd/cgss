@@ -1,0 +1,1936 @@
+{
+  "skeleton": {
+    "hash": "x4I+lm4zOBWcFg2CQCGkWG1qxQE",
+    "spine": "3.8",
+    "width": 621.448974609375,
+    "height": 726.5287475585938,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "compo",
+      "parent": "all",
+      "x": 304.58026123046875,
+      "y": 168.08526611328125,
+      "transform": "normal"
+    },
+    {
+      "name": "speaker_R",
+      "parent": "all",
+      "x": 270.3782653808594,
+      "y": 386.7261657714844,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_speaker_Lp1",
+      "parent": "speaker_R",
+      "rotation": 25.000001907348633,
+      "x": 55.050048828125,
+      "y": 51.588775634765625,
+      "transform": "noScale"
+    },
+    {
+      "name": "eff_speaker_Lp2",
+      "parent": "speaker_R",
+      "rotation": 25.000001907348633,
+      "x": 55.050048828125,
+      "y": 51.588775634765625,
+      "transform": "noScale"
+    },
+    {
+      "name": "eff_speaker_Ly1",
+      "parent": "speaker_R",
+      "rotation": 25.000001907348633,
+      "x": 34.180084228515625,
+      "y": 41.85693359375,
+      "transform": "noScale"
+    },
+    {
+      "name": "eff_speaker_Ly2",
+      "parent": "speaker_R",
+      "rotation": 25.000001907348633,
+      "x": 34.180084228515625,
+      "y": 41.85693359375,
+      "transform": "noScale"
+    },
+    {
+      "name": "speaker_L",
+      "parent": "all",
+      "x": -6.012701034545898,
+      "y": 634.17919921875,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_speaker_Rp1",
+      "parent": "speaker_L",
+      "rotation": 4.999999046325684,
+      "x": 10.729134559631348,
+      "y": 64.311767578125,
+      "transform": "noScale"
+    },
+    {
+      "name": "eff_speaker_Rp2",
+      "parent": "speaker_L",
+      "rotation": 4.999999046325684,
+      "x": 10.729134559631348,
+      "y": 64.311767578125,
+      "transform": "noScale"
+    },
+    {
+      "name": "eff_speaker_Ry1",
+      "parent": "speaker_L",
+      "rotation": 4.999999046325684,
+      "x": 10.729134559631348,
+      "y": 64.311767578125,
+      "transform": "noScale"
+    },
+    {
+      "name": "eff_speaker_Ry2",
+      "parent": "speaker_L",
+      "rotation": 4.999999046325684,
+      "x": 10.729134559631348,
+      "y": 64.311767578125,
+      "transform": "noScale"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "speaker_Lr",
+      "parent": "speaker_L",
+      "transform": "normal"
+    },
+    {
+      "name": "speaker_Rr",
+      "parent": "speaker_R",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "speaker_R",
+      "bone": "speaker_Rr",
+      "attachment": "speaker_R",
+      "blend": "normal"
+    },
+    {
+      "name": "speaker_L",
+      "bone": "speaker_Lr",
+      "attachment": "speaker_L",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_speaker_d",
+      "bone": "eff_speaker_Rp1",
+      "attachment": "eff_speaker_d",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_speaker_d2",
+      "bone": "eff_speaker_Rp2",
+      "attachment": "eff_speaker_d",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_speaker_c",
+      "bone": "eff_speaker_Ry1",
+      "attachment": "eff_speaker_c",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_speaker_c2",
+      "bone": "eff_speaker_Ry2",
+      "attachment": "eff_speaker_c",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_speaker_b",
+      "bone": "eff_speaker_Lp1",
+      "attachment": "eff_speaker_b",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_speaker_b2",
+      "bone": "eff_speaker_Lp2",
+      "attachment": "eff_speaker_b",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_speaker_a",
+      "bone": "eff_speaker_Ly1",
+      "attachment": "eff_speaker_a",
+      "blend": "normal"
+    },
+    {
+      "name": "eff_speaker_a2",
+      "bone": "eff_speaker_Ly2",
+      "attachment": "eff_speaker_a",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_2_1",
+      "bone": "fg_2",
+      "attachment": "bg_2",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_2_2",
+      "bone": "fg_2",
+      "attachment": "bg_2",
+      "blend": "screen"
+    },
+    {
+      "name": "bg_3",
+      "bone": "fg_2",
+      "attachment": "bg_3",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_4",
+      "bone": "fg_2",
+      "attachment": "bg_3",
+      "blend": "screen"
+    },
+    {
+      "name": "compo1",
+      "bone": "compo",
+      "attachment": "compo1",
+      "blend": "normal"
+    },
+    {
+      "name": "compo2",
+      "bone": "compo",
+      "attachment": "compo2",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "speaker_R": {
+          "speaker_R": {
+            "type": "region",
+            "name": "speaker_R",
+            "path": "speaker_R",
+            "rotation": 0,
+            "x": 26.80694580078125,
+            "y": 41.318634033203125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 101,
+            "height": 120,
+            "color": "ffffffff"
+          }
+        },
+        "speaker_L": {
+          "speaker_L": {
+            "type": "region",
+            "name": "speaker_L",
+            "path": "speaker_L",
+            "rotation": 0,
+            "x": 20.473102569580078,
+            "y": 35.84918212890625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 113,
+            "height": 118,
+            "color": "ffffffff"
+          }
+        },
+        "eff_speaker_d": {
+          "eff_speaker_d": {
+            "type": "region",
+            "name": "eff_speaker_d",
+            "path": "eff_speaker_d",
+            "rotation": -5,
+            "x": -7.821160793304443,
+            "y": 30.471872329711914,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 100,
+            "height": 66,
+            "color": "ffffffff"
+          }
+        },
+        "eff_speaker_d2": {
+          "eff_speaker_d": {
+            "type": "region",
+            "name": "eff_speaker_d",
+            "path": "eff_speaker_d",
+            "rotation": -5,
+            "x": -7.821160793304443,
+            "y": 30.471872329711914,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 100,
+            "height": 66,
+            "color": "ffffffff"
+          }
+        },
+        "eff_speaker_c": {
+          "eff_speaker_c": {
+            "type": "region",
+            "name": "eff_speaker_c",
+            "path": "eff_speaker_c",
+            "rotation": -5,
+            "x": -7.899007320404053,
+            "y": 31.049091339111328,
+            "scaleX": 0.6499999761581421,
+            "scaleY": 0.6499999761581421,
+            "width": 148,
+            "height": 97,
+            "color": "ffffffff"
+          }
+        },
+        "eff_speaker_c2": {
+          "eff_speaker_c": {
+            "type": "region",
+            "name": "eff_speaker_c",
+            "path": "eff_speaker_c",
+            "rotation": -5,
+            "x": -7.899007320404053,
+            "y": 31.049091339111328,
+            "scaleX": 0.6499999761581421,
+            "scaleY": 0.6499999761581421,
+            "width": 148,
+            "height": 97,
+            "color": "ffffffff"
+          }
+        },
+        "eff_speaker_b": {
+          "eff_speaker_b": {
+            "type": "region",
+            "name": "eff_speaker_b",
+            "path": "eff_speaker_b",
+            "rotation": -10,
+            "x": 41.0749397277832,
+            "y": 0.9551429748535156,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 93,
+            "height": 170,
+            "color": "ffffffff"
+          }
+        },
+        "eff_speaker_b2": {
+          "eff_speaker_b": {
+            "type": "region",
+            "name": "eff_speaker_b",
+            "path": "eff_speaker_b",
+            "rotation": -10,
+            "x": 41.0749397277832,
+            "y": 0.9551429748535156,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 93,
+            "height": 170,
+            "color": "ffffffff"
+          }
+        },
+        "eff_speaker_a": {
+          "eff_speaker_a": {
+            "type": "region",
+            "name": "eff_speaker_a",
+            "path": "eff_speaker_a",
+            "rotation": -10,
+            "x": 64.28683471679688,
+            "y": 0.8926620483398438,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "width": 125,
+            "height": 229,
+            "color": "ffffffff"
+          }
+        },
+        "eff_speaker_a2": {
+          "eff_speaker_a": {
+            "type": "region",
+            "name": "eff_speaker_a",
+            "path": "eff_speaker_a",
+            "rotation": -10,
+            "x": 64.28683471679688,
+            "y": 0.8926620483398438,
+            "scaleX": 0.75,
+            "scaleY": 0.75,
+            "width": 125,
+            "height": 229,
+            "color": "ffffffff"
+          }
+        },
+        "bg_2_1": {
+          "bg_2": {
+            "type": "region",
+            "name": "bg_2",
+            "path": "bg_2",
+            "rotation": 0,
+            "x": 490.0324401855469,
+            "y": 195.1584014892578,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 72,
+            "height": 56,
+            "color": "ffffffff"
+          }
+        },
+        "fg_2_2": {
+          "bg_2": {
+            "type": "region",
+            "name": "bg_2",
+            "path": "bg_2",
+            "rotation": 0,
+            "x": 490.0324401855469,
+            "y": 195.1584014892578,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 72,
+            "height": 56,
+            "color": "ffffffff"
+          }
+        },
+        "bg_3": {
+          "bg_3": {
+            "type": "region",
+            "name": "bg_3",
+            "path": "bg_3",
+            "rotation": 0,
+            "x": 144.2392120361328,
+            "y": 164.0876007080078,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 43,
+            "height": 24,
+            "color": "ffffffff"
+          }
+        },
+        "bg_4": {
+          "bg_3": {
+            "type": "region",
+            "name": "bg_3",
+            "path": "bg_3",
+            "rotation": 0,
+            "x": 144.2392120361328,
+            "y": 164.0876007080078,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 43,
+            "height": 24,
+            "color": "ffffffff"
+          }
+        },
+        "compo1": {
+          "compo1": {
+            "type": "region",
+            "name": "compo1",
+            "path": "compo1",
+            "rotation": 0,
+            "x": -64.83969116210938,
+            "y": 29.551223754882812,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 524,
+            "height": 326,
+            "color": "ffffffff"
+          }
+        },
+        "compo2": {
+          "compo2": {
+            "type": "region",
+            "name": "compo2",
+            "path": "compo2",
+            "rotation": 0,
+            "x": 205.63790893554688,
+            "y": 230.46923828125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 111,
+            "height": 281,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "bg_3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ff3b3bff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "40ffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "bg_4": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ff6969ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "1af7ffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "bg_2_1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ff3b3bff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "40ffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff_speaker_a": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_speaker_a2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff_speaker_b": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_speaker_b2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7,
+              "color": "ffffffff"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_speaker_c": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00"
+            },
+            {
+              "time": 2,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 5,
+              "color": "ffffff00"
+            },
+            {
+              "time": 6,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_speaker_c2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 3,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff7f"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff_speaker_d": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "color": "ffffff00"
+            },
+            {
+              "time": 5,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "eff_speaker_d2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "color": "ffffff00"
+            },
+            {
+              "time": 3,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "color": "ffffff00"
+            },
+            {
+              "time": 7,
+              "color": "ffffffff"
+            },
+            {
+              "time": 7.5,
+              "color": "ffffff7f"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fg_2_2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ff6969ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffff00",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "1af7ffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "eff_speaker_Ly1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 33.620208740234375,
+              "y": 15.677398681640625,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 3,
+              "x": 33.620208740234375,
+              "y": 15.677398681640625,
+              "curve": "stepped"
+            },
+            {
+              "time": 5,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 7,
+              "x": 33.620208740234375,
+              "y": 15.677398681640625,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 33.620208740234375,
+              "y": 15.677398681640625
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            },
+            {
+              "time": 3,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 5,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            },
+            {
+              "time": 7,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 1.399999976158142,
+              "y": 1.5
+            }
+          ]
+        },
+        "eff_speaker_Lp1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2,
+              "x": 33.620208740234375,
+              "y": 15.677398681640625,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 6,
+              "x": 33.620208740234375,
+              "y": 15.677398681640625,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            },
+            {
+              "time": 2,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            },
+            {
+              "time": 6,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            }
+          ]
+        },
+        "eff_speaker_Lp2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 33.620208740234375,
+              "y": 15.677398681640625,
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 4,
+              "x": 33.620208740234375,
+              "y": 15.677398681640625,
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 8,
+              "x": 33.620208740234375,
+              "y": 15.677398681640625
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            },
+            {
+              "time": 4,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            },
+            {
+              "time": 8,
+              "x": 1.399999976158142,
+              "y": 1.5
+            }
+          ]
+        },
+        "eff_speaker_Ly2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 16.810089111328125,
+              "y": 7.838714599609375
+            },
+            {
+              "time": 1,
+              "x": 33.620208740234375,
+              "y": 15.677398681640625,
+              "curve": "stepped"
+            },
+            {
+              "time": 3,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 5,
+              "x": 33.620208740234375,
+              "y": 15.677398681640625,
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 8,
+              "x": 16.810089111328125,
+              "y": 7.838714599609375
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.9828442335128784,
+              "y": 1.0328443050384521
+            },
+            {
+              "time": 1,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 3,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            },
+            {
+              "time": 5,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            },
+            {
+              "time": 8,
+              "x": 0.9828442335128784,
+              "y": 1.0328443050384521
+            }
+          ]
+        },
+        "eff_speaker_Rp1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 2,
+              "x": -4.748208045959473,
+              "y": 54.27227783203125,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 6,
+              "x": -4.748208045959473,
+              "y": 54.27227783203125,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.5,
+              "x": -4.748208045959473,
+              "y": 54.27227783203125,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            },
+            {
+              "time": 2,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 4,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            },
+            {
+              "time": 6,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.5,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            }
+          ]
+        },
+        "eff_speaker_Ry1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -4.748208045959473,
+              "y": 54.27227783203125,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 3,
+              "x": -4.748208045959473,
+              "y": 54.27227783203125,
+              "curve": "stepped"
+            },
+            {
+              "time": 5,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 7,
+              "x": -4.748208045959473,
+              "y": 54.27227783203125,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.5,
+              "x": -4.748208045959473,
+              "y": 54.27227783203125,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": -4.748208045959473,
+              "y": 54.27227783203125
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            },
+            {
+              "time": 3,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 5,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            },
+            {
+              "time": 7,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.5,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 1.399999976158142,
+              "y": 1.5
+            }
+          ]
+        },
+        "eff_speaker_Rp2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -4.748208045959473,
+              "y": 54.27227783203125,
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 4,
+              "x": -4.748208045959473,
+              "y": 54.27227783203125,
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 7.5,
+              "x": -3.5611560344696045,
+              "y": 40.7042236328125
+            },
+            {
+              "time": 8,
+              "x": -4.748208045959473,
+              "y": 54.27227783203125
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 2,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            },
+            {
+              "time": 4,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 6,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            },
+            {
+              "time": 7.5,
+              "x": 1.1914221048355103,
+              "y": 1.266422152519226
+            },
+            {
+              "time": 8,
+              "x": 1.399999976158142,
+              "y": 1.5
+            }
+          ]
+        },
+        "eff_speaker_Ry2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -2.3741040229797363,
+              "y": 27.1361083984375
+            },
+            {
+              "time": 1,
+              "x": -4.748208045959473,
+              "y": 54.27227783203125,
+              "curve": "stepped"
+            },
+            {
+              "time": 3,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 5,
+              "x": -4.748208045959473,
+              "y": 54.27227783203125,
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "time": 7.5,
+              "x": -1.1870520114898682,
+              "y": 13.56805419921875
+            },
+            {
+              "time": 8,
+              "x": -2.3741044998168945,
+              "y": 27.1361083984375
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 0.9828442335128784,
+              "y": 1.0328443050384521
+            },
+            {
+              "time": 1,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 3,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            },
+            {
+              "time": 5,
+              "x": 1.399999976158142,
+              "y": 1.5,
+              "curve": "stepped"
+            },
+            {
+              "time": 7,
+              "x": 0.5656885504722595,
+              "y": 0.5656885504722595
+            },
+            {
+              "time": 7.5,
+              "x": 0.7742663621902466,
+              "y": 0.7992664575576782
+            },
+            {
+              "time": 8,
+              "x": 0.9828442335128784,
+              "y": 1.0328443050384521
+            }
+          ]
+        },
+        "speaker_Rr": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1666666716337204,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 0.30000001192092896,
+              "x": 1.0299999713897705,
+              "y": 1.0299999713897705,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 0.4333333373069763,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1666666269302368,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.2999999523162842,
+              "x": 1.0299999713897705,
+              "y": 1.0299999713897705,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.4333332777023315,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.1666667461395264,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.299999952316284,
+              "x": 1.0299999713897705,
+              "y": 1.0299999713897705,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.433333396911621,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.1666667461395264,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.299999952316284,
+              "x": 1.0299999713897705,
+              "y": 1.0299999713897705,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.433333396911621,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.166666507720947,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.300000190734863,
+              "x": 1.0299999713897705,
+              "y": 1.0299999713897705,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.433333396911621,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 5.166666507720947,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.300000190734863,
+              "x": 1.0299999713897705,
+              "y": 1.0299999713897705,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.433333396911621,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 6.166666507720947,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.300000190734863,
+              "x": 1.0299999713897705,
+              "y": 1.0299999713897705,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.433333396911621,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.166666507720947,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.300000190734863,
+              "x": 1.0299999713897705,
+              "y": 1.0299999713897705,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.433333396911621,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "speaker_Lr": {
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1666666716337204,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 0.30000001192092896,
+              "x": 1.0299999713897705,
+              "y": 1.0299999713897705,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 0.4333333373069763,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1666666269302368,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.2999999523162842,
+              "x": 1.0299999713897705,
+              "y": 1.0299999713897705,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.4333332777023315,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 2.1666667461395264,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.299999952316284,
+              "x": 1.0299999713897705,
+              "y": 1.0299999713897705,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.433333396911621,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 3.1666667461395264,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.299999952316284,
+              "x": 1.0299999713897705,
+              "y": 1.0299999713897705,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.433333396911621,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 4.166666507720947,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.300000190734863,
+              "x": 1.0299999713897705,
+              "y": 1.0299999713897705,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.433333396911621,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 5.166666507720947,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.300000190734863,
+              "x": 1.0299999713897705,
+              "y": 1.0299999713897705,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.433333396911621,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 6.166666507720947,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.300000190734863,
+              "x": 1.0299999713897705,
+              "y": 1.0299999713897705,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.433333396911621,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 7.166666507720947,
+              "x": 1,
+              "y": 1,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.300000190734863,
+              "x": 1.0299999713897705,
+              "y": 1.0299999713897705,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.433333396911621,
+              "x": 1,
+              "y": 1,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

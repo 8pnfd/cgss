@@ -1,0 +1,216 @@
+{
+  "skeleton": {
+    "hash": "ozl6X6oeAT8ZHE/fD96i3Rbkniw",
+    "spine": "3.8",
+    "width": 1433.0234375,
+    "height": 926.4608764648438,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_stageray_add1",
+      "parent": "all",
+      "x": 692.7930908203125,
+      "y": 433.12493896484375,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_stageray_add2",
+      "parent": "all",
+      "x": -526.2567138671875,
+      "y": -62.62193298339844,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_stageray_add1",
+      "bone": "eff_stageray_add1",
+      "attachment": "eff_stageray_add1",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_stageray_add2",
+      "bone": "eff_stageray_add2",
+      "color": "f5e7e7b2",
+      "attachment": "eff_stageray_add2",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_stageray_add3",
+      "bone": "eff_stageray_add2",
+      "color": "dcc2c27f",
+      "attachment": "eff_stageray_add2",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_stageray_add1": {
+          "eff_stageray_add1": {
+            "type": "region",
+            "name": "eff_stageray_add1",
+            "path": "eff_stageray_add1",
+            "rotation": 62.39999771118164,
+            "x": -228.28656005859375,
+            "y": 143.9259033203125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 140,
+            "height": 298,
+            "color": "ffffffff"
+          }
+        },
+        "eff_stageray_add2": {
+          "eff_stageray_add2": {
+            "type": "region",
+            "name": "eff_stageray_add2",
+            "path": "eff_stageray_add2",
+            "rotation": -10.800018310546875,
+            "x": 71.2999267578125,
+            "y": 283.16302490234375,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 133,
+            "height": 288,
+            "color": "ffffffff"
+          }
+        },
+        "eff_stageray_add3": {
+          "eff_stageray_add2": {
+            "type": "region",
+            "name": "eff_stageray_add2",
+            "path": "eff_stageray_add2",
+            "rotation": -10.800018310546875,
+            "x": 71.2999267578125,
+            "y": 283.16302490234375,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 133,
+            "height": 288,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {
+        "eff_stageray_add2": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 10,
+              "curve": 0.44454076886177063,
+              "c2": 0.022908367216587067,
+              "c3": 0.5596122145652771,
+              "c4": 0.9770916104316711
+            },
+            {
+              "time": 2,
+              "angle": -10,
+              "curve": 0.44454076886177063,
+              "c2": 0.022908367216587067,
+              "c3": 0.5596122145652771,
+              "c4": 0.9770916104316711
+            },
+            {
+              "time": 4,
+              "angle": 10,
+              "curve": 0.44454076886177063,
+              "c2": 0.022908367216587067,
+              "c3": 0.5596122145652771,
+              "c4": 0.9770916104316711
+            },
+            {
+              "time": 6,
+              "angle": -10,
+              "curve": 0.44454076886177063,
+              "c2": 0.022908367216587067,
+              "c3": 0.5596122145652771,
+              "c4": 0.9770916104316711
+            },
+            {
+              "time": 8,
+              "angle": 10
+            }
+          ]
+        },
+        "eff_stageray_add1": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 10,
+              "curve": 0.44454076886177063,
+              "c2": 0.022908367216587067,
+              "c3": 0.5596122145652771,
+              "c4": 0.9770916104316711
+            },
+            {
+              "time": 2,
+              "angle": -10,
+              "curve": 0.44454076886177063,
+              "c2": 0.022908367216587067,
+              "c3": 0.5596122145652771,
+              "c4": 0.9770916104316711
+            },
+            {
+              "time": 4,
+              "angle": 10,
+              "curve": 0.44454076886177063,
+              "c2": 0.022908367216587067,
+              "c3": 0.5596122145652771,
+              "c4": 0.9770916104316711
+            },
+            {
+              "time": 6,
+              "angle": -10,
+              "curve": 0.44454076886177063,
+              "c2": 0.022908367216587067,
+              "c3": 0.5596122145652771,
+              "c4": 0.9770916104316711
+            },
+            {
+              "time": 8,
+              "angle": 10
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

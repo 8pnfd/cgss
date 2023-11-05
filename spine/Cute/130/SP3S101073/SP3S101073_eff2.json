@@ -1,0 +1,263 @@
+{
+  "skeleton": {
+    "hash": "eZ6CK1ExU4dyDZTY78tk3pT6Njg",
+    "spine": "3.8",
+    "width": 339.834228515625,
+    "height": 463.9307861328125,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "point1",
+      "parent": "all",
+      "x": 283.4562683105469,
+      "y": 835.1050415039062,
+      "transform": "normal"
+    },
+    {
+      "name": "point2",
+      "parent": "all",
+      "x": 138.1480712890625,
+      "y": 746.6564331054688,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "point1",
+      "bone": "point1",
+      "attachment": "eff_window_light_01",
+      "blend": "additive"
+    },
+    {
+      "name": "point2",
+      "bone": "point2",
+      "attachment": "eff_window_light_02",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "point1": {
+          "eff_window_light_01": {
+            "type": "region",
+            "name": "eff_window_light_01",
+            "path": "eff_window_light_01",
+            "rotation": 0,
+            "x": 13.394927978515625,
+            "y": -215.70684814453125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 293,
+            "height": 438,
+            "color": "ffffffff"
+          }
+        },
+        "point2": {
+          "eff_window_light_02": {
+            "type": "region",
+            "name": "eff_window_light_02",
+            "path": "eff_window_light_02",
+            "rotation": 0,
+            "x": 36.86894226074219,
+            "y": -178.18902587890625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 143,
+            "height": 388,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "point1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffab",
+              "curve": 0.3737506866455078,
+              "c2": 0.4935064911842346,
+              "c3": 0.750778317451477,
+              "c4": 1
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "ffffff2a",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.2999999523162842,
+              "color": "ffffffba",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3666666746139526,
+              "color": "ffffffba",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffff7e",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.9666666984558105,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 4.0333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "ffffff3a",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.300000190734863,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 7.366666793823242,
+              "color": "ffffffff",
+              "curve": 0.25082454085350037,
+              "c2": 0,
+              "c3": 0.623845636844635,
+              "c4": 0.49367088079452515
+            },
+            {
+              "time": 8,
+              "color": "ffffffab"
+            }
+          ]
+        },
+        "point2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff3a",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.2999999523162842,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3666666746139526,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "ffffff28",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.299999952316284,
+              "color": "ffffffba",
+              "curve": "stepped"
+            },
+            {
+              "time": 3.366666555404663,
+              "color": "ffffffba",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffff7e",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.9666666984558105,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffff3a"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

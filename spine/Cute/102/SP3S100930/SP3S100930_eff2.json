@@ -1,0 +1,197 @@
+{
+  "skeleton": {
+    "hash": "OsO0vfUnrpOCT8O6xGQUT1vXhII",
+    "spine": "3.8",
+    "width": 1014.2578125,
+    "height": 498.49261474609375,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff2_lightA",
+      "parent": "all",
+      "x": -282.3631591796875,
+      "y": 817.4263305664062,
+      "transform": "normal"
+    },
+    {
+      "name": "eff2_lightB",
+      "parent": "all",
+      "x": 400.8603210449219,
+      "y": 466.2615966796875,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff2_lightA",
+      "bone": "eff2_lightA",
+      "attachment": "eff2_lightA",
+      "blend": "additive"
+    },
+    {
+      "name": "eff2_lightB",
+      "bone": "eff2_lightB",
+      "attachment": "eff2_lightB",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff2_lightA": {
+          "eff2_lightA": {
+            "type": "region",
+            "name": "eff2_lightA",
+            "path": "eff2_lightA",
+            "rotation": 0,
+            "x": -0.38763427734375,
+            "y": -67.60150146484375,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 194,
+            "height": 93,
+            "color": "ffffffff"
+          }
+        },
+        "eff2_lightB": {
+          "eff2_lightB": {
+            "type": "region",
+            "name": "eff2_lightB",
+            "path": "eff2_lightB",
+            "rotation": 0,
+            "x": 5.64666748046875,
+            "y": 7.07061767578125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 131,
+            "height": 129,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff2_lightA": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff80",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffff80",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffff80"
+            }
+          ]
+        },
+        "eff2_lightB": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffda",
+              "curve": 0.3513513505458832,
+              "c2": 0.4000000059604645,
+              "c3": 0.7567566633224487,
+              "c4": 1
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffff80"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "ffffff80",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffffff",
+              "curve": 0.2647058665752411,
+              "c2": 0,
+              "c3": 0.6176470518112183,
+              "c4": 0.4285714328289032
+            },
+            {
+              "time": 8,
+              "color": "ffffffda"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

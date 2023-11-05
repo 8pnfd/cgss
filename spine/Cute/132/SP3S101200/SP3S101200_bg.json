@@ -1,0 +1,139 @@
+{
+  "skeleton": {
+    "hash": "LHYalc8vTDEWiwqYA/uNo2mvOPM",
+    "spine": "3.8",
+    "width": 0,
+    "height": 0,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg",
+      "bone": "all",
+      "attachment": "bg",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_hikarief",
+      "bone": "all",
+      "attachment": "bg_hikarief",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg": {
+          "bg": {
+            "type": "region",
+            "name": "bg",
+            "path": "bg",
+            "rotation": 0,
+            "x": -2.4924819469451904,
+            "y": 412.9744873046875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1301,
+            "height": 838,
+            "color": "ffffffff"
+          }
+        },
+        "bg_hikarief": {
+          "bg_hikarief": {
+            "type": "region",
+            "name": "bg_hikarief",
+            "path": "bg_hikarief",
+            "rotation": 0,
+            "x": -6.671482086181641,
+            "y": 412.635986328125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 606,
+            "height": 421,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "bg_hikarief": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.6666666269302368,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.666666507720947,
+              "color": "ffffff24",
+              "curve": "stepped"
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "ffffff24",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 10.333333015441895,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 12,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

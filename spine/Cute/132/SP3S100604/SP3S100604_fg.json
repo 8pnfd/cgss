@@ -1,0 +1,304 @@
+{
+  "skeleton": {
+    "hash": "ZqEGKXtuoSanlZe7Y1lUkBM0aZI",
+    "spine": "3.8",
+    "width": 137.00003051757812,
+    "height": 97,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": 4.7077318043875493e-8,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "x": 3.4640045166015625,
+      "y": 1.0770034790039062,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "x": 3.4640045166015625,
+      "y": 1.0770034790039062,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "x": 3.4640045166015625,
+      "y": 1.0770034790039062,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_4",
+      "parent": "fg_1",
+      "x": 55.81574249267578,
+      "y": 638.32080078125,
+      "transform": "normal"
+    },
+    {
+      "name": "fg_paper01",
+      "parent": "fg_4",
+      "x": 2.9918060302734375,
+      "y": -6.98956298828125,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff/eff_glow1_scr",
+      "bone": "fg_paper01",
+      "attachment": "eff_glow1_scr",
+      "blend": "screen"
+    },
+    {
+      "name": "fg_paper01",
+      "bone": "fg_paper01",
+      "attachment": "fg_paper01",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff/eff_glow1_scr": {
+          "eff_glow1_scr": {
+            "type": "region",
+            "name": "eff_glow1_scr",
+            "path": "eff_glow1_scr",
+            "rotation": 0,
+            "x": -3.8340072631835938,
+            "y": 15.71417236328125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 137,
+            "height": 97,
+            "color": "ffffffff"
+          }
+        },
+        "fg_paper01": {
+          "fg_paper01": {
+            "type": "region",
+            "name": "fg_paper01",
+            "path": "fg_paper01",
+            "rotation": 0,
+            "x": -15.267463684082031,
+            "y": 18.66876220703125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 85,
+            "height": 70,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff/eff_glow1_scr": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.6212011575698853,
+              "c4": 0.9872204661369324
+            },
+            {
+              "time": 2,
+              "color": "ffffffc5",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "ffffffc5",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "fg_paper01": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.6212011575698853,
+              "c4": 0.9872204661369324
+            },
+            {
+              "time": 2,
+              "angle": 5.040802001953125,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "angle": -2,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "angle": 2.301788330078125,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 55.365753173828125,
+              "y": 1.70281982421875,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.6212011575698853,
+              "c4": 0.9872204661369324
+            },
+            {
+              "time": 2,
+              "x": 44.905616760253906,
+              "y": -7.8726806640625,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "x": 55.365753173828125,
+              "y": 1.70281982421875,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "x": 55.365753173828125,
+              "y": -3.13812255859375,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 55.365753173828125,
+              "y": 1.70281982421875
+            }
+          ]
+        },
+        "fg_4": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -58.781951904296875,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "x": -36.61810302734375,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "x": -58.781951904296875,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "x": -48.106109619140625,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.9666666984558105,
+              "x": -58.781951904296875,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

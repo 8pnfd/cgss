@@ -1,0 +1,510 @@
+{
+  "skeleton": {
+    "hash": "dsrjZJOUU20FbL9gi4ulaE2irTI",
+    "spine": "3.8",
+    "width": 251.1871337890625,
+    "height": 406.3865051269531,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fg_fanlight01_04",
+      "bone": "fg_1",
+      "attachment": "fg_fanlight01_04",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_fanlight01_02_scr",
+      "bone": "fg_1",
+      "attachment": "fg_fanlight01_02_scr",
+      "blend": "screen"
+    },
+    {
+      "name": "fg_fanlight02_04",
+      "bone": "fg_2",
+      "attachment": "fg_fanlight02_04",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_fanlight02_01_add",
+      "bone": "fg_2",
+      "attachment": "fg_fanlight02_01_add",
+      "blend": "additive"
+    },
+    {
+      "name": "fg_fanlight03_04",
+      "bone": "fg_3",
+      "attachment": "fg_fanlight03_04",
+      "blend": "normal"
+    },
+    {
+      "name": "fg_fanlight03_01_add",
+      "bone": "fg_3",
+      "attachment": "fg_fanlight03_01_add",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "fg_fanlight01_04": {
+          "fg_fanlight01_04": {
+            "type": "region",
+            "name": "fg_fanlight01_04",
+            "path": "fg_fanlight01_04",
+            "rotation": 0,
+            "x": 643.4010009765625,
+            "y": 357.8705749511719,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 26,
+            "height": 58,
+            "color": "ffffffff"
+          }
+        },
+        "fg_fanlight01_02_scr": {
+          "fg_fanlight01_02_scr": {
+            "type": "region",
+            "name": "fg_fanlight01_02_scr",
+            "path": "fg_fanlight01_02_scr",
+            "rotation": 0,
+            "x": 640.88330078125,
+            "y": 347.3797302246094,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 30,
+            "height": 73,
+            "color": "ffffffff"
+          }
+        },
+        "fg_fanlight02_04": {
+          "fg_fanlight02_04": {
+            "type": "region",
+            "name": "fg_fanlight02_04",
+            "path": "fg_fanlight02_04",
+            "rotation": 0,
+            "x": 576.096923828125,
+            "y": 190.64718627929688,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 157,
+            "height": 151,
+            "color": "ffffffff"
+          }
+        },
+        "fg_fanlight02_01_add": {
+          "fg_fanlight02_01_add": {
+            "type": "region",
+            "name": "fg_fanlight02_01_add",
+            "path": "fg_fanlight02_01_add",
+            "rotation": 0,
+            "x": 566.1414794921875,
+            "y": 192.7410125732422,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 180,
+            "height": 191,
+            "color": "ffffffff"
+          }
+        },
+        "fg_fanlight03_04": {
+          "fg_fanlight03_04": {
+            "type": "region",
+            "name": "fg_fanlight03_04",
+            "path": "fg_fanlight03_04",
+            "rotation": 0,
+            "x": 518.5118408203125,
+            "y": 38.20000076293945,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 186,
+            "height": 113,
+            "color": "ffffffff"
+          }
+        },
+        "fg_fanlight03_01_add": {
+          "fg_fanlight03_01_add": {
+            "type": "region",
+            "name": "fg_fanlight03_01_add",
+            "path": "fg_fanlight03_01_add",
+            "rotation": 0,
+            "x": 517.7138061523438,
+            "y": 45.484066009521484,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 225,
+            "height": 130,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "fg_fanlight01_02_scr": {
+          "color": [
+            {
+              "time": 0,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "fe1dba13"
+            }
+          ]
+        },
+        "fg_fanlight02_01_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "fe1dba13"
+            }
+          ]
+        },
+        "fg_fanlight03_01_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 0.6666666865348816,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2.6666667461395264,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.666666507720947,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5.333333492279053,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6.666666507720947,
+              "color": "fe1dba13",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "fc6ae6ff",
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "fe1dba13"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

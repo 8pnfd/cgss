@@ -1,0 +1,260 @@
+{
+  "skeleton": {
+    "hash": "2xwZKlYk3Y3sCSIB3NiVda/yhAk",
+    "spine": "3.8",
+    "width": 117.59317016601562,
+    "height": 311.5638427734375,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_light",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_light_add01",
+      "parent": "eff_light",
+      "x": 584.7548828125,
+      "y": 638.1032104492188,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_light_add02",
+      "parent": "eff_light",
+      "x": 533.0588989257812,
+      "y": 387.9202880859375,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_light_add01",
+      "bone": "eff_light_add01",
+      "attachment": "eff_light_add01",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_light_add02",
+      "bone": "eff_light_add02",
+      "attachment": "eff_light_add02",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_light_add01": {
+          "eff_light_add01": {
+            "type": "region",
+            "name": "eff_light_add01",
+            "path": "eff_light_add01",
+            "rotation": 0,
+            "x": 2.6790919303894043,
+            "y": 0.5352783203125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 81,
+            "height": 81,
+            "color": "ffffffff"
+          }
+        },
+        "eff_light_add02": {
+          "eff_light_add02": {
+            "type": "region",
+            "name": "eff_light_add02",
+            "path": "eff_light_add02",
+            "rotation": 0,
+            "x": 3.7818946838378906,
+            "y": 9.15435791015625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 53,
+            "height": 59,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "eff_light_add01": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffbc"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffffc2"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffd7"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.099999904632568,
+              "color": "ffffffbc"
+            },
+            {
+              "time": 5.633333206176758,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.733333110809326,
+              "color": "ffffffbb"
+            },
+            {
+              "time": 5.833333492279053,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "fffffff3"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff_light_add02": {
+          "color": [
+            {
+              "time": 0,
+              "color": "fffffffb"
+            },
+            {
+              "time": 0.3333333432674408,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffffbc"
+            },
+            {
+              "time": 3.3333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.433333396911621,
+              "color": "ffffffc2"
+            },
+            {
+              "time": 3.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 3.633333444595337,
+              "color": "ffffffd7"
+            },
+            {
+              "time": 3.7333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.099999904632568,
+              "color": "ffffffbc"
+            },
+            {
+              "time": 6.633333206176758,
+              "color": "ffffffff"
+            },
+            {
+              "time": 6.733333110809326,
+              "color": "ffffffbb"
+            },
+            {
+              "time": 6.833333492279053,
+              "color": "ffffffdc"
+            },
+            {
+              "time": 6.933333396911621,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 7.0333333015441895,
+              "color": "ffffffe9"
+            },
+            {
+              "time": 7.166666507720947,
+              "color": "fffffff3"
+            },
+            {
+              "time": 8,
+              "color": "fffffffb"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

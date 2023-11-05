@@ -1,0 +1,148 @@
+{
+  "skeleton": {
+    "hash": "A4JJmg3rDIcZmESb580OXS8TvG8",
+    "spine": "3.8",
+    "width": 1145.758056640625,
+    "height": 790.0599975585938,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -4.371138828673793e-8,
+      "transform": "normal"
+    },
+    {
+      "name": "shine",
+      "parent": "all",
+      "x": -681.9387817382812,
+      "y": 850.923095703125,
+      "scaleX": 1.7100865840911865,
+      "scaleY": 1.7100865840911865,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "shine",
+      "bone": "shine",
+      "attachment": "shine",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "shine": {
+          "shine": {
+            "type": "region",
+            "name": "shine",
+            "path": "shine",
+            "rotation": 0,
+            "x": 307.4637145996094,
+            "y": -232.26904296875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 670,
+            "height": 462,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "shine": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4,
+              "color": "ffffff98"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "shine": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1
+            },
+            {
+              "time": 4,
+              "x": 1.1549798250198364,
+              "y": 1.1549798250198364
+            },
+            {
+              "time": 8,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

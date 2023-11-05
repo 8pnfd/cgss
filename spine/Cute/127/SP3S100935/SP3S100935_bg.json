@@ -1,0 +1,322 @@
+{
+  "skeleton": {
+    "hash": "dfjtjcYi48f5Oe3CUQQU6oh2gtQ",
+    "spine": "3.8",
+    "width": 1396.4385986328125,
+    "height": 871,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_1",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_2",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_3",
+      "parent": "all",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_light_add",
+      "parent": "bg_3",
+      "x": 2.6226831550957286e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_light_add01",
+      "parent": "bg_3",
+      "x": 2.6226831550957286e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_light_add02",
+      "parent": "bg_3",
+      "x": 2.6226831550957286e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_light_add03",
+      "parent": "bg_3",
+      "x": 2.6226831550957286e-7,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "bg",
+      "bone": "bg_3",
+      "attachment": "bg",
+      "blend": "normal"
+    },
+    {
+      "name": "bg_light_add",
+      "bone": "bg_light_add",
+      "attachment": "bg_light_add",
+      "blend": "additive"
+    },
+    {
+      "name": "bg_light_add01",
+      "bone": "bg_light_add01",
+      "attachment": "bg_light_add01",
+      "blend": "additive"
+    },
+    {
+      "name": "bg_light_add02",
+      "bone": "bg_light_add02",
+      "attachment": "bg_light_add02",
+      "blend": "additive"
+    },
+    {
+      "name": "bg_light_add03",
+      "bone": "bg_light_add03",
+      "attachment": "bg_light_add03",
+      "blend": "screen"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "bg": {
+          "bg": {
+            "type": "region",
+            "name": "bg",
+            "path": "bg",
+            "rotation": 0,
+            "x": 0.14303874969482422,
+            "y": 410.4485168457031,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 1328,
+            "height": 871,
+            "color": "ffffffff"
+          }
+        },
+        "bg_light_add": {
+          "bg_light_add": {
+            "type": "region",
+            "name": "bg_light_add",
+            "path": "bg_light_add",
+            "rotation": 0,
+            "x": -229.80445861816406,
+            "y": 332.02001953125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 502,
+            "height": 260,
+            "color": "ffffffff"
+          }
+        },
+        "bg_light_add01": {
+          "bg_light_add01": {
+            "type": "region",
+            "name": "bg_light_add01",
+            "path": "bg_light_add01",
+            "rotation": 0,
+            "x": -352.3659362792969,
+            "y": 343.3735046386719,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 311,
+            "height": 332,
+            "color": "ffffffff"
+          }
+        },
+        "bg_light_add02": {
+          "bg_light_add02": {
+            "type": "region",
+            "name": "bg_light_add02",
+            "path": "bg_light_add02",
+            "rotation": 0,
+            "x": -405.3659362792969,
+            "y": 313.88751220703125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 258,
+            "height": 321,
+            "color": "ffffffff"
+          }
+        },
+        "bg_light_add03": {
+          "bg_light_add03": {
+            "type": "region",
+            "name": "bg_light_add03",
+            "path": "bg_light_add03",
+            "rotation": 0,
+            "x": 0.634053647518158,
+            "y": 408.9305114746094,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 664,
+            "height": 433,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "bg_light_add": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.3333333730697632,
+              "color": "ffffffbc"
+            },
+            {
+              "time": 2.3333332538604736,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.433333396911621,
+              "color": "ffffffc2"
+            },
+            {
+              "time": 2.5333333015441895,
+              "color": "ffffffff"
+            },
+            {
+              "time": 2.633333444595337,
+              "color": "ffffffd6"
+            },
+            {
+              "time": 2.7333333492279053,
+              "color": "ffffffff"
+            },
+            {
+              "time": 4.099999904632568,
+              "color": "ffffffbc"
+            },
+            {
+              "time": 5.633333206176758,
+              "color": "ffffffff"
+            },
+            {
+              "time": 5.733333110809326,
+              "color": "ffffffbc"
+            },
+            {
+              "time": 5.833333492279053,
+              "color": "ffffffdb"
+            },
+            {
+              "time": 5.933333396911621,
+              "color": "ffffffb5"
+            },
+            {
+              "time": 6.0333333015441895,
+              "color": "ffffffe8"
+            },
+            {
+              "time": 6.166666507720947,
+              "color": "fffffff4"
+            },
+            {
+              "time": 7.333333492279053,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "bg_light_add01": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4,
+              "color": "ffffff41"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "bg_light_add02": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4,
+              "color": "ffffff41"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "bg_light_add03": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00"
+            },
+            {
+              "time": 4,
+              "color": "ffffffea"
+            },
+            {
+              "time": 8,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

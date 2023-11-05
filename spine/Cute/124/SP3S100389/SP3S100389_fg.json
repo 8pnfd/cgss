@@ -1,0 +1,350 @@
+{
+  "skeleton": {
+    "hash": "YWi8VETpUVAcyLYADlw6gPzbcjE",
+    "spine": "3.8",
+    "width": 555.0010375976562,
+    "height": 688.5005493164062,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -5.245339806947413e-8,
+      "transform": "normal"
+    },
+    {
+      "name": "butterfly_X_1",
+      "parent": "all",
+      "x": 417.0861511230469,
+      "y": 578.6490478515625,
+      "transform": "normal"
+    },
+    {
+      "name": "butterfly_X_2",
+      "parent": "all",
+      "x": 149.3623046875,
+      "y": 617.6668701171875,
+      "transform": "normal"
+    },
+    {
+      "name": "butterfly_Y_1",
+      "parent": "butterfly_X_1",
+      "transform": "normal"
+    },
+    {
+      "name": "butterfly_Y_2",
+      "parent": "butterfly_X_2",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "x": 3,
+      "y": -1.1999938488006592,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "fg",
+      "bone": "fg_1",
+      "attachment": "fg",
+      "blend": "normal"
+    },
+    {
+      "name": "butterfly_01",
+      "bone": "butterfly_Y_1",
+      "attachment": "butterfly_01",
+      "blend": "normal"
+    },
+    {
+      "name": "butterfly_02",
+      "bone": "butterfly_Y_2",
+      "attachment": "butterfly_02",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "fg": {
+          "fg": {
+            "type": "region",
+            "name": "fg",
+            "path": "fg",
+            "rotation": 0,
+            "x": 483.8697509765625,
+            "y": 143.78099060058594,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 369,
+            "height": 354,
+            "color": "ffffffff"
+          }
+        },
+        "butterfly_01": {
+          "butterfly_01": {
+            "type": "region",
+            "name": "butterfly_01",
+            "path": "butterfly_01",
+            "rotation": 0,
+            "x": -1.9793701171875,
+            "y": 4.382659912109375,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 131,
+            "height": 135,
+            "color": "ffffffff"
+          }
+        },
+        "butterfly_02": {
+          "butterfly_02": {
+            "type": "region",
+            "name": "butterfly_02",
+            "path": "butterfly_02",
+            "rotation": 0,
+            "x": -0.9935302734375,
+            "y": 2.914703369140625,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 64,
+            "height": 67,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {
+        "butterfly_X_1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": 0,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "x": 10,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "x": -10,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "butterfly_Y_1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": 0,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 0.6666666865348816,
+              "x": 0,
+              "y": 5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "x": 0,
+              "y": -5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3.3333332538604736,
+              "x": 0,
+              "y": 5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 4.666666507720947,
+              "x": 0,
+              "y": -5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "x": 0,
+              "y": 5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7.333333492279053,
+              "x": 0,
+              "y": -5,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "butterfly_Y_2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": 0,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 1,
+              "x": 0,
+              "y": 10,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "x": 0,
+              "y": -10,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 5,
+              "x": 0,
+              "y": 10,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "x": 0,
+              "y": -10,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "butterfly_X_2": {
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": 0,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "x": -5,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 0.75,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "x": 5,
+              "y": 0,
+              "curve": 0.25,
+              "c2": 0,
+              "c3": 1,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      },
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "skeleton": {
+    "hash": "vQ/OxLAXmVtRJ3FUMhZ0prw1zb4",
+    "spine": "3.8",
+    "width": 369.0000915527344,
+    "height": 818,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_1",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_2",
+      "parent": "all",
+      "transform": "normal"
+    },
+    {
+      "name": "fg_3",
+      "parent": "all",
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "book_f",
+      "bone": "fg_3",
+      "attachment": "book_f",
+      "blend": "normal"
+    },
+    {
+      "name": "body_f_01",
+      "bone": "fg_3",
+      "attachment": "body_f_01",
+      "blend": "normal"
+    },
+    {
+      "name": "body_f_02",
+      "bone": "fg_3",
+      "attachment": "body_f_02",
+      "blend": "normal"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "book_f": {
+          "book_f": {
+            "type": "region",
+            "name": "book_f",
+            "path": "book_f",
+            "rotation": 0,
+            "x": -469.6164855957031,
+            "y": 391.1280517578125,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 369,
+            "height": 818,
+            "color": "ffffffff"
+          }
+        },
+        "body_f_01": {
+          "body_f_01": {
+            "type": "region",
+            "name": "body_f_01",
+            "path": "body_f_01",
+            "rotation": 0,
+            "x": -447.90447998046875,
+            "y": 243.6824951171875,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 35,
+            "height": 55,
+            "color": "ffffffff"
+          }
+        },
+        "body_f_02": {
+          "body_f_02": {
+            "type": "region",
+            "name": "body_f_02",
+            "path": "body_f_02",
+            "rotation": 0,
+            "x": -446.61798095703125,
+            "y": 350.8034973144531,
+            "scaleX": 1,
+            "scaleY": 1,
+            "width": 50,
+            "height": 59,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {},
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}

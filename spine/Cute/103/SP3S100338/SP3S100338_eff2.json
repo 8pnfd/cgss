@@ -1,0 +1,398 @@
+{
+  "skeleton": {
+    "hash": "MTttGLlwFMhkw6dUVJmJ6CDbviE",
+    "spine": "3.8",
+    "width": 1143.054443359375,
+    "height": 952,
+    "chibi_gif": "s38_chibi_gif_0.1.31.2"
+  },
+  "bones": [
+    {
+      "name": "root",
+      "transform": "normal"
+    },
+    {
+      "name": "all",
+      "parent": "root",
+      "x": -1.3113415775478643e-7,
+      "transform": "normal"
+    },
+    {
+      "name": "bg_monitor_light",
+      "parent": "all",
+      "x": -145.47906494140625,
+      "y": 747.0658569335938,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_ray_001",
+      "parent": "all",
+      "x": -159.9999237060547,
+      "y": 857,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_ray1",
+      "parent": "eff_ray_001",
+      "transform": "normal"
+    },
+    {
+      "name": "eff_ray_002",
+      "parent": "all",
+      "x": 520.0000610351562,
+      "y": 849,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_ray2",
+      "parent": "eff_ray_002",
+      "rotation": 4.884723663330078,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_ray_003",
+      "parent": "all",
+      "x": -573.284912109375,
+      "y": 853.5989990234375,
+      "transform": "normal"
+    },
+    {
+      "name": "eff_ray3a",
+      "parent": "eff_ray_003",
+      "x": -1.7840576171875,
+      "y": 4.2247314453125,
+      "transform": "normal"
+    }
+  ],
+  "slots": [
+    {
+      "name": "eff_ray2",
+      "bone": "eff_ray2",
+      "color": "ffffffd1",
+      "attachment": "eff_ray2",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_ray3a",
+      "bone": "eff_ray3a",
+      "color": "ace1dbae",
+      "attachment": "eff_ray3",
+      "blend": "additive"
+    },
+    {
+      "name": "eff_ray1",
+      "bone": "eff_ray1",
+      "attachment": "eff_ray1",
+      "blend": "additive"
+    },
+    {
+      "name": "bg_monitor_light",
+      "bone": "bg_monitor_light",
+      "attachment": "bg_monitor_light",
+      "blend": "additive"
+    }
+  ],
+  "ik": [],
+  "transform": [],
+  "path": [],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "eff_ray2": {
+          "eff_ray2": {
+            "type": "region",
+            "name": "eff_ray2",
+            "path": "eff_ray2",
+            "rotation": -4.884723663330078,
+            "x": -329.3285217285156,
+            "y": -428.9053955078125,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 311,
+            "height": 459,
+            "color": "ffffffff"
+          }
+        },
+        "eff_ray3a": {
+          "eff_ray3": {
+            "type": "region",
+            "name": "eff_ray3",
+            "path": "eff_ray3",
+            "rotation": 0,
+            "x": 281.4041748046875,
+            "y": -454.6861877441406,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 310,
+            "height": 447,
+            "color": "ffffffff"
+          }
+        },
+        "eff_ray1": {
+          "eff_ray1": {
+            "type": "region",
+            "name": "eff_ray1",
+            "path": "eff_ray1",
+            "rotation": 0,
+            "x": 218.33392333984375,
+            "y": -448.72802734375,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 348,
+            "height": 476,
+            "color": "ffffffff"
+          }
+        },
+        "bg_monitor_light": {
+          "bg_monitor_light": {
+            "type": "region",
+            "name": "bg_monitor_light",
+            "path": "bg_monitor_light",
+            "rotation": 0,
+            "x": -23,
+            "y": -17,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 416,
+            "height": 118,
+            "color": "ffffffff"
+          }
+        }
+      }
+    }
+  ],
+  "events": {},
+  "eventsName": [],
+  "animations": {
+    "_home": {
+      "slots": {
+        "bg_monitor_light": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffff",
+              "curve": 0.45306476950645447,
+              "c2": 0.008179958909749985,
+              "c3": 0.6192916631698608,
+              "c4": 0.9959100484848022
+            },
+            {
+              "time": 1,
+              "color": "94949431",
+              "curve": 0.45306476950645447,
+              "c2": 0.008179958909749985,
+              "c3": 0.6192916631698608,
+              "c4": 0.9959100484848022
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": 0.45306476950645447,
+              "c2": 0.008179958909749985,
+              "c3": 0.6192916631698608,
+              "c4": 0.9959100484848022
+            },
+            {
+              "time": 3,
+              "color": "94949431",
+              "curve": 0.45306476950645447,
+              "c2": 0.008179958909749985,
+              "c3": 0.6192916631698608,
+              "c4": 0.9959100484848022
+            },
+            {
+              "time": 4,
+              "color": "ffffffff",
+              "curve": 0.45306476950645447,
+              "c2": 0.008179958909749985,
+              "c3": 0.6192916631698608,
+              "c4": 0.9959100484848022
+            },
+            {
+              "time": 5,
+              "color": "94949431",
+              "curve": 0.45306476950645447,
+              "c2": 0.008179958909749985,
+              "c3": 0.6192916631698608,
+              "c4": 0.9959100484848022
+            },
+            {
+              "time": 6,
+              "color": "ffffffff",
+              "curve": 0.45306476950645447,
+              "c2": 0.008179958909749985,
+              "c3": 0.6192916631698608,
+              "c4": 0.9959100484848022
+            },
+            {
+              "time": 7,
+              "color": "94949431",
+              "curve": 0.45306476950645447,
+              "c2": 0.008179958909749985,
+              "c3": 0.6192916631698608,
+              "c4": 0.9959100484848022
+            },
+            {
+              "time": 8,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "eff_ray1": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff8c",
+              "curve": 0.45073068141937256,
+              "c2": 0,
+              "c3": 0.468616783618927,
+              "c4": 1
+            },
+            {
+              "time": 2,
+              "color": "ffffffff",
+              "curve": 0.45073068141937256,
+              "c2": 0,
+              "c3": 0.468616783618927,
+              "c4": 1
+            },
+            {
+              "time": 4,
+              "color": "ffffff8c",
+              "curve": 0.45073068141937256,
+              "c2": 0,
+              "c3": 0.468616783618927,
+              "c4": 1
+            },
+            {
+              "time": 6,
+              "color": "ffffffff",
+              "curve": 0.45073068141937256,
+              "c2": 0,
+              "c3": 0.468616783618927,
+              "c4": 1
+            },
+            {
+              "time": 8,
+              "color": "ffffff8c"
+            }
+          ]
+        },
+        "eff_ray2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffbf",
+              "curve": 0.23995670676231384,
+              "c2": 0.5,
+              "c3": 0.4989263713359833,
+              "c4": 1
+            },
+            {
+              "time": 1,
+              "color": "ffffff8c",
+              "curve": 0.45073068141937256,
+              "c2": 0,
+              "c3": 0.468616783618927,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "color": "ffffffff",
+              "curve": 0.45073068141937256,
+              "c2": 0,
+              "c3": 0.468616783618927,
+              "c4": 1
+            },
+            {
+              "time": 5,
+              "color": "ffffff8c",
+              "curve": 0.45073068141937256,
+              "c2": 0,
+              "c3": 0.468616783618927,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffffff",
+              "curve": 0.47975051403045654,
+              "c2": 0,
+              "c3": 0.7291445732116699,
+              "c4": 0.5
+            },
+            {
+              "time": 8,
+              "color": "ffffffbf"
+            }
+          ]
+        },
+        "eff_ray3a": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffffc7",
+              "curve": 0.24898812174797058,
+              "c2": 0.5007703900337219,
+              "c3": 0.5070582032203674,
+              "c4": 1
+            },
+            {
+              "time": 1,
+              "color": "ffffff95",
+              "curve": 0.46940329670906067,
+              "c2": 0.0061349691823124886,
+              "c3": 0.4932514429092407,
+              "c4": 1
+            },
+            {
+              "time": 3,
+              "color": "ffffffff",
+              "curve": 0.46940329670906067,
+              "c2": 0.0061349691823124886,
+              "c3": 0.4932514429092407,
+              "c4": 1
+            },
+            {
+              "time": 5,
+              "color": "ffffff95",
+              "curve": 0.46940329670906067,
+              "c2": 0.0061349691823124886,
+              "c3": 0.4932514429092407,
+              "c4": 1
+            },
+            {
+              "time": 7,
+              "color": "ffffffff",
+              "curve": 0.48292964696884155,
+              "c2": 0.006106869783252478,
+              "c3": 0.7366620898246765,
+              "c4": 0.5038167834281921
+            },
+            {
+              "time": 8,
+              "color": "ffffffc7"
+            }
+          ]
+        }
+      },
+      "bones": {},
+      "ik": {},
+      "transform": {},
+      "paths": {},
+      "deform": {}
+    },
+    "pseudo_setup_pose": {
+      "bones": {},
+      "slots": {},
+      "ik": {},
+      "ffd": {},
+      "drawOrder": [
+        {
+          "offsets": [],
+          "time": 0
+        }
+      ]
+    }
+  }
+}
