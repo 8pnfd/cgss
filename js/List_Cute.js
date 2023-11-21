@@ -1497,6 +1497,24 @@ var List_Cute =
 		"opt"       : "0"
 	},
 	{
+		"no"        : "101293",
+		"file_name" : "SP3S101293",
+		"chr_id"    : "123",
+		"chr_name"  : "大原みちる",
+		"card_name" : "パンクエスト・ザワールド",
+		"type"      : "json",
+		"opt"       : "0"
+	},
+	{
+		"no"        : "101294",
+		"file_name" : "SP3S101294",
+		"chr_id"    : "123",
+		"chr_name"  : "大原みちる",
+		"card_name" : "パンクエスト・ザワールド",
+		"type"      : "json",
+		"opt"       : "0"
+	},
+	{
 		"no"        : "100389",
 		"file_name" : "SP3S100389",
 		"chr_id"    : "124",
@@ -2735,6 +2753,24 @@ var List_Cute =
 		"chr_id"    : "148",
 		"chr_name"  : "日下部若葉",
 		"card_name" : "小さな私の大きな世界",
+		"type"      : "json",
+		"opt"       : "0"
+	},
+	{
+		"no"        : "101291",
+		"file_name" : "SP3S101291",
+		"chr_id"    : "148",
+		"chr_name"  : "日下部若葉",
+		"card_name" : "メロウに枝を伸ばして",
+		"type"      : "json",
+		"opt"       : "0"
+	},
+	{
+		"no"        : "101292",
+		"file_name" : "SP3S101292",
+		"chr_id"    : "148",
+		"chr_name"  : "日下部若葉",
+		"card_name" : "メロウに枝を伸ばして",
 		"type"      : "json",
 		"opt"       : "0"
 	},
